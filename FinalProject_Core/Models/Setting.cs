@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FinalProject_Core
+namespace FinalProject_Core.Models
 {
-    public class Setting
+    public class Setting:BaseEntity
     {
         [Key]
         public string Key { get; set; }
