@@ -1,32 +1,24 @@
-using System.Diagnostics;
-using FinalProject_Presentation.Models;
+﻿using FinalProject_Core.ViewModels;
+using FinalProject_DataAccess.Data;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace FinalProject_Presentation.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly TicsTubeDbContext _context;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(TicsTubeDbContext context)
         {
-            _logger = logger;
+            _context = context;
         }
 
         public IActionResult Index()
         {
+            HomeVm vm = new HomeVm();
+            vm.Movies = _context.Movies.Include(m=>m.MovieImages).ToList();
             return View();
-        }
-
-        public IActionResult Privacy()
-        {
-            return View();
-        }
-
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
     }
 }

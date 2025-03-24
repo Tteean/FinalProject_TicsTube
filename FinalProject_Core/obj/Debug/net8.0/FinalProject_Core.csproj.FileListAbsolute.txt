@@ -1,0 +1,13 @@
+C:\Users\naila\source\repos\FinalProject\FinalProject_Core\bin\Debug\net8.0\FinalProject_Core.deps.json
+C:\Users\naila\source\repos\FinalProject\FinalProject_Core\bin\Debug\net8.0\FinalProject_Core.dll
+C:\Users\naila\source\repos\FinalProject\FinalProject_Core\bin\Debug\net8.0\FinalProject_Core.pdb
+C:\Users\naila\source\repos\FinalProject\FinalProject_Core\obj\Debug\net8.0\FinalProject_Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\naila\source\repos\FinalProject\FinalProject_Core\obj\Debug\net8.0\FinalProject_Core.AssemblyInfoInputs.cache
+C:\Users\naila\source\repos\FinalProject\FinalProject_Core\obj\Debug\net8.0\FinalProject_Core.AssemblyInfo.cs
+C:\Users\naila\source\repos\FinalProject\FinalProject_Core\obj\Debug\net8.0\FinalProject_Core.csproj.CoreCompileInputs.cache
+C:\Users\naila\source\repos\FinalProject\FinalProject_Core\obj\Debug\net8.0\FinalProject_Core.sourcelink.json
+C:\Users\naila\source\repos\FinalProject\FinalProject_Core\obj\Debug\net8.0\FinalProject_Core.dll
+C:\Users\naila\source\repos\FinalProject\FinalProject_Core\obj\Debug\net8.0\refint\FinalProject_Core.dll
+C:\Users\naila\source\repos\FinalProject\FinalProject_Core\obj\Debug\net8.0\FinalProject_Core.pdb
+C:\Users\naila\source\repos\FinalProject\FinalProject_Core\obj\Debug\net8.0\ref\FinalProject_Core.dll
+C:\Users\naila\source\repos\FinalProject\FinalProject_Core\obj\Debug\net8.0\FinalProject_Core.csproj.AssemblyReference.cache

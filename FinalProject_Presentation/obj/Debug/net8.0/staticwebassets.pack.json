@@ -1,0 +1,1069 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FinalProject_Presentation.bundle.scp.css",
+      "PackagePath": "staticwebassets\\FinalProject_Presentation.dlsgdwyhip.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\all.min.css"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\css\\animate.css",
+      "PackagePath": "staticwebassets\\assets\\css\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\css\\color.css",
+      "PackagePath": "staticwebassets\\assets\\css\\color.css"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\assets\\css\\magnific-popup.css"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\css\\main.css",
+      "PackagePath": "staticwebassets\\assets\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\css\\main.css.map",
+      "PackagePath": "staticwebassets\\assets\\css\\main.css.map"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\css\\meanmenu.css",
+      "PackagePath": "staticwebassets\\assets\\css\\meanmenu.css"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\css\\nice-select.css",
+      "PackagePath": "staticwebassets\\assets\\css\\nice-select.css"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\css\\swiper-bundle.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\swiper-bundle.min.css"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\about\\01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\about\\01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\adventure\\01.png",
+      "PackagePath": "staticwebassets\\assets\\img\\adventure\\01.png"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\adventure\\02.png",
+      "PackagePath": "staticwebassets\\assets\\img\\adventure\\02.png"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\adventure\\03.png",
+      "PackagePath": "staticwebassets\\assets\\img\\adventure\\03.png"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\adventure\\04.png",
+      "PackagePath": "staticwebassets\\assets\\img\\adventure\\04.png"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\adventure\\05.png",
+      "PackagePath": "staticwebassets\\assets\\img\\adventure\\05.png"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\bell.png",
+      "PackagePath": "staticwebassets\\assets\\img\\bell.png"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\brand\\01.png",
+      "PackagePath": "staticwebassets\\assets\\img\\brand\\01.png"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\brand\\02.png",
+      "PackagePath": "staticwebassets\\assets\\img\\brand\\02.png"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\brand\\03.png",
+      "PackagePath": "staticwebassets\\assets\\img\\brand\\03.png"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\brand\\04.png",
+      "PackagePath": "staticwebassets\\assets\\img\\brand\\04.png"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\brand\\05.png",
+      "PackagePath": "staticwebassets\\assets\\img\\brand\\05.png"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\breadcrumb-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\breadcrumb-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\cast\\01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\cast\\01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\cast\\02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\cast\\02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\cast\\03.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\cast\\03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\cast\\04.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\cast\\04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\cast\\05.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\cast\\05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\cast\\06.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\cast\\06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\cast\\07.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\cast\\07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\cast\\08.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\cast\\08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\cast\\pp1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\cast\\pp1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\cast\\pp2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\cast\\pp2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\circle-3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\circle-3.png"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\coming-soon-breadcrumb.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\coming-soon-breadcrumb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\cta-movie\\01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\cta-movie\\01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\cta-movie\\02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\cta-movie\\02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\cta-movie\\03.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\cta-movie\\03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\cta-movie\\04.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\cta-movie\\04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\cta-movie\\05.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\cta-movie\\05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\cta-movie\\06.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\cta-movie\\06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\cta-movie\\07.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\cta-movie\\07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\cta-movie\\movie-bg-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\cta-movie\\movie-bg-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\cta-movie\\movie-bg-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\cta-movie\\movie-bg-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\cta-movie\\movie-bg-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\cta-movie\\movie-bg-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\cta-movie\\movie-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\cta-movie\\movie-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\cta-show.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\cta-show.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\dark-gradient-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\dark-gradient-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\diamond.png",
+      "PackagePath": "staticwebassets\\assets\\img\\diamond.png"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\episodes\\01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\episodes\\01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\episodes\\02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\episodes\\02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\episodes\\03.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\episodes\\03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\episodes\\04.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\episodes\\04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\episodes\\05.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\episodes\\05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\exclusive-video\\01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\exclusive-video\\01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\exclusive-video\\02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\exclusive-video\\02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\exclusive-video\\03.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\exclusive-video\\03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\exclusive-video\\04.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\exclusive-video\\04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\exclusive-video\\05.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\exclusive-video\\05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\exclusive-video\\06.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\exclusive-video\\06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\exclusive-video\\07.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\exclusive-video\\07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\exclusive-video\\08.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\exclusive-video\\08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\exclusive-video\\09.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\exclusive-video\\09.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\favicon.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\favicon.svg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\gallery\\2-1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\gallery\\2-1.png"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\gallery\\2-2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\gallery\\2-2.png"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\gallery\\2-3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\gallery\\2-3.png"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\gallery\\2-4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\gallery\\2-4.png"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\google.png",
+      "PackagePath": "staticwebassets\\assets\\img\\google.png"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\hero\\01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\hero\\01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\hero\\02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\hero\\02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\hero\\03.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\hero\\03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\hero\\04.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\hero\\04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\hero\\05.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\hero\\05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\hero\\06.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\hero\\06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\hero\\07.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\hero\\07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\hero\\4KQuality.png",
+      "PackagePath": "staticwebassets\\assets\\img\\hero\\4KQuality.png"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\hero\\sm-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\hero\\sm-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\hero\\sm-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\hero\\sm-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\hero\\sm-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\hero\\sm-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\lightning.png",
+      "PackagePath": "staticwebassets\\assets\\img\\lightning.png"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\logo\\white-logo.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logo\\white-logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\movie-category\\01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\movie-category\\01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\movie-category\\02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\movie-category\\02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\movie-category\\03.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\movie-category\\03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\movie-category\\04.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\movie-category\\04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\movie-category\\05.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\movie-category\\05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\movie-list\\01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\movie-list\\01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\movie-list\\02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\movie-list\\02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\movie-list\\03.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\movie-list\\03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\movie\\01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\movie\\01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\movie\\02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\movie\\02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\movie\\03.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\movie\\03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\movie\\04.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\movie\\04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\movie\\05.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\movie\\05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\movie\\06.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\movie\\06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\movie\\07.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\movie\\07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\movie\\08.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\movie\\08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\movie\\09.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\movie\\09.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\movie\\10.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\movie\\10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\movie\\11.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\movie\\11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\movie\\12.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\movie\\12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\movie\\13.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\movie\\13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\movie\\14.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\movie\\14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\movie\\15.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\movie\\15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\movie\\16.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\movie\\16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\movie\\17.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\movie\\17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\movie\\18.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\movie\\18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\movie\\19.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\movie\\19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\movie\\20.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\movie\\20.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\movie\\21.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\movie\\21.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\movie\\22.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\movie\\22.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\movie\\23.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\movie\\23.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\movie\\24.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\movie\\24.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\movie\\details.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\movie\\details.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\movie\\movie-banner-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\movie\\movie-banner-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\movie\\movie-banner-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\movie\\movie-banner-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\movie\\movie-banner-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\movie\\movie-banner-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\movie\\movie-banner-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\movie\\movie-banner-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\movie\\movie-banner.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\movie\\movie-banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\movie\\movie-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\movie\\movie-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\news\\01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\news\\01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\news\\02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\news\\02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\news\\03.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\news\\03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\news\\comment-2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\news\\comment-2.png"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\news\\comment.png",
+      "PackagePath": "staticwebassets\\assets\\img\\news\\comment.png"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\news\\post-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\news\\post-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\news\\post-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\news\\post-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\news\\post-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\news\\post-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\news\\post-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\news\\post-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\news\\post-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\news\\post-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\news\\post-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\news\\post-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\news\\pp3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\news\\pp3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\news\\pp4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\news\\pp4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\news\\pp5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\news\\pp5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\popular-shows\\01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\popular-shows\\01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\popular-shows\\02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\popular-shows\\02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\popular-shows\\03.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\popular-shows\\03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\popular-shows\\04.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\popular-shows\\04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\popular-shows\\05.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\popular-shows\\05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\popular-shows\\06.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\popular-shows\\06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\popular-shows\\07.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\popular-shows\\07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\popular-shows\\08.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\popular-shows\\08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\popular-shows\\09.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\popular-shows\\09.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\popular-shows\\bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\popular-shows\\bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\recently-view\\01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\recently-view\\01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\recently-view\\02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\recently-view\\02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\recently-view\\03.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\recently-view\\03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\recently-view\\04.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\recently-view\\04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\scaner.png",
+      "PackagePath": "staticwebassets\\assets\\img\\scaner.png"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\sign-img.png",
+      "PackagePath": "staticwebassets\\assets\\img\\sign-img.png"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\team\\team-1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\team-1.png"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\team\\team-2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\team-2.png"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\team\\team-3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\team-3.png"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\team\\team-4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\team-4.png"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\team\\team-5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\team-5.png"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\team\\team-6.png",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\team-6.png"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\team\\team-7.png",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\team-7.png"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\team\\team-8.png",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\team-8.png"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\testimonial\\client-1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonial\\client-1.png"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\testimonial\\client-2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonial\\client-2.png"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\testimonial\\client-3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonial\\client-3.png"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\testimonial\\client-4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonial\\client-4.png"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\trending\\01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\trending\\01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\trending\\02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\trending\\02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\trending\\03.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\trending\\03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\trending\\04.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\trending\\04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\trending\\05.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\trending\\05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\trending\\06.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\trending\\06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\trending\\07.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\trending\\07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\trending\\08.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\trending\\08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\trending\\09.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\trending\\09.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\trending\\10.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\trending\\10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\trending\\11.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\trending\\11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\trending\\12.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\trending\\12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\trending\\13.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\trending\\13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\trending\\14.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\trending\\14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\trending\\15.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\trending\\15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\trending\\16.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\trending\\16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\trending\\17.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\trending\\17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\trending\\18.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\trending\\18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\trending\\19.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\trending\\19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\trending\\20.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\trending\\20.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\trending\\21.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\trending\\21.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\trending\\22.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\trending\\22.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\trending\\23.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\trending\\23.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\trending\\24.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\trending\\24.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\trending\\25.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\trending\\25.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\trending\\26.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\trending\\26.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\trending\\27.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\trending\\27.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\tv-shows\\01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\tv-shows\\01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\tv-shows\\02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\tv-shows\\02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\tv-shows\\03.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\tv-shows\\03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\tv-shows\\04.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\tv-shows\\04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\tv-shows\\05.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\tv-shows\\05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\tv-shows\\06.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\tv-shows\\06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\tv-shows\\07.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\tv-shows\\07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\tv-shows\\08.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\tv-shows\\08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\tv-shows\\09.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\tv-shows\\09.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\tv-shows\\details.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\tv-shows\\details.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\user.png",
+      "PackagePath": "staticwebassets\\assets\\img\\user.png"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\video.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\video.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\web-series\\01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\web-series\\01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\web-series\\02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\web-series\\02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\web-series\\03.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\web-series\\03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\web-series\\04.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\web-series\\04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\web-series\\05.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\web-series\\05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\web-series\\06.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\web-series\\06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\web-series\\07.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\web-series\\07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\web-series\\08.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\web-series\\08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\web-series\\details-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\web-series\\details-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\js\\ajax-mail.js",
+      "PackagePath": "staticwebassets\\assets\\js\\ajax-mail.js"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\js\\countdowncustom.js",
+      "PackagePath": "staticwebassets\\assets\\js\\countdowncustom.js"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\js\\jquery-3.7.1.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery-3.7.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\js\\jquery.counterup.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.counterup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\js\\jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\js\\jquery.meanmenu.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.meanmenu.min.js"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\js\\jquery.nice-select.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.nice-select.min.js"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\js\\jquery.waypoints.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.waypoints.js"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\assets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\js\\swiper-bundle.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\swiper-bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\js\\viewport.jquery.js",
+      "PackagePath": "staticwebassets\\assets\\js\\viewport.jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\js\\wow.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\wow.min.js"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\scss\\_about.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\_about.scss"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\scss\\_animation.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\_animation.scss"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\scss\\_buttons.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\scss\\_contact.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\_contact.scss"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\scss\\_cta.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\_cta.scss"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\scss\\_faq.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\_faq.scss"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\scss\\_footer.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\_footer.scss"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\scss\\_header.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\_header.scss"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\scss\\_helping.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\_helping.scss"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\scss\\_hero.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\_hero.scss"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\scss\\_meanmenu.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\_meanmenu.scss"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\scss\\_movie.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\_movie.scss"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\scss\\_news.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\_news.scss"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\scss\\_preloader.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\_preloader.scss"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\scss\\_pricing.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\_pricing.scss"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\scss\\_section.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\_section.scss"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\scss\\_testimonial.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\_testimonial.scss"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\scss\\_tv-shows.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\_tv-shows.scss"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\scss\\_typography.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\_typography.scss"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\scss\\main.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\main.scss"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\webfonts\\fa-duotone-900.ttf",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-duotone-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\webfonts\\fa-duotone-900.woff2",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-duotone-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\webfonts\\fa-light-300.ttf",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-light-300.ttf"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\webfonts\\fa-light-300.woff2",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-light-300.woff2"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\webfonts\\fa-thin-100.ttf",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-thin-100.ttf"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\webfonts\\fa-thin-100.woff2",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-thin-100.woff2"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\webfonts\\fa-v4compatibility.ttf",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-v4compatibility.ttf"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\webfonts\\fa-v4compatibility.woff2",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-v4compatibility.woff2"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.FinalProject_Presentation.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.FinalProject_Presentation.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.FinalProject_Presentation.props",
+      "PackagePath": "build\\FinalProject_Presentation.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.FinalProject_Presentation.props",
+      "PackagePath": "buildMultiTargeting\\FinalProject_Presentation.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.FinalProject_Presentation.props",
+      "PackagePath": "buildTransitive\\FinalProject_Presentation.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
