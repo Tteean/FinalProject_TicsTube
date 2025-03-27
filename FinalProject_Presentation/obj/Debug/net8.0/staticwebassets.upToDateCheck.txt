@@ -885,6 +885,8 @@ wwwroot\assets\scss\_tv-shows.scss
 wwwroot\assets\scss\_typography.scss
 wwwroot\assets\scss\_variables.scss
 wwwroot\assets\scss\main.scss
+wwwroot\assets\templates\ConfirmEmail.html
+wwwroot\assets\templates\ResetPassword.html
 wwwroot\assets\webfonts\fa-brands-400.ttf
 wwwroot\assets\webfonts\fa-brands-400.woff2
 wwwroot\assets\webfonts\fa-duotone-900.ttf

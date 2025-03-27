@@ -10644,6 +10644,30 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-5tx528dmvGpTcxFqI00PNxmkDpXvwYhzpiKVEVtfD/M="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"631"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u00225tx528dmvGpTcxFqI00PNxmkDpXvwYhzpiKVEVtfD/M=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Sep 2024 06:30:00 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/FinalProject_Presentation/assets/templates/ConfirmEmail.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\templates\ConfirmEmail.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-qP5MFTQ5LCqeFw7c3Pyh7na9JvWWnD7Os/58onIg8XE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2102"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022qP5MFTQ5LCqeFw7c3Pyh7na9JvWWnD7Os/58onIg8XE=\u0022"},{"Name":"Last-Modified","Value":"Thu, 27 Mar 2025 02:01:53 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/FinalProject_Presentation/assets/templates/ConfirmEmail.kh620t2jw0.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\templates\ConfirmEmail.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"kh620t2jw0"},{"Name":"integrity","Value":"sha256-qP5MFTQ5LCqeFw7c3Pyh7na9JvWWnD7Os/58onIg8XE="},{"Name":"label","Value":"_content/FinalProject_Presentation/assets/templates/ConfirmEmail.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2102"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022qP5MFTQ5LCqeFw7c3Pyh7na9JvWWnD7Os/58onIg8XE=\u0022"},{"Name":"Last-Modified","Value":"Thu, 27 Mar 2025 02:01:53 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/FinalProject_Presentation/assets/templates/ResetPassword.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\templates\ResetPassword.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-cMPwPMoKv8Vb2Y1gqAScIfRPxT5WPJU1B/T49ItLYNc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2027"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022cMPwPMoKv8Vb2Y1gqAScIfRPxT5WPJU1B/T49ItLYNc=\u0022"},{"Name":"Last-Modified","Value":"Thu, 27 Mar 2025 02:01:53 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/FinalProject_Presentation/assets/templates/ResetPassword.wwdks9u05r.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\templates\ResetPassword.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"wwdks9u05r"},{"Name":"integrity","Value":"sha256-cMPwPMoKv8Vb2Y1gqAScIfRPxT5WPJU1B/T49ItLYNc="},{"Name":"label","Value":"_content/FinalProject_Presentation/assets/templates/ResetPassword.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2027"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022cMPwPMoKv8Vb2Y1gqAScIfRPxT5WPJU1B/T49ItLYNc=\u0022"},{"Name":"Last-Modified","Value":"Thu, 27 Mar 2025 02:01:53 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/FinalProject_Presentation/assets/webfonts/fa-brands-400.lsvu1air4e.ttf">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\webfonts\fa-brands-400.ttf'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>

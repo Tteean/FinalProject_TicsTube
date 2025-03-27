@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ziRjwPVFGTS3fGgG3Btv19IvC+gNApnA31t1Ock9K/0=",
+  "Hash": "PqkMttpCz9gJKQIS1cGbn4PntccYt+TE2xtWfBzj7to=",
   "Source": "FinalProject_Presentation",
   "BasePath": "_content/FinalProject_Presentation",
   "Mode": "Default",
@@ -18684,6 +18684,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\scss\\main.scss"
+    },
+    {
+      "Identity": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\templates\\ConfirmEmail.html",
+      "SourceId": "FinalProject_Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\",
+      "BasePath": "_content/FinalProject_Presentation",
+      "RelativePath": "assets/templates/ConfirmEmail#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kh620t2jw0",
+      "Integrity": "qP5MFTQ5LCqeFw7c3Pyh7na9JvWWnD7Os/58onIg8XE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\templates\\ConfirmEmail.html"
+    },
+    {
+      "Identity": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\templates\\ResetPassword.html",
+      "SourceId": "FinalProject_Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\",
+      "BasePath": "_content/FinalProject_Presentation",
+      "RelativePath": "assets/templates/ResetPassword#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wwdks9u05r",
+      "Integrity": "cMPwPMoKv8Vb2Y1gqAScIfRPxT5WPJU1B/T49ItLYNc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\templates\\ResetPassword.html"
     },
     {
       "Identity": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\webfonts\\fa-brands-400.ttf",
@@ -91712,6 +91754,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-/TFozMxt+bGcGsby0Or2F5L6eCiqhk2frhExuXSLc5g="
+        }
+      ]
+    },
+    {
+      "Route": "assets/templates/ConfirmEmail.html",
+      "AssetFile": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\templates\\ConfirmEmail.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2102"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qP5MFTQ5LCqeFw7c3Pyh7na9JvWWnD7Os/58onIg8XE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 02:01:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qP5MFTQ5LCqeFw7c3Pyh7na9JvWWnD7Os/58onIg8XE="
+        }
+      ]
+    },
+    {
+      "Route": "assets/templates/ConfirmEmail.kh620t2jw0.html",
+      "AssetFile": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\templates\\ConfirmEmail.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2102"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qP5MFTQ5LCqeFw7c3Pyh7na9JvWWnD7Os/58onIg8XE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 02:01:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kh620t2jw0"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/templates/ConfirmEmail.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qP5MFTQ5LCqeFw7c3Pyh7na9JvWWnD7Os/58onIg8XE="
+        }
+      ]
+    },
+    {
+      "Route": "assets/templates/ResetPassword.html",
+      "AssetFile": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\templates\\ResetPassword.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2027"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cMPwPMoKv8Vb2Y1gqAScIfRPxT5WPJU1B/T49ItLYNc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 02:01:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cMPwPMoKv8Vb2Y1gqAScIfRPxT5WPJU1B/T49ItLYNc="
+        }
+      ]
+    },
+    {
+      "Route": "assets/templates/ResetPassword.wwdks9u05r.html",
+      "AssetFile": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\templates\\ResetPassword.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2027"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cMPwPMoKv8Vb2Y1gqAScIfRPxT5WPJU1B/T49ItLYNc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 02:01:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wwdks9u05r"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/templates/ResetPassword.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cMPwPMoKv8Vb2Y1gqAScIfRPxT5WPJU1B/T49ItLYNc="
         }
       ]
     },

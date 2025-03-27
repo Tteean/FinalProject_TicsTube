@@ -3553,6 +3553,14 @@
       "PackagePath": "staticwebassets\\assets\\scss\\main.scss"
     },
     {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\templates\\ConfirmEmail.html",
+      "PackagePath": "staticwebassets\\assets\\templates\\ConfirmEmail.html"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\templates\\ResetPassword.html",
+      "PackagePath": "staticwebassets\\assets\\templates\\ResetPassword.html"
+    },
+    {
       "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\webfonts\\fa-brands-400.ttf",
       "PackagePath": "staticwebassets\\assets\\webfonts\\fa-brands-400.ttf"
     },

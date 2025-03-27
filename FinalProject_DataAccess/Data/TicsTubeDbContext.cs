@@ -11,6 +11,9 @@ namespace FinalProject_DataAccess.Data
         public DbSet<Genre> Genres { get; set; }
         public DbSet<MovieGenre> MovieGenres { get; set; }
         public DbSet<MovieImage> MovieImages { get; set; }
+        public DbSet<AppUser> AppUsers { get; set; }
+        public DbSet<Subscriber> Subscribers { get; set; }
+
         public TicsTubeDbContext(DbContextOptions options) : base(options)
         {
         }

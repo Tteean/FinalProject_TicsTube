@@ -72819,6 +72819,170 @@
       ]
     },
     {
+      "Route": "assets/templates/ConfirmEmail.html",
+      "AssetFile": "assets/templates/ConfirmEmail.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2102"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qP5MFTQ5LCqeFw7c3Pyh7na9JvWWnD7Os/58onIg8XE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 02:01:53 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qP5MFTQ5LCqeFw7c3Pyh7na9JvWWnD7Os/58onIg8XE="
+        }
+      ]
+    },
+    {
+      "Route": "assets/templates/ConfirmEmail.kh620t2jw0.html",
+      "AssetFile": "assets/templates/ConfirmEmail.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2102"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qP5MFTQ5LCqeFw7c3Pyh7na9JvWWnD7Os/58onIg8XE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 02:01:53 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kh620t2jw0"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qP5MFTQ5LCqeFw7c3Pyh7na9JvWWnD7Os/58onIg8XE="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/templates/ConfirmEmail.html"
+        }
+      ]
+    },
+    {
+      "Route": "assets/templates/ResetPassword.html",
+      "AssetFile": "assets/templates/ResetPassword.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2027"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cMPwPMoKv8Vb2Y1gqAScIfRPxT5WPJU1B/T49ItLYNc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 02:01:53 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cMPwPMoKv8Vb2Y1gqAScIfRPxT5WPJU1B/T49ItLYNc="
+        }
+      ]
+    },
+    {
+      "Route": "assets/templates/ResetPassword.wwdks9u05r.html",
+      "AssetFile": "assets/templates/ResetPassword.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2027"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cMPwPMoKv8Vb2Y1gqAScIfRPxT5WPJU1B/T49ItLYNc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 02:01:53 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wwdks9u05r"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cMPwPMoKv8Vb2Y1gqAScIfRPxT5WPJU1B/T49ItLYNc="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/templates/ResetPassword.html"
+        }
+      ]
+    },
+    {
       "Route": "assets/webfonts/fa-brands-400.lsvu1air4e.ttf",
       "AssetFile": "assets/webfonts/fa-brands-400.ttf",
       "Selectors": [],
