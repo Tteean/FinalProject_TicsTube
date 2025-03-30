@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace FinalProject_Presentation.Areas.Admin.Controllers
 {
+    [Area("Admin")]
     public class AccountController : Controller
     {
         private readonly UserManager<AppUser> _userManger;
@@ -40,7 +41,6 @@ namespace FinalProject_Presentation.Areas.Admin.Controllers
 
         }
         public IActionResult Login()
-
         {
             return View();
         }
@@ -71,7 +71,7 @@ namespace FinalProject_Presentation.Areas.Admin.Controllers
         public async Task<IActionResult> Logout()
         {
             await _signInManager.SignOutAsync();
-            return RedirectToAction("Login", "Account");
+            return RedirectToAction("Login", "Account", new { area = "admin" });
         }
         public async Task<IActionResult> GetUser()
         {

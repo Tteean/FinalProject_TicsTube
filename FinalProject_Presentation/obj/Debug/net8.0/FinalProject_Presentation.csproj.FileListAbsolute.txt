@@ -272,3 +272,4 @@ C:\Users\naila\source\repos\FinalProject\FinalProject_Presentation\bin\Debug\net
 C:\Users\naila\source\repos\FinalProject\FinalProject_Presentation\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
 C:\Users\naila\source\repos\FinalProject\FinalProject_Presentation\bin\Debug\net8.0\FinalProject_Service.dll
 C:\Users\naila\source\repos\FinalProject\FinalProject_Presentation\bin\Debug\net8.0\FinalProject_Service.pdb
+C:\Users\naila\source\repos\FinalProject\FinalProject_Presentation\bin\Debug\net8.0\AutoMapper.dll

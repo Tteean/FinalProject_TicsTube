@@ -1,5 +1,88 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
+﻿@using FinalProject_Core.ViewModels.LoginVm
+  @model RegisterVm
+<!--<< Breadcrumb Section Start >>-->
+<div class="breadcrumb-wrapper bg-cover" style="background-image: url('~/assets/img/breadcrumb-bg.jpg');">
+    <div class="container">
+        <div class="page-heading">
+            <div class="page-header-left">
+                <h1 class="wow fadeInUp" data-wow-delay=".3s">Log in</h1>
+                <ul class="breadcrumb-items wow fadeInUp" data-wow-delay=".5s">
+                    <li>
+                        <a href="index.html">
+                            <i class="fa-solid fa-house"></i>
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-slash-forward"></i>
+                    </li>
+                    <li>
+                        Log in
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Login Section Start -->
+<section class="login-section section-padding pb-0">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <div class="login-wrapper">
+                    <div class="row">
+                        <div class="col-xl-6">
+                            <div class="sign-img">
+                                <img src="~/assets/img/sign-img.png" alt="img">
+                            </div>
+                        </div>
+                        <div class="col-xl-6">
+                            <div class="signin-item">
+                                <div class="logo">
+                                    <img src="~/assets/img/logo/white-logo.svg" alt="img">
+                                </div>
+                                <div class="sign-header">
+                                    <h3>Welcome Back</h3>
+                                    <p>Please Enter Your Details</p>
+                                </div>
+                                <form action="#">
+                                    <div class="input-item">
+                                        <input asp-for="FullName" placeholder="Full Name" required />
+                                        <span class="text-danger" asp-validation-for="FullName"></span>
+                                    </div>
+                                    <div class="input-item">
+                                        <input asp-for="UserName" placeholder="Username" required />
+                                    </div>
+                                    <div class="input-item">
+                                        <input asp-for="Email" placeholder="Email" required />
+                                    </div>
+                                    <div class="input-item">
+                                        <input asp-for="Password" placeholder="Enter your Password" required />
+                                    </div>
+                                    <div class="input-item">
+                                        <input asp-for="ConfirmPassword" placeholder="Repeat your Password" required />
+                                        <span class="text-danger" asp-validation-for="ConfirmPassword"></span>
+                                    </div>
+                                    
+                                    <div class="form-check">
+                                        <div class="">
+                                            <input type="checkbox" asp-for="IsSubscribed" class="custom-control-input" id="subnewsletter">
+                                            <label class="custom-control-label" for="subnewsletter">Subscribe Our Newsletter</label>
+                                        </div>
+                                    </div>
+                                    <div class="button-items">
+                                        <button type="submit" class="theme-btn">Log In</button>
+                                        <button type="submit" class="theme-btn style-2"><img src="~/assets/img/google.png" alt="img"> Log In With Google</button>
+                                    </div>
+                                    <h6>Already have an account? <a asp-controller="account" asp-action="login">Sign In</a></h6>
+                                    <div class="text-danger" asp-validation-summary="ModelOnly"></div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

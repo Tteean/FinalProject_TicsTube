@@ -19,6 +19,7 @@ namespace FinalProject_DataAccess.Data.Configurations
             builder.Property(m => m.Rating).IsRequired(true).HasColumnType("decimal(18,2)");
             builder.HasKey(m => m.Id);
             builder.HasMany(m => m.MovieGenres).WithOne(mg => mg.Movie).HasForeignKey(mg => mg.MovieId);
+            builder.HasMany(m => m.MovieActors).WithOne(mg => mg.Movie).HasForeignKey(mg => mg.MovieId);
 
 
 

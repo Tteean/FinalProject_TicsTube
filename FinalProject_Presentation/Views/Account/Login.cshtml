@@ -1,5 +1,7 @@
-﻿        <!--<< Breadcrumb Section Start >>-->
-<div class="breadcrumb-wrapper bg-cover" style="background-image: url('assets/img/breadcrumb-bg.jpg');">
+﻿@using FinalProject_Core.ViewModels.LoginVm
+  @model LoginVm    
+  <!--<< Breadcrumb Section Start >>-->
+<div class="breadcrumb-wrapper bg-cover" style="background-image: url('~/~/assets/img/breadcrumb-bg.jpg');">
     <div class="container">
         <div class="page-heading">
             <div class="page-header-left">
@@ -32,13 +34,13 @@
                     <div class="row">
                         <div class="col-xl-6">
                             <div class="sign-img">
-                                <img src="assets/img/sign-img.png" alt="img">
+                                <img src="~/assets/img/sign-img.png" alt="img">
                             </div>
                         </div>
                         <div class="col-xl-6">
                             <div class="signin-item">
                                 <div class="logo">
-                                    <img src="assets/img/logo/white-logo.svg" alt="img">
+                                    <img src="~/assets/img/logo/white-logo.svg" alt="img">
                                 </div>
                                 <div class="sign-header">
                                     <h3>Welcome Back</h3>
@@ -46,25 +48,23 @@
                                 </div>
                                 <form action="#">
                                     <div class="input-item">
-                                        <input id="email" type="email" placeholder="Email">
+                                        <input asp-for="UserNameOrEmail" placeholder="Email or Username" required />
                                     </div>
                                     <div class="input-item">
-                                        <input id="password" type="password" placeholder="Password">
+                                        <input asp-for="Password" placeholder="Enter your Password" required />
                                     </div>
                                     <div class="form-check">
                                         <div class="">
-                                            <input id="reviewcheck" name="reviewcheck" type="checkbox">
-                                            <label class="form-check-label" for="reviewcheck">
-                                                Remember For 30 days
-                                            </label>
+                                            <input type="checkbox" class="custom-control-input" asp-for="RememberMe">
+                                            <label class="custom-control-label" asp-for="RememberMe">Remember Me</label>
                                         </div>
-                                        <span>Forgot Password?</span>
+                                        <a asp-action="forgotPassword" class="forget-pwd">Forget Password?</a>
                                     </div>
                                     <div class="button-items">
                                         <button type="submit" class="theme-btn">Log In</button>
-                                        <button type="submit" class="theme-btn style-2"><img src="assets/img/google.png" alt="img"> Log In With Google</button>
+                                        <button type="submit" class="theme-btn style-2"><img src="~/assets/img/google.png" alt="img"> Log In With Google</button>
                                     </div>
-                                    <h6>Don’t have an account? <a href="login.html">Sign Up</a></h6>
+                                    <h6>Don’t have an account? <a asp-controller="account" asp-action="register">Sign Up</a></h6>
                                 </form>
                             </div>
                         </div>

@@ -17,11 +17,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Areas\Admin\Data\" />
+    <ProjectReference Include="..\FinalProject_Service\FinalProject_Service.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\FinalProject_Service\FinalProject_Service.csproj" />
+    <Folder Include="wwwroot\uploads\" />
   </ItemGroup>
 
 </Project>

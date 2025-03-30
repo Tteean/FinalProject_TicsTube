@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "zWmTDbAlGXU=",
+  "dgSpecHash": "8XEVQthJQB8=",
   "success": true,
   "projectFilePath": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Service\\FinalProject_Service.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\naila\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\naila\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\naila\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\naila\\.nuget\\packages\\bouncycastle.cryptography\\2.5.1\\bouncycastle.cryptography.2.5.1.nupkg.sha512",
