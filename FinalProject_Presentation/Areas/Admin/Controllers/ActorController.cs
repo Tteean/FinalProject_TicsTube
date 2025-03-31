@@ -2,6 +2,7 @@
 using FinalProject_Core.Models;
 using FinalProject_DataAccess.Data;
 using FinalProject_Service.Dto.ActorDtos;
+using FinalProject_Service.Exceptions;
 using FinalProject_Service.Services.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -32,13 +33,17 @@ namespace FinalProject_Presentation.Areas.Admin.Controllers
         }
         [ValidateAntiForgeryToken]
         [HttpPost]
-        public async Task<IActionResult> Add([FromForm] ActorCreateDto actorCreateDto)
+        public async Task<IActionResult> Create([FromForm] ActorCreateDto actorCreateDto)
         {
-
-           return Ok(await _actorService.CreateActorAsync(actorCreateDto));
+            if (!ModelState.IsValid)
+            {
+                return View(kdjdjirmm jrfj                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              );
+            }
+            await _actorService.CreateActorAsync(actorCreateDto);
+           return RedirectToAction("Index", "Dashboard");
 
         }
-            
+        
         
 
     }

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using FinalProject_Service.Exceptions;
+using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,6 +12,10 @@ namespace FinalProject_Service.Extentions
     {
         public static string SaveImage(this IFormFile file, string folder)
         {
+            if (file == null || file.Length == 0)
+            {
+                throw new CustomException(400, "Name", "Actor with this name already exists");
+            }
             string fileName = Guid.NewGuid() + Path.GetExtension(file.FileName);
             string fullPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", folder, fileName);
             using FileStream fileStream = new(fullPath, FileMode.Create);
