@@ -10,6 +10,6 @@ namespace FinalProject_Service.Dto.ActorDtos
     public class ActorCreateDto
     {
         public string Fullname { get; set; }
-        public IFormFile File { get; set; }
+        public IFormFile? File { get; set; }
     }
 }

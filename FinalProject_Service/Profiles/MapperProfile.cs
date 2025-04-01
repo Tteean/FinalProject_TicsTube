@@ -18,6 +18,9 @@ namespace FinalProject_Service.Profiles
             CreateMap<ActorCreateDto, Actor>()
                 .ForMember(s => s.Image, opt => opt.MapFrom(src => src.File.SaveImage("uploads")));
             CreateMap<Actor, ActorReturnDto>();
+            CreateMap<Actor, ActorUpdateDto>();
+            CreateMap<ActorUpdateDto, Actor>()
+                .ForMember(s => s.Image, opt => opt.MapFrom(src => src.File.SaveImage("uploads")));
         }
     }
 }

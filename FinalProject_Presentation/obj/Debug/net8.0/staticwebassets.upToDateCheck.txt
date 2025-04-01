@@ -901,3 +901,6 @@ wwwroot\assets\webfonts\fa-thin-100.ttf
 wwwroot\assets\webfonts\fa-thin-100.woff2
 wwwroot\assets\webfonts\fa-v4compatibility.ttf
 wwwroot\assets\webfonts\fa-v4compatibility.woff2
+wwwroot\uploads\073beaa3-2826-48d4-bf78-cedddbb97dd6.png
+wwwroot\uploads\a47b8035-ddf2-43aa-8cf6-63d0bf453f2d.png
+wwwroot\uploads\actors\76ccd65d-8ce3-4cc7-89ce-a60a9d70be6b.png

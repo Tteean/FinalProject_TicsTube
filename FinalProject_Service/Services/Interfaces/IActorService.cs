@@ -11,6 +11,7 @@ namespace FinalProject_Service.Services.Interfaces
     {
         Task<int> CreateActorAsync(ActorCreateDto actorCreateDto);
         Task<List<ActorReturnDto>> GetActorAsync();
+        Task<int> UpdateActorAsync(int id, ActorUpdateDto actorUpdateDto);
 
     }
 }
