@@ -20,10 +20,38 @@ namespace FinalProject_DataAccess.Data
         public TicsTubeDbContext(DbContextOptions options) : base(options)
         {
         }
+        public override int SaveChanges()
+        {
+            var entries = ChangeTracker.Entries<Audit>();
+            foreach (var entry in entries)
+            {
+                if (entry.State == EntityState.Added)
+                {
+                    entry.Property(p => p.CreationDate).CurrentValue = DateTime.Now;
+                }
+                if (entry.State == EntityState.Modified)
+                {
+                    entry.Property(p => p.UpdatedDate).CurrentValue = DateTime.Now;
+                }
+                if (entry.Property(p => p.IsDeleted).CurrentValue == true)
+                {
+                    entry.Property(p => p.DeleteDate).CurrentValue = DateTime.Now;
+                }
+                if (entry.State == EntityState.Deleted)
+                {
+                    entry.Property(p => p.DeleteDate).CurrentValue = DateTime.Now;
+                    entry.Property(p => p.IsDeleted).CurrentValue = true;
+                    entry.State = EntityState.Modified;
+                }
+            }
+            return base.SaveChanges();
+        }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.ApplyConfigurationsFromAssembly(typeof(TicsTubeDbContext).Assembly);
             base.OnModelCreating(modelBuilder);
+            modelBuilder.Entity<Actor>().HasQueryFilter(x => !x.IsDeleted);
+
+            modelBuilder.ApplyConfigurationsFromAssembly(typeof(TicsTubeDbContext).Assembly);
         }
     }
 }

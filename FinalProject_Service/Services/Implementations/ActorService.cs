@@ -42,6 +42,8 @@ namespace FinalProject_Service.Services.Implementations
             await _context.Actors.AddAsync(actor);
             return await _context.SaveChangesAsync();
         }
+
+
         public async Task<List<ActorReturnDto>> GetActorAsync()
         {
             var groups = await _context.Actors.ToListAsync();
@@ -50,11 +52,11 @@ namespace FinalProject_Service.Services.Implementations
         public async Task<int> UpdateActorAsync(int id, ActorUpdateDto actorUpdateDto)
         {
             
-            if (_context.Actors.Any(g => g.Fullname == actorUpdateDto.Fullname && g.Id != actorUpdateDto.Id))
+            if (_context.Actors.Any(g => g.Fullname == actorUpdateDto.Fullname && g.Id != id))
             {
                 throw new CustomException(400, "Name", "Actor with this name already exists");
             }
-            var existActor = await _context.Actors.FindAsync(actorUpdateDto.Id);
+            var existActor = await _context.Actors.FindAsync(id);
             if (existActor == null)
             {
                 throw new CustomException(404, "Actor", "Actor not found");
@@ -69,7 +71,28 @@ namespace FinalProject_Service.Services.Implementations
                 }
                 existActor.Image = actorUpdateDto.File.SaveImage("uploads/actors");
             }
-            _context.Actors.Update(existActor);
+            return await _context.SaveChangesAsync();
+        }
+        public async Task<int> DeleteActorAsync(int id)
+        {
+            var existActor = await _context.Actors
+                .FirstOrDefaultAsync(a => a.Id == id);
+
+            if (existActor == null)
+            {
+                throw new CustomException(400, "Name", "Actor with this name already exists");
+            }
+            ActorDeleteDto actorDeleteDto = new ActorDeleteDto();
+            _mapper.Map(actorDeleteDto, existActor);
+            if (actorDeleteDto.File != null)
+            {
+                string oldFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "uploads", "actors", existActor.Image);
+                if (File.Exists(oldFilePath))
+                {
+                    File.Delete(oldFilePath);
+                }
+            }
+                _context.Actors.Remove(existActor);
             return await _context.SaveChangesAsync();
         }
     }

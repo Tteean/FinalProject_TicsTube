@@ -46,7 +46,7 @@ namespace FinalProject_Presentation.Areas.Admin.Controllers
                 return View();
             }
             await _actorService.CreateActorAsync(actorCreateDto);
-           return RedirectToAction("Index", "Dashboard");
+           return RedirectToAction("Index");
         }
         public async Task<IActionResult> Edit(int id)
         {
@@ -58,7 +58,7 @@ namespace FinalProject_Presentation.Areas.Admin.Controllers
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit([FromBody]int id,[FromForm] ActorUpdateDto actorUpdateDto)
+        public async Task<IActionResult> Edit(int id, [FromForm] ActorUpdateDto actorUpdateDto)
         {
             if (!ModelState.IsValid)
             {
@@ -66,10 +66,12 @@ namespace FinalProject_Presentation.Areas.Admin.Controllers
             }
 
             await _actorService.UpdateActorAsync(id, actorUpdateDto);
-            return RedirectToAction("Index", "Dashboard");
+            return RedirectToAction("Index");
         }
-
-
-
+        public async Task<IActionResult> Delete(int id)
+        {
+            await _actorService.DeleteActorAsync(id);
+            return RedirectToAction("Index");
+        }
     }
 }

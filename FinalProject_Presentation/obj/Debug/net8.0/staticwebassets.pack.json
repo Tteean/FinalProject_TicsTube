@@ -3621,12 +3621,44 @@
       "PackagePath": "staticwebassets\\uploads\\073beaa3-2826-48d4-bf78-cedddbb97dd6.png"
     },
     {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\2186b883-b62d-4792-83c2-311949eb3492.png",
+      "PackagePath": "staticwebassets\\uploads\\2186b883-b62d-4792-83c2-311949eb3492.png"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\46ef4968-3921-4999-8c7c-b813c9faaf73.png",
+      "PackagePath": "staticwebassets\\uploads\\46ef4968-3921-4999-8c7c-b813c9faaf73.png"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\6d89ab61-a374-4de8-8c26-70a3892b0823.png",
+      "PackagePath": "staticwebassets\\uploads\\6d89ab61-a374-4de8-8c26-70a3892b0823.png"
+    },
+    {
       "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\a47b8035-ddf2-43aa-8cf6-63d0bf453f2d.png",
       "PackagePath": "staticwebassets\\uploads\\a47b8035-ddf2-43aa-8cf6-63d0bf453f2d.png"
     },
     {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\actors\\0aee8a84-c20b-40b3-a7dd-a2f531d2719e.png",
+      "PackagePath": "staticwebassets\\uploads\\actors\\0aee8a84-c20b-40b3-a7dd-a2f531d2719e.png"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\actors\\719bd6ca-16cb-4e0d-b322-8d88eceac1c4.png",
+      "PackagePath": "staticwebassets\\uploads\\actors\\719bd6ca-16cb-4e0d-b322-8d88eceac1c4.png"
+    },
+    {
       "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\actors\\76ccd65d-8ce3-4cc7-89ce-a60a9d70be6b.png",
       "PackagePath": "staticwebassets\\uploads\\actors\\76ccd65d-8ce3-4cc7-89ce-a60a9d70be6b.png"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\actors\\993dd0f3-8d34-427f-bcae-d718a6ca4b8d.png",
+      "PackagePath": "staticwebassets\\uploads\\actors\\993dd0f3-8d34-427f-bcae-d718a6ca4b8d.png"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\actors\\f6fa67ea-5695-4f58-bf65-cf3b72ec4e0a.png",
+      "PackagePath": "staticwebassets\\uploads\\actors\\f6fa67ea-5695-4f58-bf65-cf3b72ec4e0a.png"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\d9395c2c-3a07-40ad-8bc8-811807f0e683.png",
+      "PackagePath": "staticwebassets\\uploads\\d9395c2c-3a07-40ad-8bc8-811807f0e683.png"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.FinalProject_Presentation.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

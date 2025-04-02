@@ -11,5 +11,6 @@ namespace FinalProject_Core.Models
         public DateTime CreationDate { get; set; }
         public DateTime UpdatedDate { get; set; }
         public DateTime DeleteDate { get; set; }
+        public bool IsDeleted { get; set; }
     }
 }
