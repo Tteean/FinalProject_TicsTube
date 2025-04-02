@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using FinalProject_Core.Models;
 using FinalProject_Service.Dto.ActorDtos;
+using FinalProject_Service.Dto.GenreDtos;
 using FinalProject_Service.Extentions;
 using System;
 using System.Collections.Generic;
@@ -26,6 +27,16 @@ namespace FinalProject_Service.Profiles
             CreateMap<ActorDeleteDto, Actor>()
                 .ForMember(dest => dest.Id, opt => opt.Ignore())
                 .ForMember(s => s.Image, opt => opt.MapFrom(src => src.File.SaveImage("uploads")));
+
+
+            CreateMap<CreateGenreDto, Genre>();
+            CreateMap<Genre, GenreReturnDto>();
+            CreateMap<Genre, UpdateGenreDto>();
+            CreateMap<UpdateGenreDto, Genre>()
+                .ForMember(dest => dest.Id, opt => opt.Ignore());
+            CreateMap<Genre, DeleteGenreDto>();
+            CreateMap<DeleteGenreDto, Genre>()
+                .ForMember(dest => dest.Id, opt => opt.Ignore());
         }
     }
 }

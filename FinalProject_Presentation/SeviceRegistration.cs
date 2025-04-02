@@ -54,6 +54,7 @@ namespace FinalProject_Presentation
                 opt.AddProfile(new MapperProfile());
             });
             services.AddScoped<IActorService, ActorService>();
+            services.AddScoped<IGenreService, GenreService>();
         }
     }
 }

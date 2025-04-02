@@ -46,8 +46,11 @@ namespace FinalProject_Service.Services.Implementations
 
         public async Task<List<ActorReturnDto>> GetActorAsync()
         {
-            var groups = await _context.Actors.ToListAsync();
-            return _mapper.Map<List<ActorReturnDto>>(groups);
+            var actors = await _context.Actors
+                .Include(a=>a.MovieActors)
+                .ThenInclude(ma=>ma.Movie)
+                .ToListAsync();
+            return _mapper.Map<List<ActorReturnDto>>(actors);
         }
         public async Task<int> UpdateActorAsync(int id, ActorUpdateDto actorUpdateDto)
         {
