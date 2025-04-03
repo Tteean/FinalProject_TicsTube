@@ -15,7 +15,7 @@ namespace FinalProject_DataAccess.Data.Configurations
         {
             builder.HasKey(mg => new { mg.MovieId, mg.ActorId });
             builder.HasOne(mg => mg.Movie).WithMany(m => m.MovieActors).HasForeignKey(mg => mg.MovieId);
-            builder.HasOne(mg => mg.Actor).WithMany(g => g.MovieActors).HasForeignKey(mg => mg.ActorId);
+            builder.HasOne(mg => mg.Actor).WithMany(g => g.MovieActors).HasForeignKey(mg => mg.ActorId).IsRequired(false);
         }
     }
 }

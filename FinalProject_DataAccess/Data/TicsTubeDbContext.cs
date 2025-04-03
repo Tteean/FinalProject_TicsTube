@@ -10,9 +10,12 @@ namespace FinalProject_DataAccess.Data
         public DbSet<Movie> Movies { get; set; }
         public DbSet<Genre> Genres { get; set; }
         public DbSet<Actor> Actors { get; set; }
+        public DbSet<Language> Languages { get; set; }
+        public DbSet<Director> Directors { get; set; }
         public DbSet<MovieGenre> MovieGenres { get; set; }
         public DbSet<MovieImage> MovieImages { get; set; }
         public DbSet<MovieActor> MovieActors { get; set; }
+        public DbSet<MovieLanguage> MovieLanguages { get; set; }
         public DbSet<AppUser> AppUsers { get; set; }
         public DbSet<Subscriber> Subscribers { get; set; }
 

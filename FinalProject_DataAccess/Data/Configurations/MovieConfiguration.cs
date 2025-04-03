@@ -15,11 +15,12 @@ namespace FinalProject_DataAccess.Data.Configurations
         {
             builder.Property(m => m.Title).IsRequired(true).HasMaxLength(30);
             builder.Property(m => m.Description).IsRequired(true).HasMaxLength(100);
-            builder.Property(m => m.Director).IsRequired(true);
             builder.Property(m => m.Rating).IsRequired(true).HasColumnType("decimal(18,2)");
             builder.HasKey(m => m.Id);
             builder.HasMany(m => m.MovieGenres).WithOne(mg => mg.Movie).HasForeignKey(mg => mg.MovieId);
-            builder.HasMany(m => m.MovieActors).WithOne(mg => mg.Movie).HasForeignKey(mg => mg.MovieId);
+            builder.HasMany(m => m.MovieActors).WithOne(ma => ma.Movie).HasForeignKey(ma => ma.MovieId);
+            builder.HasMany(m => m.MovieLanguages).WithOne(ml => ml.Movie).HasForeignKey(ml => ml.MovieId);
+            builder.HasOne(m => m.Directors).WithMany(d => d.Movies).HasForeignKey(s => s.DirectorId).OnDelete(DeleteBehavior.NoAction);
 
 
 

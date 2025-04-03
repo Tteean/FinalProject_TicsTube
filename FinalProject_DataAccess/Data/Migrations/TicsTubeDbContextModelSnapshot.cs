@@ -127,6 +127,36 @@ namespace FinalProject_DataAccess.Migrations
                     b.ToTable("AspNetUsers", (string)null);
                 });
 
+            modelBuilder.Entity("FinalProject_Core.Models.Director", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreationDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("DeleteDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("FullName")
+                        .IsRequired()
+                        .HasMaxLength(5)
+                        .HasColumnType("nvarchar(5)");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime>("UpdatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Directors");
+                });
+
             modelBuilder.Entity("FinalProject_Core.Models.Genre", b =>
                 {
                     b.Property<int>("Id")
@@ -157,6 +187,36 @@ namespace FinalProject_DataAccess.Migrations
                     b.ToTable("Genres");
                 });
 
+            modelBuilder.Entity("FinalProject_Core.Models.Language", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreationDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("DeleteDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<DateTime>("UpdatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Languages");
+                });
+
             modelBuilder.Entity("FinalProject_Core.Models.Movie", b =>
                 {
                     b.Property<int>("Id")
@@ -180,9 +240,11 @@ namespace FinalProject_DataAccess.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 
-                    b.Property<string>("Director")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("DirectorId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Duration")
+                        .HasColumnType("int");
 
                     b.Property<string>("GenreIds")
                         .IsRequired()
@@ -190,6 +252,10 @@ namespace FinalProject_DataAccess.Migrations
 
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
+
+                    b.Property<string>("LanguageId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<decimal>("Rating")
                         .HasColumnType("decimal(18,2)");
@@ -202,7 +268,12 @@ namespace FinalProject_DataAccess.Migrations
                     b.Property<DateTime>("UpdatedDate")
                         .HasColumnType("datetime2");
 
+                    b.Property<int>("Year")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
+
+                    b.HasIndex("DirectorId");
 
                     b.ToTable("Movies");
                 });
@@ -278,6 +349,21 @@ namespace FinalProject_DataAccess.Migrations
                     b.HasIndex("MovieId");
 
                     b.ToTable("MovieImages");
+                });
+
+            modelBuilder.Entity("FinalProject_Core.Models.MovieLanguage", b =>
+                {
+                    b.Property<int>("MovieId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("LanguageId")
+                        .HasColumnType("int");
+
+                    b.HasKey("MovieId", "LanguageId");
+
+                    b.HasIndex("LanguageId");
+
+                    b.ToTable("MovieLanguages");
                 });
 
             modelBuilder.Entity("FinalProject_Core.Models.Setting", b =>
@@ -447,13 +533,22 @@ namespace FinalProject_DataAccess.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("FinalProject_Core.Models.Movie", b =>
+                {
+                    b.HasOne("FinalProject_Core.Models.Director", "Directors")
+                        .WithMany("Movies")
+                        .HasForeignKey("DirectorId")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
+                    b.Navigation("Directors");
+                });
+
             modelBuilder.Entity("FinalProject_Core.Models.MovieActor", b =>
                 {
                     b.HasOne("FinalProject_Core.Models.Actor", "Actor")
                         .WithMany("MovieActors")
-                        .HasForeignKey("ActorId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("ActorId");
 
                     b.HasOne("FinalProject_Core.Models.Movie", "Movie")
                         .WithMany("MovieActors")
@@ -492,6 +587,25 @@ namespace FinalProject_DataAccess.Migrations
                         .HasForeignKey("MovieId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.Navigation("Movie");
+                });
+
+            modelBuilder.Entity("FinalProject_Core.Models.MovieLanguage", b =>
+                {
+                    b.HasOne("FinalProject_Core.Models.Language", "Language")
+                        .WithMany("MovieLanguages")
+                        .HasForeignKey("LanguageId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("FinalProject_Core.Models.Movie", "Movie")
+                        .WithMany("MovieLanguages")
+                        .HasForeignKey("MovieId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Language");
 
                     b.Navigation("Movie");
                 });
@@ -552,9 +666,19 @@ namespace FinalProject_DataAccess.Migrations
                     b.Navigation("MovieActors");
                 });
 
+            modelBuilder.Entity("FinalProject_Core.Models.Director", b =>
+                {
+                    b.Navigation("Movies");
+                });
+
             modelBuilder.Entity("FinalProject_Core.Models.Genre", b =>
                 {
                     b.Navigation("MovieGenres");
+                });
+
+            modelBuilder.Entity("FinalProject_Core.Models.Language", b =>
+                {
+                    b.Navigation("MovieLanguages");
                 });
 
             modelBuilder.Entity("FinalProject_Core.Models.Movie", b =>
@@ -564,6 +688,8 @@ namespace FinalProject_DataAccess.Migrations
                     b.Navigation("MovieGenres");
 
                     b.Navigation("MovieImages");
+
+                    b.Navigation("MovieLanguages");
                 });
 #pragma warning restore 612, 618
         }
