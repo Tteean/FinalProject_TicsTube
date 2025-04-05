@@ -13,8 +13,9 @@ namespace FinalProject_DataAccess.Data.Configurations
     {
         public void Configure(EntityTypeBuilder<Director> builder)
         {
-            builder.Property(g => g.FullName).IsRequired(true).HasMaxLength(5);
-            builder.HasKey(g => g.Id);
+            builder.Property(d => d.FullName).IsRequired(true).HasMaxLength(50);
+            builder.Property(d => d.Image).IsRequired(false);
+            builder.HasKey(d => d.Id);
         }
     }
 }

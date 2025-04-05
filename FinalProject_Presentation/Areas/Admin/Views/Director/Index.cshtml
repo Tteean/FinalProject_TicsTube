@@ -1,0 +1,37 @@
+﻿@model List<Director>
+@{
+    int count = 0;
+}
+<div class="container">
+    <div class="row">
+        <a asp-action="create" class="btn btn-outline-success">Add new Director</a>
+    </div>
+    <div class="row">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Count</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">MovieCount</th>
+                    <th scope="col">CreatedDate</th>
+                    <th scope="col">Settings</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var director in Model)
+                {
+                    <tr>
+                        <th>@(++count)</th>
+                        <td>@director.FullName</td>
+                        <td>@director.Movies.Count</td>
+                        <td>@director.CreationDate.ToString("dd,MMMM yyyy")</td>
+                        <td>
+                            <a asp-action="edit" asp-route-id="@director.Id">Edit</a>
+                            <a asp-action="delete" asp-route-id="@director.Id">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

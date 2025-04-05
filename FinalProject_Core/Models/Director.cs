@@ -9,6 +9,7 @@ namespace FinalProject_Core.Models
     public class Director:Audit
     {
         public string FullName { get; set; }
+        public string Image { get; set; }
         public List<Movie> Movies { get; set; }
     }
 }

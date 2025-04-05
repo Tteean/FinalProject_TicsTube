@@ -1,0 +1,23 @@
+﻿@model DirectorUpdateDto
+
+<div class="container">
+    <div class="row">
+        <form method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label asp-for="FullName"></label>
+                <input asp-for="FullName" type="text" class="form-control" aria-describedby="emailHelp" placeholder="Enter Director FullName">
+                <span class="text-danger"></span>
+                <div class="form-group">
+                    <label asp-for="File"></label>
+                    <input asp-for="File" class="form-control" aria-describedby="emailHelp">
+                    <img style="display:none" width="300" height="100" id="imgPreview" src="" alt="" />
+                    <span class="text-danger" asp-validation-for="File"></span>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</div>
+@section scripts {
+    @await Html.PartialAsync("_ValidationPartial")
+}

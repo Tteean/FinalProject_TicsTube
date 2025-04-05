@@ -22,6 +22,7 @@
 
   <ItemGroup>
     <Folder Include="wwwroot\uploads\actors\" />
+    <Folder Include="wwwroot\uploads\directors\" />
   </ItemGroup>
 
 </Project>

@@ -55,6 +55,8 @@ namespace FinalProject_Presentation
             });
             services.AddScoped<IActorService, ActorService>();
             services.AddScoped<IGenreService, GenreService>();
+            services.AddScoped<ILanguageService, LanguageService>();
+            services.AddScoped<IDirectorService, DirectorService>();
         }
     }
 }
