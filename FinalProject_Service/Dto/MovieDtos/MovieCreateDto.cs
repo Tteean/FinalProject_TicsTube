@@ -1,14 +1,14 @@
-﻿using System;
+﻿using FinalProject_Core.Models;
+using Microsoft.AspNetCore.Http;
+using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Reflection.Metadata.Ecma335;
 using System.Text;
-using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
-namespace FinalProject_Core.Models
+namespace FinalProject_Service.Dto.MovieDtos
 {
-    public class Movie:Audit
+    public class MovieCreateDto
     {
         public string Title { get; set; }
         public string Description { get; set; }
@@ -22,6 +22,10 @@ namespace FinalProject_Core.Models
         public List<MovieLanguage> MovieLanguages { get; set; }
         public int DirectorId { get; set; }
         public Director? Directors { get; set; }
-
+        public IFormFile[] File { get; set; }
+        public IFormFile Film { get; set; }
+        public List<int> GenreIds { get; set; }
+        public List<int> ActorId { get; set; }
+        public List<int> LanguageId { get; set; }
     }
 }

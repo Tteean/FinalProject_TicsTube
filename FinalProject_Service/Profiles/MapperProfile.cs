@@ -4,6 +4,7 @@ using FinalProject_Service.Dto.ActorDtos;
 using FinalProject_Service.Dto.DirectorDtos;
 using FinalProject_Service.Dto.GenreDtos;
 using FinalProject_Service.Dto.LanguageDtos;
+using FinalProject_Service.Dto.MovieDtos;
 using FinalProject_Service.Extentions;
 using System;
 using System.Collections.Generic;
@@ -60,6 +61,11 @@ namespace FinalProject_Service.Profiles
             CreateMap<DirectorDeleteDto, Director>()
                 .ForMember(dest => dest.Id, opt => opt.Ignore())
                 .ForMember(s => s.Image, opt => opt.MapFrom(src => src.File.SaveImage("uploads/directors")));
+
+            CreateMap<MovieCreateDto, Movie>()
+                .ForMember(dest => dest.MovieGenres, opt => opt.Ignore())
+            .ForMember(dest => dest.MovieLanguages, opt => opt.Ignore())
+            .ForMember(dest => dest.MovieImages, opt => opt.Ignore()); 
         }
     }
 }
