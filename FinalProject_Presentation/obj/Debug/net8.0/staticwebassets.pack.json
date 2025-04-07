@@ -3721,6 +3721,38 @@
       "PackagePath": "staticwebassets\\uploads\\directors\\f8f6aaeb-7964-4d6e-949d-41f1575ef1e9.jpeg"
     },
     {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\movies\\0dd98dbf-2e61-446c-866c-02b9cc3cac41.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\movies\\0dd98dbf-2e61-446c-866c-02b9cc3cac41.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\movies\\2ae79c1a-da8a-40a3-b1e0-fd9bf7f7f116.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\movies\\2ae79c1a-da8a-40a3-b1e0-fd9bf7f7f116.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\movies\\4a4d0c81-97da-459f-a45a-e358987b90d0.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\movies\\4a4d0c81-97da-459f-a45a-e358987b90d0.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\movies\\6fadc603-fb96-44b2-ad81-835303f749e8.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\movies\\6fadc603-fb96-44b2-ad81-835303f749e8.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\movies\\795f380e-b9da-4166-9aa3-023f07300dde.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\movies\\795f380e-b9da-4166-9aa3-023f07300dde.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\movies\\87168083-76e4-4609-bc23-80207b79029a.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\movies\\87168083-76e4-4609-bc23-80207b79029a.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\movies\\9ed8637c-7042-4fde-b97b-dd600f7fb920.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\movies\\9ed8637c-7042-4fde-b97b-dd600f7fb920.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\movies\\d822e4a1-85fc-49c8-b41f-7f61a9638a37.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\movies\\d822e4a1-85fc-49c8-b41f-7f61a9638a37.jpeg"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.FinalProject_Presentation.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },

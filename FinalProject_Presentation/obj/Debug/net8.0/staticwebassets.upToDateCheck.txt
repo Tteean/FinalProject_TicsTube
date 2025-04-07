@@ -927,3 +927,11 @@ wwwroot\uploads\directors\c388bbab-49f9-4546-8ffd-925d4e011baf.jpeg
 wwwroot\uploads\directors\d89204e2-8f6b-4995-b742-91654554fdb9.jpeg
 wwwroot\uploads\directors\e381ee61-a0f4-4fc4-ad0e-d0a11ef476ef.jpeg
 wwwroot\uploads\directors\f8f6aaeb-7964-4d6e-949d-41f1575ef1e9.jpeg
+wwwroot\uploads\movies\0dd98dbf-2e61-446c-866c-02b9cc3cac41.jpeg
+wwwroot\uploads\movies\2ae79c1a-da8a-40a3-b1e0-fd9bf7f7f116.jpeg
+wwwroot\uploads\movies\4a4d0c81-97da-459f-a45a-e358987b90d0.jpeg
+wwwroot\uploads\movies\6fadc603-fb96-44b2-ad81-835303f749e8.jpeg
+wwwroot\uploads\movies\795f380e-b9da-4166-9aa3-023f07300dde.jpeg
+wwwroot\uploads\movies\87168083-76e4-4609-bc23-80207b79029a.jpeg
+wwwroot\uploads\movies\9ed8637c-7042-4fde-b97b-dd600f7fb920.jpeg
+wwwroot\uploads\movies\d822e4a1-85fc-49c8-b41f-7f61a9638a37.jpeg

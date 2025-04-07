@@ -17,7 +17,8 @@ namespace FinalProject_DataAccess.Data.Configurations
             builder.Property(m => m.Description).IsRequired(true).HasMaxLength(100);
             builder.Property(m => m.Rating).IsRequired(true).HasColumnType("decimal(18,2)");
             builder.Property(m => m.Duration).IsRequired(true);
-            builder.Property(m => m.VideoUrl).IsRequired(true);
+            builder.Property(m => m.Video).IsRequired(true);
+            builder.Property(m => m.Image).IsRequired(true);
             builder.HasKey(m => m.Id);
             builder.HasMany(m => m.MovieGenres).WithOne(mg => mg.Movie).HasForeignKey(mg => mg.MovieId);
             builder.HasMany(m => m.MovieActors).WithOne(ma => ma.Movie).HasForeignKey(ma => ma.MovieId);

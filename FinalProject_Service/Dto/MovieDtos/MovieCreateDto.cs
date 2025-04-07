@@ -15,15 +15,10 @@ namespace FinalProject_Service.Dto.MovieDtos
         public int Year { get; set; }
         public int Duration { get; set; }
         public double Rating { get; set; }
-        public string VideoUrl { get; set; }
-        public List<MovieActor> MovieActors { get; set; }
-        public List<MovieImage> MovieImages { get; set; }
-        public List<MovieGenre> MovieGenres { get; set; }
-        public List<MovieLanguage> MovieLanguages { get; set; }
         public int DirectorId { get; set; }
         public Director? Directors { get; set; }
-        public IFormFile[] File { get; set; }
-        public IFormFile Film { get; set; }
+        public IFormFile? File { get; set; }
+        public IFormFile? Film { get; set; }
         public List<int> GenreIds { get; set; }
         public List<int> ActorId { get; set; }
         public List<int> LanguageId { get; set; }

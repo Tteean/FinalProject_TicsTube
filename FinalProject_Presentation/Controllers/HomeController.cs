@@ -17,7 +17,7 @@ namespace FinalProject_Presentation.Controllers
         public IActionResult Index()
         {
             HomeVm vm = new HomeVm();
-            vm.Movies = _context.Movies.Include(m=>m.MovieImages).ToList();
+            vm.Movies = _context.Movies.ToList();
             return View();
         }
     }

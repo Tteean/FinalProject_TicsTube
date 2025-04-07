@@ -10,9 +10,9 @@ namespace FinalProject_Service.Services.Interfaces
 {
     public interface IMovieService
     {
-        Task<int> CreateActorAsync(MovieCreateDto movieCreateDto);
-        Task<List<MovieReturnDto>> GetActorAsync();
-        Task<int> UpdateActorAsync(int id, MovieUpdateDto movieUpdateDto);
-        Task<int> DeleteActorAsync(int id);
+        Task<int> CreateAsync(MovieCreateDto movieCreateDto);
+        Task<List<MovieReturnDto>> GetAllAsync();
+        Task<int> UpdateAsync(int id, MovieUpdateDto movieUpdateDto);
+        Task<int> DeleteAsync(int id);
     }
 }

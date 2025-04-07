@@ -63,9 +63,28 @@ namespace FinalProject_Service.Profiles
                 .ForMember(s => s.Image, opt => opt.MapFrom(src => src.File.SaveImage("uploads/directors")));
 
             CreateMap<MovieCreateDto, Movie>()
-                .ForMember(dest => dest.MovieGenres, opt => opt.Ignore())
-            .ForMember(dest => dest.MovieLanguages, opt => opt.Ignore())
-            .ForMember(dest => dest.MovieImages, opt => opt.Ignore()); 
+                .ForMember(dest => dest.MovieGenres, opt => opt.MapFrom(src => new List<MovieGenre>()))
+            .ForMember(dest => dest.MovieLanguages, opt => opt.MapFrom(src => new List<MovieLanguage>()))
+            .ForMember(dest => dest.MovieActors, opt => opt.MapFrom(src => new List<MovieActor>()))
+            .ForMember(s => s.Image, opt => opt.MapFrom(src => src.File.SaveImage("uploads/movies")))
+            .ForMember(s => s.Video, opt => opt.MapFrom(src => src.Film.SaveImage("uploads/movies")));
+            CreateMap<Movie, MovieCreateDto>();
+            CreateMap<Movie, MovieUpdateDto>();
+            CreateMap<MovieUpdateDto, Movie>()
+                .ForMember(dest => dest.MovieGenres, opt => opt.MapFrom(src => new List<MovieGenre>()))
+            .ForMember(dest => dest.MovieLanguages, opt => opt.MapFrom(src => new List<MovieLanguage>()))
+            .ForMember(dest => dest.MovieActors, opt => opt.MapFrom(src => new List<MovieActor>()))
+                .ForMember(s => s.Image, opt => opt.MapFrom(src => src.File.SaveImage("uploads/movies")))
+                .ForMember(s => s.Video, opt => opt.MapFrom(src => src.Film.SaveImage("uploads/movies")))
+                .ForMember(dest => dest.Id, opt => opt.Ignore());
+            CreateMap<Movie, MovieDeleteDto>();
+            CreateMap<MovieDeleteDto, Movie>()
+                .ForMember(dest => dest.MovieGenres, opt => opt.MapFrom(src => new List<MovieGenre>()))
+            .ForMember(dest => dest.MovieLanguages, opt => opt.MapFrom(src => new List<MovieLanguage>()))
+            .ForMember(dest => dest.MovieActors, opt => opt.MapFrom(src => new List<MovieActor>()))
+                .ForMember(s => s.Image, opt => opt.MapFrom(src => src.File.SaveImage("uploads/movies")))
+                .ForMember(s => s.Video, opt => opt.MapFrom(src => src.Film.SaveImage("uploads/movies")))
+                .ForMember(dest => dest.Id, opt => opt.Ignore());
         }
     }
 }

@@ -1,0 +1,70 @@
+﻿@model MovieCreateDto
+
+<div class="container">
+    <div class="row">
+        <form method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label asp-for="Title"></label>
+                <input asp-for="Title" type="text" class="form-control" aria-describedby="emailHelp" placeholder="Enter Actors FullName">
+                <span class="text-danger"></span>
+                <label asp-for="Description"></label>
+                <input asp-for="Description" type="text" class="form-control" aria-describedby="emailHelp" placeholder="Enter Actors FullName">
+                <span class="text-danger"></span>
+                <label asp-for="Year"></label>
+                <input asp-for="Year" type="text" class="form-control" aria-describedby="emailHelp" placeholder="Enter Actors FullName">
+                <span class="text-danger"></span>
+                <label asp-for="Duration"></label>
+                <input asp-for="Duration" type="text" class="form-control" aria-describedby="emailHelp" placeholder="Enter Actors FullName">
+                <span class="text-danger"></span>
+                <div class="form-group">
+                    <label asp-for="File"></label>
+                    <input asp-for="File" class="form-control" aria-describedby="emailHelp">
+                    <img style="display:none" width="300" height="100" id="imgPreview" src="" alt="" />
+                    <span class="text-danger" asp-validation-for="File"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Film"></label>
+                    <input asp-for="Film" class="form-control" aria-describedby="emailHelp">
+                    <img style="display:none" width="300" height="100" id="imgPreview" src="" alt="" />
+                    <span class="text-danger" asp-validation-for="Film"></span>
+                </div>
+                <div class="form-group">
+                    <select class="form-select" asp-for="DirectorId">
+                        @foreach (var director in ViewBag.Directors)
+                        {
+                            <option value="@director.Id">@director.FullName</option>
+                        }
+                    </select>
+                </div>
+                <div class="form-group">
+                    <select class="form-select" asp-for="GenreIds">
+                        @foreach (var genre in ViewBag.Genres)
+                        {
+                            <option value="@genre.Id">@genre.Name</option>
+                        }
+                    </select>
+                </div>
+                <div class="form-group">
+                    <select class="form-select" asp-for="ActorId">
+                        @foreach (var actor in ViewBag.Actors)
+                        {
+                            <option value="@actor.Id">@actor.Fullname</option>
+                        }
+                    </select>
+                </div>
+                <div class="form-group">
+                    <select class="form-select" asp-for="LanguageId">
+                        @foreach (var language in ViewBag.Languages)
+                        {
+                            <option value="@language.Id">@language.Name</option>
+                        }
+                    </select>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</div>
+@section scripts {
+    @await Html.PartialAsync("_ValidationPartial")
+}
