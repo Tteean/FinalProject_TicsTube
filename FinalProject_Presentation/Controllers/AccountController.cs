@@ -2,9 +2,11 @@
 using FinalProject_Core.ViewModels.LoginVm;
 using FinalProject_DataAccess.Data;
 using FinalProject_Service.Services.Implementations;
+using Microsoft.AspNetCore.Authentication.Google;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 
 namespace FinalProject_Presentation.Controllers
 {
@@ -198,5 +200,35 @@ namespace FinalProject_Presentation.Controllers
 
             return RedirectToAction("Login");
         }
-    }
+        public IActionResult ExternalLoginByGoogle()
+        {
+            var redirectUrl = Url.Action("Google", "Account");
+            var properties = _signInManager.ConfigureExternalAuthenticationProperties(GoogleDefaults.AuthenticationScheme, redirectUrl);
+            return new ChallengeResult(GoogleDefaults.AuthenticationScheme, properties);
+        }
+        public async Task<IActionResult> Google()
+        {
+            var result = await _signInManager.GetExternalLoginInfoAsync();
+
+            var email = result.Principal.FindFirstValue(ClaimTypes.Email);
+            var userName = result.Principal.FindFirstValue(ClaimTypes.Name);
+            var fullName = result.Principal.FindFirstValue(ClaimTypes.Name);
+
+
+            var user = await _userManager.FindByEmailAsync(email);
+            if (user == null)
+            {
+                user = new AppUser
+                {
+                    Email = email,
+                    UserName = userName,
+                    FullName = fullName
+                };
+                await _userManager.CreateAsync(user);
+                await _userManager.AddToRoleAsync(user, "member");
+                await _signInManager.SignInAsync(user, true);
+            }
+            return RedirectToAction("index", "home");
+        }
+    } 
 }

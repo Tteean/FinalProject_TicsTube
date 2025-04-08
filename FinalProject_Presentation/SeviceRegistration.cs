@@ -18,6 +18,12 @@ namespace FinalProject_Presentation
                 options.UseSqlServer(configuration.GetConnectionString("DefaultConnection"));
             });
             services.AddScoped<EmailService>();
+            services.AddAuthentication().AddGoogle(options =>
+            {
+                options.ClientId = "480081122868-gkakhva6sk5s2shkspbcb139uhhg1fju.apps.googleusercontent.com";
+                options.ClientSecret = "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";
+                options.SaveTokens = true;
+            });
             services.AddIdentity<AppUser, IdentityRole>(opt =>
             {
                 opt.Password.RequireDigit = true;

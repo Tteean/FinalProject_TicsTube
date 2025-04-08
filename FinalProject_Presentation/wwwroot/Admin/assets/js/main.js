@@ -1,5 +1,5 @@
 ﻿$(document).ready(function () {
-    $("#Photo").change(function (ev) {
+    $("#File").change(function (ev) {
         let file = ev.target.files[0];
         var uploadimg = new FileReader();
 

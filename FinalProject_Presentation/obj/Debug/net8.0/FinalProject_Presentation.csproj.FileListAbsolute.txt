@@ -277,3 +277,4 @@ C:\Users\naila\source\repos\FinalProject\FinalProject_Presentation\bin\Debug\net
 C:\Users\naila\source\repos\FinalProject\FinalProject_Presentation\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
 C:\Users\naila\source\repos\FinalProject\FinalProject_Presentation\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
 C:\Users\naila\source\repos\FinalProject\FinalProject_Presentation\obj\Debug\net8.0\FinalProject_Presentation.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\naila\source\repos\FinalProject\FinalProject_Presentation\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Google.dll

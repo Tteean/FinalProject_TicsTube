@@ -14,7 +14,7 @@ namespace FinalProject_DataAccess.Data.Configurations
         public void Configure(EntityTypeBuilder<Movie> builder)
         {
             builder.Property(m => m.Title).IsRequired(true).HasMaxLength(30);
-            builder.Property(m => m.Description).IsRequired(true).HasMaxLength(100);
+            builder.Property(m => m.Description).IsRequired(true).HasMaxLength(500);
             builder.Property(m => m.Rating).IsRequired(true).HasColumnType("decimal(18,2)");
             builder.Property(m => m.Duration).IsRequired(true);
             builder.Property(m => m.Video).IsRequired(true);

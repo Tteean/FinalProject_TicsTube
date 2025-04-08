@@ -19,8 +19,10 @@
                 <div class="form-group">
                     <label asp-for="File"></label>
                     <input asp-for="File" class="form-control" aria-describedby="emailHelp">
-                    <img style="display:none" width="300" height="100" id="imgPreview" src="" alt="" />
                     <span class="text-danger" asp-validation-for="File"></span>
+                    <img style="display:none" width="300" height="100" id="imgPreview" src="" alt="" />
+                    <input asp-for="File" type="hidden" />
+                    <img src="~/assets/uploads/movies/@Model.File" width="300" height="100" alt="Alternate Text" />
                 </div>
                 <div class="form-group">
                     <label asp-for="Film"></label>

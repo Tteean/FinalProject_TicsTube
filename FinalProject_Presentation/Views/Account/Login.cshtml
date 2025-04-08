@@ -62,9 +62,11 @@
                                     </div>
                                     <div class="button-items">
                                         <button type="submit" class="theme-btn">Log In</button>
-                                        <button type="submit" class="theme-btn style-2"><img src="~/assets/img/google.png" alt="img"> Log In With Google</button>
+                                        <a asp-controller="account" asp-action="ExternalLoginByGoogle" class="theme-btn style-2"><img src="~/assets/img/google.png" alt="img"> Log In With Google</a>
                                     </div>
-                                    <h6>Don’t have an account? <a asp-controller="account" asp-action="register">Sign Up</a></h6>
+                                    <h6>Don’t have an account? 
+                                        <a asp-controller="account" asp-action="register">Sign Up</a>
+                                    </h6>
                                 </form>
                             </div>
                         </div>
