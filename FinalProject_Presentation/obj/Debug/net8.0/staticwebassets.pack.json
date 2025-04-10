@@ -3413,6 +3413,10 @@
       "PackagePath": "staticwebassets\\assets\\img\\web-series\\details-1.jpg"
     },
     {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\js\\MyScript.js",
+      "PackagePath": "staticwebassets\\assets\\js\\MyScript.js"
+    },
+    {
       "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\js\\ajax-mail.js",
       "PackagePath": "staticwebassets\\assets\\js\\ajax-mail.js"
     },

@@ -19,6 +19,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\FinalProject_Service\FinalProject_Service.csproj" />
+    <ProjectReference Include="..\FinalProject_ViewModel\FinalProject_ViewModel.csproj" />
   </ItemGroup>
 
   <ItemGroup>

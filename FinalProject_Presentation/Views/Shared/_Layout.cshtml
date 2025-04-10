@@ -227,24 +227,13 @@
                                             <li><a asp-controller="show" asp-action="index">tv Shows</a></li>
                                         </ul>
                                     </li>
-                                    <li>
-                                        <a href="web-series-details.html">
-                                            web series
-                                        </a>
-                                        <ul class="submenu">
-                                            <li><a href="web-series.html">web series</a></li>
-                                            <li><a href="web-series-details.html">web series Details</a></li>
-                                        </ul>
-                                    </li>
                                     <li class="has-dropdown">
                                         <a href="news.html">
                                             Pages
                                         </a>
                                         <ul class="submenu">
                                             <li><a href="about.html">About Us</a></li>
-                                            <li><a href="team.html">Artist</a></li>
                                             <li><a href="pricing.html">Subscriptions</a></li>
-                                            <li><a href="cooming-soon.html">Cooming Soon</a></li>
                                             <li><a asp-controller="account" asp-action="login">Log In</a></li>
                                             <li><a href="404.html">Error 404</a></li>
                                         </ul>
@@ -266,6 +255,7 @@
                     <div class="header-right d-flex justify-content-end align-items-center">
                         <div class="tp-header-search d-none d-md-flex">
                             <button class="d-flex align-items-center tp-search-toggle"><i class="fa-solid fa-magnifying-glass"></i></button>
+                            
                         </div>
                         <div class="header-button">
                             <a href="pricing.html" class="theme-btn">subscribe <img src="~/assets/img/diamond.png" alt="img"></a>
@@ -284,7 +274,7 @@
     </header>
 
     <!-- tp header search  -->
-    <div class="tp-header-search-bar d-flex align-items-center">
+    <div style="visibility:hidden !important" class="tp-header-search-bar d-flex align-items-center">
         <button class="tp-search-close">×</button>
         <div class="container">
             <div class="row justify-content-center">
@@ -380,5 +370,6 @@
     <script src="~/assets/js/wow.min.js"></script>
     <!--<< Main.js >>-->
     <script src="~/assets/js/main.js"></script>
+    <script src="~/assets/js/MyScript.js"></script>
 </body>
 </html>

@@ -14,6 +14,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\FinalProject_DataAccess\FinalProject_DataAccess.csproj" />
+    <ProjectReference Include="..\FinalProject_ViewModel\FinalProject_ViewModel.csproj" />
   </ItemGroup>
 
 </Project>

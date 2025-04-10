@@ -35,6 +35,7 @@ namespace FinalProject_Presentation.Areas.Admin.Controllers
         public async Task<IActionResult> CreateRole()
         {
             await _roleManager.CreateAsync(new IdentityRole("admin"));
+            await _roleManager.CreateAsync(new IdentityRole("user"));
             await _roleManager.CreateAsync(new IdentityRole("member"));
             await _roleManager.CreateAsync(new IdentityRole("moderator"));
             return Content("added");

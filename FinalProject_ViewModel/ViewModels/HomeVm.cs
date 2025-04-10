@@ -5,11 +5,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FinalProject_Core.ViewModels
+namespace FinalProject_ViewModel.ViewModels
 {
     public class HomeVm
     {
         public List<Movie> Movies { get; set; }
+        public List<Genre> Genres { get; set; }
+
+
         
     }
 }

@@ -1,177 +1,41 @@
-﻿ 
+﻿@using FinalProject_ViewModel.ViewModels
+@model HomeVm
        <!-- Hero Section Start -->
 <section class="hero-section section-padding bg-cover" style="background-image: url('assets/img/dark-gradient-bg.jpg');">
     <div class="hero-1">
         <div class="container-fluid">
             <div class="row g-4">
-                <div class="col-lg-6">
-                    <div class="hero-image">
-                        <img src="~/assets/img/hero/01.jpg" alt="img">
-                        <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
-                            <i class="fa-solid fa-play"></i>
-                        </a>
-                        <div class="movie-content">
-                            <ul class="post-time">
-                                <li>
-                                    <i class="fa-regular fa-clock"></i>
-                                    02h 45m
-                                </li>
-                                <li>
-                                    <i class="fa-sharp fa-regular fa-tv"></i>
-                                    4K Quality
-                                </li>
-                            </ul>
-                            <h3><a href="movie-details.html">Happy Women’s day</a></h3>
-                            <p>Action, war, romantic</p>
+                @foreach (var movie in Model.Movies)
+                {
+                    <div class="col-lg-6">
+                        <div class="hero-image">
+                            <img src="~/uploads/movies/@movie.Image" alt="img">
+                            <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
+                                <i class="fa-solid fa-play"></i>
+                            </a>
+                            @Html.Partial("_MoviePartial", movie)
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="hero-image">
-                        <img src="~/assets/img/hero/02.jpg" alt="img">
-                        <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
-                            <i class="fa-solid fa-play"></i>
-                        </a>
-                        <div class="movie-content">
-                            <ul class="post-time">
-                                <li>
-                                    <i class="fa-regular fa-clock"></i>
-                                    02h 45m
-                                </li>
-                                <li>
-                                    <i class="fa-sharp fa-regular fa-tv"></i>
-                                    4K Quality
-                                </li>
-                            </ul>
-                            <h3><a href="movie-details.html">Happy Women’s day</a></h3>
-                            <p>Action, war, romantic</p>
-                        </div>
-                    </div>
-                </div>
+                }
+                
             </div>
             <div class="movie-wrapper">
                 <div class="swiper movie-slider">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="movie-box-items">
-                                <div class="movie-image">
-                                    <img src="~/assets/img/movie/01.jpg" alt="img">
-                                    <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
-                                        <i class="fa-solid fa-play"></i>
-                                    </a>
-                                    <div class="movie-content">
-                                        <ul class="post-time">
-                                            <li>
-                                                <i class="fa-regular fa-clock"></i>
-                                                02h 45m
-                                            </li>
-                                            <li>
-                                                <i class="fa-sharp fa-regular fa-tv"></i>
-                                                4K Quality
-                                            </li>
-                                        </ul>
-                                        <h3><a href="movie-details.html">Happy Women’s day</a></h3>
-                                        <p>Action, war, romantic</p>
+                        @foreach (var movie in Model.Movies)
+                        {
+                            <div class="swiper-slide">
+                                <div class="movie-box-items">
+                                    <div class="movie-image">
+                                        <img src="~/uploads/movies/@movie.Image" alt="img">
+                                        <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
+                                            <i class="fa-solid fa-play"></i>
+                                        </a>
+                                        @Html.Partial("_MoviePartial", movie)
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="movie-box-items">
-                                <div class="movie-image">
-                                    <img src="~/assets/img/movie/02.jpg" alt="img">
-                                    <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
-                                        <i class="fa-solid fa-play"></i>
-                                    </a>
-                                    <div class="movie-content">
-                                        <ul class="post-time">
-                                            <li>
-                                                <i class="fa-regular fa-clock"></i>
-                                                02h 45m
-                                            </li>
-                                            <li>
-                                                <i class="fa-sharp fa-regular fa-tv"></i>
-                                                4K Quality
-                                            </li>
-                                        </ul>
-                                        <h3><a href="movie-details.html">Happy Women’s day</a></h3>
-                                        <p>Action, war, romantic</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="movie-box-items">
-                                <div class="movie-image">
-                                    <img src="~/assets/img/movie/03.jpg" alt="img">
-                                    <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
-                                        <i class="fa-solid fa-play"></i>
-                                    </a>
-                                    <div class="movie-content">
-                                        <ul class="post-time">
-                                            <li>
-                                                <i class="fa-regular fa-clock"></i>
-                                                02h 45m
-                                            </li>
-                                            <li>
-                                                <i class="fa-sharp fa-regular fa-tv"></i>
-                                                4K Quality
-                                            </li>
-                                        </ul>
-                                        <h3><a href="movie-details.html">Happy Women’s day</a></h3>
-                                        <p>Action, war, romantic</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="movie-box-items">
-                                <div class="movie-image">
-                                    <img src="~/assets/img/movie/04.jpg" alt="img">
-                                    <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
-                                        <i class="fa-solid fa-play"></i>
-                                    </a>
-                                    <div class="movie-content">
-                                        <ul class="post-time">
-                                            <li>
-                                                <i class="fa-regular fa-clock"></i>
-                                                02h 45m
-                                            </li>
-                                            <li>
-                                                <i class="fa-sharp fa-regular fa-tv"></i>
-                                                4K Quality
-                                            </li>
-                                        </ul>
-                                        <h3><a href="movie-details.html">Happy Women’s day</a></h3>
-                                        <p>Action, war, romantic</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="movie-box-items">
-                                <div class="movie-image">
-                                    <img src="~/assets/img/movie/05.jpg" alt="img">
-                                    <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
-                                        <i class="fa-solid fa-play"></i>
-                                    </a>
-                                    <div class="movie-content">
-                                        <ul class="post-time">
-                                            <li>
-                                                <i class="fa-regular fa-clock"></i>
-                                                02h 45m
-                                            </li>
-                                            <li>
-                                                <i class="fa-sharp fa-regular fa-tv"></i>
-                                                4K Quality
-                                            </li>
-                                        </ul>
-                                        <h3><a href="movie-details.html">Happy Women’s day</a></h3>
-                                        <p>Action, war, romantic</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        }
                     </div>
                 </div>
                 <div class="array-button">

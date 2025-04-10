@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "RQ9nc2r9Zf/sL9WemM9t2pOxnv6MI9BdW9W8uDScNEs=",
+  "Hash": "iodrFt40PPYgjVPzMZm1YbEIv8VcRv4+c8nkhz+JE+Y=",
   "Source": "FinalProject_Presentation",
   "BasePath": "_content/FinalProject_Presentation",
   "Mode": "Default",
@@ -18159,6 +18159,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\js\\main.js"
+    },
+    {
+      "Identity": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\js\\MyScript.js",
+      "SourceId": "FinalProject_Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\",
+      "BasePath": "_content/FinalProject_Presentation",
+      "RelativePath": "assets/js/MyScript#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o3a3tts801",
+      "Integrity": "HBlW/z9KjVSOaiAi4u3G6Y9/o8iuYOOsKs/JIm7Pqqc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\js\\MyScript.js"
     },
     {
       "Identity": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\js\\swiper-bundle.min.js",
@@ -91892,6 +91913,88 @@
       ]
     },
     {
+      "Route": "assets/js/MyScript.js",
+      "AssetFile": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\js\\MyScript.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "430"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HBlW/z9KjVSOaiAi4u3G6Y9/o8iuYOOsKs/JIm7Pqqc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 01:49:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HBlW/z9KjVSOaiAi4u3G6Y9/o8iuYOOsKs/JIm7Pqqc="
+        }
+      ]
+    },
+    {
+      "Route": "assets/js/MyScript.o3a3tts801.js",
+      "AssetFile": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\js\\MyScript.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "430"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HBlW/z9KjVSOaiAi4u3G6Y9/o8iuYOOsKs/JIm7Pqqc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 01:49:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o3a3tts801"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/js/MyScript.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HBlW/z9KjVSOaiAi4u3G6Y9/o8iuYOOsKs/JIm7Pqqc="
+        }
+      ]
+    },
+    {
       "Route": "assets/js/swiper-bundle.min.4o1b4791uw.js",
       "AssetFile": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\js\\swiper-bundle.min.js",
       "Selectors": [],
@@ -95276,7 +95379,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 12:43:59 GMT"
+          "Value": "Thu, 10 Apr 2025 00:00:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -95313,7 +95416,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 12:43:59 GMT"
+          "Value": "Thu, 10 Apr 2025 00:00:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -95358,7 +95461,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 12:43:59 GMT"
+          "Value": "Thu, 10 Apr 2025 00:00:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -95403,7 +95506,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 12:43:59 GMT"
+          "Value": "Thu, 10 Apr 2025 00:00:04 GMT"
         },
         {
           "Name": "Cache-Control",

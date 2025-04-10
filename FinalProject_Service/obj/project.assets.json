@@ -1239,6 +1239,19 @@
         "runtime": {
           "bin/placeholder/FinalProject_DataAccess.dll": {}
         }
+      },
+      "FinalProject_ViewModel/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "FinalProject_Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FinalProject_ViewModel.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FinalProject_ViewModel.dll": {}
+        }
       }
     }
   },
@@ -3291,12 +3304,18 @@
       "type": "project",
       "path": "../FinalProject_DataAccess/FinalProject_DataAccess.csproj",
       "msbuildProject": "../FinalProject_DataAccess/FinalProject_DataAccess.csproj"
+    },
+    "FinalProject_ViewModel/1.0.0": {
+      "type": "project",
+      "path": "../FinalProject_ViewModel/FinalProject_ViewModel.csproj",
+      "msbuildProject": "../FinalProject_ViewModel/FinalProject_ViewModel.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "AutoMapper >= 14.0.0",
       "FinalProject_DataAccess >= 1.0.0",
+      "FinalProject_ViewModel >= 1.0.0",
       "FluentValidation.AspNetCore >= 11.3.0",
       "MailKit >= 4.11.0"
     ]
@@ -3336,6 +3355,9 @@
           "projectReferences": {
             "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_DataAccess\\FinalProject_DataAccess.csproj": {
               "projectPath": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_DataAccess\\FinalProject_DataAccess.csproj"
+            },
+            "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_ViewModel\\FinalProject_ViewModel.csproj": {
+              "projectPath": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_ViewModel\\FinalProject_ViewModel.csproj"
             }
           }
         }

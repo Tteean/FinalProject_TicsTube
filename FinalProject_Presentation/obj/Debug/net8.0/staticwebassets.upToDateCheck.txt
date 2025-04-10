@@ -860,6 +860,7 @@ wwwroot\assets\js\jquery.nice-select.min.js
 wwwroot\assets\js\jquery.waypoints.js
 wwwroot\assets\js\jquery-3.7.1.min.js
 wwwroot\assets\js\main.js
+wwwroot\assets\js\MyScript.js
 wwwroot\assets\js\swiper-bundle.min.js
 wwwroot\assets\js\viewport.jquery.js
 wwwroot\assets\js\wow.min.js

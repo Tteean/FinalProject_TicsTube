@@ -52591,7 +52591,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 12:43:59 GMT"
+          "Value": "Thu, 10 Apr 2025 00:00:04 GMT"
         }
       ],
       "EndpointProperties": [
@@ -52636,7 +52636,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 12:43:59 GMT"
+          "Value": "Thu, 10 Apr 2025 00:00:04 GMT"
         }
       ],
       "EndpointProperties": [
@@ -69945,6 +69945,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-93I+pR55QlTtkdyIJCG1jCQ4QK1rbTKq+mdC5eZJI5g="
+        }
+      ]
+    },
+    {
+      "Route": "assets/js/MyScript.js",
+      "AssetFile": "assets/js/MyScript.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "430"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HBlW/z9KjVSOaiAi4u3G6Y9/o8iuYOOsKs/JIm7Pqqc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 01:49:12 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HBlW/z9KjVSOaiAi4u3G6Y9/o8iuYOOsKs/JIm7Pqqc="
+        }
+      ]
+    },
+    {
+      "Route": "assets/js/MyScript.o3a3tts801.js",
+      "AssetFile": "assets/js/MyScript.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "430"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HBlW/z9KjVSOaiAi4u3G6Y9/o8iuYOOsKs/JIm7Pqqc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 01:49:12 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o3a3tts801"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HBlW/z9KjVSOaiAi4u3G6Y9/o8iuYOOsKs/JIm7Pqqc="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/js/MyScript.js"
         }
       ]
     },

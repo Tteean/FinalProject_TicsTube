@@ -1,0 +1,10 @@
+﻿@using FinalProject_Core.Models
+@model List<Movie>
+
+@foreach (var movie in Model)
+{
+	<li class="list-group-item">
+		<a asp-action="detail" asp-controller="movie" asp-route-id="@movie.Id">@movie.Title</a>
+	</li>
+}
+

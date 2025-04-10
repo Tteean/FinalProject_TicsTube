@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FinalProject_Core.ViewModels.LoginVm
+namespace FinalProject_ViewModel.ViewModels.LoginVm
 {
     public class ForgotPasswordVm
     {

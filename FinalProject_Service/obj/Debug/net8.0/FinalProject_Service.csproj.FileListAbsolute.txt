@@ -16,3 +16,5 @@ C:\Users\naila\source\repos\FinalProject\FinalProject_Service\obj\Debug\net8.0\F
 C:\Users\naila\source\repos\FinalProject\FinalProject_Service\obj\Debug\net8.0\refint\FinalProject_Service.dll
 C:\Users\naila\source\repos\FinalProject\FinalProject_Service\obj\Debug\net8.0\FinalProject_Service.pdb
 C:\Users\naila\source\repos\FinalProject\FinalProject_Service\obj\Debug\net8.0\ref\FinalProject_Service.dll
+C:\Users\naila\source\repos\FinalProject\FinalProject_Service\bin\Debug\net8.0\FinalProject_ViewModel.dll
+C:\Users\naila\source\repos\FinalProject\FinalProject_Service\bin\Debug\net8.0\FinalProject_ViewModel.pdb

@@ -1,0 +1,20 @@
+﻿@using FinalProject_Core.Models
+@model Movie
+    <div class="movie-content">
+        <ul class="post-time">
+            <li>
+                <i class="fa-regular fa-clock"></i>
+                @($"{(Model.Duration / 60)}h {(Model.Duration % 60)}min")
+            </li>
+            <li>
+                <i class="fa-sharp fa-regular fa-tv"></i>
+                4K Quality
+            </li>
+        </ul>
+        <h3><a href="movie-details.html">@Model.Title</a></h3>
+        @foreach (var genre in Model.MovieGenres.Select(mg => mg.Genre))
+        {
+            <p>@genre.Name</p>
+
+        }
+    </div>

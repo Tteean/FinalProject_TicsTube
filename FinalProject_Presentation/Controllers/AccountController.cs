@@ -1,7 +1,7 @@
 ﻿using FinalProject_Core.Models;
-using FinalProject_Core.ViewModels.LoginVm;
 using FinalProject_DataAccess.Data;
 using FinalProject_Service.Services.Implementations;
+using FinalProject_ViewModel.ViewModels.LoginVm;
 using Microsoft.AspNetCore.Authentication.Google;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;

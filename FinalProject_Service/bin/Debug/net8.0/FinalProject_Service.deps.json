@@ -10,6 +10,7 @@
         "dependencies": {
           "AutoMapper": "14.0.0",
           "FinalProject_DataAccess": "1.0.0",
+          "FinalProject_ViewModel": "1.0.0",
           "FluentValidation.AspNetCore": "11.3.0",
           "MailKit": "4.11.0"
         },
@@ -651,6 +652,17 @@
             "fileVersion": "1.0.0.0"
           }
         }
+      },
+      "FinalProject_ViewModel/1.0.0": {
+        "dependencies": {
+          "FinalProject_Core": "1.0.0"
+        },
+        "runtime": {
+          "FinalProject_ViewModel.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -1149,6 +1161,11 @@
       "sha512": ""
     },
     "FinalProject_DataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FinalProject_ViewModel/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
