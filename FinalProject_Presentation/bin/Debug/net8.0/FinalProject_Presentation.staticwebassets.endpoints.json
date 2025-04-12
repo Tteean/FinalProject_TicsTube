@@ -69949,6 +69949,51 @@
       ]
     },
     {
+      "Route": "assets/js/MyScript.g1bj5ihkhb.js",
+      "AssetFile": "assets/js/MyScript.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "528"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pHuXmvyp788n6l1y4XfauYSQlv7pp8VZ4v+URay7Sk4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 12 Apr 2025 00:11:44 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g1bj5ihkhb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pHuXmvyp788n6l1y4XfauYSQlv7pp8VZ4v+URay7Sk4="
+        },
+        {
+          "Name": "label",
+          "Value": "assets/js/MyScript.js"
+        }
+      ]
+    },
+    {
       "Route": "assets/js/MyScript.js",
       "AssetFile": "assets/js/MyScript.js",
       "Selectors": [],
@@ -69963,7 +70008,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "430"
+          "Value": "528"
         },
         {
           "Name": "Content-Type",
@@ -69971,62 +70016,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"HBlW/z9KjVSOaiAi4u3G6Y9/o8iuYOOsKs/JIm7Pqqc=\""
+          "Value": "\"pHuXmvyp788n6l1y4XfauYSQlv7pp8VZ4v+URay7Sk4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 10 Apr 2025 01:49:12 GMT"
+          "Value": "Sat, 12 Apr 2025 00:11:44 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-HBlW/z9KjVSOaiAi4u3G6Y9/o8iuYOOsKs/JIm7Pqqc="
-        }
-      ]
-    },
-    {
-      "Route": "assets/js/MyScript.o3a3tts801.js",
-      "AssetFile": "assets/js/MyScript.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "430"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"HBlW/z9KjVSOaiAi4u3G6Y9/o8iuYOOsKs/JIm7Pqqc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 10 Apr 2025 01:49:12 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "o3a3tts801"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-HBlW/z9KjVSOaiAi4u3G6Y9/o8iuYOOsKs/JIm7Pqqc="
-        },
-        {
-          "Name": "label",
-          "Value": "assets/js/MyScript.js"
+          "Value": "sha256-pHuXmvyp788n6l1y4XfauYSQlv7pp8VZ4v+URay7Sk4="
         }
       ]
     },

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "iodrFt40PPYgjVPzMZm1YbEIv8VcRv4+c8nkhz+JE+Y=",
+  "Hash": "lyKloEbrEfBmcZdTgbk2bl9AtMfTIAZ3A70yZqnAtdg=",
   "Source": "FinalProject_Presentation",
   "BasePath": "_content/FinalProject_Presentation",
   "Mode": "Default",
@@ -18175,8 +18175,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "o3a3tts801",
-      "Integrity": "HBlW/z9KjVSOaiAi4u3G6Y9/o8iuYOOsKs/JIm7Pqqc=",
+      "Fingerprint": "g1bj5ihkhb",
+      "Integrity": "pHuXmvyp788n6l1y4XfauYSQlv7pp8VZ4v+URay7Sk4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\js\\MyScript.js"
@@ -91913,6 +91913,51 @@
       ]
     },
     {
+      "Route": "assets/js/MyScript.g1bj5ihkhb.js",
+      "AssetFile": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\js\\MyScript.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "528"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pHuXmvyp788n6l1y4XfauYSQlv7pp8VZ4v+URay7Sk4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 12 Apr 2025 00:11:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g1bj5ihkhb"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/js/MyScript.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pHuXmvyp788n6l1y4XfauYSQlv7pp8VZ4v+URay7Sk4="
+        }
+      ]
+    },
+    {
       "Route": "assets/js/MyScript.js",
       "AssetFile": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\js\\MyScript.js",
       "Selectors": [],
@@ -91923,7 +91968,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "430"
+          "Value": "528"
         },
         {
           "Name": "Content-Type",
@@ -91931,11 +91976,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"HBlW/z9KjVSOaiAi4u3G6Y9/o8iuYOOsKs/JIm7Pqqc=\""
+          "Value": "\"pHuXmvyp788n6l1y4XfauYSQlv7pp8VZ4v+URay7Sk4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 10 Apr 2025 01:49:12 GMT"
+          "Value": "Sat, 12 Apr 2025 00:11:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -91945,52 +91990,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-HBlW/z9KjVSOaiAi4u3G6Y9/o8iuYOOsKs/JIm7Pqqc="
-        }
-      ]
-    },
-    {
-      "Route": "assets/js/MyScript.o3a3tts801.js",
-      "AssetFile": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\js\\MyScript.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "430"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"HBlW/z9KjVSOaiAi4u3G6Y9/o8iuYOOsKs/JIm7Pqqc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 10 Apr 2025 01:49:12 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "o3a3tts801"
-        },
-        {
-          "Name": "label",
-          "Value": "assets/js/MyScript.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-HBlW/z9KjVSOaiAi4u3G6Y9/o8iuYOOsKs/JIm7Pqqc="
+          "Value": "sha256-pHuXmvyp788n6l1y4XfauYSQlv7pp8VZ4v+URay7Sk4="
         }
       ]
     },

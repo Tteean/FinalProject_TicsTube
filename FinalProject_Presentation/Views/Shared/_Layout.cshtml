@@ -254,7 +254,7 @@
                     </div>
                     <div class="header-right d-flex justify-content-end align-items-center">
                         <div class="tp-header-search d-none d-md-flex">
-                            <button class="d-flex align-items-center tp-search-toggle"><i class="fa-solid fa-magnifying-glass"></i></button>
+                            <button class="d-flex align-items-center tp-search-toggle searchingGlass"><i class="fa-solid fa-magnifying-glass"></i></button>
                             
                         </div>
                         <div class="header-button">
@@ -274,22 +274,28 @@
     </header>
 
     <!-- tp header search  -->
-    <div style="visibility:hidden !important" class="tp-header-search-bar d-flex align-items-center">
-        <button class="tp-search-close">×</button>
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-6">
-                    <div class="tp-search-bar text-center">
-                        <h2 class="tp-search-bar-title mb-30">What are you looking for?</h2>
-                        <div class="contact-form-box contact-search-form-box">
-                            <form action="#">
-                                <input type="email" placeholder="Email Here*">
-                                <button type="submit"><i class="far fa-search"></i></button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
+    <div style="display:none" class="searchPart">
+        <div style="height: 100%; z-index=1000; position: relative;">
+            <div style="position: fixed; top: 0; left: 0; width: 100%; height: 30%; background: black; color: white; display: flex !important; align-items: center; justify-content: center; flex-direction: column; z-index: 9999; padding: 20px; box-sizing: border-box;">
+                <button class="tp-search-close" style="position: absolute; top: 20px; right: 30px; font-size: 30px; background: none; border: none; color: white; cursor: pointer;">&times;</button>
+                <h2 style="font-size: 32px; font-weight: bold; text-align: center; margin-bottom: 30px;">What Are You Looking For?</h2>
+                <form action="#" style="display: flex; width: 100%; max-width: 600px; background: white; border-radius: 5px; overflow: hidden;">
+                    <input type="email" id="SearchingInputs" placeholder="Type Here*" style="width: 100%; flex: 1; padding: 15px; border: solid 2px white; font-size: 16px; color: black; background: white; outline: 1px;">
+
+                    <button type="submit" style="padding: 0 20px; border: none; background: none; cursor: pointer; display: flex; align-items: center; justify-content: center;">
+                        <i class="far fa-search" style="font-size: 18px; color: black;"></i>
+                    </button>
+                </form>
             </div>
+                <ul class="list-group searchList" style=" max-height: 200px; overflow-y: auto; width: 100%; background: white; color: black; margin-top: 10px; list-style: none; padding: 0;
+    z-index: 9999;
+    border: 1px solid white;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+position: relative;
+top: 170px;
+    left: 416px;
+" ">
+                </ul>
         </div>
     </div>
         <main role="main" class="pb-3">

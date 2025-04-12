@@ -26,5 +26,21 @@ namespace FinalProject_Presentation.Controllers
 
             return View(vm);
         }
+        public IActionResult Search(string search)
+        {
+            var datas = _context.Movies
+                .Include(m => m.Directors)
+                .Include(m => m.MovieGenres)
+                .ThenInclude(mg => mg.Genre)
+                .Include(m => m.MovieLanguages)
+                .ThenInclude(ml => ml.Language)
+                .Include(m => m.MovieActors)
+                .ThenInclude(ma => ma.Actor)
+                .Where(m => m.Title.Contains(search)
+                || m.Directors.FullName.Contains(search)
+                || m.MovieGenres.Any(pt => pt.Genre.Name.Contains(search))
+                || m.MovieActors.Any(pt => pt.Actor.Fullname.Contains(search))).ToList();
+            return PartialView("_SearchPartial", datas);
+        }
     }
 }

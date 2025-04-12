@@ -11,8 +11,16 @@
       "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\wwwroot\\assets\\js\\myscript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\views\\shared\\_searchpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\views\\shared\\_searchpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\views\\shared\\_moviepartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -25,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{29850242-4017-4228-A5E1-D267354AC577}|FinalProject_ViewModel\\FinalProject_ViewModel.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_viewmodel\\viewmodels\\homevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{29850242-4017-4228-A5E1-D267354AC577}|FinalProject_ViewModel\\FinalProject_ViewModel.csproj|solutionrelative:finalproject_viewmodel\\viewmodels\\homevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{60DDC7B4-13BA-4AAC-BEAE-953F85731E96}|FinalProject_Service\\FinalProject_Service.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_service\\services\\implementations\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -57,10 +61,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{29850242-4017-4228-A5E1-D267354AC577}|FinalProject_ViewModel\\FinalProject_ViewModel.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_viewmodel\\viewmodels\\loginvm\\resetpasswordvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{29850242-4017-4228-A5E1-D267354AC577}|FinalProject_ViewModel\\FinalProject_ViewModel.csproj|solutionrelative:finalproject_viewmodel\\viewmodels\\loginvm\\resetpasswordvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -162,34 +162,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 9,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MyScript.js",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\js\\MyScript.js",
-              "RelativeDocumentMoniker": "FinalProject_Presentation\\wwwroot\\assets\\js\\MyScript.js",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\js\\MyScript.js",
-              "RelativeToolTip": "FinalProject_Presentation\\wwwroot\\assets\\js\\MyScript.js",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAAA8AAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-04-10T01:25:57.451Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "FinalProject_Presentation\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "FinalProject_Presentation\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABIBAAAAAAAAAAAAABcBAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-10T01:22:22.465Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
@@ -212,33 +186,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_SearchPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Views\\Shared\\_SearchPartial.cshtml",
-              "RelativeDocumentMoniker": "FinalProject_Presentation\\Views\\Shared\\_SearchPartial.cshtml",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Views\\Shared\\_SearchPartial.cshtml",
-              "RelativeToolTip": "FinalProject_Presentation\\Views\\Shared\\_SearchPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-10T01:20:31.856Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_MoviePartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Views\\Shared\\_MoviePartial.cshtml",
-              "RelativeDocumentMoniker": "FinalProject_Presentation\\Views\\Shared\\_MoviePartial.cshtml",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Views\\Shared\\_MoviePartial.cshtml",
-              "RelativeToolTip": "FinalProject_Presentation\\Views\\Shared\\_MoviePartial.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-10T01:07:53.229Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 4,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Views\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "FinalProject_Presentation\\Views\\Account\\Register.cshtml",
@@ -251,20 +199,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "FinalProject_Presentation\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Controllers\\HomeController.cs",
               "RelativeToolTip": "FinalProject_Presentation\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAewBkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwCsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-09T23:35:15.98Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "FinalProject_Presentation\\Views\\Home\\Index.cshtml",
@@ -272,12 +220,11 @@
               "RelativeToolTip": "FinalProject_Presentation\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAABwAAAAAAAAAAAAAACEAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-09T23:30:19.209Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T23:30:19.209Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "FinalProject_Presentation.csproj",
               "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\FinalProject_Presentation.csproj",
               "RelativeDocumentMoniker": "FinalProject_Presentation\\FinalProject_Presentation.csproj",
@@ -285,12 +232,62 @@
               "RelativeToolTip": "FinalProject_Presentation\\FinalProject_Presentation.csproj",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAAA8AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-09T23:28:31.714Z",
+              "WhenOpened": "2025-04-09T23:28:31.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "FinalProject_Presentation\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "FinalProject_Presentation\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAB4BAAAAAAAAAAAgwCYBAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-10T01:22:22.465Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 1,
+              "Title": "MyScript.js",
+              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\js\\MyScript.js",
+              "RelativeDocumentMoniker": "FinalProject_Presentation\\wwwroot\\assets\\js\\MyScript.js",
+              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\js\\MyScript.js",
+              "RelativeToolTip": "FinalProject_Presentation\\wwwroot\\assets\\js\\MyScript.js",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-10T01:25:57.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_SearchPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Views\\Shared\\_SearchPartial.cshtml",
+              "RelativeDocumentMoniker": "FinalProject_Presentation\\Views\\Shared\\_SearchPartial.cshtml",
+              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Views\\Shared\\_SearchPartial.cshtml",
+              "RelativeToolTip": "FinalProject_Presentation\\Views\\Shared\\_SearchPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-10T01:20:31.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_MoviePartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Views\\Shared\\_MoviePartial.cshtml",
+              "RelativeDocumentMoniker": "FinalProject_Presentation\\Views\\Shared\\_MoviePartial.cshtml",
+              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Views\\Shared\\_MoviePartial.cshtml",
+              "RelativeToolTip": "FinalProject_Presentation\\Views\\Shared\\_MoviePartial.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-10T01:07:53.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "ResetPasswordVm.cs",
               "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_ViewModel\\ViewModels\\LoginVm\\ResetPasswordVm.cs",
               "RelativeDocumentMoniker": "FinalProject_ViewModel\\ViewModels\\LoginVm\\ResetPasswordVm.cs",
@@ -298,12 +295,11 @@
               "RelativeToolTip": "FinalProject_ViewModel\\ViewModels\\LoginVm\\ResetPasswordVm.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAcAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T23:24:37.318Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T23:24:37.318Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "RegisterVm.cs",
               "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_ViewModel\\ViewModels\\LoginVm\\RegisterVm.cs",
               "RelativeDocumentMoniker": "FinalProject_ViewModel\\ViewModels\\LoginVm\\RegisterVm.cs",
@@ -311,12 +307,11 @@
               "RelativeToolTip": "FinalProject_ViewModel\\ViewModels\\LoginVm\\RegisterVm.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T23:24:30.879Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T23:24:30.879Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "LoginVm.cs",
               "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_ViewModel\\ViewModels\\LoginVm\\LoginVm.cs",
               "RelativeDocumentMoniker": "FinalProject_ViewModel\\ViewModels\\LoginVm\\LoginVm.cs",
@@ -324,12 +319,11 @@
               "RelativeToolTip": "FinalProject_ViewModel\\ViewModels\\LoginVm\\LoginVm.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T23:24:25.057Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T23:24:25.057Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "ForgotPasswordVm.cs",
               "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_ViewModel\\ViewModels\\LoginVm\\ForgotPasswordVm.cs",
               "RelativeDocumentMoniker": "FinalProject_ViewModel\\ViewModels\\LoginVm\\ForgotPasswordVm.cs",
@@ -337,12 +331,11 @@
               "RelativeToolTip": "FinalProject_ViewModel\\ViewModels\\LoginVm\\ForgotPasswordVm.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T23:24:16.599Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T23:24:16.599Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "HomeVm.cs",
               "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_ViewModel\\ViewModels\\HomeVm.cs",
               "RelativeDocumentMoniker": "FinalProject_ViewModel\\ViewModels\\HomeVm.cs",
@@ -350,12 +343,11 @@
               "RelativeToolTip": "FinalProject_ViewModel\\ViewModels\\HomeVm.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAcwAwAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T23:23:43.402Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T23:23:43.402Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "FinalProject_ViewModel.csproj",
               "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_ViewModel\\FinalProject_ViewModel.csproj",
               "RelativeDocumentMoniker": "FinalProject_ViewModel\\FinalProject_ViewModel.csproj",
@@ -363,8 +355,7 @@
               "RelativeToolTip": "FinalProject_ViewModel\\FinalProject_ViewModel.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-09T23:23:03.518Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T23:23:03.518Z"
             },
             {
               "$type": "Document",
@@ -388,8 +379,7 @@
               "RelativeToolTip": "FinalProject_Presentation\\Views\\Account\\Login.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-08T22:56:56.184Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T22:56:56.184Z"
             },
             {
               "$type": "Document",
@@ -461,8 +451,7 @@
               "RelativeToolTip": "FinalProject_Core\\Models\\Director.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T19:11:09.117Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T19:11:09.117Z"
             },
             {
               "$type": "Document",
@@ -502,7 +491,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "MovieService.cs",
               "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Service\\Services\\Implementations\\MovieService.cs",
               "RelativeDocumentMoniker": "FinalProject_Service\\Services\\Implementations\\MovieService.cs",
@@ -510,8 +499,7 @@
               "RelativeToolTip": "FinalProject_Service\\Services\\Implementations\\MovieService.cs",
               "ViewState": "AgIAACsAAAAAAAAAAAAtwDUAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T22:31:08.419Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T22:31:08.419Z"
             },
             {
               "$type": "Document",
@@ -535,8 +523,7 @@
               "RelativeToolTip": "FinalProject_Core\\Models\\Actor.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T21:32:01.554Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T21:32:01.554Z"
             },
             {
               "$type": "Document",

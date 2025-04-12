@@ -1,16 +1,19 @@
 ﻿$("#SearchingInputs").on("keyup", function () {
     let value = $(this).val();
-    if (value != null) {
-        fetch("/_Layout/Search?search=" + value)
+    fetch("/Home/Search?search=" + value)
             .then(response => response.text())
             .then(data => {
                 $(".searchList").html(data);
             })
-    }
+
+    console.log(value)
 });
 
-$(".fa-magnifying-glass").click(function (e) {
+$(".searchingGlass").click(function (e) {
     e.preventDefault();
-    $(".tp-header-search-bar").show();
+    $(".searchPart").css("display", "flex");
+});
 
-})
+$(document).on("click", ".tp-search-close", function () {
+    $(".searchPart").css("display", "none");
+});
