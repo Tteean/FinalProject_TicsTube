@@ -26,6 +26,23 @@ namespace FinalProject_Presentation.Controllers
 
             return View(vm);
         }
+        public IActionResult Detail(int? id)
+        {
+            if (id == null)
+                return NotFound();
+            var existMovie = _context.Movies
+                .Include(m => m.Directors)
+                .Include(m => m.MovieGenres)
+                .ThenInclude(mg => mg.Genre)
+                .Include(m => m.MovieLanguages)
+                .ThenInclude(ml => ml.Language)
+                .Include(m => m.MovieActors)
+                .ThenInclude(ma => ma.Actor)
+                .FirstOrDefault(x => x.Id == id);
+            if (existMovie == null)
+                return NotFound();
+            return View(existMovie);
+        }
         public IActionResult Search(string search)
         {
             var datas = _context.Movies

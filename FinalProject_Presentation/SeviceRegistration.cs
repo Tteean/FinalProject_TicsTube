@@ -64,6 +64,7 @@ namespace FinalProject_Presentation
             services.AddScoped<ILanguageService, LanguageService>();
             services.AddScoped<IDirectorService, DirectorService>();
             services.AddScoped<IMovieService, MovieService>();
+            services.AddScoped<IIMDBService, IMDBService>();
         }
     }
 }
