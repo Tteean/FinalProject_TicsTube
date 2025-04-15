@@ -1,6 +1,10 @@
-﻿using FinalProject_DataAccess.Data;
+﻿using FinalProject_Core.Enum;
+using FinalProject_Core.Models;
+using FinalProject_DataAccess.Data;
 using FinalProject_Service.Services.Implementations;
 using FinalProject_Service.Services.Interfaces;
+using FinalProject_ViewModel.ViewModels;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -10,6 +14,7 @@ namespace FinalProject_Presentation.Controllers
     {
         private readonly TicsTubeDbContext _context;
         private readonly IIMDBService _iMDBService;
+        private readonly UserManager<AppUser> _userManager;
 
         public MovieController(TicsTubeDbContext context, IIMDBService iMDBService)
         {
@@ -21,7 +26,7 @@ namespace FinalProject_Presentation.Controllers
         {
             return View();
         }
-        public IActionResult Detail(int? id)
+        public async Task<IActionResult> Detail(int? id)
         {
             if (id == null)
                 return NotFound();
@@ -36,12 +41,81 @@ namespace FinalProject_Presentation.Controllers
                 .FirstOrDefault(x => x.Id == id);
             if (existMovie == null)
                 return NotFound();
+            string imdbRating = await _iMDBService.GetIMDbRatingAsync(existMovie.Title);
+            ViewBag.Rating = imdbRating;
             return View(existMovie);
         }
-        public async Task<IActionResult> GetRating(string movieTitle)
+        [HttpPost]
+        public async Task<IActionResult> AddComment(MovieComment movieComment)
         {
-            string rating = await _iMDBService.GetIMDbRatingAsync(movieTitle);
-            return View("MovieRatingView", rating);
+
+            if (!_context.Movies.Any(m => m.Id == movieComment.MovieId))
+            {
+                return RedirectToAction("notfound", "error");
+            }
+            var user = await _userManager.GetUserAsync(User);
+
+            if (user == null || !await _userManager.IsInRoleAsync(user, "member"))
+            {
+                return RedirectToAction("login", "Account", Url.Action("detail", "Movie", movieComment.MovieId));
+            }
+
+            var vm = getMovieDetailVm(movieComment.MovieId, user.Id);
+            vm.MovieComment = movieComment;
+            if (!ModelState.IsValid) return View("detail", vm);
+
+
+            movieComment.AppUserId = user.Id;
+            movieComment.CreationDate = DateTime.Now;
+            _context.MovieComments.Add(movieComment);
+            await _context.SaveChangesAsync();
+
+
+            return RedirectToAction("Detail", new { id = movieComment.MovieId });
+        }
+        private MovieVm getMovieDetailVm(int movieId, string userId = null)
+        {
+            var existmovie = _context.Movies
+                .Include(m => m.Directors)
+                .Include(m => m.MovieGenres)
+                .ThenInclude(mg => mg.Genre)
+                .Include(m => m.MovieLanguages)
+                .ThenInclude(ml => ml.Language)
+                .Include(m => m.MovieActors)
+                .ThenInclude(ma => ma.Actor)
+               .Include(m => m.MovieComments.Take(1)).ThenInclude(mc => mc.AppUser)
+               .FirstOrDefault(x => x.Id == movieId);
+
+
+            MovieVm movieVm = new MovieVm()
+            {
+                Movie = existmovie,
+                RelatedMovies = _context.Movies
+                    .Include(m => m.Directors)
+                .Include(m => m.MovieGenres)
+                .ThenInclude(mg => mg.Genre)
+                .Include(m => m.MovieLanguages)
+                .ThenInclude(ml => ml.Language)
+                .Include(m => m.MovieActors)
+                .ThenInclude(ma => ma.Actor)
+                    .Where(x => x.DirectorId == existmovie.DirectorId && x.Id != existmovie.Id)
+                    .Take(4)
+                    .ToList(),
+
+            };
+            if (userId != null)
+            {
+                movieVm.HasCommentUser = _context.MovieComments.Any(x => x.MovieId == existmovie.Id && x.AppUserId == userId && x.Status != CommentStatus.Rejected);
+
+            }
+            else
+            {
+                movieVm.HasCommentUser = _context.MovieComments.Any(x => x.MovieId == existmovie.Id && x.Status != CommentStatus.Rejected);
+
+            }
+            movieVm.TotalComments = _context.MovieComments.Count(x => x.MovieId == existmovie.Id);
+            movieVm.AvgRate = movieVm.TotalComments > 0 ? (int)_context.MovieComments.Where(x => x.MovieId == existmovie.Id).Average(x => x.Rate) : 0;
+            return movieVm;
         }
     }
 }

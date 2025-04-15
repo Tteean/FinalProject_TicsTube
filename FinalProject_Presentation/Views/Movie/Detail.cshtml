@@ -1,4 +1,4 @@
-﻿@model Movie
+﻿@model MovieVm
 
 <!--<< Breadcrumb Section Start >>-->
 <div class="breadcrumb-wrapper bg-cover" style="background-image: url('assets/img/breadcrumb-bg.jpg');">
@@ -32,7 +32,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="movie-details-image">
-                        <img src="~/uploads/movies/@Model.Image " alt="img">
+                        <img src="~/uploads/movies/@Model.Movie.Image " alt="img">
                         <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
                             <i class="fa-solid fa-play"></i>
                         </a>
@@ -44,11 +44,11 @@
                     <div class="movie-details-content">
                         <div class="description-content">
                             <h3>Description</h3>
-                            <span>@Model.Description</span>
+                            <span>@Model.Movie.Description</span>
                             <ul class="description-list">
-                                <li>@Model.Year</li>
-                                <li>By @Model.Directors.FullName</li>
-                                <li>@($"{(Model.Duration / 60)}h {(Model.Duration % 60)}min")</li>
+                                <li>@Model.Movie.Year</li>
+                                <li>By @Model.Movie.Directors.FullName</li>
+                                <li>@($"{(Model.Movie.Duration / 60)}h {(Model.Movie.Duration % 60)}min")</li>
                                 <li>
                                     <span class="star">
                                         <i class="fa-solid fa-star"></i>
@@ -73,7 +73,7 @@
                             </div>
                             <div class="swiper cast-slider">
                                 <div class="swiper-wrapper">
-                                    @foreach (var actor in Model.MovieActors)
+                                    @foreach (var actor in Model.Movie.MovieActors)
                                     {
                                         <div class="swiper-slide">
                                             <div class="cast-image">
@@ -87,75 +87,38 @@
                         <div class="description-content review-items">
                             <div class="section-title-area">
                                 <div class="section-title">
-                                    <h3>Reviews</h3>
+                                    <h3>Reviews(@(Model.TotalComments))</h3>
                                 </div>
                                 <a href="movie-details.html" class="theme-btn"><i class="fa-solid fa-plus"></i> Add Your Review</a>
                             </div>
                             <div class="swiper review-slider">
                                 <div class="swiper-wrapper">
-                                    <div class="swiper-slide">
-                                        <div class="review-box-items">
-                                            <div class="client-info-items">
-                                                <div class="client-content">
-                                                    <h4>Aniket Roy</h4>
-                                                    <span>From USA</span>
+                                    @foreach (var comment in Model.Movie.MovieComments)
+                                    {
+                                        <div class="swiper-slide">
+                                            <div class="review-box-items">
+                                                <div class="client-info-items">
+                                                    <div class="client-content">
+                                                        <h4>@comment.AppUser.FullName</h4>
+                                                    </div>
+                                                    <div class="star">
+                                                        @for (int i = 0; i < 5; i++)
+                                                        {
+                                                            <span class="fa-solid @(i<comment.Rate?"fa-star":"fa-star-half-stroke")"></span>
+                                                        }
+                                                        @comment.Rate
+                                                    </div>
                                                 </div>
-                                                <div class="star">
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star-half-stroke"></i>
-                                                    4.5
-                                                </div>
+                                                <p>
+                                                    @comment.Text
+                                                </p>
+                                                @if (User.Identity.Name == comment.AppUser.UserName)
+                                                {
+                                                    <a class="btn btn-danger" asp-action="deleteComment" asp-route-id="@comment.Id">delete</a>
+                                                }
                                             </div>
-                                            <p>
-                                                This movie was recommended to me by a very dear friend who went for the movie by herself. I went to the cinemas to watch but had a houseful board so couldn’t watch it.
-                                            </p>
                                         </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="review-box-items">
-                                            <div class="client-info-items">
-                                                <div class="client-content">
-                                                    <h4>Swaraj</h4>
-                                                    <span>From USA</span>
-                                                </div>
-                                                <div class="star">
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    5
-                                                </div>
-                                            </div>
-                                            <p>
-                                                This movie was recommended to me by a very dear friend who went for the movie by herself. I went to the cinemas to watch but had a houseful board so couldn’t watch it.
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="review-box-items">
-                                            <div class="client-info-items">
-                                                <div class="client-content">
-                                                    <h4>Shikhon Islam</h4>
-                                                    <span>From USA</span>
-                                                </div>
-                                                <div class="star">
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    5
-                                                </div>
-                                            </div>
-                                            <p>
-                                                This movie was recommended to me by a very dear friend who went for the movie by herself. I went to the cinemas to watch but had a houseful board so couldn’t watch it.
-                                            </p>
-                                        </div>
-                                    </div>
+                                    }
                                 </div>
                             </div>
                             <div class="array-button-2 justify-content-center pt-5">
@@ -177,7 +140,7 @@
                                 </svg>
                                 <h5> Released Year</h5>
                             </div>
-                            <h4 class="date-text">@Model.Year</h4>
+                            <h4 class="date-text">@Model.Movie.Year</h4>
                         </div>
                         <div class="single-sidebar-widget">
                             <div class="wid-title">
@@ -187,9 +150,9 @@
                                 <h5>Available Languages</h5>
                             </div>
                             <ul class="languages-list">
-                                @foreach (var language in Model.MovieLanguages)
+                                @foreach (var language in Model.Movie.MovieLanguages)
                                 {
-                                    <li><a asp-action="detail" asp-route-id="@Model.Id">@language.Language.Name</a></li>
+                                    <li><a asp-action="detail" asp-route-id="@Model.Movie.Id">@language.Language.Name</a></li>
                                 }
                             </ul>
                         </div>
@@ -204,13 +167,9 @@
                                 <div class="col-lg-6">
                                     <div class="ratting-box">
                                         <h4>IMDb</h4>
-                                        <div class="star">
+                                        <div class="star" >
                                             <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star-half-stroke"></i>
-                                            4.5
+                                            @ViewBag.Rating
                                         </div>
                                     </div>
                                 </div>
@@ -240,9 +199,9 @@
                                 <h5>Gernes</h5>
                             </div>
                             <ul class="languages-list">
-                                @foreach (var genre in Model.MovieGenres)
+                                @foreach (var genre in Model.Movie.MovieGenres)
                                 {
-                                    <li><a asp-action="detail" asp-route-id="@Model.Id">@genre.Genre.Name</a></li>
+                                    <li><a asp-action="detail" asp-route-id="@Model.Movie.Id">@genre.Genre.Name</a></li>
                                 }
                             </ul>
                         </div>

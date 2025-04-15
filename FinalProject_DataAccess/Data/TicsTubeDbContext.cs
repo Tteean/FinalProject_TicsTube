@@ -15,6 +15,7 @@ namespace FinalProject_DataAccess.Data
         public DbSet<MovieGenre> MovieGenres { get; set; }
         public DbSet<MovieActor> MovieActors { get; set; }
         public DbSet<MovieLanguage> MovieLanguages { get; set; }
+        public DbSet<MovieComment> MovieComments { get; set; }
         public DbSet<AppUser> AppUsers { get; set; }
         public DbSet<Subscriber> Subscribers { get; set; }
 

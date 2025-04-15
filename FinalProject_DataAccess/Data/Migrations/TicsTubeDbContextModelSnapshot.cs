@@ -251,9 +251,6 @@ namespace FinalProject_DataAccess.Migrations
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
-                    b.Property<decimal>("Rating")
-                        .HasColumnType("decimal(18,2)");
-
                     b.Property<string>("Title")
                         .IsRequired()
                         .HasMaxLength(30)
@@ -292,6 +289,54 @@ namespace FinalProject_DataAccess.Migrations
                     b.HasIndex("ActorId");
 
                     b.ToTable("MovieActors");
+                });
+
+            modelBuilder.Entity("FinalProject_Core.Models.MovieComment", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("AppUserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<DateTime>("CreationDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("DeleteDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<int>("MovieId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Rate")
+                        .HasMaxLength(5)
+                        .HasColumnType("int");
+
+                    b.Property<int>("Status")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Text")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<DateTime>("UpdatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AppUserId");
+
+                    b.HasIndex("MovieId");
+
+                    b.ToTable("MovieComments");
                 });
 
             modelBuilder.Entity("FinalProject_Core.Models.MovieGenre", b =>
@@ -522,6 +567,25 @@ namespace FinalProject_DataAccess.Migrations
                     b.Navigation("Movie");
                 });
 
+            modelBuilder.Entity("FinalProject_Core.Models.MovieComment", b =>
+                {
+                    b.HasOne("FinalProject_Core.Models.AppUser", "AppUser")
+                        .WithMany()
+                        .HasForeignKey("AppUserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("FinalProject_Core.Models.Movie", "Movie")
+                        .WithMany("MovieComments")
+                        .HasForeignKey("MovieId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("AppUser");
+
+                    b.Navigation("Movie");
+                });
+
             modelBuilder.Entity("FinalProject_Core.Models.MovieGenre", b =>
                 {
                     b.HasOne("FinalProject_Core.Models.Genre", "Genre")
@@ -634,6 +698,8 @@ namespace FinalProject_DataAccess.Migrations
             modelBuilder.Entity("FinalProject_Core.Models.Movie", b =>
                 {
                     b.Navigation("MovieActors");
+
+                    b.Navigation("MovieComments");
 
                     b.Navigation("MovieGenres");
 

@@ -59,6 +59,7 @@ namespace FinalProject_Presentation
             {
                 opt.AddProfile(new MapperProfile());
             });
+            services.AddHttpClient();
             services.AddScoped<IActorService, ActorService>();
             services.AddScoped<IGenreService, GenreService>();
             services.AddScoped<ILanguageService, LanguageService>();

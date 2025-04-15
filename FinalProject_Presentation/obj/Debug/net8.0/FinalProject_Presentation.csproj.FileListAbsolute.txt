@@ -280,3 +280,5 @@ C:\Users\naila\source\repos\FinalProject\FinalProject_Presentation\obj\Debug\net
 C:\Users\naila\source\repos\FinalProject\FinalProject_Presentation\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Google.dll
 C:\Users\naila\source\repos\FinalProject\FinalProject_Presentation\bin\Debug\net8.0\FinalProject_ViewModel.dll
 C:\Users\naila\source\repos\FinalProject\FinalProject_Presentation\bin\Debug\net8.0\FinalProject_ViewModel.pdb
+C:\Users\naila\source\repos\FinalProject\FinalProject_Presentation\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\naila\source\repos\FinalProject\FinalProject_Presentation\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll

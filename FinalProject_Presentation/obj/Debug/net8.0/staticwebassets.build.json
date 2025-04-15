@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lyKloEbrEfBmcZdTgbk2bl9AtMfTIAZ3A70yZqnAtdg=",
+  "Hash": "X1fLZ2R/6iPD/CM1vMtWIgONdU+W/G4nyjpy6/Vs5kU=",
   "Source": "FinalProject_Presentation",
   "BasePath": "_content/FinalProject_Presentation",
   "Mode": "Default",
@@ -18175,8 +18175,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "g1bj5ihkhb",
-      "Integrity": "pHuXmvyp788n6l1y4XfauYSQlv7pp8VZ4v+URay7Sk4=",
+      "Fingerprint": "c0qgp3ifqj",
+      "Integrity": "VJMIqr9txGK96H28K3UhLq3MZmkyilNHQlBshHzKaf8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\js\\MyScript.js"
@@ -91913,7 +91913,7 @@
       ]
     },
     {
-      "Route": "assets/js/MyScript.g1bj5ihkhb.js",
+      "Route": "assets/js/MyScript.c0qgp3ifqj.js",
       "AssetFile": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\js\\MyScript.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -91923,7 +91923,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "528"
+          "Value": "1355"
         },
         {
           "Name": "Content-Type",
@@ -91931,11 +91931,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pHuXmvyp788n6l1y4XfauYSQlv7pp8VZ4v+URay7Sk4=\""
+          "Value": "\"VJMIqr9txGK96H28K3UhLq3MZmkyilNHQlBshHzKaf8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 12 Apr 2025 00:11:44 GMT"
+          "Value": "Tue, 15 Apr 2025 17:38:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -91945,7 +91945,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "g1bj5ihkhb"
+          "Value": "c0qgp3ifqj"
         },
         {
           "Name": "label",
@@ -91953,7 +91953,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-pHuXmvyp788n6l1y4XfauYSQlv7pp8VZ4v+URay7Sk4="
+          "Value": "sha256-VJMIqr9txGK96H28K3UhLq3MZmkyilNHQlBshHzKaf8="
         }
       ]
     },
@@ -91968,7 +91968,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "528"
+          "Value": "1355"
         },
         {
           "Name": "Content-Type",
@@ -91976,11 +91976,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pHuXmvyp788n6l1y4XfauYSQlv7pp8VZ4v+URay7Sk4=\""
+          "Value": "\"VJMIqr9txGK96H28K3UhLq3MZmkyilNHQlBshHzKaf8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 12 Apr 2025 00:11:44 GMT"
+          "Value": "Tue, 15 Apr 2025 17:38:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -91990,7 +91990,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-pHuXmvyp788n6l1y4XfauYSQlv7pp8VZ4v+URay7Sk4="
+          "Value": "sha256-VJMIqr9txGK96H28K3UhLq3MZmkyilNHQlBshHzKaf8="
         }
       ]
     },
