@@ -18,6 +18,12 @@ namespace FinalProject_DataAccess.Data
         public DbSet<MovieComment> MovieComments { get; set; }
         public DbSet<AppUser> AppUsers { get; set; }
         public DbSet<Subscriber> Subscribers { get; set; }
+        public DbSet<TVShow> TVShows { get; set; }
+        public DbSet<TVShowActor> TVShowActors { get; set; }
+        public DbSet<TVShowGenre> TVShowGenres { get; set; }
+        public DbSet<TVShowLanguage> TVShowLanguages { get; set; }
+        public DbSet<Season> Seasons { get; set; }
+        public DbSet<Episode> Episodes { get; set; }
 
 
         public TicsTubeDbContext(DbContextOptions options) : base(options)

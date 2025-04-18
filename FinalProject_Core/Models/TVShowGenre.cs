@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FinalProject_Core.Models
 {
-    internal class TVShowGenre:BaseEntity
+    public class TVShowGenre:BaseEntity
     {
         public int TVShowId { get; set; }
         public TVShow? TVShow { get; set; }

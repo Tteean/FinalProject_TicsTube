@@ -10,5 +10,6 @@ namespace FinalProject_Core.Models
     {
         public string Name { get; set; }
         public List<MovieLanguage> MovieLanguages { get; set; }
+        public List<TVShowLanguage> TVShowLanguages { get; set; }
     }
 }

@@ -2,9 +2,12 @@
 using FinalProject_Core.Models;
 using FinalProject_Service.Dto.ActorDtos;
 using FinalProject_Service.Dto.DirectorDtos;
+using FinalProject_Service.Dto.EpisodeDtos;
 using FinalProject_Service.Dto.GenreDtos;
 using FinalProject_Service.Dto.LanguageDtos;
 using FinalProject_Service.Dto.MovieDtos;
+using FinalProject_Service.Dto.SeasonDtos;
+using FinalProject_Service.Dto.TVShowDtos;
 using FinalProject_Service.Extentions;
 using System;
 using System.Collections.Generic;
@@ -85,6 +88,15 @@ namespace FinalProject_Service.Profiles
                 .ForMember(s => s.Image, opt => opt.MapFrom(src => src.File.SaveImage("uploads/movies")))
                 .ForMember(s => s.Video, opt => opt.MapFrom(src => src.Film.SaveImage("uploads/movies")))
                 .ForMember(dest => dest.Id, opt => opt.Ignore());
+
+
+            CreateMap<TVShowCreateDto, TVShow>()
+                .ForMember(dest => dest.TVShowGenres, opt => opt.MapFrom(src => new List<TVShowGenre>()))
+            .ForMember(dest => dest.TVShowLanguages, opt => opt.MapFrom(src => new List<TVShowLanguage>()))
+            .ForMember(dest => dest.TVShowActors, opt => opt.MapFrom(src => new List<TVShowActor>()))
+            .ForMember(s => s.Image, opt => opt.MapFrom(src => src.File.SaveImage("uploads/movies")));
+            CreateMap<SeasonCreateDto, Season>();
+            CreateMap<EpisodeCreateDto, Episode>();
         }
     }
 }

@@ -10,5 +10,6 @@ namespace FinalProject_Core.Models
     {
         public string Name { get; set; }
         public List<MovieGenre> MovieGenres { get; set; }
+        public List<TVShowGenre> TVShowGenres { get; set; }
     }
 }

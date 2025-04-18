@@ -159,6 +159,57 @@ namespace FinalProject_DataAccess.Migrations
                     b.ToTable("Directors");
                 });
 
+            modelBuilder.Entity("FinalProject_Core.Models.Episode", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreationDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("DeleteDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
+
+                    b.Property<int>("Duration")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Image")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<int>("SeasonId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasMaxLength(30)
+                        .HasColumnType("nvarchar(30)");
+
+                    b.Property<DateTime>("UpdatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Video")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("SeasonId");
+
+                    b.ToTable("Episodes");
+                });
+
             modelBuilder.Entity("FinalProject_Core.Models.Genre", b =>
                 {
                     b.Property<int>("Id")
@@ -372,6 +423,27 @@ namespace FinalProject_DataAccess.Migrations
                     b.ToTable("MovieLanguages");
                 });
 
+            modelBuilder.Entity("FinalProject_Core.Models.Season", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("SeasonNumber")
+                        .HasColumnType("int");
+
+                    b.Property<int>("TVShowId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("TVShowId");
+
+                    b.ToTable("Seasons");
+                });
+
             modelBuilder.Entity("FinalProject_Core.Models.Setting", b =>
                 {
                     b.Property<string>("Key")
@@ -404,6 +476,110 @@ namespace FinalProject_DataAccess.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Subscribers");
+                });
+
+            modelBuilder.Entity("FinalProject_Core.Models.TVShow", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreationDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("DeleteDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
+
+                    b.Property<int>("DirectorId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Image")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<int>("Title")
+                        .HasMaxLength(30)
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("UpdatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Video")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Year")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("DirectorId");
+
+                    b.ToTable("TVShows");
+                });
+
+            modelBuilder.Entity("FinalProject_Core.Models.TVShowActor", b =>
+                {
+                    b.Property<int>("TVShowId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ActorId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Id")
+                        .HasColumnType("int");
+
+                    b.HasKey("TVShowId", "ActorId");
+
+                    b.HasIndex("ActorId");
+
+                    b.ToTable("TVShowActors");
+                });
+
+            modelBuilder.Entity("FinalProject_Core.Models.TVShowGenre", b =>
+                {
+                    b.Property<int>("TVShowId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("GenreId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Id")
+                        .HasColumnType("int");
+
+                    b.HasKey("TVShowId", "GenreId");
+
+                    b.HasIndex("GenreId");
+
+                    b.ToTable("TVShowGenres");
+                });
+
+            modelBuilder.Entity("FinalProject_Core.Models.TVShowLanguage", b =>
+                {
+                    b.Property<int>("TVShowId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("LanguageId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Id")
+                        .HasColumnType("int");
+
+                    b.HasKey("TVShowId", "LanguageId");
+
+                    b.HasIndex("LanguageId");
+
+                    b.ToTable("TVShowLanguages");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -539,6 +715,17 @@ namespace FinalProject_DataAccess.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("FinalProject_Core.Models.Episode", b =>
+                {
+                    b.HasOne("FinalProject_Core.Models.Season", "Seasons")
+                        .WithMany("Episodes")
+                        .HasForeignKey("SeasonId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Seasons");
+                });
+
             modelBuilder.Entity("FinalProject_Core.Models.Movie", b =>
                 {
                     b.HasOne("FinalProject_Core.Models.Director", "Directors")
@@ -624,6 +811,83 @@ namespace FinalProject_DataAccess.Migrations
                     b.Navigation("Movie");
                 });
 
+            modelBuilder.Entity("FinalProject_Core.Models.Season", b =>
+                {
+                    b.HasOne("FinalProject_Core.Models.TVShow", "TVShow")
+                        .WithMany("Seasons")
+                        .HasForeignKey("TVShowId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("TVShow");
+                });
+
+            modelBuilder.Entity("FinalProject_Core.Models.TVShow", b =>
+                {
+                    b.HasOne("FinalProject_Core.Models.Director", "Directors")
+                        .WithMany("TVShows")
+                        .HasForeignKey("DirectorId")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
+                    b.Navigation("Directors");
+                });
+
+            modelBuilder.Entity("FinalProject_Core.Models.TVShowActor", b =>
+                {
+                    b.HasOne("FinalProject_Core.Models.Actor", "Actor")
+                        .WithMany("TVShowActors")
+                        .HasForeignKey("ActorId");
+
+                    b.HasOne("FinalProject_Core.Models.TVShow", "TVShow")
+                        .WithMany("TVShowActors")
+                        .HasForeignKey("TVShowId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Actor");
+
+                    b.Navigation("TVShow");
+                });
+
+            modelBuilder.Entity("FinalProject_Core.Models.TVShowGenre", b =>
+                {
+                    b.HasOne("FinalProject_Core.Models.Genre", "Genre")
+                        .WithMany("TVShowGenres")
+                        .HasForeignKey("GenreId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("FinalProject_Core.Models.TVShow", "TVShow")
+                        .WithMany("TVShowGenres")
+                        .HasForeignKey("TVShowId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Genre");
+
+                    b.Navigation("TVShow");
+                });
+
+            modelBuilder.Entity("FinalProject_Core.Models.TVShowLanguage", b =>
+                {
+                    b.HasOne("FinalProject_Core.Models.Language", "Language")
+                        .WithMany("TVShowLanguages")
+                        .HasForeignKey("LanguageId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("FinalProject_Core.Models.TVShow", "TVShow")
+                        .WithMany("TVShowLanguages")
+                        .HasForeignKey("TVShowId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Language");
+
+                    b.Navigation("TVShow");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
@@ -678,21 +942,29 @@ namespace FinalProject_DataAccess.Migrations
             modelBuilder.Entity("FinalProject_Core.Models.Actor", b =>
                 {
                     b.Navigation("MovieActors");
+
+                    b.Navigation("TVShowActors");
                 });
 
             modelBuilder.Entity("FinalProject_Core.Models.Director", b =>
                 {
                     b.Navigation("Movies");
+
+                    b.Navigation("TVShows");
                 });
 
             modelBuilder.Entity("FinalProject_Core.Models.Genre", b =>
                 {
                     b.Navigation("MovieGenres");
+
+                    b.Navigation("TVShowGenres");
                 });
 
             modelBuilder.Entity("FinalProject_Core.Models.Language", b =>
                 {
                     b.Navigation("MovieLanguages");
+
+                    b.Navigation("TVShowLanguages");
                 });
 
             modelBuilder.Entity("FinalProject_Core.Models.Movie", b =>
@@ -704,6 +976,22 @@ namespace FinalProject_DataAccess.Migrations
                     b.Navigation("MovieGenres");
 
                     b.Navigation("MovieLanguages");
+                });
+
+            modelBuilder.Entity("FinalProject_Core.Models.Season", b =>
+                {
+                    b.Navigation("Episodes");
+                });
+
+            modelBuilder.Entity("FinalProject_Core.Models.TVShow", b =>
+                {
+                    b.Navigation("Seasons");
+
+                    b.Navigation("TVShowActors");
+
+                    b.Navigation("TVShowGenres");
+
+                    b.Navigation("TVShowLanguages");
                 });
 #pragma warning restore 612, 618
         }

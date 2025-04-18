@@ -11,5 +11,6 @@ namespace FinalProject_Core.Models
         public string Fullname { get; set; }
         public string? Image { get; set; }
         public List<MovieActor> MovieActors { get; set; }
+        public List<TVShowActor> TVShowActors { get; set; }
     }
 }
