@@ -1,0 +1,18 @@
+﻿@using FinalProject_Service.Dto.SeasonDtos
+@model SeasonCreateDto
+
+<div class="container">
+    <div class="row">
+        <form method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label asp-for="SeasonNumber"></label>
+                <input asp-for="SeasonNumber" type="text" class="form-control" aria-describedby="emailHelp" placeholder="Enter Genre Name">
+                <span class="text-danger"></span>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</div>
+@section scripts {
+    @await Html.PartialAsync("_ValidationPartial")
+}

@@ -1,0 +1,14 @@
+﻿using FinalProject_Service.Dto.EpisodeDtos;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace FinalProject_Service.Services.Interfaces
+{
+    public interface IEpisodeService
+    {
+        Task<int> CreateAsync(EpisodeCreateDto episodeCreateDto);
+    }
+}

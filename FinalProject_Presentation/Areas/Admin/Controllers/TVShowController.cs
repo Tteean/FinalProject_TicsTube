@@ -16,7 +16,12 @@ namespace FinalProject_Presentation.Areas.Admin.Controllers
         private readonly ITVShowService _tvShowService;
         public IActionResult Index()
         {
-            return View();
+            var tvShow=_context.TVShows
+                .Include(b => b.Directors)
+                .Include(b => b.TVShowLanguages).ThenInclude(ps => ps.Language)
+                .Include(b => b.TVShowActors).ThenInclude(pt => pt.Actor)
+                .Include(b => b.TVShowGenres).ThenInclude(pt => pt.Genre);
+            return View(tvShow);
         }
         public IActionResult Create()
         {

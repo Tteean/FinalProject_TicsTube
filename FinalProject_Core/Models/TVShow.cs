@@ -18,5 +18,9 @@ namespace FinalProject_Core.Models
         public List<Season> Seasons { get; set; }
         public int DirectorId { get; set; }
         public Director? Directors { get; set; }
+        public TVShow()
+        {
+            Seasons = new List<Season>();
+        }
     }
 }

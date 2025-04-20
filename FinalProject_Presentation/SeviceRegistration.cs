@@ -67,6 +67,8 @@ namespace FinalProject_Presentation
             services.AddScoped<IMovieService, MovieService>();
             services.AddScoped<IIMDBService, IMDBService>();
             services.AddScoped<ITVShowService, TVShowService>();
+            services.AddScoped<ISeasonService, SeasonService>();
+            services.AddScoped<IEpisodeService, EpisodeService>();
         }
     }
 }

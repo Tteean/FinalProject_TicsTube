@@ -1,4 +1,5 @@
-﻿@model MovieCreateDto
+﻿@using FinalProject_Service.Dto.TVShowDtos
+@model TVShowCreateDto
 
 <div class="container">
     <div class="row">
@@ -13,8 +14,6 @@
                 <label asp-for="Year"></label>
                 <input asp-for="Year" type="text" class="form-control" aria-describedby="emailHelp" placeholder="Enter Actors FullName">
                 <span class="text-danger"></span>
-                <label asp-for="Duration"></label>
-                <input asp-for="Duration" type="text" class="form-control" aria-describedby="emailHelp" placeholder="Enter Actors FullName">
                 <span class="text-danger"></span>
                 <div class="form-group">
                     <label asp-for="File"></label>
