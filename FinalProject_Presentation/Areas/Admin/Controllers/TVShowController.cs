@@ -14,13 +14,21 @@ namespace FinalProject_Presentation.Areas.Admin.Controllers
     {
         private readonly TicsTubeDbContext _context;
         private readonly ITVShowService _tvShowService;
+
+        public TVShowController(ITVShowService tvShowService, TicsTubeDbContext context)
+        {
+            _tvShowService = tvShowService;
+            _context = context;
+        }
+
         public IActionResult Index()
         {
             var tvShow=_context.TVShows
-                .Include(b => b.Directors)
-                .Include(b => b.TVShowLanguages).ThenInclude(ps => ps.Language)
-                .Include(b => b.TVShowActors).ThenInclude(pt => pt.Actor)
-                .Include(b => b.TVShowGenres).ThenInclude(pt => pt.Genre);
+                .Include(t => t.Directors)
+                .Include(t => t.TVShowLanguages).ThenInclude(tl => tl.Language)
+                .Include(t => t.TVShowActors).ThenInclude(ta => ta.Actor)
+                .Include(t => t.TVShowGenres).ThenInclude(tg => tg.Genre)
+                .Include(t=>t.Seasons).ThenInclude(t=>t.Episodes).ToList();
             return View(tvShow);
         }
         public IActionResult Create()

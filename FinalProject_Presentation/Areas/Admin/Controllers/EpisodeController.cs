@@ -4,6 +4,7 @@ using FinalProject_Service.Dto.SeasonDtos;
 using FinalProject_Service.Services.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace FinalProject_Presentation.Areas.Admin.Controllers
 {
@@ -22,7 +23,7 @@ namespace FinalProject_Presentation.Areas.Admin.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            return View(_context.Episodes.ToList());
         }
         public IActionResult Create()
         {

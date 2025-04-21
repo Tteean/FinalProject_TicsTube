@@ -15,6 +15,6 @@ namespace FinalProject_Core.Models
         public string Video { get; set; }
         public string Image { get; set; }
         public int SeasonId { get; set; }
-        public Season Seasons { get; set; }
+        public Season? Seasons { get; set; }
     }
 }

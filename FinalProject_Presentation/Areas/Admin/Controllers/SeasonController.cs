@@ -23,7 +23,7 @@ namespace FinalProject_Presentation.Areas.Admin.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            return View(_context.Seasons.ToList());
         }
         public IActionResult Create()
         {

@@ -4,6 +4,7 @@ using FinalProject_DataAccess.Data;
 using FinalProject_Service.Dto.EpisodeDtos;
 using FinalProject_Service.Dto.SeasonDtos;
 using FinalProject_Service.Exceptions;
+using FinalProject_Service.Extentions;
 using FinalProject_Service.Services.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -30,6 +31,23 @@ namespace FinalProject_Service.Services.Implementations
                 throw new CustomException(400, "Name", "Episode with this number already exists");
             }
             var episode = _mapper.Map<Episode>(episodeCreateDto);
+            if (episodeCreateDto.File != null)
+            {
+                episode.Image = episodeCreateDto.File.SaveImage("uploads/episodes");
+            }
+            else
+            {
+                throw new CustomException(400, "Image", "Image is required");
+            }
+
+            if (episodeCreateDto.Film != null)
+            {
+                episode.Video = episodeCreateDto.Film.SaveImage("uploads/episodes");
+            }
+            else
+            {
+                throw new CustomException(400, "Video", "Video is required");
+            }
             await _context.Episodes.AddAsync(episode);
             return await _context.SaveChangesAsync();
         }

@@ -94,9 +94,13 @@ namespace FinalProject_Service.Profiles
                 .ForMember(dest => dest.TVShowGenres, opt => opt.MapFrom(src => new List<TVShowGenre>()))
             .ForMember(dest => dest.TVShowLanguages, opt => opt.MapFrom(src => new List<TVShowLanguage>()))
             .ForMember(dest => dest.TVShowActors, opt => opt.MapFrom(src => new List<TVShowActor>()))
-            .ForMember(s => s.Image, opt => opt.MapFrom(src => src.File.SaveImage("uploads/movies")));
+            .ForMember(s => s.Image, opt => opt.MapFrom(src => src.File.SaveImage("uploads/TVShow")));
             CreateMap<SeasonCreateDto, Season>();
-            CreateMap<EpisodeCreateDto, Episode>();
+            CreateMap<Season, SeasonCreateDto>();
+            CreateMap<EpisodeCreateDto, Episode>()
+                .ForMember(s => s.Image, opt => opt.MapFrom(src => src.File.SaveImage("uploads/episodes")))
+                .ForMember(s => s.Video, opt => opt.MapFrom(src => src.Film.SaveImage("uploads/episodes")));
+            CreateMap<Episode, EpisodeCreateDto>();
         }
     }
 }

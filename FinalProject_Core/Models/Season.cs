@@ -10,7 +10,7 @@ namespace FinalProject_Core.Models
     {
         public int SeasonNumber { get; set; }
         public int TVShowId { get; set; }
-        public TVShow TVShow { get; set; }
+        public TVShow? TVShow { get; set; }
         public List<Episode> Episodes { get; set; }
         public Season() 
         {
