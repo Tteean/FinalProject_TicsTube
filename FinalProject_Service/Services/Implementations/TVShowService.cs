@@ -6,6 +6,7 @@ using FinalProject_Service.Dto.TVShowDtos;
 using FinalProject_Service.Exceptions;
 using FinalProject_Service.Extentions;
 using FinalProject_Service.Services.Interfaces;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -75,19 +76,111 @@ namespace FinalProject_Service.Services.Implementations
             return _context.SaveChanges();
         }   
 
-        public Task<int> DeleteAsync(int id)
+        public async Task<int> DeleteAsync(int id)
         {
-            throw new NotImplementedException();
+            var existShow = await _context.TVShows
+                .Include(p => p.TVShowActors)
+                .Include(p => p.TVShowGenres)
+                .Include(p => p.TVShowLanguages)
+                .FirstOrDefaultAsync(p => p.Id == id);
+
+            if (existShow == null)
+            {
+                throw new CustomException(404, "Movie", "Movie not found");
+            }
+            TVShowDeleteDto tVShowDeleteDto = new TVShowDeleteDto();
+            _mapper.Map(tVShowDeleteDto, existShow);
+            if (tVShowDeleteDto.File != null)
+            {
+                string oldFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "uploads", "tvshow", existShow.Image);
+                if (File.Exists(oldFilePath))
+                {
+                    File.Delete(oldFilePath);
+                }
+            }
+            _context.TVShowActors.RemoveRange(existShow.TVShowActors);
+            _context.TVShowGenres.RemoveRange(existShow.TVShowGenres);
+            _context.TVShowLanguages.RemoveRange(existShow.TVShowLanguages);
+            _context.Seasons.RemoveRange(existShow.Seasons);  
+            _context.TVShows.Remove(existShow);
+
+            return await _context.SaveChangesAsync();
         }
 
-        public Task<List<TVShowReturnDto>> GetAllAsync()
+        public async Task<List<TVShowReturnDto>> GetAllAsync()
         {
-            throw new NotImplementedException();
+            var shows = await _context.TVShows
+                .Include(p => p.TVShowActors)
+                .Include(p => p.TVShowGenres)
+                .Include(p => p.TVShowLanguages).ToListAsync();
+            return _mapper.Map<List<TVShowReturnDto>>(shows);
         }
-
-        public Task<int> UpdateAsync(int id, TVShowUpdateDto tVShowUpdateDto)
+        public async Task<int> UpdateAsync(int id, TVShowUpdateDto tVShowUpdateDto)
         {
-            throw new NotImplementedException();
+            if (!_context.Directors.Any(d => d.Id == tVShowUpdateDto.DirectorId))
+            {
+                throw new CustomException(404, "Director", "Director not found");
+            }
+            var existShow = await _context.TVShows
+                .Include(p => p.TVShowActors)
+                .Include(p => p.TVShowGenres)
+                .Include(p => p.TVShowLanguages)
+                .FirstOrDefaultAsync(p => p.Id == id);
+            if (existShow == null)
+            {
+                throw new CustomException(404, "TVShow", "TV Show not found");
+            }
+            _mapper.Map(tVShowUpdateDto, existShow);
+            foreach (var showActor in existShow.TVShowActors.ToList())
+            {
+                _context.TVShowActors.Remove(showActor);
+                existShow.TVShowActors.Remove(showActor);
+            }
+            foreach (var actorId in tVShowUpdateDto.ActorId ?? new())
+            {
+                if (!_context.Actors.Any(t => t.Id == actorId))
+                {
+                    throw new CustomException(404, "Actor", "Actor not found");
+                }
+                existShow.TVShowActors.Add(new TVShowActor { ActorId = actorId });
+            }
+            foreach (var showGenre in existShow.TVShowGenres.ToList())
+            {
+                _context.TVShowGenres.Remove(showGenre);
+                existShow.TVShowGenres.Remove(showGenre);
+            }
+            foreach (var genreId in tVShowUpdateDto.GenreIds ?? new())
+            {
+                if (!_context.Genres.Any(t => t.Id == genreId))
+                {
+                    throw new CustomException(404, "Genre", "Genre not found");
+                }
+                existShow.TVShowGenres.Add(new TVShowGenre { GenreId = genreId });
+            }
+            foreach (var showLanguage in existShow.TVShowLanguages.ToList())
+            {
+                _context.TVShowLanguages.Remove(showLanguage);
+                existShow.TVShowLanguages.Remove(showLanguage);
+            }
+            foreach (var languageId in tVShowUpdateDto.LanguageId ?? new())
+            {
+                if (!_context.Languages.Any(t => t.Id == languageId))
+                {
+                    throw new CustomException(404, "Language", "Language not found");
+                }
+                existShow.TVShowLanguages.Add(new TVShowLanguage { LanguageId = languageId });
+            }
+            if (tVShowUpdateDto.File != null)
+            {
+                string oldFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "uploads", "movies", existShow.Image);
+                if (File.Exists(oldFilePath))
+                {
+                    File.Delete(oldFilePath);
+                }
+                existShow.Image = tVShowUpdateDto.File.SaveImage("uploads/movies");
+            }
+            
+            return await _context.SaveChangesAsync();
         }
     }
 }

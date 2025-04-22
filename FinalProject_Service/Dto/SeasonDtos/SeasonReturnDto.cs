@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace FinalProject_Service.Dto.SeasonDtos
 {
-    public class SeasonCreateDto
+    public class SeasonReturnDto
     {
         public int TVShowId { get; set; }
         public int SeasonNumber { get; set; }

@@ -27,12 +27,14 @@ namespace FinalProject_Presentation.Areas.Admin.Controllers
         }
         public IActionResult Create()
         {
+            ViewBag.Season = _context.Seasons.ToList();
             return View();
         }
         [ValidateAntiForgeryToken]
         [HttpPost]
         public async Task<IActionResult> Create([FromForm] EpisodeCreateDto episodeCreateDto)
         {
+            ViewBag.Season = _context.Seasons.ToList();
             if (!ModelState.IsValid)
             {
                 return View();

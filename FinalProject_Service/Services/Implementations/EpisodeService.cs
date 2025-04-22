@@ -51,5 +51,20 @@ namespace FinalProject_Service.Services.Implementations
             await _context.Episodes.AddAsync(episode);
             return await _context.SaveChangesAsync();
         }
+
+        public Task<int> DeleteAsync(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<List<EpisodeReturnDto>> GetAllAsync()
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<int> UpdateAsync(int id, EpisodeUpdateDto episodeUpdateDto)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
