@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0vmu8YvZ1vc3BnB6Fkpurmvbj+h7Lb7YLydIVOAjh8I=",
+  "Hash": "Aov4uAtAS7OnocUNrTp1GBVLa/Kp2k2X289sekpc9KY=",
   "Source": "FinalProject_Presentation",
   "BasePath": "_content/FinalProject_Presentation",
   "Mode": "Default",
@@ -20198,6 +20198,27 @@
       "OriginalItemSpec": "wwwroot\\uploads\\episodes\\11dfe622-e00f-4c4a-bdb7-51975a444515.png"
     },
     {
+      "Identity": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\episodes\\1d72582a-0805-4723-85f9-d1b81f886dcf.png",
+      "SourceId": "FinalProject_Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\",
+      "BasePath": "_content/FinalProject_Presentation",
+      "RelativePath": "uploads/episodes/1d72582a-0805-4723-85f9-d1b81f886dcf#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5fx1yha8qy",
+      "Integrity": "cUW4Bz3kFpkULWog4WFPpilJo4DE3vgRDWM2n1azxik=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\episodes\\1d72582a-0805-4723-85f9-d1b81f886dcf.png"
+    },
+    {
       "Identity": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\episodes\\409ea67c-84ab-4674-929e-57965a42b18d.png",
       "SourceId": "FinalProject_Presentation",
       "SourceType": "Discovered",
@@ -20217,6 +20238,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\episodes\\409ea67c-84ab-4674-929e-57965a42b18d.png"
+    },
+    {
+      "Identity": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\episodes\\4135b93a-57d2-4827-b6b5-8d83594db504.png",
+      "SourceId": "FinalProject_Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\",
+      "BasePath": "_content/FinalProject_Presentation",
+      "RelativePath": "uploads/episodes/4135b93a-57d2-4827-b6b5-8d83594db504#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5fx1yha8qy",
+      "Integrity": "cUW4Bz3kFpkULWog4WFPpilJo4DE3vgRDWM2n1azxik=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\episodes\\4135b93a-57d2-4827-b6b5-8d83594db504.png"
     },
     {
       "Identity": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\episodes\\4ee20cb3-f6a8-4c55-be0a-4ccf35d7ad75.png",
@@ -20387,6 +20429,27 @@
       "OriginalItemSpec": "wwwroot\\uploads\\episodes\\6b97f5a2-2c89-4a72-b45f-89d5ba5de80a.png"
     },
     {
+      "Identity": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\episodes\\733d2b20-26d6-4cf4-95f2-343814c5065f.png",
+      "SourceId": "FinalProject_Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\",
+      "BasePath": "_content/FinalProject_Presentation",
+      "RelativePath": "uploads/episodes/733d2b20-26d6-4cf4-95f2-343814c5065f#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5fx1yha8qy",
+      "Integrity": "cUW4Bz3kFpkULWog4WFPpilJo4DE3vgRDWM2n1azxik=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\episodes\\733d2b20-26d6-4cf4-95f2-343814c5065f.png"
+    },
+    {
       "Identity": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\episodes\\9062b8f8-31bc-4717-90d3-9a1d7fc3bbab.png",
       "SourceId": "FinalProject_Presentation",
       "SourceType": "Discovered",
@@ -20532,6 +20595,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\episodes\\a504023f-98b1-4d8b-ab67-ddaf41504d60.png"
+    },
+    {
+      "Identity": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\episodes\\a5f78594-b4dc-484e-8363-b5349559f697.png",
+      "SourceId": "FinalProject_Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\",
+      "BasePath": "_content/FinalProject_Presentation",
+      "RelativePath": "uploads/episodes/a5f78594-b4dc-484e-8363-b5349559f697#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5fx1yha8qy",
+      "Integrity": "cUW4Bz3kFpkULWog4WFPpilJo4DE3vgRDWM2n1azxik=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\episodes\\a5f78594-b4dc-484e-8363-b5349559f697.png"
     },
     {
       "Identity": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\episodes\\b3c44f81-50bd-4446-ae88-19e61a85a72d.png",
@@ -100787,6 +100871,88 @@
       ]
     },
     {
+      "Route": "uploads/episodes/1d72582a-0805-4723-85f9-d1b81f886dcf.5fx1yha8qy.png",
+      "AssetFile": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\episodes\\1d72582a-0805-4723-85f9-d1b81f886dcf.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "358682"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cUW4Bz3kFpkULWog4WFPpilJo4DE3vgRDWM2n1azxik=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 20:51:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5fx1yha8qy"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/episodes/1d72582a-0805-4723-85f9-d1b81f886dcf.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cUW4Bz3kFpkULWog4WFPpilJo4DE3vgRDWM2n1azxik="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/episodes/1d72582a-0805-4723-85f9-d1b81f886dcf.png",
+      "AssetFile": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\episodes\\1d72582a-0805-4723-85f9-d1b81f886dcf.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "358682"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cUW4Bz3kFpkULWog4WFPpilJo4DE3vgRDWM2n1azxik=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 20:51:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cUW4Bz3kFpkULWog4WFPpilJo4DE3vgRDWM2n1azxik="
+        }
+      ]
+    },
+    {
       "Route": "uploads/episodes/409ea67c-84ab-4674-929e-57965a42b18d.5fx1yha8qy.png",
       "AssetFile": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\episodes\\409ea67c-84ab-4674-929e-57965a42b18d.png",
       "Selectors": [],
@@ -100855,6 +101021,88 @@
         {
           "Name": "Last-Modified",
           "Value": "Mon, 21 Apr 2025 19:23:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cUW4Bz3kFpkULWog4WFPpilJo4DE3vgRDWM2n1azxik="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/episodes/4135b93a-57d2-4827-b6b5-8d83594db504.5fx1yha8qy.png",
+      "AssetFile": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\episodes\\4135b93a-57d2-4827-b6b5-8d83594db504.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "358682"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cUW4Bz3kFpkULWog4WFPpilJo4DE3vgRDWM2n1azxik=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 20:51:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5fx1yha8qy"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/episodes/4135b93a-57d2-4827-b6b5-8d83594db504.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cUW4Bz3kFpkULWog4WFPpilJo4DE3vgRDWM2n1azxik="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/episodes/4135b93a-57d2-4827-b6b5-8d83594db504.png",
+      "AssetFile": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\episodes\\4135b93a-57d2-4827-b6b5-8d83594db504.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "358682"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cUW4Bz3kFpkULWog4WFPpilJo4DE3vgRDWM2n1azxik=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 20:51:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -101525,6 +101773,88 @@
       ]
     },
     {
+      "Route": "uploads/episodes/733d2b20-26d6-4cf4-95f2-343814c5065f.5fx1yha8qy.png",
+      "AssetFile": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\episodes\\733d2b20-26d6-4cf4-95f2-343814c5065f.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "358682"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cUW4Bz3kFpkULWog4WFPpilJo4DE3vgRDWM2n1azxik=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 20:51:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5fx1yha8qy"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/episodes/733d2b20-26d6-4cf4-95f2-343814c5065f.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cUW4Bz3kFpkULWog4WFPpilJo4DE3vgRDWM2n1azxik="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/episodes/733d2b20-26d6-4cf4-95f2-343814c5065f.png",
+      "AssetFile": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\episodes\\733d2b20-26d6-4cf4-95f2-343814c5065f.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "358682"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cUW4Bz3kFpkULWog4WFPpilJo4DE3vgRDWM2n1azxik=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 20:51:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cUW4Bz3kFpkULWog4WFPpilJo4DE3vgRDWM2n1azxik="
+        }
+      ]
+    },
+    {
       "Route": "uploads/episodes/9062b8f8-31bc-4717-90d3-9a1d7fc3bbab.5fx1yha8qy.png",
       "AssetFile": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\episodes\\9062b8f8-31bc-4717-90d3-9a1d7fc3bbab.png",
       "Selectors": [],
@@ -102095,6 +102425,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-o/PgOuuPtVemy/2vqpny/TD2rRVhneigGc+esB5HCv4="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/episodes/a5f78594-b4dc-484e-8363-b5349559f697.5fx1yha8qy.png",
+      "AssetFile": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\episodes\\a5f78594-b4dc-484e-8363-b5349559f697.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "358682"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cUW4Bz3kFpkULWog4WFPpilJo4DE3vgRDWM2n1azxik=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 20:51:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5fx1yha8qy"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/episodes/a5f78594-b4dc-484e-8363-b5349559f697.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cUW4Bz3kFpkULWog4WFPpilJo4DE3vgRDWM2n1azxik="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/episodes/a5f78594-b4dc-484e-8363-b5349559f697.png",
+      "AssetFile": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\episodes\\a5f78594-b4dc-484e-8363-b5349559f697.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "358682"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cUW4Bz3kFpkULWog4WFPpilJo4DE3vgRDWM2n1azxik=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 20:51:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cUW4Bz3kFpkULWog4WFPpilJo4DE3vgRDWM2n1azxik="
         }
       ]
     },

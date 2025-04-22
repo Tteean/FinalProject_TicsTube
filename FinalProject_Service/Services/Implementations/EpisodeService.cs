@@ -2,10 +2,12 @@
 using FinalProject_Core.Models;
 using FinalProject_DataAccess.Data;
 using FinalProject_Service.Dto.EpisodeDtos;
+using FinalProject_Service.Dto.MovieDtos;
 using FinalProject_Service.Dto.SeasonDtos;
 using FinalProject_Service.Exceptions;
 using FinalProject_Service.Extentions;
 using FinalProject_Service.Services.Interfaces;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -52,19 +54,74 @@ namespace FinalProject_Service.Services.Implementations
             return await _context.SaveChangesAsync();
         }
 
-        public Task<int> DeleteAsync(int id)
+        public async Task<int> DeleteAsync(int id)
         {
-            throw new NotImplementedException();
+            var existEpisode = await _context.Episodes
+                .FirstOrDefaultAsync(a => a.Id == id);
+
+            if (existEpisode == null)
+            {
+                throw new CustomException(400, "Name", "Episode with this number already exists");
+            }
+            EpisodeDeleteDto episodeDeleteDto = new EpisodeDeleteDto();
+            _mapper.Map(episodeDeleteDto, existEpisode);
+            if (episodeDeleteDto.File != null)
+            {
+                string oldFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "uploads", "episodes", existEpisode.Image);
+                if (File.Exists(oldFilePath))
+                {
+                    File.Delete(oldFilePath);
+                }
+            }
+            if (episodeDeleteDto.Film != null)
+            {
+                string oldFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "uploads", "episodes", existEpisode.Video);
+                if (File.Exists(oldFilePath))
+                {
+                    File.Delete(oldFilePath);
+                }
+            }
+            _context.Episodes.Remove(existEpisode);
+            return await _context.SaveChangesAsync();
         }
 
-        public Task<List<EpisodeReturnDto>> GetAllAsync()
+        public async Task<List<EpisodeReturnDto>> GetAllAsync()
         {
-            throw new NotImplementedException();
+            var episodes = await _context.Episodes.ToListAsync();
+            return _mapper.Map<List<EpisodeReturnDto>>(episodes);
         }
 
-        public Task<int> UpdateAsync(int id, EpisodeUpdateDto episodeUpdateDto)
+        public async Task<int> UpdateAsync(int id, EpisodeUpdateDto episodeUpdateDto)
         {
-            throw new NotImplementedException();
+            if (_context.Seasons.Any(g => g.SeasonNumber == episodeUpdateDto.EpisodeNumber && g.Id != id))
+            {
+                throw new CustomException(400, "Name", "Episode with this name already exists");
+            }
+            var existEpisode = await _context.Episodes.FindAsync(id);
+            if (existEpisode == null)
+            {
+                throw new CustomException(404, "Episode", "Episode not found");
+            }
+            _mapper.Map(episodeUpdateDto, existEpisode);
+            if (episodeUpdateDto.File != null)
+            {
+                string oldFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "uploads", "episodes", existEpisode.Image);
+                if (File.Exists(oldFilePath))
+                {
+                    File.Delete(oldFilePath);
+                }
+                existEpisode.Image = episodeUpdateDto.File.SaveImage("uploads/episodes");
+            }
+            if (episodeUpdateDto.Film != null)
+            {
+                string oldFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "uploads", "episodes", existEpisode.Video);
+                if (File.Exists(oldFilePath))
+                {
+                    File.Delete(oldFilePath);
+                }
+                existEpisode.Video = episodeUpdateDto.Film.SaveImage("uploads/episodes");
+            }
+            return await _context.SaveChangesAsync();
         }
     }
 }

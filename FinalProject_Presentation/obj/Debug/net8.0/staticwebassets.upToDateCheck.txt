@@ -957,7 +957,9 @@ wwwroot\uploads\directors\f8f6aaeb-7964-4d6e-949d-41f1575ef1e9.jpeg
 wwwroot\uploads\episodes\057acba0-a062-44c4-80a1-57357534b47e.png
 wwwroot\uploads\episodes\0f87c359-a522-4399-bd96-01e53bf08dc3.png
 wwwroot\uploads\episodes\11dfe622-e00f-4c4a-bdb7-51975a444515.png
+wwwroot\uploads\episodes\1d72582a-0805-4723-85f9-d1b81f886dcf.png
 wwwroot\uploads\episodes\409ea67c-84ab-4674-929e-57965a42b18d.png
+wwwroot\uploads\episodes\4135b93a-57d2-4827-b6b5-8d83594db504.png
 wwwroot\uploads\episodes\4ee20cb3-f6a8-4c55-be0a-4ccf35d7ad75.png
 wwwroot\uploads\episodes\53b643b8-164f-436b-ba08-87105526030f.png
 wwwroot\uploads\episodes\5859a86f-af18-4805-b3c0-9cd616e27d1f.png
@@ -966,6 +968,7 @@ wwwroot\uploads\episodes\5d4332df-51bf-47a5-b223-27ac11c0e72b.png
 wwwroot\uploads\episodes\5ddebdc9-f024-47f1-a378-d677e06f7d7d.png
 wwwroot\uploads\episodes\6405560e-8251-4d13-9a72-810581e304af.png
 wwwroot\uploads\episodes\6b97f5a2-2c89-4a72-b45f-89d5ba5de80a.png
+wwwroot\uploads\episodes\733d2b20-26d6-4cf4-95f2-343814c5065f.png
 wwwroot\uploads\episodes\9062b8f8-31bc-4717-90d3-9a1d7fc3bbab.png
 wwwroot\uploads\episodes\926b53e9-dce1-4c85-94f8-dff605b489aa.png
 wwwroot\uploads\episodes\96069514-6e2a-46e1-961a-7c02bc180e2d.png
@@ -973,6 +976,7 @@ wwwroot\uploads\episodes\99e94933-788f-4429-a3cb-3241d6033271.png
 wwwroot\uploads\episodes\9b885108-c403-4329-bd08-220b8c497265.png
 wwwroot\uploads\episodes\9d47494f-06fa-4b85-87eb-4c9bfcd22e7f.png
 wwwroot\uploads\episodes\a504023f-98b1-4d8b-ab67-ddaf41504d60.png
+wwwroot\uploads\episodes\a5f78594-b4dc-484e-8363-b5349559f697.png
 wwwroot\uploads\episodes\b3c44f81-50bd-4446-ae88-19e61a85a72d.png
 wwwroot\uploads\episodes\ba088ecd-8430-47cb-8af5-abef57954742.png
 wwwroot\uploads\episodes\d0b7560c-8f3d-4173-94c3-c8956d28a44f.png
