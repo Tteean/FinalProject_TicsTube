@@ -1,12 +1,19 @@
-﻿@using FinalProject_Service.Dto.EpisodeDtos
-@model EpisodeCreateDto
+﻿@model EpisodeCreateDto
 
          <form method="post" enctype="multipart/form-data">
             <div class="form-group">
                 <label asp-for="EpisodeNumber"></label>
-                <input asp-for="EpisodeNumber" type="text" class="form-control" aria-describedby="emailHelp" placeholder="Enter Genre Name">
+                <input asp-for="EpisodeNumber" type="text" class="form-control" aria-describedby="emailHelp" placeholder="Enter Episode Number">
                 <span class="text-danger"></span>
             </div>
+    <div class="form-group">
+        <select class="form-select" asp-for="SeasonId">
+            @foreach (var season in ViewBag.Season)
+            {
+                <option value="@season.Id">@season.SeasonNumber</option>
+            }
+        </select>
+    </div>
     <div class="form-group">
         <select class="form-select" asp-for="SeasonId">
             @foreach (var season in ViewBag.Season)

@@ -16,10 +16,11 @@ namespace FinalProject_Presentation.Controllers
         private readonly IIMDBService _iMDBService;
         private readonly UserManager<AppUser> _userManager;
 
-        public MovieController(TicsTubeDbContext context, IIMDBService iMDBService)
+        public MovieController(TicsTubeDbContext context, IIMDBService iMDBService, UserManager<AppUser> userManager)
         {
             _context = context;
             _iMDBService = iMDBService;
+            _userManager = userManager;
         }
 
         public IActionResult Index()

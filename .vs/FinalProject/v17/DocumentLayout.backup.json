@@ -3,236 +3,68 @@
   "WorkspaceRootPath": "C:\\Users\\naila\\source\\repos\\FinalProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{60DDC7B4-13BA-4AAC-BEAE-953F85731E96}|FinalProject_Service\\FinalProject_Service.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_service\\services\\implementations\\episodeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60DDC7B4-13BA-4AAC-BEAE-953F85731E96}|FinalProject_Service\\FinalProject_Service.csproj|solutionrelative:finalproject_service\\services\\implementations\\episodeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\views\\tvshow\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\views\\tvshow\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60DDC7B4-13BA-4AAC-BEAE-953F85731E96}|FinalProject_Service\\FinalProject_Service.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_service\\services\\implementations\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60DDC7B4-13BA-4AAC-BEAE-953F85731E96}|FinalProject_Service\\FinalProject_Service.csproj|solutionrelative:finalproject_service\\services\\implementations\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{29850242-4017-4228-A5E1-D267354AC577}|FinalProject_ViewModel\\FinalProject_ViewModel.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_viewmodel\\viewmodels\\homevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29850242-4017-4228-A5E1-D267354AC577}|FinalProject_ViewModel\\FinalProject_ViewModel.csproj|solutionrelative:finalproject_viewmodel\\viewmodels\\homevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60DDC7B4-13BA-4AAC-BEAE-953F85731E96}|FinalProject_Service\\FinalProject_Service.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_service\\services\\implementations\\tvshowservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60DDC7B4-13BA-4AAC-BEAE-953F85731E96}|FinalProject_Service\\FinalProject_Service.csproj|solutionrelative:finalproject_service\\services\\implementations\\tvshowservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{29850242-4017-4228-A5E1-D267354AC577}|FinalProject_ViewModel\\FinalProject_ViewModel.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_viewmodel\\viewmodels\\tvshowvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29850242-4017-4228-A5E1-D267354AC577}|FinalProject_ViewModel\\FinalProject_ViewModel.csproj|solutionrelative:finalproject_viewmodel\\viewmodels\\tvshowvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60DDC7B4-13BA-4AAC-BEAE-953F85731E96}|FinalProject_Service\\FinalProject_Service.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_service\\services\\implementations\\seasonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60DDC7B4-13BA-4AAC-BEAE-953F85731E96}|FinalProject_Service\\FinalProject_Service.csproj|solutionrelative:finalproject_service\\services\\implementations\\seasonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\controllers\\tvshowcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\controllers\\tvshowcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABA6508A-E19C-43FE-8BC6-71E0C737A56D}|FinalProject_DataAccess\\FinalProject_DataAccess.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_dataaccess\\data\\configurations\\seasonconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABA6508A-E19C-43FE-8BC6-71E0C737A56D}|FinalProject_DataAccess\\FinalProject_DataAccess.csproj|solutionrelative:finalproject_dataaccess\\data\\configurations\\seasonconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60DDC7B4-13BA-4AAC-BEAE-953F85731E96}|FinalProject_Service\\FinalProject_Service.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_service\\services\\interfaces\\iepisodeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60DDC7B4-13BA-4AAC-BEAE-953F85731E96}|FinalProject_Service\\FinalProject_Service.csproj|solutionrelative:finalproject_service\\services\\interfaces\\iepisodeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60DDC7B4-13BA-4AAC-BEAE-953F85731E96}|FinalProject_Service\\FinalProject_Service.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_service\\services\\interfaces\\iseasonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60DDC7B4-13BA-4AAC-BEAE-953F85731E96}|FinalProject_Service\\FinalProject_Service.csproj|solutionrelative:finalproject_service\\services\\interfaces\\iseasonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60DDC7B4-13BA-4AAC-BEAE-953F85731E96}|FinalProject_Service\\FinalProject_Service.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_service\\dto\\episodedtos\\episodecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60DDC7B4-13BA-4AAC-BEAE-953F85731E96}|FinalProject_Service\\FinalProject_Service.csproj|solutionrelative:finalproject_service\\dto\\episodedtos\\episodecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60DDC7B4-13BA-4AAC-BEAE-953F85731E96}|FinalProject_Service\\FinalProject_Service.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_service\\dto\\episodedtos\\episodedeletedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60DDC7B4-13BA-4AAC-BEAE-953F85731E96}|FinalProject_Service\\FinalProject_Service.csproj|solutionrelative:finalproject_service\\dto\\episodedtos\\episodedeletedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60DDC7B4-13BA-4AAC-BEAE-953F85731E96}|FinalProject_Service\\FinalProject_Service.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_service\\dto\\episodedtos\\episodereturndto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60DDC7B4-13BA-4AAC-BEAE-953F85731E96}|FinalProject_Service\\FinalProject_Service.csproj|solutionrelative:finalproject_service\\dto\\episodedtos\\episodereturndto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60DDC7B4-13BA-4AAC-BEAE-953F85731E96}|FinalProject_Service\\FinalProject_Service.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_service\\dto\\episodedtos\\episodeupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60DDC7B4-13BA-4AAC-BEAE-953F85731E96}|FinalProject_Service\\FinalProject_Service.csproj|solutionrelative:finalproject_service\\dto\\episodedtos\\episodeupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60DDC7B4-13BA-4AAC-BEAE-953F85731E96}|FinalProject_Service\\FinalProject_Service.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_service\\dto\\seasondtos\\seasonupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60DDC7B4-13BA-4AAC-BEAE-953F85731E96}|FinalProject_Service\\FinalProject_Service.csproj|solutionrelative:finalproject_service\\dto\\seasondtos\\seasonupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60DDC7B4-13BA-4AAC-BEAE-953F85731E96}|FinalProject_Service\\FinalProject_Service.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_service\\dto\\seasondtos\\seasonreturndto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60DDC7B4-13BA-4AAC-BEAE-953F85731E96}|FinalProject_Service\\FinalProject_Service.csproj|solutionrelative:finalproject_service\\dto\\seasondtos\\seasonreturndto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60DDC7B4-13BA-4AAC-BEAE-953F85731E96}|FinalProject_Service\\FinalProject_Service.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_service\\dto\\seasondtos\\seasondeletedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60DDC7B4-13BA-4AAC-BEAE-953F85731E96}|FinalProject_Service\\FinalProject_Service.csproj|solutionrelative:finalproject_service\\dto\\seasondtos\\seasondeletedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60DDC7B4-13BA-4AAC-BEAE-953F85731E96}|FinalProject_Service\\FinalProject_Service.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_service\\dto\\seasondtos\\seasoncreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60DDC7B4-13BA-4AAC-BEAE-953F85731E96}|FinalProject_Service\\FinalProject_Service.csproj|solutionrelative:finalproject_service\\dto\\seasondtos\\seasoncreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60DDC7B4-13BA-4AAC-BEAE-953F85731E96}|FinalProject_Service\\FinalProject_Service.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_service\\services\\interfaces\\itvshowservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60DDC7B4-13BA-4AAC-BEAE-953F85731E96}|FinalProject_Service\\FinalProject_Service.csproj|solutionrelative:finalproject_service\\services\\interfaces\\itvshowservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\areas\\admin\\controllers\\tvshowcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\areas\\admin\\controllers\\tvshowcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\areas\\admin\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\areas\\admin\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\areas\\admin\\views\\episode\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\areas\\admin\\views\\episode\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\areas\\admin\\controllers\\episodecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\areas\\admin\\controllers\\episodecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\areas\\admin\\views\\season\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\areas\\admin\\views\\season\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\areas\\admin\\controllers\\seasoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\areas\\admin\\controllers\\seasoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60DDC7B4-13BA-4AAC-BEAE-953F85731E96}|FinalProject_Service\\FinalProject_Service.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_service\\dto\\tvshowdtos\\tvshowcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60DDC7B4-13BA-4AAC-BEAE-953F85731E96}|FinalProject_Service\\FinalProject_Service.csproj|solutionrelative:finalproject_service\\dto\\tvshowdtos\\tvshowcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\areas\\admin\\views\\tvshow\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\areas\\admin\\views\\tvshow\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\seviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\seviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60DDC7B4-13BA-4AAC-BEAE-953F85731E96}|FinalProject_Service\\FinalProject_Service.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_service\\profiles\\mapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60DDC7B4-13BA-4AAC-BEAE-953F85731E96}|FinalProject_Service\\FinalProject_Service.csproj|solutionrelative:finalproject_service\\profiles\\mapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AF5A4B5-1B6F-463C-90C7-3B168B04700D}|FinalProject_Core\\FinalProject_Core.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_core\\models\\tvshow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AF5A4B5-1B6F-463C-90C7-3B168B04700D}|FinalProject_Core\\FinalProject_Core.csproj|solutionrelative:finalproject_core\\models\\tvshow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AF5A4B5-1B6F-463C-90C7-3B168B04700D}|FinalProject_Core\\FinalProject_Core.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_core\\models\\episode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AF5A4B5-1B6F-463C-90C7-3B168B04700D}|FinalProject_Core\\FinalProject_Core.csproj|solutionrelative:finalproject_core\\models\\episode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AF5A4B5-1B6F-463C-90C7-3B168B04700D}|FinalProject_Core\\FinalProject_Core.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_core\\models\\season.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AF5A4B5-1B6F-463C-90C7-3B168B04700D}|FinalProject_Core\\FinalProject_Core.csproj|solutionrelative:finalproject_core\\models\\season.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ABA6508A-E19C-43FE-8BC6-71E0C737A56D}|FinalProject_DataAccess\\FinalProject_DataAccess.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_dataaccess\\data\\ticstubedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABA6508A-E19C-43FE-8BC6-71E0C737A56D}|FinalProject_DataAccess\\FinalProject_DataAccess.csproj|solutionrelative:finalproject_dataaccess\\data\\ticstubedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\areas\\admin\\controllers\\actorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\areas\\admin\\controllers\\actorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\areas\\admin\\views\\episode\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\areas\\admin\\views\\episode\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ABA6508A-E19C-43FE-8BC6-71E0C737A56D}|FinalProject_DataAccess\\FinalProject_DataAccess.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_dataaccess\\data\\configurations\\episodeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABA6508A-E19C-43FE-8BC6-71E0C737A56D}|FinalProject_DataAccess\\FinalProject_DataAccess.csproj|solutionrelative:finalproject_dataaccess\\data\\configurations\\episodeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AF5A4B5-1B6F-463C-90C7-3B168B04700D}|FinalProject_Core\\FinalProject_Core.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_core\\models\\tvshowactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AF5A4B5-1B6F-463C-90C7-3B168B04700D}|FinalProject_Core\\FinalProject_Core.csproj|solutionrelative:finalproject_core\\models\\tvshowactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\areas\\admin\\views\\season\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\areas\\admin\\views\\season\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\areas\\admin\\views\\tvshow\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\areas\\admin\\views\\tvshow\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\areas\\admin\\views\\movie\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\areas\\admin\\views\\movie\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AF5A4B5-1B6F-463C-90C7-3B168B04700D}|FinalProject_Core\\FinalProject_Core.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_core\\models\\director.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AF5A4B5-1B6F-463C-90C7-3B168B04700D}|FinalProject_Core\\FinalProject_Core.csproj|solutionrelative:finalproject_core\\models\\director.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ABA6508A-E19C-43FE-8BC6-71E0C737A56D}|FinalProject_DataAccess\\FinalProject_DataAccess.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_dataaccess\\data\\configurations\\tvshowlanguageconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABA6508A-E19C-43FE-8BC6-71E0C737A56D}|FinalProject_DataAccess\\FinalProject_DataAccess.csproj|solutionrelative:finalproject_dataaccess\\data\\configurations\\tvshowlanguageconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\areas\\admin\\views\\movie\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\areas\\admin\\views\\movie\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\areas\\admin\\views\\genre\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\areas\\admin\\views\\genre\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ABA6508A-E19C-43FE-8BC6-71E0C737A56D}|FinalProject_DataAccess\\FinalProject_DataAccess.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_dataaccess\\data\\configurations\\tvshowconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABA6508A-E19C-43FE-8BC6-71E0C737A56D}|FinalProject_DataAccess\\FinalProject_DataAccess.csproj|solutionrelative:finalproject_dataaccess\\data\\configurations\\tvshowconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60DDC7B4-13BA-4AAC-BEAE-953F85731E96}|FinalProject_Service\\FinalProject_Service.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_service\\dto\\tvshowdtos\\tvshowreturndto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60DDC7B4-13BA-4AAC-BEAE-953F85731E96}|FinalProject_Service\\FinalProject_Service.csproj|solutionrelative:finalproject_service\\dto\\tvshowdtos\\tvshowreturndto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60DDC7B4-13BA-4AAC-BEAE-953F85731E96}|FinalProject_Service\\FinalProject_Service.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_service\\dto\\tvshowdtos\\tvshowupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60DDC7B4-13BA-4AAC-BEAE-953F85731E96}|FinalProject_Service\\FinalProject_Service.csproj|solutionrelative:finalproject_service\\dto\\tvshowdtos\\tvshowupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60DDC7B4-13BA-4AAC-BEAE-953F85731E96}|FinalProject_Service\\FinalProject_Service.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_service\\dto\\tvshowdtos\\tvshowdeletedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60DDC7B4-13BA-4AAC-BEAE-953F85731E96}|FinalProject_Service\\FinalProject_Service.csproj|solutionrelative:finalproject_service\\dto\\tvshowdtos\\tvshowdeletedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ABA6508A-E19C-43FE-8BC6-71E0C737A56D}|FinalProject_DataAccess\\FinalProject_DataAccess.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_dataaccess\\data\\configurations\\tvshowgenreconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABA6508A-E19C-43FE-8BC6-71E0C737A56D}|FinalProject_DataAccess\\FinalProject_DataAccess.csproj|solutionrelative:finalproject_dataaccess\\data\\configurations\\tvshowgenreconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ABA6508A-E19C-43FE-8BC6-71E0C737A56D}|FinalProject_DataAccess\\FinalProject_DataAccess.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_dataaccess\\data\\configurations\\tvshowactorconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABA6508A-E19C-43FE-8BC6-71E0C737A56D}|FinalProject_DataAccess\\FinalProject_DataAccess.csproj|solutionrelative:finalproject_dataaccess\\data\\configurations\\tvshowactorconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AF5A4B5-1B6F-463C-90C7-3B168B04700D}|FinalProject_Core\\FinalProject_Core.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_core\\models\\language.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AF5A4B5-1B6F-463C-90C7-3B168B04700D}|FinalProject_Core\\FinalProject_Core.csproj|solutionrelative:finalproject_core\\models\\language.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AF5A4B5-1B6F-463C-90C7-3B168B04700D}|FinalProject_Core\\FinalProject_Core.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_core\\models\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AF5A4B5-1B6F-463C-90C7-3B168B04700D}|FinalProject_Core\\FinalProject_Core.csproj|solutionrelative:finalproject_core\\models\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AF5A4B5-1B6F-463C-90C7-3B168B04700D}|FinalProject_Core\\FinalProject_Core.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_core\\models\\actor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AF5A4B5-1B6F-463C-90C7-3B168B04700D}|FinalProject_Core\\FinalProject_Core.csproj|solutionrelative:finalproject_core\\models\\actor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AF5A4B5-1B6F-463C-90C7-3B168B04700D}|FinalProject_Core\\FinalProject_Core.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_core\\models\\tvshowgenre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AF5A4B5-1B6F-463C-90C7-3B168B04700D}|FinalProject_Core\\FinalProject_Core.csproj|solutionrelative:finalproject_core\\models\\tvshowgenre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AF5A4B5-1B6F-463C-90C7-3B168B04700D}|FinalProject_Core\\FinalProject_Core.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_core\\models\\tvshowlanguage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AF5A4B5-1B6F-463C-90C7-3B168B04700D}|FinalProject_Core\\FinalProject_Core.csproj|solutionrelative:finalproject_core\\models\\tvshowlanguage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\views\\movie\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\views\\movie\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\views\\tvshow\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\views\\tvshow\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABA6508A-E19C-43FE-8BC6-71E0C737A56D}|FinalProject_DataAccess\\FinalProject_DataAccess.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_dataaccess\\data\\migrations\\20250417231839_episodesandseasonsadded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABA6508A-E19C-43FE-8BC6-71E0C737A56D}|FinalProject_DataAccess\\FinalProject_DataAccess.csproj|solutionrelative:finalproject_dataaccess\\data\\migrations\\20250417231839_episodesandseasonsadded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\areas\\admin\\controllers\\episodecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\areas\\admin\\controllers\\episodecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABA6508A-E19C-43FE-8BC6-71E0C737A56D}|FinalProject_DataAccess\\FinalProject_DataAccess.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_dataaccess\\data\\migrations\\20250420192926_episodenumbercolumn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABA6508A-E19C-43FE-8BC6-71E0C737A56D}|FinalProject_DataAccess\\FinalProject_DataAccess.csproj|solutionrelative:finalproject_dataaccess\\data\\migrations\\20250420192926_episodenumbercolumn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\areas\\admin\\controllers\\seasoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\areas\\admin\\controllers\\seasoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABA6508A-E19C-43FE-8BC6-71E0C737A56D}|FinalProject_DataAccess\\FinalProject_DataAccess.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_dataaccess\\data\\migrations\\20250421194933_titlecolumnchanged.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABA6508A-E19C-43FE-8BC6-71E0C737A56D}|FinalProject_DataAccess\\FinalProject_DataAccess.csproj|solutionrelative:finalproject_dataaccess\\data\\migrations\\20250421194933_titlecolumnchanged.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\areas\\admin\\controllers\\tvshowcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\areas\\admin\\controllers\\tvshowcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\areas\\admin\\views\\movie\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\areas\\admin\\views\\movie\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\areas\\admin\\views\\season\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\areas\\admin\\views\\season\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\areas\\admin\\views\\tvshow\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\areas\\admin\\views\\tvshow\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\areas\\admin\\views\\season\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\areas\\admin\\views\\season\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\areas\\admin\\views\\tvshow\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\areas\\admin\\views\\tvshow\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60DDC7B4-13BA-4AAC-BEAE-953F85731E96}|FinalProject_Service\\FinalProject_Service.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_service\\profiles\\mapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60DDC7B4-13BA-4AAC-BEAE-953F85731E96}|FinalProject_Service\\FinalProject_Service.csproj|solutionrelative:finalproject_service\\profiles\\mapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -242,8 +74,99 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Views\\TVShow\\Detail.cshtml",
+              "RelativeDocumentMoniker": "FinalProject_Presentation\\Views\\TVShow\\Detail.cshtml",
+              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Views\\TVShow\\Detail.cshtml",
+              "RelativeToolTip": "FinalProject_Presentation\\Views\\TVShow\\Detail.cshtml",
+              "ViewState": "AgIAAD4CAAAAAAAAAAAmwGYCAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-23T19:02:43.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Views\\TVShow\\Index.cshtml",
+              "RelativeDocumentMoniker": "FinalProject_Presentation\\Views\\TVShow\\Index.cshtml",
+              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Views\\TVShow\\Index.cshtml",
+              "RelativeToolTip": "FinalProject_Presentation\\Views\\TVShow\\Index.cshtml",
+              "ViewState": "AgIAADQCAAAAAAAAAAAmwFACAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-23T19:01:22.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeVm.cs",
+              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_ViewModel\\ViewModels\\HomeVm.cs",
+              "RelativeDocumentMoniker": "FinalProject_ViewModel\\ViewModels\\HomeVm.cs",
+              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_ViewModel\\ViewModels\\HomeVm.cs",
+              "RelativeToolTip": "FinalProject_ViewModel\\ViewModels\\HomeVm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T17:18:06.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TVShowVm.cs",
+              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_ViewModel\\ViewModels\\TVShowVm.cs",
+              "RelativeDocumentMoniker": "FinalProject_ViewModel\\ViewModels\\TVShowVm.cs",
+              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_ViewModel\\ViewModels\\TVShowVm.cs",
+              "RelativeToolTip": "FinalProject_ViewModel\\ViewModels\\TVShowVm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T17:08:22.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MovieController.cs",
+              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Controllers\\MovieController.cs",
+              "RelativeDocumentMoniker": "FinalProject_Presentation\\Controllers\\MovieController.cs",
+              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Controllers\\MovieController.cs",
+              "RelativeToolTip": "FinalProject_Presentation\\Controllers\\MovieController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAAC8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T17:00:25.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TVShowController.cs",
+              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Controllers\\TVShowController.cs",
+              "RelativeDocumentMoniker": "FinalProject_Presentation\\Controllers\\TVShowController.cs",
+              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Controllers\\TVShowController.cs",
+              "RelativeToolTip": "FinalProject_Presentation\\Controllers\\TVShowController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAqwCMAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T17:00:20.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SeasonController.cs",
+              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Controllers\\SeasonController.cs",
+              "RelativeDocumentMoniker": "FinalProject_Presentation\\Areas\\Admin\\Controllers\\SeasonController.cs",
+              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Controllers\\SeasonController.cs",
+              "RelativeToolTip": "FinalProject_Presentation\\Areas\\Admin\\Controllers\\SeasonController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowDUAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T14:25:08.562Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
@@ -266,704 +189,120 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SeasonService.cs",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Service\\Services\\Implementations\\SeasonService.cs",
-              "RelativeDocumentMoniker": "FinalProject_Service\\Services\\Implementations\\SeasonService.cs",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Service\\Services\\Implementations\\SeasonService.cs",
-              "RelativeToolTip": "FinalProject_Service\\Services\\Implementations\\SeasonService.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAowEcAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T12:42:25.291Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "ISeasonService.cs",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Service\\Services\\Interfaces\\ISeasonService.cs",
-              "RelativeDocumentMoniker": "FinalProject_Service\\Services\\Interfaces\\ISeasonService.cs",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Service\\Services\\Interfaces\\ISeasonService.cs",
-              "RelativeToolTip": "FinalProject_Service\\Services\\Interfaces\\ISeasonService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T12:42:01.836Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IEpisodeService.cs",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Service\\Services\\Interfaces\\IEpisodeService.cs",
-              "RelativeDocumentMoniker": "FinalProject_Service\\Services\\Interfaces\\IEpisodeService.cs",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Service\\Services\\Interfaces\\IEpisodeService.cs",
-              "RelativeToolTip": "FinalProject_Service\\Services\\Interfaces\\IEpisodeService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T19:05:44.386Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EpisodeService.cs",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Service\\Services\\Implementations\\EpisodeService.cs",
-              "RelativeDocumentMoniker": "FinalProject_Service\\Services\\Implementations\\EpisodeService.cs",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Service\\Services\\Implementations\\EpisodeService.cs*",
-              "RelativeToolTip": "FinalProject_Service\\Services\\Implementations\\EpisodeService.cs*",
-              "ViewState": "AgIAAHMAAAAAAAAAAAAqwE0AAAByAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T19:06:10.816Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SeasonConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_DataAccess\\Data\\Configurations\\SeasonConfiguration.cs",
-              "RelativeDocumentMoniker": "FinalProject_DataAccess\\Data\\Configurations\\SeasonConfiguration.cs",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_DataAccess\\Data\\Configurations\\SeasonConfiguration.cs",
-              "RelativeToolTip": "FinalProject_DataAccess\\Data\\Configurations\\SeasonConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T23:05:01.379Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TVShowService.cs",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Service\\Services\\Implementations\\TVShowService.cs",
-              "RelativeDocumentMoniker": "FinalProject_Service\\Services\\Implementations\\TVShowService.cs",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Service\\Services\\Implementations\\TVShowService.cs",
-              "RelativeToolTip": "FinalProject_Service\\Services\\Implementations\\TVShowService.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAgwJoAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T23:26:05.039Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MovieService.cs",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Service\\Services\\Implementations\\MovieService.cs",
-              "RelativeDocumentMoniker": "FinalProject_Service\\Services\\Implementations\\MovieService.cs",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Service\\Services\\Implementations\\MovieService.cs",
-              "RelativeToolTip": "FinalProject_Service\\Services\\Implementations\\MovieService.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAUwHIAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T20:55:28.697Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "EpisodeCreateDto.cs",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Service\\Dto\\EpisodeDtos\\EpisodeCreateDto.cs",
-              "RelativeDocumentMoniker": "FinalProject_Service\\Dto\\EpisodeDtos\\EpisodeCreateDto.cs",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Service\\Dto\\EpisodeDtos\\EpisodeCreateDto.cs",
-              "RelativeToolTip": "FinalProject_Service\\Dto\\EpisodeDtos\\EpisodeCreateDto.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAcwA0AAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T17:42:32.01Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "EpisodeReturnDto.cs",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Service\\Dto\\EpisodeDtos\\EpisodeReturnDto.cs",
-              "RelativeDocumentMoniker": "FinalProject_Service\\Dto\\EpisodeDtos\\EpisodeReturnDto.cs",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Service\\Dto\\EpisodeDtos\\EpisodeReturnDto.cs",
-              "RelativeToolTip": "FinalProject_Service\\Dto\\EpisodeDtos\\EpisodeReturnDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T23:58:37.899Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "EpisodeDeleteDto.cs",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Service\\Dto\\EpisodeDtos\\EpisodeDeleteDto.cs",
-              "RelativeDocumentMoniker": "FinalProject_Service\\Dto\\EpisodeDtos\\EpisodeDeleteDto.cs",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Service\\Dto\\EpisodeDtos\\EpisodeDeleteDto.cs",
-              "RelativeToolTip": "FinalProject_Service\\Dto\\EpisodeDtos\\EpisodeDeleteDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T23:58:49.506Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "EpisodeUpdateDto.cs",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Service\\Dto\\EpisodeDtos\\EpisodeUpdateDto.cs",
-              "RelativeDocumentMoniker": "FinalProject_Service\\Dto\\EpisodeDtos\\EpisodeUpdateDto.cs",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Service\\Dto\\EpisodeDtos\\EpisodeUpdateDto.cs",
-              "RelativeToolTip": "FinalProject_Service\\Dto\\EpisodeDtos\\EpisodeUpdateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T23:58:28.472Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "SeasonUpdateDto.cs",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Service\\Dto\\SeasonDtos\\SeasonUpdateDto.cs",
-              "RelativeDocumentMoniker": "FinalProject_Service\\Dto\\SeasonDtos\\SeasonUpdateDto.cs",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Service\\Dto\\SeasonDtos\\SeasonUpdateDto.cs",
-              "RelativeToolTip": "FinalProject_Service\\Dto\\SeasonDtos\\SeasonUpdateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T23:57:50.583Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "SeasonReturnDto.cs",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Service\\Dto\\SeasonDtos\\SeasonReturnDto.cs",
-              "RelativeDocumentMoniker": "FinalProject_Service\\Dto\\SeasonDtos\\SeasonReturnDto.cs",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Service\\Dto\\SeasonDtos\\SeasonReturnDto.cs",
-              "RelativeToolTip": "FinalProject_Service\\Dto\\SeasonDtos\\SeasonReturnDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T23:58:02.361Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "SeasonDeleteDto.cs",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Service\\Dto\\SeasonDtos\\SeasonDeleteDto.cs",
-              "RelativeDocumentMoniker": "FinalProject_Service\\Dto\\SeasonDtos\\SeasonDeleteDto.cs",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Service\\Dto\\SeasonDtos\\SeasonDeleteDto.cs",
-              "RelativeToolTip": "FinalProject_Service\\Dto\\SeasonDtos\\SeasonDeleteDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T23:58:10.232Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "SeasonCreateDto.cs",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Service\\Dto\\SeasonDtos\\SeasonCreateDto.cs",
-              "RelativeDocumentMoniker": "FinalProject_Service\\Dto\\SeasonDtos\\SeasonCreateDto.cs",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Service\\Dto\\SeasonDtos\\SeasonCreateDto.cs",
-              "RelativeToolTip": "FinalProject_Service\\Dto\\SeasonDtos\\SeasonCreateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T17:41:46.323Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "TVShowController.cs",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Controllers\\TVShowController.cs",
-              "RelativeDocumentMoniker": "FinalProject_Presentation\\Areas\\Admin\\Controllers\\TVShowController.cs",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Controllers\\TVShowController.cs",
-              "RelativeToolTip": "FinalProject_Presentation\\Areas\\Admin\\Controllers\\TVShowController.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAA9wCMAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T23:21:41.404Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Views\\Episode\\Create.cshtml",
-              "RelativeDocumentMoniker": "FinalProject_Presentation\\Areas\\Admin\\Views\\Episode\\Create.cshtml",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Views\\Episode\\Create.cshtml",
-              "RelativeToolTip": "FinalProject_Presentation\\Areas\\Admin\\Views\\Episode\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-20T19:12:15.17Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "MovieController.cs",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Controllers\\MovieController.cs",
-              "RelativeDocumentMoniker": "FinalProject_Presentation\\Areas\\Admin\\Controllers\\MovieController.cs",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Controllers\\MovieController.cs",
-              "RelativeToolTip": "FinalProject_Presentation\\Areas\\Admin\\Controllers\\MovieController.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAUwEAAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T14:44:55.555Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ITVShowService.cs",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Service\\Services\\Interfaces\\ITVShowService.cs",
-              "RelativeDocumentMoniker": "FinalProject_Service\\Services\\Interfaces\\ITVShowService.cs",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Service\\Services\\Interfaces\\ITVShowService.cs",
-              "RelativeToolTip": "FinalProject_Service\\Services\\Interfaces\\ITVShowService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T23:25:43.213Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
               "Title": "EpisodeController.cs",
               "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Controllers\\EpisodeController.cs",
               "RelativeDocumentMoniker": "FinalProject_Presentation\\Areas\\Admin\\Controllers\\EpisodeController.cs",
               "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Controllers\\EpisodeController.cs",
               "RelativeToolTip": "FinalProject_Presentation\\Areas\\Admin\\Controllers\\EpisodeController.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwCQAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAADcAAAAAAAAAAAAcwDoAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T18:05:13.982Z"
+              "WhenOpened": "2025-04-23T14:25:36.494Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Views\\Season\\Create.cshtml",
-              "RelativeDocumentMoniker": "FinalProject_Presentation\\Areas\\Admin\\Views\\Season\\Create.cshtml",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Views\\Season\\Create.cshtml",
-              "RelativeToolTip": "FinalProject_Presentation\\Areas\\Admin\\Views\\Season\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-21T20:27:08.52Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "SeasonController.cs",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Controllers\\SeasonController.cs",
-              "RelativeDocumentMoniker": "FinalProject_Presentation\\Areas\\Admin\\Controllers\\SeasonController.cs",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Controllers\\SeasonController.cs",
-              "RelativeToolTip": "FinalProject_Presentation\\Areas\\Admin\\Controllers\\SeasonController.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAuwCQAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T18:05:06.554Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "TVShowCreateDto.cs",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Service\\Dto\\TVShowDtos\\TVShowCreateDto.cs",
-              "RelativeDocumentMoniker": "FinalProject_Service\\Dto\\TVShowDtos\\TVShowCreateDto.cs",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Service\\Dto\\TVShowDtos\\TVShowCreateDto.cs",
-              "RelativeToolTip": "FinalProject_Service\\Dto\\TVShowDtos\\TVShowCreateDto.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAjwBYAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T23:30:19.448Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Views\\TVShow\\Create.cshtml",
-              "RelativeDocumentMoniker": "FinalProject_Presentation\\Areas\\Admin\\Views\\TVShow\\Create.cshtml",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Views\\TVShow\\Create.cshtml",
-              "RelativeToolTip": "FinalProject_Presentation\\Areas\\Admin\\Views\\TVShow\\Create.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACYAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-18T18:38:29.983Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Episode.cs",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Core\\Models\\Episode.cs",
-              "RelativeDocumentMoniker": "FinalProject_Core\\Models\\Episode.cs",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Core\\Models\\Episode.cs",
-              "RelativeToolTip": "FinalProject_Core\\Models\\Episode.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAiwBMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T22:11:05.748Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Season.cs",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Core\\Models\\Season.cs",
-              "RelativeDocumentMoniker": "FinalProject_Core\\Models\\Season.cs",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Core\\Models\\Season.cs",
-              "RelativeToolTip": "FinalProject_Core\\Models\\Season.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T20:24:17.659Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 15,
               "Title": "MapperProfile.cs",
               "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Service\\Profiles\\MapperProfile.cs",
               "RelativeDocumentMoniker": "FinalProject_Service\\Profiles\\MapperProfile.cs",
               "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Service\\Profiles\\MapperProfile.cs",
               "RelativeToolTip": "FinalProject_Service\\Profiles\\MapperProfile.cs",
-              "ViewState": "AgIAAFgAAAAAAAAAAAAgwGcAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAqwGsAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T17:47:54.931Z"
+              "WhenOpened": "2025-04-22T20:54:17.07Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "TVShow.cs",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Core\\Models\\TVShow.cs",
-              "RelativeDocumentMoniker": "FinalProject_Core\\Models\\TVShow.cs",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Core\\Models\\TVShow.cs",
-              "RelativeToolTip": "FinalProject_Core\\Models\\TVShow.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAuwBEAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T13:30:13.451Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "SeviceRegistration.cs",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\SeviceRegistration.cs",
-              "RelativeDocumentMoniker": "FinalProject_Presentation\\SeviceRegistration.cs",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\SeviceRegistration.cs",
-              "RelativeToolTip": "FinalProject_Presentation\\SeviceRegistration.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAUwDwAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T18:39:51.834Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 57,
-              "Title": "20250421194933_TitleColumnChanged.cs",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_DataAccess\\Data\\Migrations\\20250421194933_TitleColumnChanged.cs",
-              "RelativeDocumentMoniker": "FinalProject_DataAccess\\Data\\Migrations\\20250421194933_TitleColumnChanged.cs",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_DataAccess\\Data\\Migrations\\20250421194933_TitleColumnChanged.cs",
-              "RelativeToolTip": "FinalProject_DataAccess\\Data\\Migrations\\20250421194933_TitleColumnChanged.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T19:49:34.126Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "TicsTubeDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_DataAccess\\Data\\TicsTubeDbContext.cs",
-              "RelativeDocumentMoniker": "FinalProject_DataAccess\\Data\\TicsTubeDbContext.cs",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_DataAccess\\Data\\TicsTubeDbContext.cs",
-              "RelativeToolTip": "FinalProject_DataAccess\\Data\\TicsTubeDbContext.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAIA9wB4AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T23:16:34.64Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "ActorController.cs",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Controllers\\ActorController.cs",
-              "RelativeDocumentMoniker": "FinalProject_Presentation\\Areas\\Admin\\Controllers\\ActorController.cs",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Controllers\\ActorController.cs",
-              "RelativeToolTip": "FinalProject_Presentation\\Areas\\Admin\\Controllers\\ActorController.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAowB8AAABoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T14:38:22.673Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Views\\Episode\\Index.cshtml",
-              "RelativeDocumentMoniker": "FinalProject_Presentation\\Areas\\Admin\\Views\\Episode\\Index.cshtml",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Views\\Episode\\Index.cshtml",
-              "RelativeToolTip": "FinalProject_Presentation\\Areas\\Admin\\Views\\Episode\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-20T19:30:16.182Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "EpisodeConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_DataAccess\\Data\\Configurations\\EpisodeConfiguration.cs",
-              "RelativeDocumentMoniker": "FinalProject_DataAccess\\Data\\Configurations\\EpisodeConfiguration.cs",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_DataAccess\\Data\\Configurations\\EpisodeConfiguration.cs",
-              "RelativeToolTip": "FinalProject_DataAccess\\Data\\Configurations\\EpisodeConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T23:07:59.896Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "TVShowActor.cs",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Core\\Models\\TVShowActor.cs",
-              "RelativeDocumentMoniker": "FinalProject_Core\\Models\\TVShowActor.cs",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Core\\Models\\TVShowActor.cs",
-              "RelativeToolTip": "FinalProject_Core\\Models\\TVShowActor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T16:27:35.579Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Views\\TVShow\\Index.cshtml",
-              "RelativeDocumentMoniker": "FinalProject_Presentation\\Areas\\Admin\\Views\\TVShow\\Index.cshtml",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Views\\TVShow\\Index.cshtml",
-              "RelativeToolTip": "FinalProject_Presentation\\Areas\\Admin\\Views\\TVShow\\Index.cshtml",
-              "ViewState": "AgIAABMAAAAAAAAAAAAuwCMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-19T14:09:02.029Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Views\\Season\\Index.cshtml",
-              "RelativeDocumentMoniker": "FinalProject_Presentation\\Areas\\Admin\\Views\\Season\\Index.cshtml",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Views\\Season\\Index.cshtml",
-              "RelativeToolTip": "FinalProject_Presentation\\Areas\\Admin\\Views\\Season\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-20T19:30:36.645Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 56,
-              "Title": "20250420192926_EpisodeNumberColumn.cs",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_DataAccess\\Data\\Migrations\\20250420192926_EpisodeNumberColumn.cs",
-              "RelativeDocumentMoniker": "FinalProject_DataAccess\\Data\\Migrations\\20250420192926_EpisodeNumberColumn.cs",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_DataAccess\\Data\\Migrations\\20250420192926_EpisodeNumberColumn.cs",
-              "RelativeToolTip": "FinalProject_DataAccess\\Data\\Migrations\\20250420192926_EpisodeNumberColumn.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T19:29:27.244Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "Director.cs",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Core\\Models\\Director.cs",
-              "RelativeDocumentMoniker": "FinalProject_Core\\Models\\Director.cs",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Core\\Models\\Director.cs",
-              "RelativeToolTip": "FinalProject_Core\\Models\\Director.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T18:20:55.401Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 11,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Views\\Movie\\Create.cshtml",
-              "RelativeDocumentMoniker": "FinalProject_Presentation\\Areas\\Admin\\Views\\Movie\\Create.cshtml",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Views\\Movie\\Create.cshtml",
-              "RelativeToolTip": "FinalProject_Presentation\\Areas\\Admin\\Views\\Movie\\Create.cshtml",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAswB0AAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-18T18:38:42.63Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "TVShowLanguageConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_DataAccess\\Data\\Configurations\\TVShowLanguageConfiguration.cs",
-              "RelativeDocumentMoniker": "FinalProject_DataAccess\\Data\\Configurations\\TVShowLanguageConfiguration.cs",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_DataAccess\\Data\\Configurations\\TVShowLanguageConfiguration.cs",
-              "RelativeToolTip": "FinalProject_DataAccess\\Data\\Configurations\\TVShowLanguageConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T17:54:42.186Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Views\\Movie\\Index.cshtml",
-              "RelativeDocumentMoniker": "FinalProject_Presentation\\Areas\\Admin\\Views\\Movie\\Index.cshtml",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Views\\Movie\\Index.cshtml",
-              "RelativeToolTip": "FinalProject_Presentation\\Areas\\Admin\\Views\\Movie\\Index.cshtml",
-              "ViewState": "AgIAACUAAAAAAAAAAAAwwDUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-19T14:09:14.127Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Views\\Genre\\Create.cshtml",
-              "RelativeDocumentMoniker": "FinalProject_Presentation\\Areas\\Admin\\Views\\Genre\\Create.cshtml",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Views\\Genre\\Create.cshtml",
-              "RelativeToolTip": "FinalProject_Presentation\\Areas\\Admin\\Views\\Genre\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-19T14:05:51.318Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "TVShowConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_DataAccess\\Data\\Configurations\\TVShowConfiguration.cs",
-              "RelativeDocumentMoniker": "FinalProject_DataAccess\\Data\\Configurations\\TVShowConfiguration.cs",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_DataAccess\\Data\\Configurations\\TVShowConfiguration.cs",
-              "RelativeToolTip": "FinalProject_DataAccess\\Data\\Configurations\\TVShowConfiguration.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAA9wBAAAABUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T17:53:50.429Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "TVShowReturnDto.cs",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Service\\Dto\\TVShowDtos\\TVShowReturnDto.cs",
-              "RelativeDocumentMoniker": "FinalProject_Service\\Dto\\TVShowDtos\\TVShowReturnDto.cs",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Service\\Dto\\TVShowDtos\\TVShowReturnDto.cs",
-              "RelativeToolTip": "FinalProject_Service\\Dto\\TVShowDtos\\TVShowReturnDto.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBUAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T23:30:32.275Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "TVShowUpdateDto.cs",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Service\\Dto\\TVShowDtos\\TVShowUpdateDto.cs",
-              "RelativeDocumentMoniker": "FinalProject_Service\\Dto\\TVShowDtos\\TVShowUpdateDto.cs",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Service\\Dto\\TVShowDtos\\TVShowUpdateDto.cs",
-              "RelativeToolTip": "FinalProject_Service\\Dto\\TVShowDtos\\TVShowUpdateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T23:30:56.135Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "TVShowDeleteDto.cs",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Service\\Dto\\TVShowDtos\\TVShowDeleteDto.cs",
-              "RelativeDocumentMoniker": "FinalProject_Service\\Dto\\TVShowDtos\\TVShowDeleteDto.cs",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Service\\Dto\\TVShowDtos\\TVShowDeleteDto.cs",
-              "RelativeToolTip": "FinalProject_Service\\Dto\\TVShowDtos\\TVShowDeleteDto.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T23:30:44.009Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 55,
-              "Title": "20250417231839_EpisodesAndSeasonsAdded.cs",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_DataAccess\\Data\\Migrations\\20250417231839_EpisodesAndSeasonsAdded.cs",
-              "RelativeDocumentMoniker": "FinalProject_DataAccess\\Data\\Migrations\\20250417231839_EpisodesAndSeasonsAdded.cs",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_DataAccess\\Data\\Migrations\\20250417231839_EpisodesAndSeasonsAdded.cs",
-              "RelativeToolTip": "FinalProject_DataAccess\\Data\\Migrations\\20250417231839_EpisodesAndSeasonsAdded.cs",
+              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Views\\TVShow\\Create.cshtml",
+              "RelativeDocumentMoniker": "FinalProject_Presentation\\Areas\\Admin\\Views\\TVShow\\Create.cshtml",
+              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Views\\TVShow\\Create.cshtml",
+              "RelativeToolTip": "FinalProject_Presentation\\Areas\\Admin\\Views\\TVShow\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T23:18:40.18Z"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-22T20:53:08.304Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "TVShowActorConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_DataAccess\\Data\\Configurations\\TVShowActorConfiguration.cs",
-              "RelativeDocumentMoniker": "FinalProject_DataAccess\\Data\\Configurations\\TVShowActorConfiguration.cs",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_DataAccess\\Data\\Configurations\\TVShowActorConfiguration.cs",
-              "RelativeToolTip": "FinalProject_DataAccess\\Data\\Configurations\\TVShowActorConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T17:54:00.714Z"
+              "DocumentIndex": 14,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Views\\TVShow\\Edit.cshtml",
+              "RelativeDocumentMoniker": "FinalProject_Presentation\\Areas\\Admin\\Views\\TVShow\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Views\\TVShow\\Edit.cshtml",
+              "RelativeToolTip": "FinalProject_Presentation\\Areas\\Admin\\Views\\TVShow\\Edit.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-22T20:52:59.835Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "TVShowGenreConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_DataAccess\\Data\\Configurations\\TVShowGenreConfiguration.cs",
-              "RelativeDocumentMoniker": "FinalProject_DataAccess\\Data\\Configurations\\TVShowGenreConfiguration.cs",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_DataAccess\\Data\\Configurations\\TVShowGenreConfiguration.cs",
-              "RelativeToolTip": "FinalProject_DataAccess\\Data\\Configurations\\TVShowGenreConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABHAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "TVShowController.cs",
+              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Controllers\\TVShowController.cs",
+              "RelativeDocumentMoniker": "FinalProject_Presentation\\Areas\\Admin\\Controllers\\TVShowController.cs",
+              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Controllers\\TVShowController.cs",
+              "RelativeToolTip": "FinalProject_Presentation\\Areas\\Admin\\Controllers\\TVShowController.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAIwDsAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T17:54:09.212Z"
+              "WhenOpened": "2025-04-22T20:49:46.438Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "Language.cs",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Core\\Models\\Language.cs",
-              "RelativeDocumentMoniker": "FinalProject_Core\\Models\\Language.cs",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Core\\Models\\Language.cs",
-              "RelativeToolTip": "FinalProject_Core\\Models\\Language.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T18:06:23.101Z"
+              "DocumentIndex": 9,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Views\\Movie\\Edit.cshtml",
+              "RelativeDocumentMoniker": "FinalProject_Presentation\\Areas\\Admin\\Views\\Movie\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Views\\Movie\\Edit.cshtml",
+              "RelativeToolTip": "FinalProject_Presentation\\Areas\\Admin\\Views\\Movie\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-22T21:18:33.24Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "Genre.cs",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Core\\Models\\Genre.cs",
-              "RelativeDocumentMoniker": "FinalProject_Core\\Models\\Genre.cs",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Core\\Models\\Genre.cs",
-              "RelativeToolTip": "FinalProject_Core\\Models\\Genre.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T18:06:07.707Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "Actor.cs",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Core\\Models\\Actor.cs",
-              "RelativeDocumentMoniker": "FinalProject_Core\\Models\\Actor.cs",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Core\\Models\\Actor.cs",
-              "RelativeToolTip": "FinalProject_Core\\Models\\Actor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T18:02:52.862Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "TVShowGenre.cs",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Core\\Models\\TVShowGenre.cs",
-              "RelativeDocumentMoniker": "FinalProject_Core\\Models\\TVShowGenre.cs",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Core\\Models\\TVShowGenre.cs",
-              "RelativeToolTip": "FinalProject_Core\\Models\\TVShowGenre.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T22:10:17.925Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "TVShowLanguage.cs",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Core\\Models\\TVShowLanguage.cs",
-              "RelativeDocumentMoniker": "FinalProject_Core\\Models\\TVShowLanguage.cs",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Core\\Models\\TVShowLanguage.cs",
-              "RelativeToolTip": "FinalProject_Core\\Models\\TVShowLanguage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T22:10:36.645Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 13,
               "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "FinalProject_Presentation\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "FinalProject_Presentation\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAoAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "FinalProject_Presentation\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "FinalProject_Presentation\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-15T21:51:29.833Z"
+              "WhenOpened": "2025-04-22T20:47:46.656Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "Detail.cshtml",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Views\\Movie\\Detail.cshtml",
-              "RelativeDocumentMoniker": "FinalProject_Presentation\\Views\\Movie\\Detail.cshtml",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Views\\Movie\\Detail.cshtml",
-              "RelativeToolTip": "FinalProject_Presentation\\Views\\Movie\\Detail.cshtml",
-              "ViewState": "AgIAAI0AAAAAAAAAAAAuwNIAAAAiAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Views\\Season\\Edit.cshtml",
+              "RelativeDocumentMoniker": "FinalProject_Presentation\\Areas\\Admin\\Views\\Season\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Views\\Season\\Edit.cshtml",
+              "RelativeToolTip": "FinalProject_Presentation\\Areas\\Admin\\Views\\Season\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-15T21:51:13.409Z"
+              "WhenOpened": "2025-04-22T20:43:34.309Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
-              "Title": "MovieController.cs",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Controllers\\MovieController.cs",
-              "RelativeDocumentMoniker": "FinalProject_Presentation\\Controllers\\MovieController.cs",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Controllers\\MovieController.cs",
-              "RelativeToolTip": "FinalProject_Presentation\\Controllers\\MovieController.cs",
-              "ViewState": "AgIAAGcAAAAAAAAAAAAowEYAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T20:21:04.414Z"
+              "DocumentIndex": 12,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Views\\Season\\Create.cshtml",
+              "RelativeDocumentMoniker": "FinalProject_Presentation\\Areas\\Admin\\Views\\Season\\Create.cshtml",
+              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Views\\Season\\Create.cshtml",
+              "RelativeToolTip": "FinalProject_Presentation\\Areas\\Admin\\Views\\Season\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-22T20:43:16.285Z",
+              "EditorCaption": ""
             }
           ]
         },

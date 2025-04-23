@@ -64,6 +64,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRXBpc29kZVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/naila/source/repos/FinalProject/FinalProject_Presentation/Areas/Admin/Views/Episode/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRXBpc29kZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/naila/source/repos/FinalProject/FinalProject_Presentation/Areas/Admin/Views/Episode/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRXBpc29kZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -108,6 +112,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2Vhc29uXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/naila/source/repos/FinalProject/FinalProject_Presentation/Areas/Admin/Views/Season/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2Vhc29uXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/naila/source/repos/FinalProject/FinalProject_Presentation/Areas/Admin/Views/Season/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2Vhc29uXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -122,6 +130,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/naila/source/repos/FinalProject/FinalProject_Presentation/Areas/Admin/Views/TVShow/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVFZTaG93XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/naila/source/repos/FinalProject/FinalProject_Presentation/Areas/Admin/Views/TVShow/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVFZTaG93XEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/naila/source/repos/FinalProject/FinalProject_Presentation/Areas/Admin/Views/TVShow/Index.cshtml]
@@ -166,6 +178,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/naila/source/repos/FinalProject/FinalProject_Presentation/Views/Shared/_ValidationPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/naila/source/repos/FinalProject/FinalProject_Presentation/Views/TVShow/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVFZTaG93XERldGFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/naila/source/repos/FinalProject/FinalProject_Presentation/Views/TVShow/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVFZTaG93XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/naila/source/repos/FinalProject/FinalProject_Presentation/Views/_ViewImports.cshtml]

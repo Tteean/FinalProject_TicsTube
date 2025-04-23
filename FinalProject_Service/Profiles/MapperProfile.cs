@@ -44,6 +44,7 @@ namespace FinalProject_Service.Profiles
             CreateMap<DeleteGenreDto, Genre>()
                 .ForMember(dest => dest.Id, opt => opt.Ignore());
 
+
             CreateMap<LanguageCreateDto, Language>();
             CreateMap<Language, LanguageReturnDto>();
             CreateMap<Language, LanguageUpdateDto>();
@@ -52,6 +53,7 @@ namespace FinalProject_Service.Profiles
             CreateMap<Language, LanguageDeleteDto>();
             CreateMap<LanguageDeleteDto, Language>()
                 .ForMember(dest => dest.Id, opt => opt.Ignore());
+
 
             CreateMap<DirectorCreateDto, Director>()
                 .ForMember(s => s.Image, opt => opt.MapFrom(src => src.File.SaveImage("uploads/directors")));
@@ -64,6 +66,7 @@ namespace FinalProject_Service.Profiles
             CreateMap<DirectorDeleteDto, Director>()
                 .ForMember(dest => dest.Id, opt => opt.Ignore())
                 .ForMember(s => s.Image, opt => opt.MapFrom(src => src.File.SaveImage("uploads/directors")));
+
 
             CreateMap<MovieCreateDto, Movie>()
                 .ForMember(dest => dest.MovieGenres, opt => opt.MapFrom(src => new List<MovieGenre>()))
@@ -95,12 +98,46 @@ namespace FinalProject_Service.Profiles
             .ForMember(dest => dest.TVShowLanguages, opt => opt.MapFrom(src => new List<TVShowLanguage>()))
             .ForMember(dest => dest.TVShowActors, opt => opt.MapFrom(src => new List<TVShowActor>()))
             .ForMember(s => s.Image, opt => opt.MapFrom(src => src.File.SaveImage("uploads/TVShow")));
+            CreateMap<TVShow, TVShowUpdateDto>();
+            CreateMap<TVShowUpdateDto, TVShow>()
+                .ForMember(dest => dest.TVShowGenres, opt => opt.MapFrom(src => new List<TVShowGenre>()))
+            .ForMember(dest => dest.TVShowLanguages, opt => opt.MapFrom(src => new List<TVShowLanguage>()))
+            .ForMember(dest => dest.TVShowActors, opt => opt.MapFrom(src => new List<TVShowActor>()))
+            .ForMember(s => s.Image, opt => opt.MapFrom(src => src.File.SaveImage("uploads/TVShow")))
+            .ForMember(dest => dest.Id, opt => opt.Ignore());
+            CreateMap<TVShow, TVShowDeleteDto>();
+            CreateMap<TVShowDeleteDto, TVShow>()
+            .ForMember(dest => dest.TVShowGenres, opt => opt.MapFrom(src => new List<TVShowGenre>()))
+            .ForMember(dest => dest.TVShowLanguages, opt => opt.MapFrom(src => new List<TVShowLanguage>()))
+            .ForMember(dest => dest.TVShowActors, opt => opt.MapFrom(src => new List<TVShowActor>()))
+            .ForMember(s => s.Image, opt => opt.MapFrom(src => src.File.SaveImage("uploads/TVShow")))
+            .ForMember(dest => dest.Id, opt => opt.Ignore()); 
+
+
             CreateMap<SeasonCreateDto, Season>();
             CreateMap<Season, SeasonCreateDto>();
+            CreateMap<Season, SeasonDeleteDto>();
+            CreateMap<SeasonDeleteDto, Season>()
+                .ForMember(dest => dest.Id, opt => opt.Ignore()); 
+            CreateMap<Season, SeasonUpdateDto>();
+            CreateMap<SeasonUpdateDto, Season>()
+                .ForMember(dest => dest.Id, opt => opt.Ignore()); 
+
+
             CreateMap<EpisodeCreateDto, Episode>()
                 .ForMember(s => s.Image, opt => opt.MapFrom(src => src.File.SaveImage("uploads/episodes")))
                 .ForMember(s => s.Video, opt => opt.MapFrom(src => src.Film.SaveImage("uploads/episodes")));
             CreateMap<Episode, EpisodeCreateDto>();
+            CreateMap<Episode, EpisodeDeleteDto>();
+            CreateMap<EpisodeDeleteDto, Episode>()
+                .ForMember(s => s.Image, opt => opt.MapFrom(src => src.File.SaveImage("uploads/episodes")))
+                .ForMember(s => s.Video, opt => opt.MapFrom(src => src.Film.SaveImage("uploads/episodes")))
+                .ForMember(dest => dest.Id, opt => opt.Ignore()); 
+            CreateMap<Episode, EpisodeUpdateDto>();
+            CreateMap<EpisodeUpdateDto, Episode>()
+                .ForMember(s => s.Image, opt => opt.MapFrom(src => src.File.SaveImage("uploads/episodes")))
+                .ForMember(s => s.Video, opt => opt.MapFrom(src => src.Film.SaveImage("uploads/episodes")))
+                .ForMember(dest => dest.Id, opt => opt.Ignore()); 
         }
     }
 }

@@ -11,7 +11,7 @@ namespace FinalProject_Service.Dto.TVShowDtos
     public class TVShowDeleteDto
     {
         public int Id { get; set; }
-        public int Title { get; set; }
+        public string Title { get; set; }
         public string Description { get; set; }
         public int Year { get; set; }
         public int DirectorId { get; set; }

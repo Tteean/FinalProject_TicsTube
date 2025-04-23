@@ -1,0 +1,25 @@
+﻿@model SeasonUpdateDto
+
+<div class="container">
+    <div class="row">
+        <form method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label asp-for="SeasonNumber"></label>
+                <input asp-for="SeasonNumber" type="text" class="form-control" aria-describedby="emailHelp" placeholder="Enter Genre Name">
+                <span class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <select class="form-select" asp-for="TVShowId">
+                    @foreach (var show in ViewBag.TVShow)
+                    {
+                        <option value="@show.Id">@show.Title</option>
+                    }
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</div>
+@section scripts {
+    @await Html.PartialAsync("_ValidationPartial")
+}

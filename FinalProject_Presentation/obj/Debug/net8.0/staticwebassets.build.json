@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Aov4uAtAS7OnocUNrTp1GBVLa/Kp2k2X289sekpc9KY=",
+  "Hash": "rOaD51F/nZM8IrOEa9Vfeqo/ZfNO2W7Sb1hY3jDwees=",
   "Source": "FinalProject_Presentation",
   "BasePath": "_content/FinalProject_Presentation",
   "Mode": "Default",
@@ -20219,6 +20219,27 @@
       "OriginalItemSpec": "wwwroot\\uploads\\episodes\\1d72582a-0805-4723-85f9-d1b81f886dcf.png"
     },
     {
+      "Identity": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\episodes\\281ec344-dbe5-4a21-a580-a40ca7568251.png",
+      "SourceId": "FinalProject_Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\",
+      "BasePath": "_content/FinalProject_Presentation",
+      "RelativePath": "uploads/episodes/281ec344-dbe5-4a21-a580-a40ca7568251#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ihxwyfclyu",
+      "Integrity": "hm9IdjAwHIELfIxPTQm7aLuls9yf7dNqi0bruADo0zQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\episodes\\281ec344-dbe5-4a21-a580-a40ca7568251.png"
+    },
+    {
       "Identity": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\episodes\\409ea67c-84ab-4674-929e-57965a42b18d.png",
       "SourceId": "FinalProject_Presentation",
       "SourceType": "Discovered",
@@ -20429,6 +20450,27 @@
       "OriginalItemSpec": "wwwroot\\uploads\\episodes\\6b97f5a2-2c89-4a72-b45f-89d5ba5de80a.png"
     },
     {
+      "Identity": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\episodes\\70b2f865-4202-4e0a-b691-095386211ef1.png",
+      "SourceId": "FinalProject_Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\",
+      "BasePath": "_content/FinalProject_Presentation",
+      "RelativePath": "uploads/episodes/70b2f865-4202-4e0a-b691-095386211ef1#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ihxwyfclyu",
+      "Integrity": "hm9IdjAwHIELfIxPTQm7aLuls9yf7dNqi0bruADo0zQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\episodes\\70b2f865-4202-4e0a-b691-095386211ef1.png"
+    },
+    {
       "Identity": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\episodes\\733d2b20-26d6-4cf4-95f2-343814c5065f.png",
       "SourceId": "FinalProject_Presentation",
       "SourceType": "Discovered",
@@ -20469,6 +20511,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\episodes\\9062b8f8-31bc-4717-90d3-9a1d7fc3bbab.png"
+    },
+    {
+      "Identity": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\episodes\\90c7ba64-a06e-4deb-b140-3265e3c07e92.png",
+      "SourceId": "FinalProject_Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\",
+      "BasePath": "_content/FinalProject_Presentation",
+      "RelativePath": "uploads/episodes/90c7ba64-a06e-4deb-b140-3265e3c07e92#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5fx1yha8qy",
+      "Integrity": "cUW4Bz3kFpkULWog4WFPpilJo4DE3vgRDWM2n1azxik=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\episodes\\90c7ba64-a06e-4deb-b140-3265e3c07e92.png"
     },
     {
       "Identity": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\episodes\\926b53e9-dce1-4c85-94f8-dff605b489aa.png",
@@ -20658,6 +20721,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\episodes\\ba088ecd-8430-47cb-8af5-abef57954742.png"
+    },
+    {
+      "Identity": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\episodes\\cb2902e0-e948-4dc5-83c5-c9fb9f13d9ba.png",
+      "SourceId": "FinalProject_Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\",
+      "BasePath": "_content/FinalProject_Presentation",
+      "RelativePath": "uploads/episodes/cb2902e0-e948-4dc5-83c5-c9fb9f13d9ba#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5fx1yha8qy",
+      "Integrity": "cUW4Bz3kFpkULWog4WFPpilJo4DE3vgRDWM2n1azxik=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\episodes\\cb2902e0-e948-4dc5-83c5-c9fb9f13d9ba.png"
     },
     {
       "Identity": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\episodes\\d0b7560c-8f3d-4173-94c3-c8956d28a44f.png",
@@ -21437,6 +21521,27 @@
       "OriginalItemSpec": "wwwroot\\uploads\\movies\\7ca3a44b-b6e8-460e-a1dc-76077e36bc7a.jpeg"
     },
     {
+      "Identity": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\movies\\7f5aaffe-1da9-4957-9dda-43a9c9c3f354.png",
+      "SourceId": "FinalProject_Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\",
+      "BasePath": "_content/FinalProject_Presentation",
+      "RelativePath": "uploads/movies/7f5aaffe-1da9-4957-9dda-43a9c9c3f354#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5fx1yha8qy",
+      "Integrity": "cUW4Bz3kFpkULWog4WFPpilJo4DE3vgRDWM2n1azxik=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\movies\\7f5aaffe-1da9-4957-9dda-43a9c9c3f354.png"
+    },
+    {
       "Identity": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\movies\\86638af9-6b76-43ea-8d91-0988729ad36a.jpeg",
       "SourceId": "FinalProject_Presentation",
       "SourceType": "Discovered",
@@ -22046,6 +22151,27 @@
       "OriginalItemSpec": "wwwroot\\uploads\\TVShow\\9bb91716-986d-49e9-8475-fa8a62bae047.png"
     },
     {
+      "Identity": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\TVShow\\a6a2c24a-a9df-48c2-afd7-f08516098308.png",
+      "SourceId": "FinalProject_Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\",
+      "BasePath": "_content/FinalProject_Presentation",
+      "RelativePath": "uploads/TVShow/a6a2c24a-a9df-48c2-afd7-f08516098308#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5fx1yha8qy",
+      "Integrity": "cUW4Bz3kFpkULWog4WFPpilJo4DE3vgRDWM2n1azxik=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\TVShow\\a6a2c24a-a9df-48c2-afd7-f08516098308.png"
+    },
+    {
       "Identity": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\TVShow\\bce34911-c309-4437-a2f2-15c4c988cd31.png",
       "SourceId": "FinalProject_Presentation",
       "SourceType": "Discovered",
@@ -22065,6 +22191,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\TVShow\\bce34911-c309-4437-a2f2-15c4c988cd31.png"
+    },
+    {
+      "Identity": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\TVShow\\e96f03a0-1511-447b-ab7c-ff35de17017d.png",
+      "SourceId": "FinalProject_Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\",
+      "BasePath": "_content/FinalProject_Presentation",
+      "RelativePath": "uploads/TVShow/e96f03a0-1511-447b-ab7c-ff35de17017d#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5fx1yha8qy",
+      "Integrity": "cUW4Bz3kFpkULWog4WFPpilJo4DE3vgRDWM2n1azxik=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\TVShow\\e96f03a0-1511-447b-ab7c-ff35de17017d.png"
+    },
+    {
+      "Identity": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\TVShow\\ea63a146-1799-4a96-a45e-36ece065353d.png",
+      "SourceId": "FinalProject_Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\",
+      "BasePath": "_content/FinalProject_Presentation",
+      "RelativePath": "uploads/TVShow/ea63a146-1799-4a96-a45e-36ece065353d#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5fx1yha8qy",
+      "Integrity": "cUW4Bz3kFpkULWog4WFPpilJo4DE3vgRDWM2n1azxik=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\TVShow\\ea63a146-1799-4a96-a45e-36ece065353d.png"
     }
   ],
   "Endpoints": [
@@ -100953,6 +101121,88 @@
       ]
     },
     {
+      "Route": "uploads/episodes/281ec344-dbe5-4a21-a580-a40ca7568251.ihxwyfclyu.png",
+      "AssetFile": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\episodes\\281ec344-dbe5-4a21-a580-a40ca7568251.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "195092"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hm9IdjAwHIELfIxPTQm7aLuls9yf7dNqi0bruADo0zQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 15:36:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ihxwyfclyu"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/episodes/281ec344-dbe5-4a21-a580-a40ca7568251.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hm9IdjAwHIELfIxPTQm7aLuls9yf7dNqi0bruADo0zQ="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/episodes/281ec344-dbe5-4a21-a580-a40ca7568251.png",
+      "AssetFile": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\episodes\\281ec344-dbe5-4a21-a580-a40ca7568251.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "195092"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hm9IdjAwHIELfIxPTQm7aLuls9yf7dNqi0bruADo0zQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 15:36:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hm9IdjAwHIELfIxPTQm7aLuls9yf7dNqi0bruADo0zQ="
+        }
+      ]
+    },
+    {
       "Route": "uploads/episodes/409ea67c-84ab-4674-929e-57965a42b18d.5fx1yha8qy.png",
       "AssetFile": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\episodes\\409ea67c-84ab-4674-929e-57965a42b18d.png",
       "Selectors": [],
@@ -101773,6 +102023,88 @@
       ]
     },
     {
+      "Route": "uploads/episodes/70b2f865-4202-4e0a-b691-095386211ef1.ihxwyfclyu.png",
+      "AssetFile": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\episodes\\70b2f865-4202-4e0a-b691-095386211ef1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "195092"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hm9IdjAwHIELfIxPTQm7aLuls9yf7dNqi0bruADo0zQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 15:36:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ihxwyfclyu"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/episodes/70b2f865-4202-4e0a-b691-095386211ef1.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hm9IdjAwHIELfIxPTQm7aLuls9yf7dNqi0bruADo0zQ="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/episodes/70b2f865-4202-4e0a-b691-095386211ef1.png",
+      "AssetFile": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\episodes\\70b2f865-4202-4e0a-b691-095386211ef1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "195092"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hm9IdjAwHIELfIxPTQm7aLuls9yf7dNqi0bruADo0zQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 15:36:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hm9IdjAwHIELfIxPTQm7aLuls9yf7dNqi0bruADo0zQ="
+        }
+      ]
+    },
+    {
       "Route": "uploads/episodes/733d2b20-26d6-4cf4-95f2-343814c5065f.5fx1yha8qy.png",
       "AssetFile": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\episodes\\733d2b20-26d6-4cf4-95f2-343814c5065f.png",
       "Selectors": [],
@@ -101923,6 +102255,88 @@
         {
           "Name": "Last-Modified",
           "Value": "Mon, 21 Apr 2025 14:40:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cUW4Bz3kFpkULWog4WFPpilJo4DE3vgRDWM2n1azxik="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/episodes/90c7ba64-a06e-4deb-b140-3265e3c07e92.5fx1yha8qy.png",
+      "AssetFile": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\episodes\\90c7ba64-a06e-4deb-b140-3265e3c07e92.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "358682"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cUW4Bz3kFpkULWog4WFPpilJo4DE3vgRDWM2n1azxik=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 15:36:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5fx1yha8qy"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/episodes/90c7ba64-a06e-4deb-b140-3265e3c07e92.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cUW4Bz3kFpkULWog4WFPpilJo4DE3vgRDWM2n1azxik="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/episodes/90c7ba64-a06e-4deb-b140-3265e3c07e92.png",
+      "AssetFile": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\episodes\\90c7ba64-a06e-4deb-b140-3265e3c07e92.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "358682"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cUW4Bz3kFpkULWog4WFPpilJo4DE3vgRDWM2n1azxik=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 15:36:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -102671,6 +103085,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-gNWwI6hjRidEhixqhjDRC9PV4OgjN5Yl0UoCBqwIL2Q="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/episodes/cb2902e0-e948-4dc5-83c5-c9fb9f13d9ba.5fx1yha8qy.png",
+      "AssetFile": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\episodes\\cb2902e0-e948-4dc5-83c5-c9fb9f13d9ba.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "358682"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cUW4Bz3kFpkULWog4WFPpilJo4DE3vgRDWM2n1azxik=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 15:36:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5fx1yha8qy"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/episodes/cb2902e0-e948-4dc5-83c5-c9fb9f13d9ba.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cUW4Bz3kFpkULWog4WFPpilJo4DE3vgRDWM2n1azxik="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/episodes/cb2902e0-e948-4dc5-83c5-c9fb9f13d9ba.png",
+      "AssetFile": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\episodes\\cb2902e0-e948-4dc5-83c5-c9fb9f13d9ba.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "358682"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cUW4Bz3kFpkULWog4WFPpilJo4DE3vgRDWM2n1azxik=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 15:36:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cUW4Bz3kFpkULWog4WFPpilJo4DE3vgRDWM2n1azxik="
         }
       ]
     },
@@ -105709,6 +106205,88 @@
       ]
     },
     {
+      "Route": "uploads/movies/7f5aaffe-1da9-4957-9dda-43a9c9c3f354.5fx1yha8qy.png",
+      "AssetFile": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\movies\\7f5aaffe-1da9-4957-9dda-43a9c9c3f354.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "358682"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cUW4Bz3kFpkULWog4WFPpilJo4DE3vgRDWM2n1azxik=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 21:17:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5fx1yha8qy"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/movies/7f5aaffe-1da9-4957-9dda-43a9c9c3f354.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cUW4Bz3kFpkULWog4WFPpilJo4DE3vgRDWM2n1azxik="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/movies/7f5aaffe-1da9-4957-9dda-43a9c9c3f354.png",
+      "AssetFile": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\movies\\7f5aaffe-1da9-4957-9dda-43a9c9c3f354.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "358682"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cUW4Bz3kFpkULWog4WFPpilJo4DE3vgRDWM2n1azxik=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 21:17:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cUW4Bz3kFpkULWog4WFPpilJo4DE3vgRDWM2n1azxik="
+        }
+      ]
+    },
+    {
       "Route": "uploads/movies/86638af9-6b76-43ea-8d91-0988729ad36a.jpeg",
       "AssetFile": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\movies\\86638af9-6b76-43ea-8d91-0988729ad36a.jpeg",
       "Selectors": [],
@@ -108087,6 +108665,88 @@
       ]
     },
     {
+      "Route": "uploads/TVShow/a6a2c24a-a9df-48c2-afd7-f08516098308.5fx1yha8qy.png",
+      "AssetFile": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\TVShow\\a6a2c24a-a9df-48c2-afd7-f08516098308.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "358682"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cUW4Bz3kFpkULWog4WFPpilJo4DE3vgRDWM2n1azxik=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 15:35:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5fx1yha8qy"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/TVShow/a6a2c24a-a9df-48c2-afd7-f08516098308.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cUW4Bz3kFpkULWog4WFPpilJo4DE3vgRDWM2n1azxik="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/TVShow/a6a2c24a-a9df-48c2-afd7-f08516098308.png",
+      "AssetFile": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\TVShow\\a6a2c24a-a9df-48c2-afd7-f08516098308.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "358682"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cUW4Bz3kFpkULWog4WFPpilJo4DE3vgRDWM2n1azxik=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 15:35:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cUW4Bz3kFpkULWog4WFPpilJo4DE3vgRDWM2n1azxik="
+        }
+      ]
+    },
+    {
       "Route": "uploads/TVShow/bce34911-c309-4437-a2f2-15c4c988cd31.5fx1yha8qy.png",
       "AssetFile": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\TVShow\\bce34911-c309-4437-a2f2-15c4c988cd31.png",
       "Selectors": [],
@@ -108155,6 +108815,170 @@
         {
           "Name": "Last-Modified",
           "Value": "Mon, 21 Apr 2025 19:55:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cUW4Bz3kFpkULWog4WFPpilJo4DE3vgRDWM2n1azxik="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/TVShow/e96f03a0-1511-447b-ab7c-ff35de17017d.5fx1yha8qy.png",
+      "AssetFile": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\TVShow\\e96f03a0-1511-447b-ab7c-ff35de17017d.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "358682"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cUW4Bz3kFpkULWog4WFPpilJo4DE3vgRDWM2n1azxik=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 21:17:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5fx1yha8qy"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/TVShow/e96f03a0-1511-447b-ab7c-ff35de17017d.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cUW4Bz3kFpkULWog4WFPpilJo4DE3vgRDWM2n1azxik="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/TVShow/e96f03a0-1511-447b-ab7c-ff35de17017d.png",
+      "AssetFile": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\TVShow\\e96f03a0-1511-447b-ab7c-ff35de17017d.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "358682"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cUW4Bz3kFpkULWog4WFPpilJo4DE3vgRDWM2n1azxik=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 21:17:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cUW4Bz3kFpkULWog4WFPpilJo4DE3vgRDWM2n1azxik="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/TVShow/ea63a146-1799-4a96-a45e-36ece065353d.5fx1yha8qy.png",
+      "AssetFile": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\TVShow\\ea63a146-1799-4a96-a45e-36ece065353d.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "358682"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cUW4Bz3kFpkULWog4WFPpilJo4DE3vgRDWM2n1azxik=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 15:35:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5fx1yha8qy"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/TVShow/ea63a146-1799-4a96-a45e-36ece065353d.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cUW4Bz3kFpkULWog4WFPpilJo4DE3vgRDWM2n1azxik="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/TVShow/ea63a146-1799-4a96-a45e-36ece065353d.png",
+      "AssetFile": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\TVShow\\ea63a146-1799-4a96-a45e-36ece065353d.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "358682"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cUW4Bz3kFpkULWog4WFPpilJo4DE3vgRDWM2n1azxik=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 15:35:05 GMT"
         },
         {
           "Name": "Cache-Control",

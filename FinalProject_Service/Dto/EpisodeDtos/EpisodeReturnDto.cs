@@ -9,6 +9,7 @@ namespace FinalProject_Service.Dto.EpisodeDtos
 {
     public class EpisodeReturnDto
     {
+        public int? TVShowId { get; set; }
         public int? SeasonId { get; set; }
         public int EpisodeNumber { get; set; }
         public string Title { get; set; }
