@@ -1,5 +1,6 @@
 ﻿using FinalProject_Core.Models;
 using FinalProject_DataAccess.Data;
+using FinalProject_Service.Extentions;
 using FinalProject_Service.Profiles;
 using FinalProject_Service.Services.Implementations;
 using FinalProject_Service.Services.Interfaces;
@@ -59,6 +60,7 @@ namespace FinalProject_Presentation
             {
                 opt.AddProfile(new MapperProfile());
             });
+            services.AddHostedService<SubscriptionsCheckService>();
             services.AddHttpClient();
             services.AddScoped<IActorService, ActorService>();
             services.AddScoped<IGenreService, GenreService>();
@@ -69,6 +71,7 @@ namespace FinalProject_Presentation
             services.AddScoped<ITVShowService, TVShowService>();
             services.AddScoped<ISeasonService, SeasonService>();
             services.AddScoped<IEpisodeService, EpisodeService>();
+            services.AddScoped<PayPalClient>();
         }
     }
 }

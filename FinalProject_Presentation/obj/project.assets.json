@@ -2331,6 +2331,27 @@
           "lib/netstandard2.0/NuGet.Versioning.dll": {}
         }
       },
+      "PayPalCheckoutSdk/1.0.4": {
+        "type": "package",
+        "dependencies": {
+          "PayPalHttp": "1.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/PayPalCheckoutSdk.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/PayPalCheckoutSdk.dll": {}
+        }
+      },
+      "PayPalHttp/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/PayPalHttp-Dotnet.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/PayPalHttp-Dotnet.dll": {}
+        }
+      },
       "System.CodeDom/5.0.0": {
         "type": "package",
         "compile": {
@@ -3033,7 +3054,8 @@
           "FinalProject_ViewModel": "1.0.0",
           "FluentValidation.AspNetCore": "11.3.0",
           "MailKit": "4.11.0",
-          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "8.0.0"
+          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "8.0.0",
+          "PayPalCheckoutSdk": "1.0.4"
         },
         "compile": {
           "bin/placeholder/FinalProject_Service.dll": {}
@@ -6972,6 +6994,30 @@
         "lib/netstandard2.0/NuGet.Versioning.dll",
         "nuget.versioning.6.11.0.nupkg.sha512",
         "nuget.versioning.nuspec"
+      ]
+    },
+    "PayPalCheckoutSdk/1.0.4": {
+      "sha512": "4fsOPj6SOJurbVf5ANg7NQ5TNvSYmtngf3dpJN11xEk6BP+5Rn6OcaaTbUx+bVnnYmgaoe5LbRZe52QpAjuwqg==",
+      "type": "package",
+      "path": "paypalcheckoutsdk/1.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/PayPalCheckoutSdk.dll",
+        "paypalcheckoutsdk.1.0.4.nupkg.sha512",
+        "paypalcheckoutsdk.nuspec"
+      ]
+    },
+    "PayPalHttp/1.0.1": {
+      "sha512": "Jlg8e9Egwxk+sfkIoGIkjQS+uxGNIOnY6NbUkWXKJiEGGqryeV9bIRNtSfjSgs/g02JcIQbKRFQW+8amtSo3ig==",
+      "type": "package",
+      "path": "paypalhttp/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/PayPalHttp-Dotnet.dll",
+        "paypalhttp.1.0.1.nupkg.sha512",
+        "paypalhttp.nuspec"
       ]
     },
     "System.CodeDom/5.0.0": {

@@ -481,6 +481,35 @@ namespace FinalProject_DataAccess.Migrations
                     b.ToTable("Subscribers");
                 });
 
+            modelBuilder.Entity("FinalProject_Core.Models.Subscription", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("EndDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Plan")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("StartDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Subscriptions");
+                });
+
             modelBuilder.Entity("FinalProject_Core.Models.TVShow", b =>
                 {
                     b.Property<int>("Id")
@@ -820,6 +849,17 @@ namespace FinalProject_DataAccess.Migrations
                         .IsRequired();
 
                     b.Navigation("TVShow");
+                });
+
+            modelBuilder.Entity("FinalProject_Core.Models.Subscription", b =>
+                {
+                    b.HasOne("FinalProject_Core.Models.AppUser", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("FinalProject_Core.Models.TVShow", b =>

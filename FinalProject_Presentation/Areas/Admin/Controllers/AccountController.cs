@@ -36,7 +36,9 @@ namespace FinalProject_Presentation.Areas.Admin.Controllers
         {
             await _roleManager.CreateAsync(new IdentityRole("admin"));
             await _roleManager.CreateAsync(new IdentityRole("user"));
-            await _roleManager.CreateAsync(new IdentityRole("member"));
+            await _roleManager.CreateAsync(new IdentityRole("month_member"));
+            await _roleManager.CreateAsync(new IdentityRole("halfYear_member"));
+            await _roleManager.CreateAsync(new IdentityRole("year _member"));
             await _roleManager.CreateAsync(new IdentityRole("moderator"));
             return Content("added");
 

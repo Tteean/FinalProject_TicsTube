@@ -1,0 +1,74 @@
+﻿<div class="breadcrumb-wrapper bg-cover" style="background-image: url('assets/img/breadcrumb-bg.jpg');">
+    <div class="container">
+        <div class="page-heading">
+            <div class="page-header-left">
+                <h1 class="wow fadeInUp" data-wow-delay=".3s">Subscriptions</h1>
+                <ul class="breadcrumb-items wow fadeInUp" data-wow-delay=".5s">
+                    <li>
+                        <a href="index.html">
+                            <i class="fa-solid fa-house"></i>
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-slash-forward"></i>
+                    </li>
+                    <li>
+                        Subscriptions
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Pricing Section Start -->
+<section class="pricing-section section-padding pb-0">
+    <div class="container-fluid">
+        <div class="section-title-area justify-content-center">
+            <ul class="nav" role="tablist">
+                <li class="nav-item">
+                    <a href="#monthly" data-bs-toggle="tab" class="nav-link active" aria-selected="true" role="tab">
+                        Monthly
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="tab-content">
+            <div id="monthly" class="tab-pane fade show active" role="tabpanel">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+                        <div class="pricing-box-items">
+                            <h3>Basic Plan</h3>
+                            <p>Enjoy an extensive library of movies and shows, featuring a range of content, including recently released titles.</p>
+                            <h2>$9.99 <sub>/month</sub></h2>
+                            <div class="pricing-button">
+                                <a asp-controller="Subscribe" asp-action="CreateOrder" asp-route-plan="month_member" class="theme-btn">Choose Plan</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
+                        <div class="pricing-box-items">
+                            <h3>Standard Plan</h3>
+                            <p>Access to a wider selection of movies and shows, including most new releases and exclusive content</p>
+                            <h2>$12.99 <sub>/month</sub></h2>
+                            <div class="pricing-button">
+                                <a asp-controller="Subscribe" asp-action="CreateOrder" asp-route-plan="halfYear_member" class="theme-btn">Choose Plan</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
+                        <div class="pricing-box-items">
+                            <h3>Premium Plan</h3>
+                            <p>Access to a widest selection of movies and shows, including all new releases and Offline Viewing</p>
+                            <h2>$14.99 <sub>/month</sub></h2>
+                            <div class="pricing-button">
+                                <a asp-controller="Subscribe" asp-action="CreateOrder" asp-route-plan="year_member" class="theme-btn">Choose Plan</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

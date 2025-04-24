@@ -24,6 +24,7 @@ namespace FinalProject_DataAccess.Data
         public DbSet<TVShowLanguage> TVShowLanguages { get; set; }
         public DbSet<Season> Seasons { get; set; }
         public DbSet<Episode> Episodes { get; set; }
+        public DbSet<Subscription> Subscriptions { get; set; }
 
 
         public TicsTubeDbContext(DbContextOptions options) : base(options)
