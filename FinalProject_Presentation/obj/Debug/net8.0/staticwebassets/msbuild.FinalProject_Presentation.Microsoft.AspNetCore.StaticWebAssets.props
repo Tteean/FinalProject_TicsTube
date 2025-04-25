@@ -15996,8 +15996,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>kh620t2jw0</Fingerprint>
-      <Integrity>qP5MFTQ5LCqeFw7c3Pyh7na9JvWWnD7Os/58onIg8XE=</Integrity>
+      <Fingerprint>tg19zsqx8i</Fingerprint>
+      <Integrity>U70gmBj5pICpxSmc4GAZtW+TmN62Wi5PNPGI1Sn5R/0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\templates\ConfirmEmail.html'))</OriginalItemSpec>

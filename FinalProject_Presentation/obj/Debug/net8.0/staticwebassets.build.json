@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rOaD51F/nZM8IrOEa9Vfeqo/ZfNO2W7Sb1hY3jDwees=",
+  "Hash": "Dc5B7sPg1vASWqY8fa+nBvWEE1N2TEcDfZoFdarcQ84=",
   "Source": "FinalProject_Presentation",
   "BasePath": "_content/FinalProject_Presentation",
   "Mode": "Default",
@@ -18721,8 +18721,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "kh620t2jw0",
-      "Integrity": "qP5MFTQ5LCqeFw7c3Pyh7na9JvWWnD7Os/58onIg8XE=",
+      "Fingerprint": "tg19zsqx8i",
+      "Integrity": "U70gmBj5pICpxSmc4GAZtW+TmN62Wi5PNPGI1Sn5R/0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\templates\\ConfirmEmail.html"
@@ -95063,7 +95063,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2102"
+          "Value": "1977"
         },
         {
           "Name": "Content-Type",
@@ -95071,11 +95071,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"qP5MFTQ5LCqeFw7c3Pyh7na9JvWWnD7Os/58onIg8XE=\""
+          "Value": "\"U70gmBj5pICpxSmc4GAZtW+TmN62Wi5PNPGI1Sn5R/0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 02:01:53 GMT"
+          "Value": "Thu, 24 Apr 2025 22:36:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -95085,12 +95085,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-qP5MFTQ5LCqeFw7c3Pyh7na9JvWWnD7Os/58onIg8XE="
+          "Value": "sha256-U70gmBj5pICpxSmc4GAZtW+TmN62Wi5PNPGI1Sn5R/0="
         }
       ]
     },
     {
-      "Route": "assets/templates/ConfirmEmail.kh620t2jw0.html",
+      "Route": "assets/templates/ConfirmEmail.tg19zsqx8i.html",
       "AssetFile": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\templates\\ConfirmEmail.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -95100,7 +95100,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2102"
+          "Value": "1977"
         },
         {
           "Name": "Content-Type",
@@ -95108,11 +95108,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"qP5MFTQ5LCqeFw7c3Pyh7na9JvWWnD7Os/58onIg8XE=\""
+          "Value": "\"U70gmBj5pICpxSmc4GAZtW+TmN62Wi5PNPGI1Sn5R/0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 02:01:53 GMT"
+          "Value": "Thu, 24 Apr 2025 22:36:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -95122,7 +95122,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "kh620t2jw0"
+          "Value": "tg19zsqx8i"
         },
         {
           "Name": "label",
@@ -95130,7 +95130,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-qP5MFTQ5LCqeFw7c3Pyh7na9JvWWnD7Os/58onIg8XE="
+          "Value": "sha256-U70gmBj5pICpxSmc4GAZtW+TmN62Wi5PNPGI1Sn5R/0="
         }
       ]
     },

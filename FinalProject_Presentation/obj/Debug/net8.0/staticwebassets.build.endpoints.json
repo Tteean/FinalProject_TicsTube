@@ -72915,7 +72915,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2102"
+          "Value": "1977"
         },
         {
           "Name": "Content-Type",
@@ -72923,22 +72923,22 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"qP5MFTQ5LCqeFw7c3Pyh7na9JvWWnD7Os/58onIg8XE=\""
+          "Value": "\"U70gmBj5pICpxSmc4GAZtW+TmN62Wi5PNPGI1Sn5R/0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 02:01:53 GMT"
+          "Value": "Thu, 24 Apr 2025 22:36:39 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-qP5MFTQ5LCqeFw7c3Pyh7na9JvWWnD7Os/58onIg8XE="
+          "Value": "sha256-U70gmBj5pICpxSmc4GAZtW+TmN62Wi5PNPGI1Sn5R/0="
         }
       ]
     },
     {
-      "Route": "assets/templates/ConfirmEmail.kh620t2jw0.html",
+      "Route": "assets/templates/ConfirmEmail.tg19zsqx8i.html",
       "AssetFile": "assets/templates/ConfirmEmail.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -72952,7 +72952,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2102"
+          "Value": "1977"
         },
         {
           "Name": "Content-Type",
@@ -72960,21 +72960,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"qP5MFTQ5LCqeFw7c3Pyh7na9JvWWnD7Os/58onIg8XE=\""
+          "Value": "\"U70gmBj5pICpxSmc4GAZtW+TmN62Wi5PNPGI1Sn5R/0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 02:01:53 GMT"
+          "Value": "Thu, 24 Apr 2025 22:36:39 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "kh620t2jw0"
+          "Value": "tg19zsqx8i"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-qP5MFTQ5LCqeFw7c3Pyh7na9JvWWnD7Os/58onIg8XE="
+          "Value": "sha256-U70gmBj5pICpxSmc4GAZtW+TmN62Wi5PNPGI1Sn5R/0="
         },
         {
           "Name": "label",

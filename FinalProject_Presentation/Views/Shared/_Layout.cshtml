@@ -207,9 +207,6 @@
                                         <a asp-controller="home" asp-action="index">
                                             Home
                                         </a>
-                                        <ul class="submenu">
-                                            <li><a href="index.html">Home</a></li>
-                                        </ul>
                                     </li>
                                     <li>
                                         <a asp-controller="movie" asp-action="index">
@@ -229,7 +226,7 @@
                                     </li>
                                     <li class="has-dropdown">
                                         <a href="news.html">
-                                            Pages
+                                            Shop
                                         </a>
                                         <ul class="submenu">
                                             <li><a href="about.html">About Us</a></li>
@@ -240,11 +237,19 @@
                                     </li>
                                     <li>
                                         <a href="news-details.html">
-                                            Blog
+                                            Login
                                         </a>
                                         <ul class="submenu">
-                                            <li><a href="news.html">Blog</a></li>
-                                            <li><a href="news-details.html">Blog Details</a></li>
+                                            @if (User.Identity.IsAuthenticated && User.IsInRole("user"))
+                                            {
+                                                <li><a asp-controller="account" asp-action="logout">Logout</a></li>
+                                                <li><a asp-action="profile" asp-controller="account">@User.Identity.Name</a></li>
+                                            }
+                                            else
+                                            {
+                                                <li><a asp-controller="account" asp-action="login">Login</a></li>
+                                                <li><a asp-controller="account" asp-action="register">Register</a></li>
+                                            }
                                         </ul>
                                     </li>
                                     <li><a href="contact.html">Contact Us</a></li>

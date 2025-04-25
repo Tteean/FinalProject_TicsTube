@@ -41,6 +41,7 @@ namespace FinalProject_Presentation
             services.ConfigureApplicationCookie(opt =>
             {
                 opt.Events.OnRedirectToLogin = opt.Events.OnRedirectToAccessDenied = context =>
+                
                 {
                     var uri = new Uri(context.RedirectUri);
                     if (context.Request.Path.Value.ToLower().StartsWith("/admin"))

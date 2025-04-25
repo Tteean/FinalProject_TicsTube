@@ -44,7 +44,7 @@ namespace FinalProject_Presentation.Controllers
                     {
                         CurrencyCode = "USD",
                         Value = plan == "year_member" ? "14.99" :
-                                plan == "halfYear_member" ? "12.99" : "0.10"
+                                plan == "halfYear_member" ? "12.99" : "9.00"
                     }
                 }
             },

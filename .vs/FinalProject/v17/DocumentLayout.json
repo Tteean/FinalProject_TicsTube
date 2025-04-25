@@ -3,112 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\naila\\source\\repos\\FinalProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\controllers\\subscribecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\controllers\\subscribecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\areas\\admin\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\areas\\admin\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60DDC7B4-13BA-4AAC-BEAE-953F85731E96}|FinalProject_Service\\FinalProject_Service.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_service\\extentions\\paypalclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60DDC7B4-13BA-4AAC-BEAE-953F85731E96}|FinalProject_Service\\FinalProject_Service.csproj|solutionrelative:finalproject_service\\extentions\\paypalclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\views\\subscribe\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\views\\subscribe\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AF5A4B5-1B6F-463C-90C7-3B168B04700D}|FinalProject_Core\\FinalProject_Core.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_core\\models\\subscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AF5A4B5-1B6F-463C-90C7-3B168B04700D}|FinalProject_Core\\FinalProject_Core.csproj|solutionrelative:finalproject_core\\models\\subscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\seviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\seviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_DataAccess\\Data\\Migrations\\20250424185848_SubscriptionsTableAdded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FinalProject_DataAccess\\Data\\Migrations\\20250424185848_SubscriptionsTableAdded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60DDC7B4-13BA-4AAC-BEAE-953F85731E96}|FinalProject_Service\\FinalProject_Service.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_service\\services\\implementations\\subscriptionscheckservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60DDC7B4-13BA-4AAC-BEAE-953F85731E96}|FinalProject_Service\\FinalProject_Service.csproj|solutionrelative:finalproject_service\\services\\implementations\\subscriptionscheckservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABA6508A-E19C-43FE-8BC6-71E0C737A56D}|FinalProject_DataAccess\\FinalProject_DataAccess.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_dataaccess\\data\\ticstubedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABA6508A-E19C-43FE-8BC6-71E0C737A56D}|FinalProject_DataAccess\\FinalProject_DataAccess.csproj|solutionrelative:finalproject_dataaccess\\data\\ticstubedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\areas\\admin\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\areas\\admin\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\controllers\\tvshowcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\controllers\\tvshowcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\views\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\views\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\views\\tvshow\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\views\\tvshow\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29850242-4017-4228-A5E1-D267354AC577}|FinalProject_ViewModel\\FinalProject_ViewModel.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_viewmodel\\viewmodels\\homevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29850242-4017-4228-A5E1-D267354AC577}|FinalProject_ViewModel\\FinalProject_ViewModel.csproj|solutionrelative:finalproject_viewmodel\\viewmodels\\homevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\views\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\views\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29850242-4017-4228-A5E1-D267354AC577}|FinalProject_ViewModel\\FinalProject_ViewModel.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_viewmodel\\viewmodels\\tvshowvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29850242-4017-4228-A5E1-D267354AC577}|FinalProject_ViewModel\\FinalProject_ViewModel.csproj|solutionrelative:finalproject_viewmodel\\viewmodels\\tvshowvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\wwwroot\\assets\\templates\\confirmemail.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\wwwroot\\assets\\templates\\confirmemail.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\views\\tvshow\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\views\\tvshow\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\seviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\seviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\areas\\admin\\controllers\\episodecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\areas\\admin\\controllers\\episodecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\areas\\admin\\controllers\\seasoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\areas\\admin\\controllers\\seasoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\areas\\admin\\controllers\\tvshowcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\areas\\admin\\controllers\\tvshowcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\areas\\admin\\views\\movie\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\areas\\admin\\views\\movie\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\areas\\admin\\views\\season\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\areas\\admin\\views\\season\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\areas\\admin\\views\\tvshow\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\areas\\admin\\views\\tvshow\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\areas\\admin\\views\\season\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\areas\\admin\\views\\season\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\areas\\admin\\views\\tvshow\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\areas\\admin\\views\\tvshow\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60DDC7B4-13BA-4AAC-BEAE-953F85731E96}|FinalProject_Service\\FinalProject_Service.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_service\\profiles\\mapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60DDC7B4-13BA-4AAC-BEAE-953F85731E96}|FinalProject_Service\\FinalProject_Service.csproj|solutionrelative:finalproject_service\\profiles\\mapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -118,8 +54,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ShopController.cs",
+              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Controllers\\ShopController.cs",
+              "RelativeDocumentMoniker": "FinalProject_Presentation\\Controllers\\ShopController.cs",
+              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Controllers\\ShopController.cs",
+              "RelativeToolTip": "FinalProject_Presentation\\Controllers\\ShopController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T00:04:08.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "FinalProject_Presentation\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "FinalProject_Presentation\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-24T23:21:34.102Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
@@ -142,339 +104,120 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SubscribeController.cs",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Controllers\\SubscribeController.cs",
-              "RelativeDocumentMoniker": "FinalProject_Presentation\\Controllers\\SubscribeController.cs",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Controllers\\SubscribeController.cs",
-              "RelativeToolTip": "FinalProject_Presentation\\Controllers\\SubscribeController.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAwwCEAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T13:59:10.504Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Subscription.cs",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Core\\Models\\Subscription.cs",
-              "RelativeDocumentMoniker": "FinalProject_Core\\Models\\Subscription.cs",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Core\\Models\\Subscription.cs",
-              "RelativeToolTip": "FinalProject_Core\\Models\\Subscription.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T14:23:02.041Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SeviceRegistration.cs",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\SeviceRegistration.cs",
-              "RelativeDocumentMoniker": "FinalProject_Presentation\\SeviceRegistration.cs",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\SeviceRegistration.cs",
-              "RelativeToolTip": "FinalProject_Presentation\\SeviceRegistration.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAwwEkAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T14:14:49.404Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "FinalProject_Presentation\\Areas\\Admin\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "FinalProject_Presentation\\Areas\\Admin\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAUwCYAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T00:15:57.5Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PayPalClient.cs",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Service\\Extentions\\PayPalClient.cs",
-              "RelativeDocumentMoniker": "FinalProject_Service\\Extentions\\PayPalClient.cs",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Service\\Extentions\\PayPalClient.cs",
-              "RelativeToolTip": "FinalProject_Service\\Extentions\\PayPalClient.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T13:46:58.506Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Views\\Subscribe\\Index.cshtml",
-              "RelativeDocumentMoniker": "FinalProject_Presentation\\Views\\Subscribe\\Index.cshtml",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Views\\Subscribe\\Index.cshtml",
-              "RelativeToolTip": "FinalProject_Presentation\\Views\\Subscribe\\Index.cshtml",
-              "ViewState": "AgIAABoAAAAAAAAAAAAmwCIAAAARAAAAAAAAAA==",
+              "Title": "ResetPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Views\\Account\\ResetPassword.cshtml",
+              "RelativeDocumentMoniker": "FinalProject_Presentation\\Views\\Account\\ResetPassword.cshtml",
+              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Views\\Account\\ResetPassword.cshtml",
+              "RelativeToolTip": "FinalProject_Presentation\\Views\\Account\\ResetPassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-24T14:28:13.937Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "SubscriptionsCheckService.cs",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Service\\Services\\Implementations\\SubscriptionsCheckService.cs",
-              "RelativeDocumentMoniker": "FinalProject_Service\\Services\\Implementations\\SubscriptionsCheckService.cs",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Service\\Services\\Implementations\\SubscriptionsCheckService.cs",
-              "RelativeToolTip": "FinalProject_Service\\Services\\Implementations\\SubscriptionsCheckService.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAUwC0AAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T18:24:19.83Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\appsettings.json",
-              "RelativeDocumentMoniker": "FinalProject_Presentation\\appsettings.json",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\appsettings.json",
-              "RelativeToolTip": "FinalProject_Presentation\\appsettings.json",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAABjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-24T00:11:01.984Z",
+              "WhenOpened": "2025-04-24T23:21:14.015Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "20250424185848_SubscriptionsTableAdded.cs",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_DataAccess\\Data\\Migrations\\20250424185848_SubscriptionsTableAdded.cs",
-              "RelativeDocumentMoniker": "FinalProject_DataAccess\\Data\\Migrations\\20250424185848_SubscriptionsTableAdded.cs",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_DataAccess\\Data\\Migrations\\20250424185848_SubscriptionsTableAdded.cs",
-              "RelativeToolTip": "FinalProject_DataAccess\\Data\\Migrations\\20250424185848_SubscriptionsTableAdded.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T18:58:48.699Z",
+              "Title": "ForgotPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Views\\Account\\ForgotPassword.cshtml",
+              "RelativeDocumentMoniker": "FinalProject_Presentation\\Views\\Account\\ForgotPassword.cshtml",
+              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Views\\Account\\ForgotPassword.cshtml",
+              "RelativeToolTip": "FinalProject_Presentation\\Views\\Account\\ForgotPassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-24T22:39:29.783Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "MovieController.cs",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Controllers\\MovieController.cs",
-              "RelativeDocumentMoniker": "FinalProject_Presentation\\Controllers\\MovieController.cs",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Controllers\\MovieController.cs",
-              "RelativeToolTip": "FinalProject_Presentation\\Controllers\\MovieController.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAIAwwDMAAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T17:00:25.672Z"
+              "DocumentIndex": 8,
+              "Title": "ConfirmEmail.html",
+              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\templates\\ConfirmEmail.html",
+              "RelativeDocumentMoniker": "FinalProject_Presentation\\wwwroot\\assets\\templates\\ConfirmEmail.html",
+              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\templates\\ConfirmEmail.html",
+              "RelativeToolTip": "FinalProject_Presentation\\wwwroot\\assets\\templates\\ConfirmEmail.html",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-04-24T21:55:57.328Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "FinalProject_Presentation\\Areas\\Admin\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "FinalProject_Presentation\\Areas\\Admin\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T21:44:44.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "FinalProject_Presentation\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "FinalProject_Presentation\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADAAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-24T21:32:32.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "FinalProject_Presentation\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "FinalProject_Presentation\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAN4AAAAAAAAAAAAuwO4AAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAANgAAAAAAAAAAAAAAOMAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-24T14:40:14.101Z",
+              "WhenOpened": "2025-04-24T21:35:35.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SeviceRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\SeviceRegistration.cs",
+              "RelativeDocumentMoniker": "FinalProject_Presentation\\SeviceRegistration.cs",
+              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\SeviceRegistration.cs",
+              "RelativeToolTip": "FinalProject_Presentation\\SeviceRegistration.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAArwBMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T21:43:48.162Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "TicsTubeDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_DataAccess\\Data\\TicsTubeDbContext.cs",
-              "RelativeDocumentMoniker": "FinalProject_DataAccess\\Data\\TicsTubeDbContext.cs",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_DataAccess\\Data\\TicsTubeDbContext.cs",
-              "RelativeToolTip": "FinalProject_DataAccess\\Data\\TicsTubeDbContext.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAA4wBoAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T23:54:30.001Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "TVShowController.cs",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Controllers\\TVShowController.cs",
-              "RelativeDocumentMoniker": "FinalProject_Presentation\\Controllers\\TVShowController.cs",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Controllers\\TVShowController.cs",
-              "RelativeToolTip": "FinalProject_Presentation\\Controllers\\TVShowController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T17:00:20.92Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Detail.cshtml",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Views\\TVShow\\Detail.cshtml",
-              "RelativeDocumentMoniker": "FinalProject_Presentation\\Views\\TVShow\\Detail.cshtml",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Views\\TVShow\\Detail.cshtml",
-              "RelativeToolTip": "FinalProject_Presentation\\Views\\TVShow\\Detail.cshtml",
-              "ViewState": "AgIAAD8BAAAAgNuWPe/Dv1gCAAAZAAAAAAAAAA==",
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "FinalProject_Presentation\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "FinalProject_Presentation\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-23T19:02:43.478Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "HomeVm.cs",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_ViewModel\\ViewModels\\HomeVm.cs",
-              "RelativeDocumentMoniker": "FinalProject_ViewModel\\ViewModels\\HomeVm.cs",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_ViewModel\\ViewModels\\HomeVm.cs",
-              "RelativeToolTip": "FinalProject_ViewModel\\ViewModels\\HomeVm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T17:18:06.24Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "TVShowVm.cs",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_ViewModel\\ViewModels\\TVShowVm.cs",
-              "RelativeDocumentMoniker": "FinalProject_ViewModel\\ViewModels\\TVShowVm.cs",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_ViewModel\\ViewModels\\TVShowVm.cs",
-              "RelativeToolTip": "FinalProject_ViewModel\\ViewModels\\TVShowVm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T17:08:22.957Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Views\\TVShow\\Index.cshtml",
-              "RelativeDocumentMoniker": "FinalProject_Presentation\\Views\\TVShow\\Index.cshtml",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Views\\TVShow\\Index.cshtml",
-              "RelativeToolTip": "FinalProject_Presentation\\Views\\TVShow\\Index.cshtml",
-              "ViewState": "AgIAADQCAAAAAAAAAAAmwFACAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-23T19:01:22.618Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "SeasonController.cs",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Controllers\\SeasonController.cs",
-              "RelativeDocumentMoniker": "FinalProject_Presentation\\Areas\\Admin\\Controllers\\SeasonController.cs",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Controllers\\SeasonController.cs",
-              "RelativeToolTip": "FinalProject_Presentation\\Areas\\Admin\\Controllers\\SeasonController.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAgwDUAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T14:25:08.562Z",
+              "WhenOpened": "2025-04-24T21:26:55.833Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "EpisodeController.cs",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Controllers\\EpisodeController.cs",
-              "RelativeDocumentMoniker": "FinalProject_Presentation\\Areas\\Admin\\Controllers\\EpisodeController.cs",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Controllers\\EpisodeController.cs",
-              "RelativeToolTip": "FinalProject_Presentation\\Areas\\Admin\\Controllers\\EpisodeController.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAcwDoAAAA3AAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "FinalProject_Presentation\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "FinalProject_Presentation\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAKMAAAAAAAAAAAAMwKwAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T14:25:36.494Z",
+              "WhenOpened": "2025-04-24T21:22:02.866Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "MapperProfile.cs",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Service\\Profiles\\MapperProfile.cs",
-              "RelativeDocumentMoniker": "FinalProject_Service\\Profiles\\MapperProfile.cs",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Service\\Profiles\\MapperProfile.cs",
-              "RelativeToolTip": "FinalProject_Service\\Profiles\\MapperProfile.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAqwGsAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T20:54:17.07Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Views\\TVShow\\Create.cshtml",
-              "RelativeDocumentMoniker": "FinalProject_Presentation\\Areas\\Admin\\Views\\TVShow\\Create.cshtml",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Views\\TVShow\\Create.cshtml",
-              "RelativeToolTip": "FinalProject_Presentation\\Areas\\Admin\\Views\\TVShow\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-22T20:53:08.304Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Views\\TVShow\\Edit.cshtml",
-              "RelativeDocumentMoniker": "FinalProject_Presentation\\Areas\\Admin\\Views\\TVShow\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Views\\TVShow\\Edit.cshtml",
-              "RelativeToolTip": "FinalProject_Presentation\\Areas\\Admin\\Views\\TVShow\\Edit.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAIBZwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-22T20:52:59.835Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "TVShowController.cs",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Controllers\\TVShowController.cs",
-              "RelativeDocumentMoniker": "FinalProject_Presentation\\Areas\\Admin\\Controllers\\TVShowController.cs",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Controllers\\TVShowController.cs",
-              "RelativeToolTip": "FinalProject_Presentation\\Areas\\Admin\\Controllers\\TVShowController.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAA9wDsAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T20:49:46.438Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Views\\Movie\\Edit.cshtml",
-              "RelativeDocumentMoniker": "FinalProject_Presentation\\Areas\\Admin\\Views\\Movie\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Views\\Movie\\Edit.cshtml",
-              "RelativeToolTip": "FinalProject_Presentation\\Areas\\Admin\\Views\\Movie\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-22T21:18:33.24Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "FinalProject_Presentation\\Areas\\Admin\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "FinalProject_Presentation\\Areas\\Admin\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-22T20:47:46.656Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Views\\Season\\Edit.cshtml",
-              "RelativeDocumentMoniker": "FinalProject_Presentation\\Areas\\Admin\\Views\\Season\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Views\\Season\\Edit.cshtml",
-              "RelativeToolTip": "FinalProject_Presentation\\Areas\\Admin\\Views\\Season\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-22T20:43:34.309Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Views\\Season\\Create.cshtml",
-              "RelativeDocumentMoniker": "FinalProject_Presentation\\Areas\\Admin\\Views\\Season\\Create.cshtml",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Views\\Season\\Create.cshtml",
-              "RelativeToolTip": "FinalProject_Presentation\\Areas\\Admin\\Views\\Season\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-22T20:43:16.285Z"
             }
           ]
         },

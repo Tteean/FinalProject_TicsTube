@@ -17,11 +17,12 @@ namespace FinalProject_Presentation.Controllers
         private readonly SignInManager<AppUser> _signInManager;
         private readonly EmailService _emailService;
 
-        public AccountController(TicsTubeDbContext context, UserManager<AppUser> userManager, SignInManager<AppUser> signInManager)
+        public AccountController(TicsTubeDbContext context, UserManager<AppUser> userManager, SignInManager<AppUser> signInManager, EmailService emailService)
         {
             _context = context;
             _userManager = userManager;
             _signInManager = signInManager;
+            _emailService = emailService;
         }
 
         public IActionResult Register()
@@ -64,7 +65,7 @@ namespace FinalProject_Presentation.Controllers
                 }
                 return View();
             }
-            await _userManager.AddToRoleAsync(user, "member");
+            await _userManager.AddToRoleAsync(user, "user");
 
             var token = await _userManager.GenerateEmailConfirmationTokenAsync(user);
             token.Replace(" ", "+");
@@ -79,7 +80,7 @@ namespace FinalProject_Presentation.Controllers
         public async Task<IActionResult> VerifyEmail(string email, string token)
         {
             var user = await _userManager.FindByEmailAsync(email);
-            if (user == null || !await _userManager.IsInRoleAsync(user, "member"))
+            if (user == null || !await _userManager.IsInRoleAsync(user, "user"))
                 return NotFound();
             await _userManager.ConfirmEmailAsync(user, token);
             return RedirectToAction("login");
@@ -100,7 +101,7 @@ namespace FinalProject_Presentation.Controllers
             if (user == null)
             {
                 user = await _userManager.FindByEmailAsync(loginVm.UserNameOrEmail);
-                if (user == null || !await _userManager.IsInRoleAsync(user, "member"))
+                if (user == null || !await _userManager.IsInRoleAsync(user, "user"))
                 {
                     ModelState.AddModelError("", "username or email is invalid");
                     return View();
@@ -122,10 +123,9 @@ namespace FinalProject_Presentation.Controllers
                 ModelState.AddModelError("", "Please enter correct values");
                 return View();
             }
-            HttpContext.Response.Cookies.Append("basket", "");
             return RedirectToAction("Index", "Home");
         }
-        [Authorize(Roles = "member")]
+        [Authorize(Roles = "user")]
         public async Task<IActionResult> Logout()
         {
             await _signInManager.SignOutAsync();
@@ -209,7 +209,10 @@ namespace FinalProject_Presentation.Controllers
         public async Task<IActionResult> Google()
         {
             var result = await _signInManager.GetExternalLoginInfoAsync();
-
+            if (result == null)
+            {
+                return RedirectToAction("Login");
+            }
             var email = result.Principal.FindFirstValue(ClaimTypes.Email);
             var userName = result.Principal.FindFirstValue(ClaimTypes.Name);
             var fullName = result.Principal.FindFirstValue(ClaimTypes.Name);
