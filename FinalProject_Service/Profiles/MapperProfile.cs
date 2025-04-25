@@ -6,6 +6,7 @@ using FinalProject_Service.Dto.EpisodeDtos;
 using FinalProject_Service.Dto.GenreDtos;
 using FinalProject_Service.Dto.LanguageDtos;
 using FinalProject_Service.Dto.MovieDtos;
+using FinalProject_Service.Dto.ProductDtos;
 using FinalProject_Service.Dto.SeasonDtos;
 using FinalProject_Service.Dto.TVShowDtos;
 using FinalProject_Service.Extentions;
@@ -137,7 +138,27 @@ namespace FinalProject_Service.Profiles
             CreateMap<EpisodeUpdateDto, Episode>()
                 .ForMember(s => s.Image, opt => opt.MapFrom(src => src.File.SaveImage("uploads/episodes")))
                 .ForMember(s => s.Video, opt => opt.MapFrom(src => src.Film.SaveImage("uploads/episodes")))
-                .ForMember(dest => dest.Id, opt => opt.Ignore()); 
+                .ForMember(dest => dest.Id, opt => opt.Ignore());
+
+
+            CreateMap<ProductCreateDto, Product>()
+                .ForMember(dest => dest.MovieProducts, opt => opt.MapFrom(src => new List<MovieProduct>()))
+            .ForMember(dest => dest.tvShowProducts, opt => opt.MapFrom(src => new List<TvShowProduct>()))
+            .ForMember(s => s.Image, opt => opt.MapFrom(src => src.File.SaveImage("uploads/Product")));
+            CreateMap<Product, ProductUpdateDto>();
+            CreateMap<ProductUpdateDto, Product>()
+                .ForMember(dest => dest.MovieProducts, opt => opt.MapFrom(src => new List<MovieProduct>()))
+            .ForMember(dest => dest.tvShowProducts, opt => opt.MapFrom(src => new List<TvShowProduct>()))
+            .ForMember(s => s.Image, opt => opt.MapFrom(src => src.File.SaveImage("uploads/Product")))
+            .ForMember(dest => dest.Id, opt => opt.Ignore());
+            CreateMap<Product, ProductDeleteDto>();
+            CreateMap<ProductDeleteDto, Product>()
+                .ForMember(dest => dest.MovieProducts, opt => opt.MapFrom(src => new List<MovieProduct>()))
+            .ForMember(dest => dest.tvShowProducts, opt => opt.MapFrom(src => new List<TvShowProduct>()))
+            .ForMember(s => s.Image, opt => opt.MapFrom(src => src.File.SaveImage("uploads/Product")))
+            .ForMember(dest => dest.Id, opt => opt.Ignore());
+
+
         }
     }
 }

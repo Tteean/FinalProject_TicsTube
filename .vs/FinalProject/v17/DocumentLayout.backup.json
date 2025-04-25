@@ -3,8 +3,96 @@
   "WorkspaceRootPath": "C:\\Users\\naila\\source\\repos\\FinalProject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\areas\\admin\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\areas\\admin\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\areas\\admin\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\areas\\admin\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\areas\\admin\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\areas\\admin\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60DDC7B4-13BA-4AAC-BEAE-953F85731E96}|FinalProject_Service\\FinalProject_Service.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_service\\dto\\productdtos\\productupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60DDC7B4-13BA-4AAC-BEAE-953F85731E96}|FinalProject_Service\\FinalProject_Service.csproj|solutionrelative:finalproject_service\\dto\\productdtos\\productupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60DDC7B4-13BA-4AAC-BEAE-953F85731E96}|FinalProject_Service\\FinalProject_Service.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_service\\dto\\productdtos\\productreturndto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60DDC7B4-13BA-4AAC-BEAE-953F85731E96}|FinalProject_Service\\FinalProject_Service.csproj|solutionrelative:finalproject_service\\dto\\productdtos\\productreturndto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60DDC7B4-13BA-4AAC-BEAE-953F85731E96}|FinalProject_Service\\FinalProject_Service.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_service\\services\\implementations\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60DDC7B4-13BA-4AAC-BEAE-953F85731E96}|FinalProject_Service\\FinalProject_Service.csproj|solutionrelative:finalproject_service\\services\\implementations\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60DDC7B4-13BA-4AAC-BEAE-953F85731E96}|FinalProject_Service\\FinalProject_Service.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_service\\services\\implementations\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60DDC7B4-13BA-4AAC-BEAE-953F85731E96}|FinalProject_Service\\FinalProject_Service.csproj|solutionrelative:finalproject_service\\services\\implementations\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60DDC7B4-13BA-4AAC-BEAE-953F85731E96}|FinalProject_Service\\FinalProject_Service.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_service\\profiles\\mapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60DDC7B4-13BA-4AAC-BEAE-953F85731E96}|FinalProject_Service\\FinalProject_Service.csproj|solutionrelative:finalproject_service\\profiles\\mapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60DDC7B4-13BA-4AAC-BEAE-953F85731E96}|FinalProject_Service\\FinalProject_Service.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_service\\dto\\productdtos\\productdeletedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60DDC7B4-13BA-4AAC-BEAE-953F85731E96}|FinalProject_Service\\FinalProject_Service.csproj|solutionrelative:finalproject_service\\dto\\productdtos\\productdeletedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60DDC7B4-13BA-4AAC-BEAE-953F85731E96}|FinalProject_Service\\FinalProject_Service.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_service\\dto\\productdtos\\productcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60DDC7B4-13BA-4AAC-BEAE-953F85731E96}|FinalProject_Service\\FinalProject_Service.csproj|solutionrelative:finalproject_service\\dto\\productdtos\\productcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60DDC7B4-13BA-4AAC-BEAE-953F85731E96}|FinalProject_Service\\FinalProject_Service.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_service\\services\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60DDC7B4-13BA-4AAC-BEAE-953F85731E96}|FinalProject_Service\\FinalProject_Service.csproj|solutionrelative:finalproject_service\\services\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AF5A4B5-1B6F-463C-90C7-3B168B04700D}|FinalProject_Core\\FinalProject_Core.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_core\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AF5A4B5-1B6F-463C-90C7-3B168B04700D}|FinalProject_Core\\FinalProject_Core.csproj|solutionrelative:finalproject_core\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\views\\shop\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\views\\shop\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29850242-4017-4228-A5E1-D267354AC577}|FinalProject_ViewModel\\FinalProject_ViewModel.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_viewmodel\\viewmodels\\shopvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29850242-4017-4228-A5E1-D267354AC577}|FinalProject_ViewModel\\FinalProject_ViewModel.csproj|solutionrelative:finalproject_viewmodel\\viewmodels\\shopvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AF5A4B5-1B6F-463C-90C7-3B168B04700D}|FinalProject_Core\\FinalProject_Core.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_core\\models\\tvshowproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AF5A4B5-1B6F-463C-90C7-3B168B04700D}|FinalProject_Core\\FinalProject_Core.csproj|solutionrelative:finalproject_core\\models\\tvshowproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABA6508A-E19C-43FE-8BC6-71E0C737A56D}|FinalProject_DataAccess\\FinalProject_DataAccess.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_dataaccess\\data\\ticstubedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABA6508A-E19C-43FE-8BC6-71E0C737A56D}|FinalProject_DataAccess\\FinalProject_DataAccess.csproj|solutionrelative:finalproject_dataaccess\\data\\ticstubedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AF5A4B5-1B6F-463C-90C7-3B168B04700D}|FinalProject_Core\\FinalProject_Core.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_core\\models\\movieproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AF5A4B5-1B6F-463C-90C7-3B168B04700D}|FinalProject_Core\\FinalProject_Core.csproj|solutionrelative:finalproject_core\\models\\movieproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|solutionrelative:finalproject_presentation\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EF416A84-96BA-4E5D-AFD9-ED85025481A2}|FinalProject_Presentation\\FinalProject_Presentation.csproj|c:\\users\\naila\\source\\repos\\finalproject\\finalproject_presentation\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -54,34 +142,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ShopController.cs",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Controllers\\ShopController.cs",
-              "RelativeDocumentMoniker": "FinalProject_Presentation\\Controllers\\ShopController.cs",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Controllers\\ShopController.cs",
-              "RelativeToolTip": "FinalProject_Presentation\\Controllers\\ShopController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T00:04:08.981Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "FinalProject_Presentation\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "FinalProject_Presentation\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-24T23:21:34.102Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
@@ -105,6 +167,295 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "FinalProject_Presentation\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "FinalProject_Presentation\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-25T17:52:14.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Views\\Product\\Edit.cshtml",
+              "RelativeDocumentMoniker": "FinalProject_Presentation\\Areas\\Admin\\Views\\Product\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Views\\Product\\Edit.cshtml",
+              "RelativeToolTip": "FinalProject_Presentation\\Areas\\Admin\\Views\\Product\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-25T17:47:25.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "RelativeDocumentMoniker": "FinalProject_Presentation\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "RelativeToolTip": "FinalProject_Presentation\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAowDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-25T17:45:07.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MovieController.cs",
+              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Controllers\\MovieController.cs",
+              "RelativeDocumentMoniker": "FinalProject_Presentation\\Areas\\Admin\\Controllers\\MovieController.cs",
+              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Controllers\\MovieController.cs",
+              "RelativeToolTip": "FinalProject_Presentation\\Areas\\Admin\\Controllers\\MovieController.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAUwFsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T17:08:03.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Service\\Dto\\ProductDtos\\ProductUpdateDto.cs",
+              "RelativeDocumentMoniker": "FinalProject_Service\\Dto\\ProductDtos\\ProductUpdateDto.cs",
+              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Service\\Dto\\ProductDtos\\ProductUpdateDto.cs",
+              "RelativeToolTip": "FinalProject_Service\\Dto\\ProductDtos\\ProductUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T13:42:14.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProductDeleteDto.cs",
+              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Service\\Dto\\ProductDtos\\ProductDeleteDto.cs",
+              "RelativeDocumentMoniker": "FinalProject_Service\\Dto\\ProductDtos\\ProductDeleteDto.cs",
+              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Service\\Dto\\ProductDtos\\ProductDeleteDto.cs",
+              "RelativeToolTip": "FinalProject_Service\\Dto\\ProductDtos\\ProductDeleteDto.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T13:42:04.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "FinalProject_Presentation\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "FinalProject_Presentation\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAA9wDYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T13:34:59.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "FinalProject_Presentation\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "FinalProject_Presentation\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-25T17:32:39.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductReturnDto.cs",
+              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Service\\Dto\\ProductDtos\\ProductReturnDto.cs",
+              "RelativeDocumentMoniker": "FinalProject_Service\\Dto\\ProductDtos\\ProductReturnDto.cs",
+              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Service\\Dto\\ProductDtos\\ProductReturnDto.cs",
+              "RelativeToolTip": "FinalProject_Service\\Dto\\ProductDtos\\ProductReturnDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T13:42:25.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MapperProfile.cs",
+              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Service\\Profiles\\MapperProfile.cs",
+              "RelativeDocumentMoniker": "FinalProject_Service\\Profiles\\MapperProfile.cs",
+              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Service\\Profiles\\MapperProfile.cs",
+              "RelativeToolTip": "FinalProject_Service\\Profiles\\MapperProfile.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAqwGQAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T16:44:24.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MovieService.cs",
+              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Service\\Services\\Implementations\\MovieService.cs",
+              "RelativeDocumentMoniker": "FinalProject_Service\\Services\\Implementations\\MovieService.cs",
+              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Service\\Services\\Implementations\\MovieService.cs",
+              "RelativeToolTip": "FinalProject_Service\\Services\\Implementations\\MovieService.cs",
+              "ViewState": "AgIAALUAAAAAAAAAAAAAAM0AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T17:08:45.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Service\\Services\\Implementations\\ProductService.cs",
+              "RelativeDocumentMoniker": "FinalProject_Service\\Services\\Implementations\\ProductService.cs",
+              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Service\\Services\\Implementations\\ProductService.cs",
+              "RelativeToolTip": "FinalProject_Service\\Services\\Implementations\\ProductService.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwJAAAAB/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T13:35:39.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProductCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Service\\Dto\\ProductDtos\\ProductCreateDto.cs",
+              "RelativeDocumentMoniker": "FinalProject_Service\\Dto\\ProductDtos\\ProductCreateDto.cs",
+              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Service\\Dto\\ProductDtos\\ProductCreateDto.cs",
+              "RelativeToolTip": "FinalProject_Service\\Dto\\ProductDtos\\ProductCreateDto.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T13:39:42.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Service\\Services\\Interfaces\\IProductService.cs",
+              "RelativeDocumentMoniker": "FinalProject_Service\\Services\\Interfaces\\IProductService.cs",
+              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Service\\Services\\Interfaces\\IProductService.cs",
+              "RelativeToolTip": "FinalProject_Service\\Services\\Interfaces\\IProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T13:35:14.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Core\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "FinalProject_Core\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Core\\Models\\Product.cs",
+              "RelativeToolTip": "FinalProject_Core\\Models\\Product.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAiwBIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T11:38:51.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Views\\Shop\\Detail.cshtml",
+              "RelativeDocumentMoniker": "FinalProject_Presentation\\Views\\Shop\\Detail.cshtml",
+              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Views\\Shop\\Detail.cshtml",
+              "RelativeToolTip": "FinalProject_Presentation\\Views\\Shop\\Detail.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-25T13:32:40.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "TicsTubeDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_DataAccess\\Data\\TicsTubeDbContext.cs",
+              "RelativeDocumentMoniker": "FinalProject_DataAccess\\Data\\TicsTubeDbContext.cs",
+              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_DataAccess\\Data\\TicsTubeDbContext.cs",
+              "RelativeToolTip": "FinalProject_DataAccess\\Data\\TicsTubeDbContext.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA8wB0AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T12:20:18.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ShopVm.cs",
+              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_ViewModel\\ViewModels\\ShopVm.cs",
+              "RelativeDocumentMoniker": "FinalProject_ViewModel\\ViewModels\\ShopVm.cs",
+              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_ViewModel\\ViewModels\\ShopVm.cs",
+              "RelativeToolTip": "FinalProject_ViewModel\\ViewModels\\ShopVm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T12:18:20.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "TvShowProduct.cs",
+              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Core\\Models\\TvShowProduct.cs",
+              "RelativeDocumentMoniker": "FinalProject_Core\\Models\\TvShowProduct.cs",
+              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Core\\Models\\TvShowProduct.cs",
+              "RelativeToolTip": "FinalProject_Core\\Models\\TvShowProduct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T12:06:14.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MovieProduct.cs",
+              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Core\\Models\\MovieProduct.cs",
+              "RelativeDocumentMoniker": "FinalProject_Core\\Models\\MovieProduct.cs",
+              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Core\\Models\\MovieProduct.cs",
+              "RelativeToolTip": "FinalProject_Core\\Models\\MovieProduct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T12:06:00.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "FinalProject_Presentation\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "FinalProject_Presentation\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwBAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T00:20:05.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ShopController.cs",
+              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Controllers\\ShopController.cs",
+              "RelativeDocumentMoniker": "FinalProject_Presentation\\Controllers\\ShopController.cs",
+              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Controllers\\ShopController.cs",
+              "RelativeToolTip": "FinalProject_Presentation\\Controllers\\ShopController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAADwvxAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T00:04:08.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Views\\Shop\\Index.cshtml",
+              "RelativeDocumentMoniker": "FinalProject_Presentation\\Views\\Shop\\Index.cshtml",
+              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Views\\Shop\\Index.cshtml",
+              "RelativeToolTip": "FinalProject_Presentation\\Views\\Shop\\Index.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAABIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-25T00:15:01.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "FinalProject_Presentation\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "FinalProject_Presentation\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-24T23:21:34.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
               "Title": "ResetPassword.cshtml",
               "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Views\\Account\\ResetPassword.cshtml",
               "RelativeDocumentMoniker": "FinalProject_Presentation\\Views\\Account\\ResetPassword.cshtml",
@@ -112,12 +463,11 @@
               "RelativeToolTip": "FinalProject_Presentation\\Views\\Account\\ResetPassword.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-24T23:21:14.015Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-24T23:21:14.015Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 29,
               "Title": "ForgotPassword.cshtml",
               "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Views\\Account\\ForgotPassword.cshtml",
               "RelativeDocumentMoniker": "FinalProject_Presentation\\Views\\Account\\ForgotPassword.cshtml",
@@ -125,12 +475,11 @@
               "RelativeToolTip": "FinalProject_Presentation\\Views\\Account\\ForgotPassword.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-24T22:39:29.783Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-24T22:39:29.783Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 30,
               "Title": "ConfirmEmail.html",
               "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\templates\\ConfirmEmail.html",
               "RelativeDocumentMoniker": "FinalProject_Presentation\\wwwroot\\assets\\templates\\ConfirmEmail.html",
@@ -138,12 +487,11 @@
               "RelativeToolTip": "FinalProject_Presentation\\wwwroot\\assets\\templates\\ConfirmEmail.html",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-04-24T21:55:57.328Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-24T21:55:57.328Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 25,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Areas\\Admin\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "FinalProject_Presentation\\Areas\\Admin\\Controllers\\AccountController.cs",
@@ -151,12 +499,11 @@
               "RelativeToolTip": "FinalProject_Presentation\\Areas\\Admin\\Controllers\\AccountController.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T21:44:44.116Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-24T21:44:44.116Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 24,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "FinalProject_Presentation\\Views\\Account\\Login.cshtml",
@@ -164,12 +511,11 @@
               "RelativeToolTip": "FinalProject_Presentation\\Views\\Account\\Login.cshtml",
               "ViewState": "AgIAACcAAAAAAAAAAAAAADAAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-24T21:32:32.434Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-24T21:32:32.434Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 23,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "FinalProject_Presentation\\Views\\Shared\\_Layout.cshtml",
@@ -177,12 +523,11 @@
               "RelativeToolTip": "FinalProject_Presentation\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAANgAAAAAAAAAAAAAAOMAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-24T21:35:35.119Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-24T21:35:35.119Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 31,
               "Title": "SeviceRegistration.cs",
               "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\SeviceRegistration.cs",
               "RelativeDocumentMoniker": "FinalProject_Presentation\\SeviceRegistration.cs",
@@ -190,12 +535,11 @@
               "RelativeToolTip": "FinalProject_Presentation\\SeviceRegistration.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAArwBMAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T21:43:48.162Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-24T21:43:48.162Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 32,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Views\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "FinalProject_Presentation\\Views\\Account\\Register.cshtml",
@@ -203,12 +547,11 @@
               "RelativeToolTip": "FinalProject_Presentation\\Views\\Account\\Register.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-24T21:26:55.833Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-24T21:26:55.833Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 28,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "FinalProject_Presentation\\Controllers\\AccountController.cs",
@@ -216,8 +559,7 @@
               "RelativeToolTip": "FinalProject_Presentation\\Controllers\\AccountController.cs",
               "ViewState": "AgIAAKMAAAAAAAAAAAAMwKwAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T21:22:02.866Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-24T21:22:02.866Z"
             }
           ]
         },

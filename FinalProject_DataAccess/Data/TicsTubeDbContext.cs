@@ -25,6 +25,10 @@ namespace FinalProject_DataAccess.Data
         public DbSet<Season> Seasons { get; set; }
         public DbSet<Episode> Episodes { get; set; }
         public DbSet<Subscription> Subscriptions { get; set; }
+        public DbSet<Product> Products { get; set; }
+        public DbSet<MovieProduct> MovieProducts { get; set; }
+        public DbSet<TvShowProduct> tvShowProducts { get; set; }
+
 
 
         public TicsTubeDbContext(DbContextOptions options) : base(options)

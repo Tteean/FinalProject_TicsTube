@@ -27,6 +27,7 @@
     <Folder Include="wwwroot\uploads\directors\" />
     <Folder Include="wwwroot\uploads\movies\" />
     <Folder Include="wwwroot\uploads\episodes\" />
+    <Folder Include="wwwroot\uploads\Product\" />
     <Folder Include="wwwroot\uploads\TVShow\" />
   </ItemGroup>
 

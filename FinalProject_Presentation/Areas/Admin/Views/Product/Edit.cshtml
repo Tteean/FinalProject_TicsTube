@@ -1,0 +1,55 @@
+﻿@model ProductUpdateDto
+
+<div class="container">
+    <div class="row">
+        <form method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label asp-for="Name"></label>
+                <input asp-for="Name" class="form-control" aria-describedby="emailHelp">
+                <span class="text-danger" asp-validation-for="Name"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description"></label>
+                <input asp-for="Description" class="form-control" aria-describedby="emailHelp">
+                <span class="text-danger" asp-validation-for="Description"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CostPrice"></label>
+                <input asp-for="CostPrice" class="form-control" aria-describedby="emailHelp">
+                <span class="text-danger" asp-validation-for="CostPrice"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="File"></label>
+                <input asp-for="File" class="form-control" aria-describedby="emailHelp">
+                <img style="display:none" width="300" height="100" id="imgPreview" src="" alt="" />
+                <span class="text-danger" asp-validation-for="File"></span>
+            </div>
+            <div class="btn-group form-group" role="group" aria-label="Basic checkbox toggle button group">
+                <input type="checkbox" asp-for="InStock" class="btn-check form-control" autocomplete="off">
+                <label class="btn btn-outline-primary" asp-for="InStock"></label>
+            </div>
+
+            <div class="form-group">
+                <select class="form-select" asp-for="TVShowId">
+                    @foreach (var tvShow in ViewBag.TVShows)
+                    {
+                        <option value="@tvShow.Id">@tvShow.Name</option>
+                    }
+                </select>
+            </div>
+            <div class="form-group">
+                <select class="form-select" asp-for="MovieId">
+                    @foreach (var movie in ViewBag.Movies)
+                    {
+                        <option value="@movie.Id">@movie.Name</option>
+                    }
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</div>
+
+@section scripts {
+    @await Html.PartialAsync("_ValidationPartial")
+}
