@@ -10,6 +10,8 @@ namespace FinalProject_ViewModel.ViewModels
     public class TVShowVm
     {
         public List<TVShow> TVShows { get; set; }
+        public List<Episode> Episodes { get; set; }
+        public List<Season> Seasons { get; set; }
         public List<Genre> Genres { get; set; }
 
     }

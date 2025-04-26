@@ -23,6 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Views\Shared\Components\" />
     <Folder Include="wwwroot\uploads\actors\" />
     <Folder Include="wwwroot\uploads\directors\" />
     <Folder Include="wwwroot\uploads\movies\" />

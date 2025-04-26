@@ -26,9 +26,19 @@ namespace FinalProject_Presentation.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            MovieVm vm = new MovieVm();
+            vm.Movies = _context.Movies
+                .Include(m => m.MovieGenres)
+                .ThenInclude(mg => mg.Genre)
+                .Include(m => m.MovieActors)
+                .ThenInclude(mg => mg.Actor)
+                .Include(m => m.MovieLanguages)
+                .ThenInclude(mg => mg.Language)
+                .ToList();
+            vm.Genres = _context.Genres.ToList();
+            return View(vm);
         }
-        [Authorize(Roles = "month_member,halfYear_member,year_member")]
+        //[Authorize(Roles = "month_member,halfYear_member,year_member")]
         public async Task<IActionResult> Detail(int? id)
         {
             if (id == null)
@@ -41,6 +51,7 @@ namespace FinalProject_Presentation.Controllers
                 .ThenInclude(ml => ml.Language)
                 .Include(m => m.MovieActors)
                 .ThenInclude(ma => ma.Actor)
+                .Include(m=>m.MovieComments)
                 .FirstOrDefault(x => x.Id == id);
             if (existMovie == null)
                 return NotFound();
@@ -49,8 +60,8 @@ namespace FinalProject_Presentation.Controllers
             return View(existMovie);
         }
         [HttpPost]
-        [Authorize(Roles = "month_member,halfYear_member,year_member")]
-        public async Task<IActionResult> AddComment(MovieComment movieComment)
+        //[Authorize(Roles = "month_member,halfYear_member,year_member")]
+        public async Task<IActionResult> AddComment([FromBody ]MovieComment movieComment)
         {
 
             if (!_context.Movies.Any(m => m.Id == movieComment.MovieId))
@@ -67,12 +78,13 @@ namespace FinalProject_Presentation.Controllers
             var vm = getMovieDetailVm(movieComment.MovieId, user.Id);
             vm.MovieComment = movieComment;
             if (!ModelState.IsValid) return View("detail", vm);
-
+            
 
             movieComment.AppUserId = user.Id;
             movieComment.CreationDate = DateTime.Now;
             _context.MovieComments.Add(movieComment);
             await _context.SaveChangesAsync();
+            
 
 
             return RedirectToAction("Detail", new { id = movieComment.MovieId });
@@ -118,7 +130,6 @@ namespace FinalProject_Presentation.Controllers
 
             }
             movieVm.TotalComments = _context.MovieComments.Count(x => x.MovieId == existmovie.Id);
-            movieVm.AvgRate = movieVm.TotalComments > 0 ? (int)_context.MovieComments.Where(x => x.MovieId == existmovie.Id).Average(x => x.Rate) : 0;
             return movieVm;
         }
     }

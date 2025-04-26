@@ -29,6 +29,8 @@ namespace FinalProject_Presentation.Controllers
                 .Include(m => m.TVShowActors).ThenInclude(mg => mg.Actor)
                 .Include(m => m.TVShowLanguages).ThenInclude(mg => mg.Language)
                 .ToList();
+            vm.Episodes = _context.Episodes.ToList();
+            vm.Seasons = _context.Seasons.ToList();
             vm.Genres = _context.Genres.ToList();
 
             return View(vm);
@@ -45,6 +47,8 @@ namespace FinalProject_Presentation.Controllers
                 .ThenInclude(ml => ml.Language)
                 .Include(m => m.TVShowActors)
                 .ThenInclude(ma => ma.Actor)
+                .Include(m=>m.Seasons)
+                .ThenInclude(ms=>ms.Episodes)
                 .FirstOrDefault(x => x.Id == id);
             if (existShow == null)
                 return NotFound();

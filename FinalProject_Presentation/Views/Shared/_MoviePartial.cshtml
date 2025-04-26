@@ -11,7 +11,7 @@
                 4K Quality
             </li>
         </ul>
-        <h3><a href="movie-details.html">@Model.Title</a></h3>
+        <h3><a asp-controller="movie" asp-action="detail" asp-route-id="@Model.Id">@Model.Title</a></h3>
         @foreach (var genre in Model.MovieGenres.Select(mg => mg.Genre))
         {
             <p>@genre.Name</p>

@@ -3329,12 +3329,12 @@
       "PackagePath": "staticwebassets\\assets\\img\\trending\\27.jpg"
     },
     {
-      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\tv-shows\\01.jpg",
-      "PackagePath": "staticwebassets\\assets\\img\\tv-shows\\01.jpg"
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\tv-shows\\01.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\tv-shows\\01.jpeg"
     },
     {
-      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\tv-shows\\02.jpg",
-      "PackagePath": "staticwebassets\\assets\\img\\tv-shows\\02.jpg"
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\tv-shows\\02.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\tv-shows\\02.jpeg"
     },
     {
       "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\img\\tv-shows\\03.jpg",
@@ -3671,6 +3671,14 @@
     {
       "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\TVShow\\bce34911-c309-4437-a2f2-15c4c988cd31.png",
       "PackagePath": "staticwebassets\\uploads\\TVShow\\bce34911-c309-4437-a2f2-15c4c988cd31.png"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\TVShow\\cad40772-3f9c-4aaa-bbb2-92b10b499618.png",
+      "PackagePath": "staticwebassets\\uploads\\TVShow\\cad40772-3f9c-4aaa-bbb2-92b10b499618.png"
+    },
+    {
+      "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\TVShow\\d3b96175-56e5-4475-9338-b4364d726be2.png",
+      "PackagePath": "staticwebassets\\uploads\\TVShow\\d3b96175-56e5-4475-9338-b4364d726be2.png"
     },
     {
       "Id": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\uploads\\TVShow\\e96f03a0-1511-447b-ab7c-ff35de17017d.png",

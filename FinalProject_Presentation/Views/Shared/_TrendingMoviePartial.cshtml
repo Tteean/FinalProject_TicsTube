@@ -1,0 +1,25 @@
+﻿@model Movie
+
+<div class="swiper-slide">
+    <div class="trending-box-items">
+        <div class="trending-image">
+            <img src="~/uploads/movies/@Model.Image" alt="img">
+            <div class="icon">
+                <i class="fa-solid fa-crown"></i>
+            </div>
+            <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
+                <i class="fa-solid fa-play"></i>
+            </a>
+        </div>
+        <div class="trending-content">
+            <div class="content">
+                <h3><a asp-controller="movie" asp-action="detail" asp-route-id="@Model.Id">@Model.Title</a></h3>
+                @foreach (var genre in Model.MovieGenres.Select(mg => mg.Genre))
+                {
+                    <p>@genre.Name</p>
+
+                }
+            </div>
+        </div>
+    </div>
+</div> 

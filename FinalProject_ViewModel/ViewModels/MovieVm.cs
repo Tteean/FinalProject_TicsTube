@@ -11,10 +11,11 @@ namespace FinalProject_ViewModel.ViewModels
     public class MovieVm
     {
         public List<Movie> RelatedMovies { get; set; }
+        public List<Movie> Movies { get; set; }
         public Movie Movie { get; set; }
+        public List<Genre> Genres { get; set; }
         public bool HasCommentUser { get; set; }
         public int TotalComments { get; set; }
-        public int AvgRate { get; set; }
         public MovieComment MovieComment { get; set; }
     }
 }

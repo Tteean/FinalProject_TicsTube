@@ -51,9 +51,9 @@
     <div class="container">
         <div class="cta-movie-banner-area section-padding">
             <div class="section-title text-center">
-                <h2><img src="~/assets/img/lightning.png" alt="img">TRENDING NOW</h2>
+                <h2><img src="~/assets/img/lightning.png" alt="img">TV SHOWS</h2>
             </div>
-            <div class="cta-movie-banner-items bg-cover" style="background-image: url('assets/img/cta-movie/movie-bg-3.jpg');">
+            <div class="cta-movie-banner-items bg-cover" style="background-image: url('~/assets/img/cta-movie/movie-bg-3.jpg');">
                 <div class="row g-4">
                     <div class="col-xl-4">
                         <div class="banner-movie-content">
@@ -73,42 +73,21 @@
                         <div class="trending-movie-right-items">
                             <div class="swiper trending-movie-slider">
                                 <div class="swiper-wrapper">
-                                    <div class="swiper-slide">
-                                        <div class="trending-movie-thumb">
-                                            <img src="~/assets/img/trending/06.jpg" alt="img">
-                                            <div class="trending-movie-content">
-                                                <span>
-                                                    <i class="fa-sharp fa-regular fa-tv"></i>
-                                                    4K Quality
-                                                </span>
-                                                <h3><a href="movie-details.html">Happy Women’s day</a></h3>
+                                    @foreach (var show in Model.TVShows)
+                                    {
+                                        <div class="swiper-slide">
+                                            <div class="trending-movie-thumb">
+                                                <img src="~/uploads/TVShow/@show.Image" alt="img">
+                                                <div class="trending-movie-content">
+                                                    <span>
+                                                        <i class="fa-sharp fa-regular fa-tv"></i>
+                                                        4K Quality
+                                                    </span>
+                                                    <h3><a asp-controller="tvshow" asp-action="detail" asp-route-id="@show.Id">@show.Title</a></h3>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="trending-movie-thumb">
-                                            <img src="~/assets/img/trending/07.jpg" alt="img">
-                                            <div class="trending-movie-content">
-                                                <span>
-                                                    <i class="fa-sharp fa-regular fa-tv"></i>
-                                                    4K Quality
-                                                </span>
-                                                <h3><a href="movie-details.html">Happy Women’s day</a></h3>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="trending-movie-thumb">
-                                            <img src="~/assets/img/trending/08.jpg" alt="img">
-                                            <div class="trending-movie-content">
-                                                <span>
-                                                    <i class="fa-sharp fa-regular fa-tv"></i>
-                                                    4K Quality
-                                                </span>
-                                                <h3><a href="movie-details.html">Happy Women’s day</a></h3>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    }
                                 </div>
                             </div>
                             <div class="array-button-items">
@@ -130,146 +109,36 @@
 <section class="movie-section style-2 section-padding fix">
     <div class="container">
         <div class="section-title text-center">
-            <h2>This Week's Hot Picks</h2>
+            <h2>Original Merch from Favourite Shows</h2>
         </div>
     </div>
     <div class="swiper movie-slider-2">
         <div class="swiper-wrapper">
-            <div class="swiper-slide">
-                <div class="movie-box-items-2">
-                    <div class="movie-image">
-                        <img src="~/assets/img/movie/06.jpg" alt="img">
-                        <div class="number">
-                            01
-                        </div>
-                        <div class="movie-content">
-                            <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
-                                <i class="fa-solid fa-play"></i>
-                            </a>
-                            <ul class="post-time">
-                                <li>
-                                    <i class="fa-regular fa-clock"></i>
-                                    02h 45m
-                                </li>
-                                <li>
-                                    <i class="fa-sharp fa-regular fa-tv"></i>
-                                    4K Quality
-                                </li>
-                            </ul>
-                            <h3><a href="movie-details.html">Happy Women’s day</a></h3>
-                            <p>The journey from the vibrant souks and palaces of Marrakech to the tranquil, starlit sands of Merzouga showcases the diverse splendor of Morocco. Camel treks a</p>
+            @foreach (var product in Model.Products)
+            {
+                <div class="swiper-slide">
+                    <div class="movie-box-items-2">
+                        <div class="movie-image">
+                            <img src="~/uploads/Product/@product.Image" alt="img">
+                            <div class="number">
+                                01
+                            </div>
+                            <div class="movie-content">
+                                <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
+                                    <i class="fa-solid fa-play"></i>
+                                </a>
+                                <ul class="post-time">
+                                    <li>
+                                        <i class="fa-regular fa-clock"></i>
+                                        @product.CostPrice
+                                    </li>
+                                </ul>
+                                <h3><a asp-controller="shop" asp-action="detail" asp-route-id="@product.Id">@product.Name</a></h3>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="movie-box-items-2">
-                    <div class="movie-image">
-                        <img src="~/assets/img/movie/07.jpg" alt="img">
-                        <div class="number">
-                            02
-                        </div>
-                        <div class="movie-content">
-                            <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
-                                <i class="fa-solid fa-play"></i>
-                            </a>
-                            <ul class="post-time">
-                                <li>
-                                    <i class="fa-regular fa-clock"></i>
-                                    02h 45m
-                                </li>
-                                <li>
-                                    <i class="fa-sharp fa-regular fa-tv"></i>
-                                    4K Quality
-                                </li>
-                            </ul>
-                            <h3><a href="movie-details.html">Happy Women’s day</a></h3>
-                            <p>The journey from the vibrant souks and palaces of Marrakech to the tranquil, starlit sands of Merzouga showcases the diverse splendor of Morocco. Camel treks a</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="movie-box-items-2">
-                    <div class="movie-image">
-                        <img src="~/assets/img/movie/08.jpg" alt="img">
-                        <div class="number">
-                            03
-                        </div>
-                        <div class="movie-content">
-                            <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
-                                <i class="fa-solid fa-play"></i>
-                            </a>
-                            <ul class="post-time">
-                                <li>
-                                    <i class="fa-regular fa-clock"></i>
-                                    02h 45m
-                                </li>
-                                <li>
-                                    <i class="fa-sharp fa-regular fa-tv"></i>
-                                    4K Quality
-                                </li>
-                            </ul>
-                            <h3><a href="movie-details.html">Happy Women’s day</a></h3>
-                            <p>The journey from the vibrant souks and palaces of Marrakech to the tranquil, starlit sands of Merzouga showcases the diverse splendor of Morocco. Camel treks a</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="movie-box-items-2">
-                    <div class="movie-image">
-                        <img src="~/assets/img/movie/09.jpg" alt="img">
-                        <div class="number">
-                            04
-                        </div>
-                        <div class="movie-content">
-                            <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
-                                <i class="fa-solid fa-play"></i>
-                            </a>
-                            <ul class="post-time">
-                                <li>
-                                    <i class="fa-regular fa-clock"></i>
-                                    02h 45m
-                                </li>
-                                <li>
-                                    <i class="fa-sharp fa-regular fa-tv"></i>
-                                    4K Quality
-                                </li>
-                            </ul>
-                            <h3><a href="movie-details.html">Happy Women’s day</a></h3>
-                            <p>The journey from the vibrant souks and palaces of Marrakech to the tranquil, starlit sands of Merzouga showcases the diverse splendor of Morocco. Camel treks a</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="movie-box-items-2">
-                    <div class="movie-image">
-                        <img src="~/assets/img/movie/10.jpg" alt="img">
-                        <div class="number">
-                            05
-                        </div>
-                        <div class="movie-content">
-                            <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
-                                <i class="fa-solid fa-play"></i>
-                            </a>
-                            <ul class="post-time">
-                                <li>
-                                    <i class="fa-regular fa-clock"></i>
-                                    02h 45m
-                                </li>
-                                <li>
-                                    <i class="fa-sharp fa-regular fa-tv"></i>
-                                    4K Quality
-                                </li>
-                            </ul>
-                            <h3><a href="movie-details.html">Happy Women’s day</a></h3>
-                            <p>The journey from the vibrant souks and palaces of Marrakech to the tranquil, starlit sands of Merzouga showcases the diverse splendor of Morocco. Camel treks a</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            }
         </div>
         <div class="swiper-dot text-center pt-5">
             <div class="dot"></div>
@@ -292,10 +161,10 @@
                     <div class="swiper-slide">
                         <div class="tv-shows-items">
                             <div class="tv-shows-image">
-                                <img src="~/assets/img/tv-shows/01.jpg" alt="img">
+                                <img src="~/assets/img/tv-shows/01.jpeg" alt="img">
                                 <div class="tv-shows-content">
                                     <p>past & current seasons</p>
-                                    <h3><a href="tv-shows-details.html">TV Shows</a></h3>
+                                    <h3><a asp-controller="tvshow" asp-action="index">TV Shows</a></h3>
                                 </div>
                             </div>
                         </div>
@@ -303,10 +172,10 @@
                     <div class="swiper-slide">
                         <div class="tv-shows-items">
                             <div class="tv-shows-image">
-                                <img src="~/assets/img/tv-shows/02.jpg" alt="img">
+                                <img src="~/assets/img/tv-shows/02.jpeg" alt="img">
                                 <div class="tv-shows-content">
                                     <p>news & classic</p>
-                                    <h3><a href="tv-shows-details.html">movies</a></h3>
+                                    <h3><a asp-controller="movies" asp-action="index">movies</a></h3>
                                 </div>
                             </div>
                         </div>
@@ -317,7 +186,7 @@
                                 <img src="~/assets/img/tv-shows/03.jpg" alt="img">
                                 <div class="tv-shows-content">
                                     <p>ground breaking</p>
-                                    <h3><a href="tv-shows-details.html">ticsTube originals</a></h3>
+                                    <h3><a asp-controller="shop" asp-action="index">Original Merch</a></h3>
                                 </div>
                             </div>
                         </div>
@@ -328,7 +197,7 @@
                                 <img src="~/assets/img/tv-shows/04.jpg" alt="img">
                                 <div class="tv-shows-content">
                                     <p>add-on</p>
-                                    <h3><a href="tv-shows-details.html">premiums</a></h3>
+                                    <h3><a asp-controller="subscribe" asp-action="index">Subscriptions</a></h3>
                                 </div>
                             </div>
                         </div>
@@ -339,644 +208,3 @@
     </div>
 </section>
 
-<!-- Upcoming Movie Section Start -->
-<section class="upcoming-movie-section fix section-padding pt-0">
-    <div class="container">
-        <div class="section-title-area">
-            <div class="section-title style-2">
-                <h2>Upcoming Movies</h2>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid">
-        <div class="movie-wrapper style-2">
-            <div class="swiper movie-slider-3">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="movie-box-items style-2">
-                            <div class="movie-image">
-                                <img src="~/assets/img/movie/11.jpg" alt="img">
-                                <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
-                                    <i class="fa-solid fa-play"></i>
-                                </a>
-                            </div>
-                            <div class="movie-content">
-                                <ul class="post-time">
-                                    <li>
-                                        <i class="fa-regular fa-clock"></i>
-                                        02h 45m
-                                    </li>
-                                    <li>
-                                        <i class="fa-sharp fa-regular fa-tv"></i>
-                                        4K Quality
-                                    </li>
-                                </ul>
-                                <h3><a href="movie-details.html">Happy Women’s day</a></h3>
-                                <p>Action, war, romantic</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="movie-box-items style-2">
-                            <div class="movie-image">
-                                <img src="~/assets/img/movie/12.jpg" alt="img">
-                                <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
-                                    <i class="fa-solid fa-play"></i>
-                                </a>
-                            </div>
-                            <div class="movie-content">
-                                <ul class="post-time">
-                                    <li>
-                                        <i class="fa-regular fa-clock"></i>
-                                        02h 45m
-                                    </li>
-                                    <li>
-                                        <i class="fa-sharp fa-regular fa-tv"></i>
-                                        4K Quality
-                                    </li>
-                                </ul>
-                                <h3><a href="movie-details.html">Serendipity’s Edge</a></h3>
-                                <p>Action, war, romantic</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="movie-box-items style-2">
-                            <div class="movie-image">
-                                <img src="~/assets/img/movie/13.jpg" alt="img">
-                                <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
-                                    <i class="fa-solid fa-play"></i>
-                                </a>
-                            </div>
-                            <div class="movie-content">
-                                <ul class="post-time">
-                                    <li>
-                                        <i class="fa-regular fa-clock"></i>
-                                        02h 45m
-                                    </li>
-                                    <li>
-                                        <i class="fa-sharp fa-regular fa-tv"></i>
-                                        4K Quality
-                                    </li>
-                                </ul>
-                                <h3><a href="movie-details.html">Happy Women’s day</a></h3>
-                                <p>Action, war, romantic</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="movie-box-items style-2">
-                            <div class="movie-image">
-                                <img src="~/assets/img/movie/14.jpg" alt="img">
-                                <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
-                                    <i class="fa-solid fa-play"></i>
-                                </a>
-                            </div>
-                            <div class="movie-content">
-                                <ul class="post-time">
-                                    <li>
-                                        <i class="fa-regular fa-clock"></i>
-                                        02h 45m
-                                    </li>
-                                    <li>
-                                        <i class="fa-sharp fa-regular fa-tv"></i>
-                                        4K Quality
-                                    </li>
-                                </ul>
-                                <h3><a href="movie-details.html">The Preditors</a></h3>
-                                <p>Action, war, romantic</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="movie-box-items style-2">
-                            <div class="movie-image">
-                                <img src="~/assets/img/movie/15.jpg" alt="img">
-                                <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
-                                    <i class="fa-solid fa-play"></i>
-                                </a>
-                            </div>
-                            <div class="movie-content">
-                                <ul class="post-time">
-                                    <li>
-                                        <i class="fa-regular fa-clock"></i>
-                                        02h 45m
-                                    </li>
-                                    <li>
-                                        <i class="fa-sharp fa-regular fa-tv"></i>
-                                        4K Quality
-                                    </li>
-                                </ul>
-                                <h3><a href="movie-details.html">The Ark Menace</a></h3>
-                                <p>Action, war, romantic</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="movie-box-items style-2">
-                            <div class="movie-image">
-                                <img src="~/assets/img/movie/16.jpg" alt="img">
-                                <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
-                                    <i class="fa-solid fa-play"></i>
-                                </a>
-                            </div>
-                            <div class="movie-content">
-                                <ul class="post-time">
-                                    <li>
-                                        <i class="fa-regular fa-clock"></i>
-                                        02h 45m
-                                    </li>
-                                    <li>
-                                        <i class="fa-sharp fa-regular fa-tv"></i>
-                                        4K Quality
-                                    </li>
-                                </ul>
-                                <h3><a href="movie-details.html">The Phantom Menace</a></h3>
-                                <p>Action, war, romantic</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6">
-                <div class="upcoming-movie-banner">
-                    <img src="~/assets/img/movie/movie-banner.jpg" alt="img">
-                    <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-text ripple video-popup">
-                        watch trailer <i class="fa-solid fa-play"></i>
-                    </a>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="upcoming-movie-banner">
-                    <img src="~/assets/img/movie/movie-banner-2.jpg" alt="img">
-                    <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-text ripple video-popup">
-                        watch trailer <i class="fa-solid fa-play"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Movie Category Section Start -->
-<section class="movie-category fix section-padding pt-0">
-    <div class="container">
-        <div class="section-title-area">
-            <div class="section-title style-2">
-                <h2>Top Movie CATEGORY</h2>
-            </div>
-            <div class="array-button-2">
-                <button class="array-prev"><i class="fa-solid fa-chevron-left"></i></button>
-                <button class="array-next"><i class="fa-solid fa-chevron-right"></i></button>
-            </div>
-        </div>
-        <div class="movie-category-wrapper">
-            <div class="swiper movie-category-slider">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="movie-category-items">
-                            <div class="movie-category-image">
-                                <img src="~/assets/img/movie-category/01.jpg" alt="img">
-                                <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-text video-popup">
-                                    <i class="fa-solid fa-play"></i> trailer
-                                </a>
-                            </div>
-                            <div class="movie-category-content">
-                                <div class="star">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star color-2"></i>
-                                    <i class="fa-solid fa-star color-2"></i>
-                                </div>
-                                <h3>
-                                    <a href="movie-details.html">The boyes</a>
-                                </h3>
-                                <p>Action, Comedy, Crime</p>
-                                <a href="movie-details.html" class="movie-button">
-                                    Watch Options
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="movie-category-items">
-                            <div class="movie-category-image">
-                                <img src="~/assets/img/movie-category/02.jpg" alt="img">
-                                <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-text video-popup">
-                                    <i class="fa-solid fa-play"></i> trailer
-                                </a>
-                            </div>
-                            <div class="movie-category-content">
-                                <div class="star">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star color-2"></i>
-                                    <i class="fa-solid fa-star color-2"></i>
-                                </div>
-                                <h3>
-                                    <a href="movie-details.html">House of the drag</a>
-                                </h3>
-                                <p>Action, Comedy, Crime</p>
-                                <a href="movie-details.html" class="movie-button">
-                                    +Watchlist
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="movie-category-items">
-                            <div class="movie-category-image">
-                                <img src="~/assets/img/movie-category/03.jpg" alt="img">
-                                <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-text video-popup">
-                                    <i class="fa-solid fa-play"></i> trailer
-                                </a>
-                            </div>
-                            <div class="movie-category-content">
-                                <div class="star">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star color-2"></i>
-                                    <i class="fa-solid fa-star color-2"></i>
-                                </div>
-                                <h3>
-                                    <a href="movie-details.html">beverly hills</a>
-                                </h3>
-                                <p>Action, Comedy, Crime</p>
-                                <a href="movie-details.html" class="movie-button">
-                                    +Watchlist
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="movie-category-items">
-                            <div class="movie-category-image">
-                                <img src="~/assets/img/movie-category/04.jpg" alt="img">
-                                <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-text video-popup">
-                                    <i class="fa-solid fa-play"></i> trailer
-                                </a>
-                            </div>
-                            <div class="movie-category-content">
-                                <div class="star">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star color-2"></i>
-                                    <i class="fa-solid fa-star color-2"></i>
-                                </div>
-                                <h3>
-                                    <a href="movie-details.html">A family affair</a>
-                                </h3>
-                                <p>Action, Comedy, Crime</p>
-                                <a href="movie-details.html" class="movie-button">
-                                    +Watchlist
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="movie-category-items">
-                            <div class="movie-category-image">
-                                <img src="~/assets/img/movie-category/05.jpg" alt="img">
-                                <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-text video-popup">
-                                    <i class="fa-solid fa-play"></i> trailer
-                                </a>
-                            </div>
-                            <div class="movie-category-content">
-                                <div class="star">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star color-2"></i>
-                                    <i class="fa-solid fa-star color-2"></i>
-                                </div>
-                                <h3>
-                                    <a href="movie-details.html">A quite place</a>
-                                </h3>
-                                <p>Action, Comedy, Crime</p>
-                                <a href="movie-details.html" class="movie-button">
-                                    +Watchlist
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Feature Category Section Start -->
-<section class="feature-movie-section fix section-padding pt-0">
-    <div class="container">
-        <div class="feature-movie-wrapper">
-            <div class="section-title style-2">
-                <h2>Featured today</h2>
-            </div>
-            <div class="row">
-                <div class="col-xl-7">
-                    <div class="feature-movie-banner">
-                        <div class="feature-movie">
-                            <img src="~/assets/img/movie/movie-banner-1.jpg" alt="img">
-                            <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
-                                <i class="fa-solid fa-play"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-5 col-lg-6">
-                    <div class="feature-movie-right">
-                        <div class="movie-list-area">
-                            <div class="movie-list-items">
-                                <div class="movie-list-image">
-                                    <img src="~/assets/img/movie-list/01.jpg" alt="img">
-                                    <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
-                                        <i class="fa-solid fa-play"></i>
-                                    </a>
-                                </div>
-                                <div class="movie-list-content">
-                                    <span>4 : 15</span>
-                                    <h4><a href="movie-details.html">The Boys</a></h4>
-                                    <p>Watch The Trailer </p>
-                                    <ul class="post-like">
-                                        <li>
-                                            <i class="fa-sharp fa-regular fa-thumbs-up"></i>
-                                            345
-                                        </li>
-                                        <li>
-                                            <i class="fa-sharp fa-regular fa-heart"></i>
-                                            34
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="movie-list-items">
-                                <div class="movie-list-image">
-                                    <img src="~/assets/img/movie-list/02.jpg" alt="img">
-                                    <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
-                                        <i class="fa-solid fa-play"></i>
-                                    </a>
-                                </div>
-                                <div class="movie-list-content">
-                                    <span>2 : 15</span>
-                                    <h4><a href="movie-details.html">Gladiator II (2024)</a></h4>
-                                    <p>Watch The Trailer </p>
-                                    <ul class="post-like">
-                                        <li>
-                                            <i class="fa-sharp fa-regular fa-thumbs-up"></i>
-                                            345
-                                        </li>
-                                        <li>
-                                            <i class="fa-sharp fa-regular fa-heart"></i>
-                                            34
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="movie-list-items">
-                                <div class="movie-list-image">
-                                    <img src="~/assets/img/movie-list/03.jpg" alt="img">
-                                    <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
-                                        <i class="fa-solid fa-play"></i>
-                                    </a>
-                                </div>
-                                <div class="movie-list-content">
-                                    <span>3 : 15</span>
-                                    <h4><a href="movie-details.html">The Boys</a></h4>
-                                    <p>Black partner </p>
-                                    <ul class="post-like">
-                                        <li>
-                                            <i class="fa-sharp fa-regular fa-thumbs-up"></i>
-                                            345
-                                        </li>
-                                        <li>
-                                            <i class="fa-sharp fa-regular fa-heart"></i>
-                                            34
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="movie-list-items">
-                                <div class="movie-list-image">
-                                    <img src="~/assets/img/movie-list/01.jpg" alt="img">
-                                    <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
-                                        <i class="fa-solid fa-play"></i>
-                                    </a>
-                                </div>
-                                <div class="movie-list-content">
-                                    <span>4 : 15</span>
-                                    <h4><a href="movie-details.html">The Boys</a></h4>
-                                    <p>Watch The Trailer </p>
-                                    <ul class="post-like">
-                                        <li>
-                                            <i class="fa-sharp fa-regular fa-thumbs-up"></i>
-                                            345
-                                        </li>
-                                        <li>
-                                            <i class="fa-sharp fa-regular fa-heart"></i>
-                                            34
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="movie-list-items">
-                                <div class="movie-list-image">
-                                    <img src="~/assets/img/movie-list/02.jpg" alt="img">
-                                    <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
-                                        <i class="fa-solid fa-play"></i>
-                                    </a>
-                                </div>
-                                <div class="movie-list-content">
-                                    <span>2 : 15</span>
-                                    <h4><a href="movie-details.html">Gladiator II (2024)</a></h4>
-                                    <p>Watch The Trailer </p>
-                                    <ul class="post-like">
-                                        <li>
-                                            <i class="fa-sharp fa-regular fa-thumbs-up"></i>
-                                            345
-                                        </li>
-                                        <li>
-                                            <i class="fa-sharp fa-regular fa-heart"></i>
-                                            34
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="movie-list-items">
-                                <div class="movie-list-image">
-                                    <img src="~/assets/img/movie-list/03.jpg" alt="img">
-                                    <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
-                                        <i class="fa-solid fa-play"></i>
-                                    </a>
-                                </div>
-                                <div class="movie-list-content">
-                                    <span>3 : 15</span>
-                                    <h4><a href="movie-details.html">The Boys</a></h4>
-                                    <p>Black partner </p>
-                                    <ul class="post-like">
-                                        <li>
-                                            <i class="fa-sharp fa-regular fa-thumbs-up"></i>
-                                            345
-                                        </li>
-                                        <li>
-                                            <i class="fa-sharp fa-regular fa-heart"></i>
-                                            34
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Exclusive Video Section Start -->
-<section class="exclusive-videos fix section-padding pt-0">
-    <div class="container">
-        <div class="section-title-area">
-            <div class="section-title style-2">
-                <h2>Exclusive videos</h2>
-            </div>
-            <div class="array-button-2">
-                <button class="array-prev"><i class="fa-solid fa-chevron-left"></i></button>
-                <button class="array-next"><i class="fa-solid fa-chevron-right"></i></button>
-            </div>
-        </div>
-        <div class="swiper exclusive-slider">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <div class="exclusive-box-items">
-                        <div class="exclusive-image">
-                            <img src="~/assets/img/exclusive-video/01.jpg" alt="img">
-                        </div>
-                        <div class="exclusive-content">
-                            <h3><a href="tv-shows-details.html">every last one of them</a></h3>
-                            <p>Watch our interview</p>
-                            <ul class="post-like">
-                                <li>
-                                    <i class="fa-sharp fa-regular fa-thumbs-up"></i>
-                                    345
-                                </li>
-                                <li>
-                                    <i class="fa-sharp fa-regular fa-heart"></i>
-                                    34
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="exclusive-box-items">
-                        <div class="exclusive-image">
-                            <img src="~/assets/img/exclusive-video/02.jpg" alt="img">
-                        </div>
-                        <div class="exclusive-content">
-                            <h3><a href="tv-shows-details.html">Get emotional With me ‘inside out 2’ cast</a></h3>
-                            <p>Watch our interview</p>
-                            <ul class="post-like">
-                                <li>
-                                    <i class="fa-sharp fa-regular fa-thumbs-up"></i>
-                                    345
-                                </li>
-                                <li>
-                                    <i class="fa-sharp fa-regular fa-heart"></i>
-                                    34
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="exclusive-box-items">
-                        <div class="exclusive-image">
-                            <img src="~/assets/img/exclusive-video/03.jpg" alt="img">
-                        </div>
-                        <div class="exclusive-content">
-                            <h3><a href="tv-shows-details.html">Once Upon A Time In Hollywood </a></h3>
-                            <p>Watch our interview</p>
-                            <ul class="post-like">
-                                <li>
-                                    <i class="fa-sharp fa-regular fa-thumbs-up"></i>
-                                    345
-                                </li>
-                                <li>
-                                    <i class="fa-sharp fa-regular fa-heart"></i>
-                                    34
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Recently Video Section Start -->
-<section class="recently-videos fix section-padding pt-0">
-    <div class="container">
-        <div class="section-title-area">
-            <div class="section-title style-2">
-                <h2>Recently viewed</h2>
-            </div>
-            <div class="array-button-2">
-                <button class="array-prev"><i class="fa-solid fa-chevron-left"></i></button>
-                <button class="array-next"><i class="fa-solid fa-chevron-right"></i></button>
-            </div>
-        </div>
-        <div class="swiper recently-videos-slider">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <div class="recently-view-items">
-                        <div class="recently-image">
-                            <img src="~/assets/img/recently-view/01.jpg" alt="img">
-                            <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
-                                <i class="fa-solid fa-play"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="recently-view-items">
-                        <div class="recently-image">
-                            <img src="~/assets/img/recently-view/02.jpg" alt="img">
-                            <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
-                                <i class="fa-solid fa-play"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="recently-view-items">
-                        <div class="recently-image">
-                            <img src="~/assets/img/recently-view/03.jpg" alt="img">
-                            <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
-                                <i class="fa-solid fa-play"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="recently-view-items">
-                        <div class="recently-image">
-                            <img src="~/assets/img/recently-view/04.jpg" alt="img">
-                            <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
-                                <i class="fa-solid fa-play"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>

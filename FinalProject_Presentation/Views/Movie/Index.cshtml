@@ -1,0 +1,77 @@
+﻿@model MovieVm     
+
+<!--<< Breadcrumb Section Start >>-->
+<div class="breadcrumb-wrapper bg-cover" style="background-image: url('~/~/assets/img/breadcrumb-bg.jpg');">
+    <div class="container">
+        <div class="page-heading">
+            <div class="page-header-left">
+                <h1 class="wow fadeInUp" data-wow-delay=".3s">movies</h1>
+                <ul class="breadcrumb-items wow fadeInUp" data-wow-delay=".5s">
+                    <li>
+                        <a href="index.html">
+                            <i class="fa-solid fa-house"></i>
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-slash-forward"></i>
+                    </li>
+                    <li>
+                        movies
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Trending Section Start -->
+<section class="trending-section-2 section-padding fix">
+    <div class="container">
+        <div class="section-title-area">
+            <div class="section-title style-2">
+                <h2>treading movies </h2>
+            </div>
+            <div class="array-button-2">
+                <button class="cta-prev"><i class="fa-solid fa-chevron-left"></i></button>
+                <button class="cta-next"><i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+        </div>
+        <div class="trending-wrapper-2">
+            <div class="swiper trending-slider">
+                <div class="swiper-wrapper">
+                    @foreach (var movie in Model.Movies)
+                    {
+                        @Html.Partial("_TrendingMoviePartial", movie)
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Trending Section Start -->
+<section class="trending-section-2 section-padding pt-0 fix">
+    <div class="container">
+        <div class="section-title-area">
+            <div class="section-title style-2">
+                <h2>FEATURED movies</h2>
+            </div>
+            <div class="array-button-2">
+                <button class="array-prev"><i class="fa-solid fa-chevron-left"></i></button>
+                <button class="array-next"><i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+        </div>
+        <div class="trending-wrapper-2">
+            <div class="swiper trending-slider-2">
+                <div class="swiper-wrapper">
+                    @foreach (var movie in Model.Movies)
+                    {
+                        @Html.Partial("_TrendingMoviePartial", movie)
+                    }
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

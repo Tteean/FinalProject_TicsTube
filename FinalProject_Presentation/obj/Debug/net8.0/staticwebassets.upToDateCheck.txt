@@ -829,8 +829,8 @@ wwwroot\assets\img\trending\24.jpg
 wwwroot\assets\img\trending\25.jpg
 wwwroot\assets\img\trending\26.jpg
 wwwroot\assets\img\trending\27.jpg
-wwwroot\assets\img\tv-shows\01.jpg
-wwwroot\assets\img\tv-shows\02.jpg
+wwwroot\assets\img\tv-shows\01.jpeg
+wwwroot\assets\img\tv-shows\02.jpeg
 wwwroot\assets\img\tv-shows\03.jpg
 wwwroot\assets\img\tv-shows\04.jpg
 wwwroot\assets\img\tv-shows\05.jpg
@@ -1058,5 +1058,7 @@ wwwroot\uploads\Product\b70d9541-cb38-4f50-8a34-5e49b6b4d020.png
 wwwroot\uploads\TVShow\9bb91716-986d-49e9-8475-fa8a62bae047.png
 wwwroot\uploads\TVShow\a6a2c24a-a9df-48c2-afd7-f08516098308.png
 wwwroot\uploads\TVShow\bce34911-c309-4437-a2f2-15c4c988cd31.png
+wwwroot\uploads\TVShow\cad40772-3f9c-4aaa-bbb2-92b10b499618.png
+wwwroot\uploads\TVShow\d3b96175-56e5-4475-9338-b4364d726be2.png
 wwwroot\uploads\TVShow\e96f03a0-1511-447b-ab7c-ff35de17017d.png
 wwwroot\uploads\TVShow\ea63a146-1799-4a96-a45e-36ece065353d.png

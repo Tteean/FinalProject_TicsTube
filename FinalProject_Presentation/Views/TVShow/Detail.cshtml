@@ -1,5 +1,6 @@
-﻿        <!--<< Breadcrumb Section Start >>-->
-<div class="breadcrumb-wrapper bg-cover" style="background-image: url('assets/img/breadcrumb-bg.jpg');">
+﻿@model TVShow
+        <!--<< Breadcrumb Section Start >>-->
+<div class="breadcrumb-wrapper bg-cover" style="background-image: url('~/~/assets/img/breadcrumb-bg.jpg');">
     <div class="container">
         <div class="page-heading">
             <div class="page-header-left">
@@ -28,7 +29,7 @@
     <div class="container-fluid">
         <div class="tv-shows-details-wrapper web-series-details-wrapper">
             <div class="details-image-2">
-                <img src="assets/img/web-series/details-1.jpg" alt="img">
+                <img src="~/uploads/TVShow/@Model.Image" alt="img">
                 <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
                     <i class="fa-solid fa-play"></i>
                 </a>
@@ -40,336 +41,49 @@
                             <div class="faq-items">
                                 <h3>Seasons and Episodes</h3>
                                 <div class="accordion" id="accordionExample">
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="headingTwo">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                                Series 01 <span>9 Episodes</span>
-                                            </button>
-                                        </h2>
-                                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                                             data-bs-parent="#accordionExample">
-                                            <div class="accordion-body">
-                                                <div class="episodes-wrapper">
-                                                    <div class="number">01</div>
-                                                    <div class="episodes-items">
-                                                        <div class="episodes-thumb">
-                                                            <img src="assets/img/episodes/01.jpg" alt="img">
-                                                        </div>
-                                                        <div class="episodes-content">
-                                                            <div class="title-text">
-                                                                <h4>Chapter One : The Vanishing of Will Byers</h4>
-                                                                <div class="clock">
-                                                                    <i class="fa-regular fa-clock"></i> 49 min
+                                    @foreach (var season in Model.Seasons)
+                                    {
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="headingTwo">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                    @season.SeasonNumber
+                                                </button>
+                                            </h2>
+                                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                                 data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                   @foreach (var episode in season.Episodes)
+                                                    {
+                                                        <div class="episodes-wrapper">
+                                                            <div class="number">@episode.EpisodeNumber</div>
+                                                            <div class="episodes-items">
+                                                                <div class="episodes-thumb">
+                                                                    <img src="~/uploads/episodes/@episode.Image" alt="img">
+                                                                </div>
+                                                                <div class="episodes-content">
+                                                                    <div class="title-text">
+                                                                        <h4>@episode.Title</h4>
+                                                                        <div class="clock">
+                                                                            <i class="fa-regular fa-clock"></i> @episode.Duration min
+                                                                        </div>
+                                                                    </div>
+                                                                    <p>
+                                                                       @episode.Description
+                                                                    </p>
                                                                 </div>
                                                             </div>
-                                                            <p>
-                                                                On his way from a friend’s house, young Will sees something terrifying . Nearby, a sinister secret lurks in the depths of a government lab.
-                                                            </p>
                                                         </div>
-                                                    </div>
-                                                </div>
-                                                <div class="episodes-wrapper">
-                                                    <div class="number">02</div>
-                                                    <div class="episodes-items">
-                                                        <div class="episodes-thumb">
-                                                            <img src="assets/img/episodes/02.jpg" alt="img">
-                                                        </div>
-                                                        <div class="episodes-content">
-                                                            <div class="title-text">
-                                                                <h4>Chapter Two: The Weirdo on Maple Street</h4>
-                                                                <div class="clock">
-                                                                    <i class="fa-regular fa-clock"></i> 56 min
-                                                                </div>
-                                                            </div>
-                                                            <p>
-                                                                On his way from a friend’s house, young Will sees something terrifying . Nearby, a sinister secret lurks in the depths of a government lab.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="episodes-wrapper">
-                                                    <div class="number">03</div>
-                                                    <div class="episodes-items">
-                                                        <div class="episodes-thumb">
-                                                            <img src="assets/img/episodes/03.jpg" alt="img">
-                                                        </div>
-                                                        <div class="episodes-content">
-                                                            <div class="title-text">
-                                                                <h4>Chapter Three: Holly, Jolly</h4>
-                                                                <div class="clock">
-                                                                    <i class="fa-regular fa-clock"></i> 52 min
-                                                                </div>
-                                                            </div>
-                                                            <p>
-                                                                On his way from a friend’s house, young Will sees something terrifying . Nearby, a sinister secret lurks in the depths of a government lab.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="episodes-wrapper">
-                                                    <div class="number">04</div>
-                                                    <div class="episodes-items">
-                                                        <div class="episodes-thumb">
-                                                            <img src="assets/img/episodes/04.jpg" alt="img">
-                                                        </div>
-                                                        <div class="episodes-content">
-                                                            <div class="title-text">
-                                                                <h4>Chapter Four: The Body</h4>
-                                                                <div class="clock">
-                                                                    <i class="fa-regular fa-clock"></i> 51 min
-                                                                </div>
-                                                            </div>
-                                                            <p>
-                                                                On his way from a friend’s house, young Will sees something terrifying . Nearby, a sinister secret lurks in the depths of a government lab.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="episodes-wrapper">
-                                                    <div class="number">05</div>
-                                                    <div class="episodes-items">
-                                                        <div class="episodes-thumb">
-                                                            <img src="assets/img/episodes/05.jpg" alt="img">
-                                                        </div>
-                                                        <div class="episodes-content">
-                                                            <div class="title-text">
-                                                                <h4>Chapter Five: The Flea and the Acrobat</h4>
-                                                                <div class="clock">
-                                                                    <i class="fa-regular fa-clock"></i> 23 min
-                                                                </div>
-                                                            </div>
-                                                            <p>
-                                                                On his way from a friend’s house, young Will sees something terrifying . Nearby, a sinister secret lurks in the depths of a government lab.
-                                                            </p>
-                                                        </div>
-                                                    </div>
+                                                    }
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="headingOne">
-                                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                                Series 02 <span>5 Episodes</span>
-                                            </button>
-                                        </h2>
-                                        <div id="collapseOne" class="accordion-collapse collapse show"
-                                             aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body">
-                                                <div class="episodes-wrapper">
-                                                    <div class="number">01</div>
-                                                    <div class="episodes-items">
-                                                        <div class="episodes-thumb">
-                                                            <img src="assets/img/episodes/01.jpg" alt="img">
-                                                        </div>
-                                                        <div class="episodes-content">
-                                                            <div class="title-text">
-                                                                <h4>Chapter One : The Vanishing of Will Byers</h4>
-                                                                <div class="clock">
-                                                                    <i class="fa-regular fa-clock"></i> 49 min
-                                                                </div>
-                                                            </div>
-                                                            <p>
-                                                                On his way from a friend’s house, young Will sees something terrifying . Nearby, a sinister secret lurks in the depths of a government lab.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="episodes-wrapper">
-                                                    <div class="number">02</div>
-                                                    <div class="episodes-items">
-                                                        <div class="episodes-thumb">
-                                                            <img src="assets/img/episodes/02.jpg" alt="img">
-                                                        </div>
-                                                        <div class="episodes-content">
-                                                            <div class="title-text">
-                                                                <h4>Chapter Two: The Weirdo on Maple Street</h4>
-                                                                <div class="clock">
-                                                                    <i class="fa-regular fa-clock"></i> 56 min
-                                                                </div>
-                                                            </div>
-                                                            <p>
-                                                                On his way from a friend’s house, young Will sees something terrifying . Nearby, a sinister secret lurks in the depths of a government lab.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="episodes-wrapper">
-                                                    <div class="number">03</div>
-                                                    <div class="episodes-items">
-                                                        <div class="episodes-thumb">
-                                                            <img src="assets/img/episodes/03.jpg" alt="img">
-                                                        </div>
-                                                        <div class="episodes-content">
-                                                            <div class="title-text">
-                                                                <h4>Chapter Three: Holly, Jolly</h4>
-                                                                <div class="clock">
-                                                                    <i class="fa-regular fa-clock"></i> 52 min
-                                                                </div>
-                                                            </div>
-                                                            <p>
-                                                                On his way from a friend’s house, young Will sees something terrifying . Nearby, a sinister secret lurks in the depths of a government lab.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="episodes-wrapper">
-                                                    <div class="number">04</div>
-                                                    <div class="episodes-items">
-                                                        <div class="episodes-thumb">
-                                                            <img src="assets/img/episodes/04.jpg" alt="img">
-                                                        </div>
-                                                        <div class="episodes-content">
-                                                            <div class="title-text">
-                                                                <h4>Chapter Four: The Body</h4>
-                                                                <div class="clock">
-                                                                    <i class="fa-regular fa-clock"></i> 51 min
-                                                                </div>
-                                                            </div>
-                                                            <p>
-                                                                On his way from a friend’s house, young Will sees something terrifying . Nearby, a sinister secret lurks in the depths of a government lab.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="episodes-wrapper">
-                                                    <div class="number">05</div>
-                                                    <div class="episodes-items">
-                                                        <div class="episodes-thumb">
-                                                            <img src="assets/img/episodes/05.jpg" alt="img">
-                                                        </div>
-                                                        <div class="episodes-content">
-                                                            <div class="title-text">
-                                                                <h4>Chapter Five: The Flea and the Acrobat</h4>
-                                                                <div class="clock">
-                                                                    <i class="fa-regular fa-clock"></i> 23 min
-                                                                </div>
-                                                            </div>
-                                                            <p>
-                                                                On his way from a friend’s house, young Will sees something terrifying . Nearby, a sinister secret lurks in the depths of a government lab.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item mb-0">
-                                        <h2 class="accordion-header" id="headingthree">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                                    data-bs-target="#collapsethree" aria-expanded="false"
-                                                    aria-controls="collapsethree">
-                                                Series 03 <span>7 Episodes</span>
-                                            </button>
-                                        </h2>
-                                        <div id="collapsethree" class="accordion-collapse collapse"
-                                             aria-labelledby="headingthree" data-bs-parent="#accordionExample">
-                                            <div class="accordion-body">
-                                                <div class="episodes-wrapper">
-                                                    <div class="number">01</div>
-                                                    <div class="episodes-items">
-                                                        <div class="episodes-thumb">
-                                                            <img src="assets/img/episodes/01.jpg" alt="img">
-                                                        </div>
-                                                        <div class="episodes-content">
-                                                            <div class="title-text">
-                                                                <h4>Chapter One : The Vanishing of Will Byers</h4>
-                                                                <div class="clock">
-                                                                    <i class="fa-regular fa-clock"></i> 49 min
-                                                                </div>
-                                                            </div>
-                                                            <p>
-                                                                On his way from a friend’s house, young Will sees something terrifying . Nearby, a sinister secret lurks in the depths of a government lab.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="episodes-wrapper">
-                                                    <div class="number">02</div>
-                                                    <div class="episodes-items">
-                                                        <div class="episodes-thumb">
-                                                            <img src="assets/img/episodes/02.jpg" alt="img">
-                                                        </div>
-                                                        <div class="episodes-content">
-                                                            <div class="title-text">
-                                                                <h4>Chapter Two: The Weirdo on Maple Street</h4>
-                                                                <div class="clock">
-                                                                    <i class="fa-regular fa-clock"></i> 56 min
-                                                                </div>
-                                                            </div>
-                                                            <p>
-                                                                On his way from a friend’s house, young Will sees something terrifying . Nearby, a sinister secret lurks in the depths of a government lab.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="episodes-wrapper">
-                                                    <div class="number">03</div>
-                                                    <div class="episodes-items">
-                                                        <div class="episodes-thumb">
-                                                            <img src="assets/img/episodes/03.jpg" alt="img">
-                                                        </div>
-                                                        <div class="episodes-content">
-                                                            <div class="title-text">
-                                                                <h4>Chapter Three: Holly, Jolly</h4>
-                                                                <div class="clock">
-                                                                    <i class="fa-regular fa-clock"></i> 52 min
-                                                                </div>
-                                                            </div>
-                                                            <p>
-                                                                On his way from a friend’s house, young Will sees something terrifying . Nearby, a sinister secret lurks in the depths of a government lab.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="episodes-wrapper">
-                                                    <div class="number">04</div>
-                                                    <div class="episodes-items">
-                                                        <div class="episodes-thumb">
-                                                            <img src="assets/img/episodes/04.jpg" alt="img">
-                                                        </div>
-                                                        <div class="episodes-content">
-                                                            <div class="title-text">
-                                                                <h4>Chapter Four: The Body</h4>
-                                                                <div class="clock">
-                                                                    <i class="fa-regular fa-clock"></i> 51 min
-                                                                </div>
-                                                            </div>
-                                                            <p>
-                                                                On his way from a friend’s house, young Will sees something terrifying . Nearby, a sinister secret lurks in the depths of a government lab.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="episodes-wrapper">
-                                                    <div class="number">05</div>
-                                                    <div class="episodes-items">
-                                                        <div class="episodes-thumb">
-                                                            <img src="assets/img/episodes/05.jpg" alt="img">
-                                                        </div>
-                                                        <div class="episodes-content">
-                                                            <div class="title-text">
-                                                                <h4>Chapter Five: The Flea and the Acrobat</h4>
-                                                                <div class="clock">
-                                                                    <i class="fa-regular fa-clock"></i> 23 min
-                                                                </div>
-                                                            </div>
-                                                            <p>
-                                                                On his way from a friend’s house, young Will sees something terrifying . Nearby, a sinister secret lurks in the depths of a government lab.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    }
                                 </div>
                             </div>
                             <div class="description-content">
                                 <h3 class="mb-2">Description</h3>
-                                <p>A fiery young man clashes with an unflinching forest officer in a south Indian village where spirituality, fate and folklore rule the lands.</p>
+                                <p>@Model.Description</p>
                             </div>
                             <div class="description-content cost-items">
                                 <div class="section-title-area">
@@ -383,129 +97,15 @@
                                 </div>
                                 <div class="swiper cast-slider">
                                     <div class="swiper-wrapper">
-                                        <div class="swiper-slide">
-                                            <div class="cast-image">
-                                                <img src="assets/img/cast/01.jpg" alt="img">
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="cast-image">
-                                                <img src="assets/img/cast/02.jpg" alt="img">
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="cast-image">
-                                                <img src="assets/img/cast/03.jpg" alt="img">
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="cast-image">
-                                                <img src="assets/img/cast/04.jpg" alt="img">
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="cast-image">
-                                                <img src="assets/img/cast/05.jpg" alt="img">
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="cast-image">
-                                                <img src="assets/img/cast/06.jpg" alt="img">
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="cast-image">
-                                                <img src="assets/img/cast/07.jpg" alt="img">
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="cast-image">
-                                                <img src="assets/img/cast/08.jpg" alt="img">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="description-content review-items">
-                                <div class="section-title-area">
-                                    <div class="section-title">
-                                        <h3>Reviews</h3>
-                                    </div>
-                                    <a href="movie-details.html" class="theme-btn"><i class="fa-solid fa-plus"></i> Add Your Review</a>
-                                </div>
-                                <div class="swiper review-slider">
-                                    <div class="swiper-wrapper">
-                                        <div class="swiper-slide">
-                                            <div class="review-box-items">
-                                                <div class="client-info-items">
-                                                    <div class="client-content">
-                                                        <h4>Aniket Roy</h4>
-                                                        <span>From USA</span>
-                                                    </div>
-                                                    <div class="star">
-                                                        <i class="fa-solid fa-star"></i>
-                                                        <i class="fa-solid fa-star"></i>
-                                                        <i class="fa-solid fa-star"></i>
-                                                        <i class="fa-solid fa-star"></i>
-                                                        <i class="fa-solid fa-star-half-stroke"></i>
-                                                        4.5
-                                                    </div>
+                                        @foreach (var actor in Model.TVShowActors)
+                                        {
+                                            <div class="swiper-slide">
+                                                <div class="cast-image">
+                                                    <img src="~/uploads/actors/@actor.Actor.Image" alt="img">
                                                 </div>
-                                                <p>
-                                                    This movie was recommended to me by a very dear friend who went for the movie by herself. I went to the cinemas to watch but had a houseful board so couldn’t watch it.
-                                                </p>
                                             </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="review-box-items">
-                                                <div class="client-info-items">
-                                                    <div class="client-content">
-                                                        <h4>Swaraj</h4>
-                                                        <span>From USA</span>
-                                                    </div>
-                                                    <div class="star">
-                                                        <i class="fa-solid fa-star"></i>
-                                                        <i class="fa-solid fa-star"></i>
-                                                        <i class="fa-solid fa-star"></i>
-                                                        <i class="fa-solid fa-star"></i>
-                                                        <i class="fa-solid fa-star"></i>
-                                                        5
-                                                    </div>
-                                                </div>
-                                                <p>
-                                                    This movie was recommended to me by a very dear friend who went for the movie by herself. I went to the cinemas to watch but had a houseful board so couldn’t watch it.
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="review-box-items">
-                                                <div class="client-info-items">
-                                                    <div class="client-content">
-                                                        <h4>Shikhon Islam</h4>
-                                                        <span>From USA</span>
-                                                    </div>
-                                                    <div class="star">
-                                                        <i class="fa-solid fa-star"></i>
-                                                        <i class="fa-solid fa-star"></i>
-                                                        <i class="fa-solid fa-star"></i>
-                                                        <i class="fa-solid fa-star"></i>
-                                                        <i class="fa-solid fa-star"></i>
-                                                        5
-                                                    </div>
-                                                </div>
-                                                <p>
-                                                    This movie was recommended to me by a very dear friend who went for the movie by herself. I went to the cinemas to watch but had a houseful board so couldn’t watch it.
-                                                </p>
-                                            </div>
-                                        </div>
+                                        }
                                     </div>
-                                </div>
-                                <div class="array-button-2 justify-content-center pt-5">
-                                    <button class="array-prev"><i class="fa-solid fa-chevron-left"></i></button>
-                                    <div class="swiper-dot-2">
-                                        <div class="dot"></div>
-                                    </div>
-                                    <button class="array-next"><i class="fa-solid fa-chevron-right"></i></button>
                                 </div>
                             </div>
                         </div>
@@ -519,7 +119,7 @@
                                     </svg>
                                     <h5> Released Year</h5>
                                 </div>
-                                <h4 class="date-text">2024</h4>
+                                <h4 class="date-text">@Model.Year</h4>
                             </div>
                             <div class="single-sidebar-widget">
                                 <div class="wid-title">
@@ -529,11 +129,10 @@
                                     <h5>Available Languages</h5>
                                 </div>
                                 <ul class="languages-list">
-                                    <li><a href="movie-details.html">English</a></li>
-                                    <li><a href="movie-details.html">Hindi</a></li>
-                                    <li><a href="movie-details.html">Tamil</a></li>
-                                    <li><a href="movie-details.html">Telegu</a></li>
-                                    <li><a href="movie-details.html">Kannada</a></li>
+                                    @foreach (var language in Model.TVShowLanguages)
+                                    {
+                                        <li><a asp-controller="tvshow" asp-action="index">@language.Language.Name</a></li>
+                                    }
                                 </ul>
                             </div>
                             <div class="single-sidebar-widget">
@@ -548,25 +147,7 @@
                                         <div class="ratting-box">
                                             <h4>IMDb</h4>
                                             <div class="star">
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star-half-stroke"></i>
-                                                4.5
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <div class="ratting-box">
-                                            <h4>Streamvibe</h4>
-                                            <div class="star">
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-regular fa-star"></i>
-                                                4
+                                                @ViewBag.Rating
                                             </div>
                                         </div>
                                     </div>
@@ -583,8 +164,10 @@
                                     <h5>Gernes</h5>
                                 </div>
                                 <ul class="languages-list">
-                                    <li><a href="movie-details.html">Action</a></li>
-                                    <li><a href="movie-details.html">Adventure</a></li>
+                                    @foreach (var genre in Model.TVShowGenres)
+                                    {
+                                        <li><a asp-controller="tvshow" asp-action="index">@genre.Genre.Name</a></li>
+                                    }
                                 </ul>
                             </div>
                             <div class="single-sidebar-widget">
@@ -593,25 +176,10 @@
                                 </div>
                                 <div class="post-box-items">
                                     <div class="post-img">
-                                        <img src="assets/img/cast/pp1.jpg" alt="img">
+                                        <img src="~/uploads/directors/@Model.Directors.Image" alt="img">
                                     </div>
                                     <div class="post-content">
-                                        <h5>Rishab Shetty</h5>
-                                        <p>From USA</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="single-sidebar-widget">
-                                <div class="wid-title">
-                                    <h5>Music</h5>
-                                </div>
-                                <div class="post-box-items">
-                                    <div class="post-img">
-                                        <img src="assets/img/cast/pp2.jpg" alt="img">
-                                    </div>
-                                    <div class="post-content">
-                                        <h5>B. Ajaneesh Loknath</h5>
-                                        <p>From UK</p>
+                                        <h5>@Model.Directors.FullName</h5>
                                     </div>
                                 </div>
                             </div>
