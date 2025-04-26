@@ -40,3 +40,22 @@ $(".searchingGlass").click(function (e) {
 $(document).on("click", ".tp-search-close", function () {
     $(".searchPart").css("display", "none");
 });
+
+
+$(document).ready(function () {
+    $(document).on("click", "a.addBasket", function (e) {
+        e.preventDefault();
+        alert("hello")
+        //const url = $(this).attr("href");
+
+        //fetch(url)
+        //    .then(res => res.text())
+        //    .then(html => {
+                
+        //        $(".fix-area").html(html);
+
+        //        const count = (html.match(/minicart-item/g) || []).length;
+        //        $(".BasketItemCount").text(count);
+        //    });
+    });
+});

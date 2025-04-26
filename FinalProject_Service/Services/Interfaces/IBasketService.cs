@@ -2,6 +2,7 @@
 using FinalProject_Service.Dto.BasketDtos;
 using FinalProject_ViewModel.ViewModels;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,7 +17,7 @@ namespace FinalProject_Service.Services.Interfaces
         Task<List<BasketItemDto>> GetBasketAsync();
         Task<List<BasketItemDto>> AddToBasketAsync(int id);
         Task<List<BasketItemDto>> RemoveFromBasketAsync(int id);
-        Task<CheckoutDto> GetCheckoutAsync();
+        Task<IActionResult> GetCheckoutAsync(OrderDto orderDto, string username);
         Task<int> SubmitOrderAsync(OrderCreateDto orderDto);
     }
 }

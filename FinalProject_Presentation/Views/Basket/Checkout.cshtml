@@ -1,1 +1,85 @@
-﻿
+﻿@using FinalProject_Service.Dto.BasketDtos
+@model CheckoutDto
+
+<!--<< Breadcrumb Section Start >>-->
+<div class="breadcrumb-wrapper bg-cover" style="background-image: url('~/~/assets/img/breadcrumb-bg.jpg');">
+    <div class="container">
+        <div class="page-heading">
+            <div class="page-header-left">
+                <h1 class="wow fadeInUp" data-wow-delay=".3s">Checkout</h1>
+                <ul class="breadcrumb-items wow fadeInUp" data-wow-delay=".5s">
+                    <li>
+                        <a href="index.html">
+                            <i class="fa-solid fa-house"></i>
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-slash-forward"></i>
+                    </li>
+                    <li>
+                        Checkout
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+        <div class="mycheckout-wrapper">
+            <form class="billing-details">
+        <label asp-for="@Model.OrderDto.Country" class="required">Country</label>
+        <input asp-for="@Model.OrderDto.Country" placeholder="Country" required />
+        <span class="text-danger" asp-validation-for="@Model.OrderDto.Country"></span>
+
+        <label asp-for="@Model.OrderDto.Address" class="required mt-20">Street address</label>
+        <input asp-for="@Model.OrderDto.Address" placeholder="Street address Line 1" required />
+        <span class="text-danger" asp-validation-for="@Model.OrderDto.Address"></span>
+
+        <label asp-for="@Model.OrderDto.City" class="required">Town / City</label>
+        <input asp-for="@Model.OrderDto.City" placeholder="Town / City" required />
+        <span class="text-danger" asp-validation-for="@Model.OrderDto.City"></span>
+
+        <label asp-for="@Model.OrderDto.ZipCode" class="required">Postcode / ZIP</label>
+        <input asp-for="@Model.OrderDto.ZipCode" placeholder="Postcode / ZIP" required />
+        <span class="text-danger" asp-validation-for="@Model.OrderDto.ZipCode"></span>
+            </form>
+
+            <div class="order-summary">
+                <h2>Your Order Summary</h2>
+            <table>
+                <tr>
+                    <th>Products</th>
+                    <th>Total</th>
+                </tr>
+        @foreach (var item in Model.CheckoutItemDtos)
+        {
+                <tr>
+                    <td>@item.Name <strong> × @item.Count</strong></td>
+                    <td>$@item.TotalItemPrice.ToString("0.##")</td>
+                </tr>
+        }
+                <tr>
+                    <td><strong>Sub Total</strong></td>
+                <td><strong>$@((Model.CheckoutItemDtos.Sum(b => b.TotalItemPrice)).ToString("0.##"))</strong></td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td class="shipping-options">
+                        <label><input type="radio" name="shipping"> Free Shipping</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>Total Amount</strong></td>
+                <td><strong>$@((Model.CheckoutItemDtos.Sum(b => b.TotalItemPrice)).ToString("0.##"))</strong></td>
+                </tr>
+            </table>
+       
+                <div class="terms">
+                    <label><input type="checkbox"> I have read and agree to the website terms and conditions.</label>
+                </div>
+
+                <button type="submit" class="place-order">PLACE ORDER</button>
+            </div>
+        </div>
+    </div>

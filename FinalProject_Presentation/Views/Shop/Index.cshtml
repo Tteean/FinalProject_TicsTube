@@ -1,10 +1,10 @@
 ﻿@model ShopVm
      <!--<< Breadcrumb Section Start >>-->
-<div class="breadcrumb-wrapper bg-cover" style="background-image: url('assets/img/breadcrumb-bg.jpg');">
+<div class="breadcrumb-wrapper bg-cover" style="background-image: url('~/assets/img/breadcrumb-bg.jpg');">
     <div class="container">
         <div class="page-heading">
             <div class="page-header-left">
-                <h1 class="wow fadeInUp" data-wow-delay=".3s">movies</h1>
+                <h1 class="wow fadeInUp" data-wow-delay=".3s">Shop</h1>
                 <ul class="breadcrumb-items wow fadeInUp" data-wow-delay=".5s">
                     <li>
                         <a href="index.html">
@@ -16,7 +16,7 @@
                         <i class="fa-solid fa-slash-forward"></i>
                     </li>
                     <li>
-                        movies
+                        Shop
                     </li>
                 </ul>
             </div>
@@ -29,7 +29,7 @@
     <div class="container">
         <div class="section-title-area">
             <div class="section-title style-2">
-                <h2>treading movies </h2>
+                <h2>trending merch </h2>
             </div>
             <div class="array-button-2">
                 <button class="cta-prev"><i class="fa-solid fa-chevron-left"></i></button>
@@ -39,110 +39,31 @@
         <div class="trending-wrapper-2">
             <div class="swiper trending-slider">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="trending-box-items">
-                            <div class="trending-image">
-                                <img src="assets/img/trending/02.jpg" alt="img">
-                                <div class="icon">
-                                    <i class="fa-solid fa-crown"></i>
+                    @foreach (var product in Model.Products)
+                    {
+                        <div class="swiper-slide">
+                            <div class="trending-box-items">
+                                <div class="trending-image">
+                                    <img src="~/uploads/Product/@product.Image" alt="img">
+                                    <div class="icon">
+                                        <i class="fa-solid fa-crown"></i>
+                                    </div>
+                                    <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
+                                        <i class="fa-solid fa-play"></i>
+                                    </a>
                                 </div>
-                                <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
-                                    <i class="fa-solid fa-play"></i>
-                                </a>
-                            </div>
-                            <div class="trending-content">
-                                <div class="content">
-                                    <h3><a href="movie-details.html">Windatalkers</a></h3>
-                                    <p>Action, war, romantic</p>
-                                </div>
-                                <div class="star">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star color-2"></i>
-                                    <i class="fa-solid fa-star color-2"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="trending-box-items">
-                            <div class="trending-image">
-                                <img src="assets/img/trending/03.jpg" alt="img">
-                                <div class="icon">
-                                    <i class="fa-solid fa-crown"></i>
-                                </div>
-                                <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
-                                    <i class="fa-solid fa-play"></i>
-                                </a>
-                            </div>
-                            <div class="trending-content">
-                                <div class="content">
-                                    <h3><a href="movie-details.html">Outsider</a></h3>
-                                    <p>Action, war, romantic</p>
-                                </div>
-                                <div class="star">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star color-2"></i>
-                                    <i class="fa-solid fa-star color-2"></i>
+                                <div class="trending-content">
+                                    <div class="content">
+                                        <h3><a href="movie-details.html">@product.Name</a></h3>
+                                        <p>@product.CostPrice $</p>
+                                        <a asp-controller="basket" asp-action="add" asp-route-id="@product.Id" style="font-size: larger; color: white; " class="addBasket fa-solid fa-cart-shopping" data-toggle="tooltip" title="Add To Cart">
+                                            <i class="ion-bag"></i>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="trending-box-items">
-                            <div class="trending-image">
-                                <img src="assets/img/trending/04.jpg" alt="img">
-                                <div class="icon">
-                                    <i class="fa-solid fa-crown"></i>
-                                </div>
-                                <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
-                                    <i class="fa-solid fa-play"></i>
-                                </a>
-                            </div>
-                            <div class="trending-content">
-                                <div class="content">
-                                    <h3><a href="movie-details.html">Johnny English</a></h3>
-                                    <p>Action, war, romantic</p>
-                                </div>
-                                <div class="star">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star color-2"></i>
-                                    <i class="fa-solid fa-star color-2"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="trending-box-items">
-                            <div class="trending-image">
-                                <img src="assets/img/trending/05.jpg" alt="img">
-                                <div class="icon">
-                                    <i class="fa-solid fa-crown"></i>
-                                </div>
-                                <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
-                                    <i class="fa-solid fa-play"></i>
-                                </a>
-                            </div>
-                            <div class="trending-content">
-                                <div class="content">
-                                    <h3><a href="movie-details.html">Happy Women’s day</a></h3>
-                                    <p>Action, war, romantic</p>
-                                </div>
-                                <div class="star">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star color-2"></i>
-                                    <i class="fa-solid fa-star color-2"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    }
                 </div>
             </div>
         </div>
@@ -154,7 +75,7 @@
     <div class="container">
         <div class="section-title-area">
             <div class="section-title style-2">
-                <h2>FEATURED movies</h2>
+                <h2>Best Products</h2>
             </div>
             <div class="array-button-2">
                 <button class="array-prev"><i class="fa-solid fa-chevron-left"></i></button>
@@ -164,110 +85,28 @@
         <div class="trending-wrapper-2">
             <div class="swiper trending-slider-2">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="trending-box-items">
-                            <div class="trending-image">
-                                <img src="assets/img/trending/09.jpg" alt="img">
-                                <div class="icon">
-                                    <i class="fa-solid fa-crown"></i>
+                    @foreach (var product in Model.Products)
+                    {
+                        <div class="swiper-slide">
+                            <div class="trending-box-items">
+                                <div class="trending-image">
+                                    <img src="~/uploads/Product/@product.Image" alt="img">
+                                    <div class="icon">
+                                        <i class="fa-solid fa-crown"></i>
+                                    </div>
+                                    <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
+                                        <i class="fa-solid fa-play"></i>
+                                    </a>
                                 </div>
-                                <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
-                                    <i class="fa-solid fa-play"></i>
-                                </a>
-                            </div>
-                            <div class="trending-content">
-                                <div class="content">
-                                    <h3><a href="movie-details.html">joker</a></h3>
-                                    <p>Action, war, romantic</p>
-                                </div>
-                                <div class="star">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star color-2"></i>
-                                    <i class="fa-solid fa-star color-2"></i>
+                                <div class="trending-content">
+                                    <div class="content">
+                                        <h3><a href="movie-details.html">@product.Name</a></h3>
+                                        <p>@product.CostPrice $</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="trending-box-items">
-                            <div class="trending-image">
-                                <img src="assets/img/trending/10.jpg" alt="img">
-                                <div class="icon">
-                                    <i class="fa-solid fa-crown"></i>
-                                </div>
-                                <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
-                                    <i class="fa-solid fa-play"></i>
-                                </a>
-                            </div>
-                            <div class="trending-content">
-                                <div class="content">
-                                    <h3><a href="movie-details.html">fieldes destiney</a></h3>
-                                    <p>Action, war, romantic</p>
-                                </div>
-                                <div class="star">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star color-2"></i>
-                                    <i class="fa-solid fa-star color-2"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="trending-box-items">
-                            <div class="trending-image">
-                                <img src="assets/img/trending/11.jpg" alt="img">
-                                <div class="icon">
-                                    <i class="fa-solid fa-crown"></i>
-                                </div>
-                                <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
-                                    <i class="fa-solid fa-play"></i>
-                                </a>
-                            </div>
-                            <div class="trending-content">
-                                <div class="content">
-                                    <h3><a href="movie-details.html">r r R</a></h3>
-                                    <p>Action, war, romantic</p>
-                                </div>
-                                <div class="star">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star color-2"></i>
-                                    <i class="fa-solid fa-star color-2"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="trending-box-items">
-                            <div class="trending-image">
-                                <img src="assets/img/trending/12.jpg" alt="img">
-                                <div class="icon">
-                                    <i class="fa-solid fa-crown"></i>
-                                </div>
-                                <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
-                                    <i class="fa-solid fa-play"></i>
-                                </a>
-                            </div>
-                            <div class="trending-content">
-                                <div class="content">
-                                    <h3><a href="movie-details.html">pathan</a></h3>
-                                    <p>Action, war, romantic</p>
-                                </div>
-                                <div class="star">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star color-2"></i>
-                                    <i class="fa-solid fa-star color-2"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    }
                 </div>
             </div>
         </div>
@@ -292,7 +131,7 @@
                     <div class="swiper-slide">
                         <div class="trending-box-items">
                             <div class="trending-image">
-                                <img src="assets/img/trending/11.jpg" alt="img">
+                                <img src="~/assets/img/trending/11.jpg" alt="img">
                                 <div class="icon">
                                     <i class="fa-solid fa-crown"></i>
                                 </div>
@@ -318,7 +157,7 @@
                     <div class="swiper-slide">
                         <div class="trending-box-items">
                             <div class="trending-image">
-                                <img src="assets/img/trending/12.jpg" alt="img">
+                                <img src="~/assets/img/trending/12.jpg" alt="img">
                                 <div class="icon">
                                     <i class="fa-solid fa-crown"></i>
                                 </div>
@@ -344,7 +183,7 @@
                     <div class="swiper-slide">
                         <div class="trending-box-items">
                             <div class="trending-image">
-                                <img src="assets/img/trending/09.jpg" alt="img">
+                                <img src="~/assets/img/trending/09.jpg" alt="img">
                                 <div class="icon">
                                     <i class="fa-solid fa-crown"></i>
                                 </div>
@@ -370,7 +209,7 @@
                     <div class="swiper-slide">
                         <div class="trending-box-items">
                             <div class="trending-image">
-                                <img src="assets/img/trending/10.jpg" alt="img">
+                                <img src="~/assets/img/trending/10.jpg" alt="img">
                                 <div class="icon">
                                     <i class="fa-solid fa-crown"></i>
                                 </div>
@@ -399,153 +238,24 @@
     </div>
 </section>
 
-<!-- Popular Movie Section Start -->
-<section class="popular-movie-section-2 fux section-padding section-bg-2">
-    <div class="container">
-        <div class="section-title text-center wow fadeInUp" data-wow-delay=".3s">
-            <h2><img src="assets/img/lightning.png" alt="img">POPULAR MOVIES</h2>
-        </div>
-        <div class="trending-wrapper-2 style-2">
-            <div class="row">
-                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
-                    <div class="trending-box-items">
-                        <div class="trending-image">
-                            <img src="assets/img/trending/13.jpg" alt="img">
-                            <div class="icon">
-                                <i class="fa-solid fa-crown"></i>
-                            </div>
-                        </div>
-                        <div class="trending-content">
-                            <div class="content">
-                                <h3><a href="movie-details.html">Windatalkers</a></h3>
-                                <p>Action, war, romantic</p>
-                            </div>
-                            <div class="star">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star color-2"></i>
-                                <i class="fa-solid fa-star color-2"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
-                    <div class="trending-box-items">
-                        <div class="trending-image">
-                            <img src="assets/img/trending/14.jpg" alt="img">
-                            <div class="icon">
-                                <i class="fa-solid fa-crown"></i>
-                            </div>
-                        </div>
-                        <div class="trending-content">
-                            <div class="content">
-                                <h3><a href="movie-details.html">Outsider</a></h3>
-                                <p>Action, war, romantic</p>
-                            </div>
-                            <div class="star">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star color-2"></i>
-                                <i class="fa-solid fa-star color-2"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
-                    <div class="trending-box-items">
-                        <div class="trending-image">
-                            <img src="assets/img/trending/15.jpg" alt="img">
-                            <div class="icon">
-                                <i class="fa-solid fa-crown"></i>
-                            </div>
-                        </div>
-                        <div class="trending-content">
-                            <div class="content">
-                                <h3><a href="movie-details.html">Johnny English</a></h3>
-                                <p>Action, war, romantic</p>
-                            </div>
-                            <div class="star">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star color-2"></i>
-                                <i class="fa-solid fa-star color-2"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
-                    <div class="trending-box-items">
-                        <div class="trending-image">
-                            <img src="assets/img/trending/12.jpg" alt="img">
-                            <div class="icon">
-                                <i class="fa-solid fa-crown"></i>
-                            </div>
-                        </div>
-                        <div class="trending-content">
-                            <div class="content">
-                                <h3><a href="movie-details.html">Windatalkers</a></h3>
-                                <p>Action, war, romantic</p>
-                            </div>
-                            <div class="star">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star color-2"></i>
-                                <i class="fa-solid fa-star color-2"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
-                    <div class="trending-box-items">
-                        <div class="trending-image">
-                            <img src="assets/img/trending/16.jpg" alt="img">
-                            <div class="icon">
-                                <i class="fa-solid fa-crown"></i>
-                            </div>
-                        </div>
-                        <div class="trending-content">
-                            <div class="content">
-                                <h3><a href="movie-details.html">Outsider</a></h3>
-                                <p>Action, war, romantic</p>
-                            </div>
-                            <div class="star">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star color-2"></i>
-                                <i class="fa-solid fa-star color-2"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
-                    <div class="trending-box-items">
-                        <div class="trending-image">
-                            <img src="assets/img/trending/17.jpg" alt="img">
-                            <div class="icon">
-                                <i class="fa-solid fa-crown"></i>
-                            </div>
-                        </div>
-                        <div class="trending-content">
-                            <div class="content">
-                                <h3><a href="movie-details.html">Johnny English</a></h3>
-                                <p>Action, war, romantic</p>
-                            </div>
-                            <div class="star">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star color-2"></i>
-                                <i class="fa-solid fa-star color-2"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+
+@section Scripts {
+    <script>
+                $(document).ready(function () {
+            $(document).on("click", "a.addBasket", function (e) {
+                e.preventDefault();
+                const url = $(this).attr("href");
+
+                fetch(url)
+                   .then(res => res.text())
+                   .then(html => {
+
+                       $(".fix-area").html(html);
+
+                       const count = (html.match(/minicart-item/g) || []).length;
+                       $(".BasketItemCount").text(count);
+                   });
+            });
+        });
+    </script>
+}

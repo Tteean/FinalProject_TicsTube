@@ -8,6 +8,9 @@ using FinalProject_Service.Services.Interfaces;
 using FinalProject_ViewModel.ViewModels;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
+using Microsoft.AspNetCore.Mvc.ViewFeatures;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -115,17 +118,65 @@ namespace FinalProject_Service.Services.Implementations
             return basketItems;
         }
 
-        public async Task<CheckoutDto> GetCheckoutAsync()
+        public async Task<IActionResult> GetCheckoutAsync(OrderDto orderDto, string username)
         {
-            var user = await GetCurrentUserWithBasketAsync();
-            var checkoutItems = user.BasketItems.Select(b => new CheckoutItemDto
+            var user = _userManager.Users
+            .Include(u => u.BasketItems)
+            .ThenInclude(b => b.Product)
+            .FirstOrDefault(u => u.UserName == username);
+
+            if (user == null)
+                throw new CustomException(400, "User", "User not found"); ;
+
+            if (orderDto == null)
             {
-                Name = b.Product.Name,
-                Count = b.Count,
-                TotalItemPrice = b.Product.CostPrice * b.Count
-            }).ToList();
-            return new CheckoutDto { CheckoutItemDtos = checkoutItems };
+                var checkoutDto = new CheckoutDto
+                {
+                    CheckoutItemDtos = user.BasketItems.Select(b => new CheckoutItemDto
+                    {
+                        Name = b.Product.Name,
+                        TotalItemPrice = b.Product.CostPrice * b.Count,
+                        Count = b.Count
+                    }).ToList(),
+                    OrderDto = new OrderDto()
+                };
+
+                return new ViewResult
+                {
+                    ViewName = "Checkout",
+                    ViewData = new ViewDataDictionary(new EmptyModelMetadataProvider(), new ModelStateDictionary())
+                    {
+                        Model = checkoutDto
+                    }
+                };
+            }
+
+            var order = new Order
+            {
+                AppUserId = user.Id,
+                Country = orderDto.Country,
+                ZipCode = orderDto.ZipCode,
+                City = orderDto.City,
+                Address = orderDto.Address,
+                TotalPrice = user.BasketItems.Sum(b =>
+                    b.Product.CostPrice * b.Count),
+                OrderStatus = OrderStatus.Pending,
+                OrderItems = user.BasketItems.Select(b => new OrderItem
+                {
+                    ProductId = b.ProductId,
+                    Count = b.Count
+                }).ToList()
+            };
+
+            _context.Orders.Add(order);
+            _context.BasketItems.RemoveRange(user.BasketItems);
+            _context.SaveChanges();
+
+            _httpContextAccessor.HttpContext.Response.Cookies.Delete("basket");
+
+            return new RedirectToActionResult("Profile", "Account", new { tab = "orders" });
         }
+
 
         public async Task<int> SubmitOrderAsync(OrderCreateDto orderDto)
         {

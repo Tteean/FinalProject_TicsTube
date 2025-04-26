@@ -6733,3 +6733,77 @@ span {
     margin-right: 0;
   }
 }/*# sourceMappingURL=main.css.map */
+
+
+.mycheckout-wrapper {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.billing-details, .order-summary {
+    flex: 1;
+    min-width: 300px;
+}
+
+    .billing-details h2,
+    .order-summary h2 {
+        color: #ff0000;
+        border-bottom: 1px solid #ff0000;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+
+    .billing-details label {
+        display: block;
+        margin-top: 15px;
+        margin-bottom: 5px;
+    }
+
+    .billing-details input {
+        width: 100%;
+        padding: 10px;
+        background: #1a1a1a;
+        border: 1px solid #ff0000;
+        color: #ffffff;
+    }
+
+    .order-summary table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+    }
+
+    .order-summary th,
+    .order-summary td {
+        text-align: left;
+        padding: 10px;
+        border-bottom: 1px solid #333;
+    }
+
+.shipping-options label {
+    display: block;
+    margin-top: 5px;
+}
+
+.terms {
+    margin-bottom: 20px;
+}
+
+    .terms label {
+        font-size: 14px;
+    }
+
+.place-order {
+    background: #ff0000;
+    border: none;
+    color: #fff;
+    padding: 12px 25px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+    .place-order:hover {
+        background: #cc0000;
+    }

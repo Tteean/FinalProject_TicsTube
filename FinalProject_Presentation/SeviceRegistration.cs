@@ -73,6 +73,8 @@ namespace FinalProject_Presentation
             services.AddScoped<ISeasonService, SeasonService>();
             services.AddScoped<IEpisodeService, EpisodeService>();
             services.AddScoped<IProductService, ProductService>();
+            services.AddScoped<IBasketService, BasketService>();
+            services.AddScoped<LayoutService>();
             services.AddScoped<PayPalClient>();
         }
     }

@@ -1,4 +1,11 @@
-﻿<!DOCTYPE html>
+﻿@using FinalProject_Service.Services.Implementations
+@inject LayoutService layoutService
+@{
+    var basketItems = layoutService.GetUserBasketItems();
+    var settings = layoutService.GetAllSettings();
+}
+
+<!DOCTYPE html>
 <html lang="en">
 <!--<< Header Area >>-->
 <head>
@@ -95,76 +102,7 @@
 
     <!-- Offcanvas Area Start -->
     <div class="fix-area">
-        <div class="offcanvas__info">
-            <div class="offcanvas__wrapper">
-                <div class="offcanvas__content">
-                    <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
-                        <div class="offcanvas__logo">
-                            <a asp-controller="home" asp-action="index">
-                                <img src="~/assets/img/logo/white-logo.svg" alt="logo-img">
-                            </a>
-                        </div>
-                        <div class="offcanvas__close">
-                            <button>
-                                <i class="fas fa-times"></i>
-                            </button>
-                        </div>
-                    </div>
-                    <p class="text">
-                        Nullam dignissim, ante scelerisque the  is euismod fermentum odio sem semper the is erat, a feugiat leo urna eget eros. Duis Aenean a imperdiet risus.
-                    </p>
-                    <div class="mobile-menu fix mb-5"></div>
-                    <div class="offcanvas__contact">
-                        <h4>Contact Info</h4>
-                        <ul>
-                            <li class="d-flex align-items-center">
-                                <div class="offcanvas__contact-icon">
-                                    <i class="fal fa-map-marker-alt"></i>
-                                </div>
-                                <div class="offcanvas__contact-text">
-                                    <a target="_blank" href="#">Main Street, Melbourne, Australia</a>
-                                </div>
-                            </li>
-                            <li class="d-flex align-items-center">
-                                <div class="offcanvas__contact-icon mr-15">
-                                    <i class="fal fa-envelope"></i>
-                                </div>
-                                <div class="offcanvas__contact-text">
-                                    <a href="mailto:info@example.com"><span class="mailto:info@example.com">info@example.com</span></a>
-                                </div>
-                            </li>
-                            <li class="d-flex align-items-center">
-                                <div class="offcanvas__contact-icon mr-15">
-                                    <i class="fal fa-clock"></i>
-                                </div>
-                                <div class="offcanvas__contact-text">
-                                    <a target="_blank" href="#">Mod-friday, 09am -05pm</a>
-                                </div>
-                            </li>
-                            <li class="d-flex align-items-center">
-                                <div class="offcanvas__contact-icon mr-15">
-                                    <i class="far fa-phone"></i>
-                                </div>
-                                <div class="offcanvas__contact-text">
-                                    <a href="tel:+11002345909">+11002345909</a>
-                                </div>
-                            </li>
-                        </ul>
-                        <div class="header-button mt-4">
-                            <a href="pricing.html" class="theme-btn text-center">
-                                subscribe
-                            </a>
-                        </div>
-                        <div class="social-icon d-flex align-items-center">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-youtube"></i></a>
-                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        @await Html.PartialAsync("_BasketPartial", basketItems)
     </div>
     <div class="offcanvas__overlay"></div>
 
@@ -228,6 +166,9 @@
                                         <a asp-controller="shop" asp-action="index">
                                             Shop
                                         </a>
+                                        <ul class="submenu">
+                                            <li><a asp-controller="basket" asp-action="checkout" >Basket <i class="ion-bag"></i></a></li>
+                                        </ul>
                                     </li>
                                     <li>
                                         <a asp-controller="account" asp-action="login">
@@ -369,5 +310,6 @@ top: 170px;
     <script src="~/assets/js/MyScript.js"></script>
     <script src="https://www.paypal.com/sdk/js?client-id=AdZd8APqGc9pjnH_iSg9M6xGrEVlWEJHjHqeFzKT9eBwInNvtD4kWbOYOhFWr95_4rjsazwGXx7Ou86n&currency=USD"></script>
 
+    @RenderSection("Scripts", required: false)
 </body>
 </html>

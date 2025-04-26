@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Text.Json;
 
 namespace FinalProject_Presentation.Controllers
 {
@@ -25,30 +26,45 @@ namespace FinalProject_Presentation.Controllers
         }
         public async Task<IActionResult> Index()
         {
-            var basketItems = await _basketService.GetBasketAsync();
-            return View(basketItems);
+            var basket = HttpContext.Request.Cookies["basket"];
+            List<BasketItemDto> basketItemDtos;
+
+            if (basket == null)
+            {
+                basketItemDtos = new();
+            }
+            else
+            {
+                basketItemDtos = JsonSerializer.Deserialize<List<BasketItemDto>>(basket);
+            }
+
+            return View(basketItemDtos);
         }
 
-        [Authorize(Roles = "member")]
+        //[Authorize(Roles = "member")]
         public async Task<IActionResult> Checkout()
         {
-            var checkoutDto = await _basketService.GetCheckoutAsync();
+            var user = _userManager.Users
+                .Include(u => u.BasketItems)
+                .ThenInclude(ub => ub.Product)
+                .FirstOrDefault(u => u.UserName == User.Identity.Name);
+            CheckoutDto checkoutDto = new();
+            checkoutDto.CheckoutItemDtos = user.BasketItems.Select(b => new CheckoutItemDto
+            {
+                Name = b.Product.Name,
+                TotalItemPrice = b.Product.CostPrice * b.Count,
+                Count = b.Count,
+            }).ToList();
             return View(checkoutDto);
         }
 
         [HttpPost]
-        [Authorize(Roles = "member")]
+        //[Authorize(Roles = "member")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Checkout(OrderCreateDto orderDto)
+        public async Task<IActionResult> Checkout(OrderDto orderDto)
         {
-            if (!ModelState.IsValid)
-            {
-                var checkoutDto = await _basketService.GetCheckoutAsync();
-                return View(checkoutDto);
-            }
-
-            await _basketService.SubmitOrderAsync(orderDto);
-            return RedirectToAction("Profile", "Account", new { tab = "orders" });
+            var username = User.Identity.Name;
+            return await _basketService.GetCheckoutAsync(orderDto, username);
         }
 
         public async Task<IActionResult> Add(int? id)
