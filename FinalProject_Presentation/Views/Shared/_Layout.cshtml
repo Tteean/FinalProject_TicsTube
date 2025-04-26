@@ -217,26 +217,22 @@
                                         </ul>
                                     </li>
                                     <li>
-                                        <a asp-controller="show" asp-action="index">
+                                        <a asp-controller="tvshow" asp-action="index">
                                             tv Shows
                                         </a>
                                         <ul class="submenu">
-                                            <li><a asp-controller="show" asp-action="index">tv Shows</a></li>
+                                            <li><a asp-controller="tvshow" asp-action="index">tv Shows</a></li>
                                         </ul>
                                     </li>
                                     <li class="has-dropdown">
-                                        <a href="news.html">
+                                        <a asp-controller="shop" asp-action="index">
                                             Shop
                                         </a>
                                         <ul class="submenu">
-                                            <li><a href="about.html">About Us</a></li>
-                                            <li><a asp-controller="subscribe" asp-action="index">Subscriptions</a></li>
-                                            <li><a asp-controller="account" asp-action="login">Log In</a></li>
-                                            <li><a href="404.html">Error 404</a></li>
                                         </ul>
                                     </li>
                                     <li>
-                                        <a href="news-details.html">
+                                        <a asp-controller="account" asp-action="login">
                                             Login
                                         </a>
                                         <ul class="submenu">
@@ -252,7 +248,7 @@
                                             }
                                         </ul>
                                     </li>
-                                    <li><a href="contact.html">Contact Us</a></li>
+                                    <li>
                                 </ul>
                             </nav>
                         </div>

@@ -12,5 +12,6 @@ namespace FinalProject_Core.Models
     {
         public string? FullName { get; set; }
         public bool IsSubscribed { get; set; }
+        public List<BasketItem> BasketItems { get; set; }
     }
 }

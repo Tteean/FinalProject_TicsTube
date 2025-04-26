@@ -57,7 +57,7 @@ namespace FinalProject_Presentation.Controllers
 
             var client = _сlient.Client;
             var response = await client.Execute(request);
-            var result = response.Result<Order>();
+            var result = response.Result<PayPalCheckoutSdk.Orders.Order>();
             var approvalLink = result.Links.First(x => x.Rel == "approve").Href;
 
             return Redirect(approvalLink);

@@ -22,37 +22,34 @@ namespace FinalProject_Service.Services.Implementations
         private readonly TicsTubeDbContext _context;
         private readonly IMapper _mapper;
 
-        public ProductService(TicsTubeDbContext context)
+        public ProductService(TicsTubeDbContext context, IMapper mapper)
         {
             _context = context;
+            _mapper = mapper;
         }
 
         public async Task<int> CreateAsync(ProductCreateDto productCreateDto)
         {
-            foreach (var genreId in productCreateDto.TVShowId)
-            {
-                if (!_context.Genres.Any(t => t.Id == genreId))
-                {
-                    throw new CustomException(404, "Genre", "Genre not found");
-                }
-            }
-
-            foreach (var languageId in productCreateDto.MovieId)
-            {
-                if (!_context.Languages.Any(s => s.Id == languageId))
-                {
-                    throw new CustomException(404, "Language", "Language not found");
-                }
-            }
-            
             var product = _mapper.Map<Product>(productCreateDto);
-            foreach (var movieId in productCreateDto.MovieId)
+            if (productCreateDto.MovieOrShow == "movie")
             {
-                product.MovieProducts.Add(new MovieProduct { MovieId = movieId });
+                if (productCreateDto.MovieId == null || !_context.Movies.Any(m => m.Id == productCreateDto.MovieId))
+                {
+                    throw new CustomException(404, "Movie", "Movie not found");
+                }
+                product.MovieProducts.Add(new MovieProduct { MovieId = productCreateDto.MovieId.Value });
             }
-            foreach (var tvShowId in productCreateDto.TVShowId)
+            else if (productCreateDto.MovieOrShow == "tvshow")
             {
-                product.tvShowProducts.Add(new TvShowProduct { TvShowId = tvShowId });
+                if (productCreateDto.TVShowId == null || !_context.TVShows.Any(t => t.Id == productCreateDto.TVShowId))
+                {
+                    throw new CustomException(404, "TVShow", "TV Show not found");
+                }
+                product.tvShowProducts.Add(new TvShowProduct { TvShowId = productCreateDto.TVShowId.Value });
+            }
+            else
+            {
+                throw new CustomException(400, "InvalidType", "Invalid type selected");
             }
             if (productCreateDto.File != null)
             {
@@ -64,30 +61,36 @@ namespace FinalProject_Service.Services.Implementations
         public async Task<int> DeleteAsync(int id)
         {
             var existProduct = await _context.Products
-                .Include(p => p.tvShowProducts)
-                .ThenInclude(p=>p.TVShow)
-                .Include(p => p.MovieProducts)
-                .ThenInclude(p=>p.Movie)
-                .FirstOrDefaultAsync(p => p.Id == id);
+       .Include(p => p.tvShowProducts)
+       .ThenInclude(p => p.TVShow)
+       .Include(p => p.MovieProducts)
+       .ThenInclude(p => p.Movie)
+       .FirstOrDefaultAsync(p => p.Id == id);
 
             if (existProduct == null)
             {
-                throw new CustomException(404, "Movie", "Movie not found");
+                throw new CustomException(404, "Product", "Product not found");
             }
-            MovieDeleteDto movieDeleteDto = new MovieDeleteDto();
-            _mapper.Map(movieDeleteDto, existProduct);
-            if (movieDeleteDto.File != null)
+
+            if (!string.IsNullOrEmpty(existProduct.Image))
             {
-                string oldFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "uploads", "movies", existProduct.Image);
+                string oldFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "uploads", "Product", existProduct.Image);
                 if (File.Exists(oldFilePath))
                 {
                     File.Delete(oldFilePath);
                 }
             }
-            _context.MovieProducts.RemoveRange(existProduct.MovieProducts);
-            _context.tvShowProducts.RemoveRange(existProduct.tvShowProducts);
-            _context.Products.Remove(existProduct);
 
+            if (existProduct.MovieProducts.Any())
+            {
+                _context.MovieProducts.RemoveRange(existProduct.MovieProducts);
+            }
+            if (existProduct.tvShowProducts.Any())
+            {
+                _context.tvShowProducts.RemoveRange(existProduct.tvShowProducts);
+            }
+
+            _context.Products.Remove(existProduct);
             return await _context.SaveChangesAsync();
         }
 
@@ -114,41 +117,58 @@ namespace FinalProject_Service.Services.Implementations
                 throw new CustomException(404, "Movie", "Movie not found");
             }
             _mapper.Map(productUpdateDto, existProduct);
-            foreach (var movieProduct in existProduct.MovieProducts.ToList())
+            _context.MovieProducts.RemoveRange(existProduct.MovieProducts);
+            existProduct.MovieProducts.Clear();
+
+            _context.tvShowProducts.RemoveRange(existProduct.tvShowProducts);
+            existProduct.tvShowProducts.Clear();
+
+            if (productUpdateDto.MovieOrShow == "movie")
             {
-                _context.MovieProducts.Remove(movieProduct);
-                existProduct.MovieProducts.Remove(movieProduct);
-            }
-            foreach (var movieId in productUpdateDto.MovieId ?? new())
-            {
-                if (!_context.Movies.Any(t => t.Id == movieId))
+                if (productUpdateDto.MovieId == null)
                 {
-                    throw new CustomException(404, "Actor", "Actor not found");
+                    throw new CustomException(400, "Movie", "Movie must be selected");
                 }
-                existProduct.MovieProducts.Add(new MovieProduct { MovieId = movieId });
-            }
-            foreach (var tvShow in existProduct.tvShowProducts.ToList())
-            {
-                _context.tvShowProducts.Remove(tvShow);
-                existProduct.tvShowProducts.Remove(tvShow);
-            }
-            foreach (var tvShowId in productUpdateDto.TVShowId ?? new())
-            {
-                if (!_context.TVShows.Any(t => t.Id == tvShowId))
+
+                if (!_context.Movies.Any(m => m.Id == productUpdateDto.MovieId.Value))
                 {
-                    throw new CustomException(404, "Genre", "Genre not found");
+                    throw new CustomException(404, "Movie", "Movie not found");
                 }
-                existProduct.tvShowProducts.Add(new TvShowProduct { TvShowId = tvShowId });
+
+                existProduct.MovieProducts.Add(new MovieProduct { MovieId = productUpdateDto.MovieId.Value });
             }
+            else if (productUpdateDto.MovieOrShow == "tvshow")
+            {
+                if (productUpdateDto.TVShowId == null)
+                {
+                    throw new CustomException(400, "TV Show", "TV Show must be selected");
+                }
+
+                if (!_context.TVShows.Any(t => t.Id == productUpdateDto.TVShowId.Value))
+                {
+                    throw new CustomException(404, "TV Show", "TV Show not found");
+                }
+
+                existProduct.tvShowProducts.Add(new TvShowProduct { TvShowId = productUpdateDto.TVShowId.Value });
+            }
+            else
+            {
+                throw new CustomException(400, "ContentType", "Invalid content type");
+            }
+
             if (productUpdateDto.File != null)
             {
-                string oldFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "uploads", "movies", existProduct.Image);
-                if (File.Exists(oldFilePath))
+                if (!string.IsNullOrEmpty(existProduct.Image))
                 {
-                    File.Delete(oldFilePath);
+                    string oldFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "uploads", "Product", existProduct.Image);
+                    if (File.Exists(oldFilePath))
+                    {
+                        File.Delete(oldFilePath);
+                    }
                 }
-                existProduct.Image = productUpdateDto.File.SaveImage("uploads/movies");
+                existProduct.Image = productUpdateDto.File.SaveImage("uploads/Product");
             }
+
             return await _context.SaveChangesAsync();
         }
     }

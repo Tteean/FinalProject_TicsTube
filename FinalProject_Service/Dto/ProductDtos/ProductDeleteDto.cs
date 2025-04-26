@@ -16,7 +16,8 @@ namespace FinalProject_Service.Dto.ProductDtos
         public decimal CostPrice { get; set; }
         public bool InStock { get; set; }
         public IFormFile? File { get; set; }
-        public List<int> MovieId { get; set; }
-        public List<int> TVShowId { get; set; }
+        public string? MovieOrShow { get; set; }
+        public int? MovieId { get; set; }
+        public int? TVShowId { get; set; }
     }
 }

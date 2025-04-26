@@ -21,6 +21,7 @@ namespace FinalProject_Core.Models
         public List<MovieGenre> MovieGenres { get; set; }
         public List<MovieLanguage> MovieLanguages { get; set; }
         public List<MovieComment> MovieComments { get; set; }
+        public List<MovieProduct> MovieProducts { get; set; }
         public int DirectorId { get; set; }
         public Director? Directors { get; set; }
 

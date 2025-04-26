@@ -69,6 +69,30 @@
                                 </span>
                                 <span>Director</span>
                             </a>
+                            <a class="sidebar-link" asp-controller="tvshow" asp-action="index" asp-area="admin" aria-expanded="false">
+                                <span>
+                                    <i class="ti ti-layout-dashboard"></i>
+                                </span>
+                                <span>TVShow</span>
+                            </a>
+                            <a class="sidebar-link" asp-controller="episode" asp-action="index" asp-area="admin" aria-expanded="false">
+                                <span>
+                                    <i class="ti ti-layout-dashboard"></i>
+                                </span>
+                                <span>Episode</span>
+                            </a>
+                            <a class="sidebar-link" asp-controller="season" asp-action="index" asp-area="admin" aria-expanded="false">
+                                <span>
+                                    <i class="ti ti-layout-dashboard"></i>
+                                </span>
+                                <span>Season</span>
+                            </a>
+                            <a class="sidebar-link" asp-controller="product" asp-action="index" asp-area="admin" aria-expanded="false">
+                                <span>
+                                    <i class="ti ti-layout-dashboard"></i>
+                                </span>
+                                <span>Product</span>
+                            </a>
                         </li>
                         <li class="nav-small-cap">
                             <i class="ti ti-dots nav-small-cap-icon fs-4"></i>
@@ -227,7 +251,7 @@
     <script src="~/admin/assets/libs/apexcharts/dist/apexcharts.min.js"></script>
     <script src="~/admin/assets/libs/simplebar/dist/simplebar.js"></script>
     <script src="~/admin/assets/js/dashboard.js"></script>
-    <script src="~/admin/assets/js/main.js"></script>
+    <script src="~/Admin/assets/js/main.js"></script>
 
     @RenderSection("scripts", false);
 </body>

@@ -1049,6 +1049,12 @@ wwwroot\uploads\movies\f5bc997d-5a09-4f3c-93a5-b9d41aea6202.jpeg
 wwwroot\uploads\movies\f6aca90b-a131-4ea9-8930-008740ca1dbd.png
 wwwroot\uploads\movies\fc13c4ee-b65e-472b-bd84-06c0a488a688.jpeg
 wwwroot\uploads\movies\fca3d727-2da1-47bd-be2d-219507add31c.jpeg
+wwwroot\uploads\Product\47096a44-48b1-438b-825d-16234d4e6fe7.png
+wwwroot\uploads\Product\734cae60-cc8e-4fc0-83a9-af5d7260e04a.png
+wwwroot\uploads\Product\789dde61-41db-468b-b891-c76969a8fe18.png
+wwwroot\uploads\Product\8c6b132f-f497-4241-b2b7-2dfbfdaa57d1.png
+wwwroot\uploads\Product\afa4da0e-e6c4-4770-a4a7-a73ce2ba8523.png
+wwwroot\uploads\Product\b70d9541-cb38-4f50-8a34-5e49b6b4d020.png
 wwwroot\uploads\TVShow\9bb91716-986d-49e9-8475-fa8a62bae047.png
 wwwroot\uploads\TVShow\a6a2c24a-a9df-48c2-afd7-f08516098308.png
 wwwroot\uploads\TVShow\bce34911-c309-4437-a2f2-15c4c988cd31.png

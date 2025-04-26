@@ -126,6 +126,45 @@ namespace FinalProject_DataAccess.Migrations
                     b.ToTable("AspNetUsers", (string)null);
                 });
 
+            modelBuilder.Entity("FinalProject_Core.Models.BasketItem", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("AppUserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<int>("Count")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("CreationDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("DeleteDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("UpdatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AppUserId");
+
+                    b.HasIndex("ProductId");
+
+                    b.ToTable("BasketItems");
+                });
+
             modelBuilder.Entity("FinalProject_Core.Models.Director", b =>
                 {
                     b.Property<int>("Id")
@@ -426,6 +465,152 @@ namespace FinalProject_DataAccess.Migrations
                     b.ToTable("MovieLanguages");
                 });
 
+            modelBuilder.Entity("FinalProject_Core.Models.MovieProduct", b =>
+                {
+                    b.Property<int>("MovieId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.HasKey("MovieId", "ProductId");
+
+                    b.HasIndex("ProductId");
+
+                    b.ToTable("MovieProducts");
+                });
+
+            modelBuilder.Entity("FinalProject_Core.Models.Order", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Address")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("AppUserId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("City")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Country")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("CreationDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("DeleteDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<int>("OrderStatus")
+                        .HasColumnType("int");
+
+                    b.Property<decimal?>("TotalPrice")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<DateTime>("UpdatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("ZipCode")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AppUserId");
+
+                    b.ToTable("Orders");
+                });
+
+            modelBuilder.Entity("FinalProject_Core.Models.OrderItem", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("Count")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("CreationDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("DeleteDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<int>("OrderId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("UpdatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("OrderId");
+
+                    b.HasIndex("ProductId");
+
+                    b.ToTable("OrderItems");
+                });
+
+            modelBuilder.Entity("FinalProject_Core.Models.Product", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<decimal>("CostPrice")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<DateTime>("CreationDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("DeleteDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
+
+                    b.Property<string>("Image")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("InStock")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(30)
+                        .HasColumnType("nvarchar(30)");
+
+                    b.Property<DateTime>("UpdatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Products");
+                });
+
             modelBuilder.Entity("FinalProject_Core.Models.Season", b =>
                 {
                     b.Property<int>("Id")
@@ -611,6 +796,21 @@ namespace FinalProject_DataAccess.Migrations
                     b.ToTable("TVShowLanguages");
                 });
 
+            modelBuilder.Entity("FinalProject_Core.Models.TvShowProduct", b =>
+                {
+                    b.Property<int>("TvShowId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.HasKey("TvShowId", "ProductId");
+
+                    b.HasIndex("ProductId");
+
+                    b.ToTable("tvShowProducts");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
                 {
                     b.Property<string>("Id")
@@ -744,6 +944,25 @@ namespace FinalProject_DataAccess.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("FinalProject_Core.Models.BasketItem", b =>
+                {
+                    b.HasOne("FinalProject_Core.Models.AppUser", "AppUser")
+                        .WithMany("BasketItems")
+                        .HasForeignKey("AppUserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("FinalProject_Core.Models.Product", "Product")
+                        .WithMany()
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("AppUser");
+
+                    b.Navigation("Product");
+                });
+
             modelBuilder.Entity("FinalProject_Core.Models.Episode", b =>
                 {
                     b.HasOne("FinalProject_Core.Models.Season", "Seasons")
@@ -840,6 +1059,53 @@ namespace FinalProject_DataAccess.Migrations
                     b.Navigation("Movie");
                 });
 
+            modelBuilder.Entity("FinalProject_Core.Models.MovieProduct", b =>
+                {
+                    b.HasOne("FinalProject_Core.Models.Movie", "Movie")
+                        .WithMany("MovieProducts")
+                        .HasForeignKey("MovieId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("FinalProject_Core.Models.Product", "Product")
+                        .WithMany("MovieProducts")
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Movie");
+
+                    b.Navigation("Product");
+                });
+
+            modelBuilder.Entity("FinalProject_Core.Models.Order", b =>
+                {
+                    b.HasOne("FinalProject_Core.Models.AppUser", "AppUser")
+                        .WithMany()
+                        .HasForeignKey("AppUserId");
+
+                    b.Navigation("AppUser");
+                });
+
+            modelBuilder.Entity("FinalProject_Core.Models.OrderItem", b =>
+                {
+                    b.HasOne("FinalProject_Core.Models.Order", "Order")
+                        .WithMany("OrderItems")
+                        .HasForeignKey("OrderId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("FinalProject_Core.Models.Product", "Product")
+                        .WithMany()
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Order");
+
+                    b.Navigation("Product");
+                });
+
             modelBuilder.Entity("FinalProject_Core.Models.Season", b =>
                 {
                     b.HasOne("FinalProject_Core.Models.TVShow", "TVShow")
@@ -928,6 +1194,25 @@ namespace FinalProject_DataAccess.Migrations
                     b.Navigation("TVShow");
                 });
 
+            modelBuilder.Entity("FinalProject_Core.Models.TvShowProduct", b =>
+                {
+                    b.HasOne("FinalProject_Core.Models.Product", "Product")
+                        .WithMany("tvShowProducts")
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("FinalProject_Core.Models.TVShow", "TVShow")
+                        .WithMany("tvShowProducts")
+                        .HasForeignKey("TvShowId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Product");
+
+                    b.Navigation("TVShow");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
@@ -986,6 +1271,11 @@ namespace FinalProject_DataAccess.Migrations
                     b.Navigation("TVShowActors");
                 });
 
+            modelBuilder.Entity("FinalProject_Core.Models.AppUser", b =>
+                {
+                    b.Navigation("BasketItems");
+                });
+
             modelBuilder.Entity("FinalProject_Core.Models.Director", b =>
                 {
                     b.Navigation("Movies");
@@ -1016,6 +1306,20 @@ namespace FinalProject_DataAccess.Migrations
                     b.Navigation("MovieGenres");
 
                     b.Navigation("MovieLanguages");
+
+                    b.Navigation("MovieProducts");
+                });
+
+            modelBuilder.Entity("FinalProject_Core.Models.Order", b =>
+                {
+                    b.Navigation("OrderItems");
+                });
+
+            modelBuilder.Entity("FinalProject_Core.Models.Product", b =>
+                {
+                    b.Navigation("MovieProducts");
+
+                    b.Navigation("tvShowProducts");
                 });
 
             modelBuilder.Entity("FinalProject_Core.Models.Season", b =>
@@ -1032,6 +1336,8 @@ namespace FinalProject_DataAccess.Migrations
                     b.Navigation("TVShowGenres");
 
                     b.Navigation("TVShowLanguages");
+
+                    b.Navigation("tvShowProducts");
                 });
 #pragma warning restore 612, 618
         }

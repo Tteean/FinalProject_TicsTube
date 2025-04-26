@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using FinalProject_Core.Models;
 using FinalProject_Service.Dto.ActorDtos;
+using FinalProject_Service.Dto.BasketDtos;
 using FinalProject_Service.Dto.DirectorDtos;
 using FinalProject_Service.Dto.EpisodeDtos;
 using FinalProject_Service.Dto.GenreDtos;
@@ -142,13 +143,13 @@ namespace FinalProject_Service.Profiles
 
 
             CreateMap<ProductCreateDto, Product>()
-                .ForMember(dest => dest.MovieProducts, opt => opt.MapFrom(src => new List<MovieProduct>()))
-            .ForMember(dest => dest.tvShowProducts, opt => opt.MapFrom(src => new List<TvShowProduct>()))
+                .ForMember(dest => dest.MovieProducts, opt => opt.Ignore())
+                .ForMember(dest => dest.tvShowProducts, opt => opt.Ignore())
             .ForMember(s => s.Image, opt => opt.MapFrom(src => src.File.SaveImage("uploads/Product")));
             CreateMap<Product, ProductUpdateDto>();
             CreateMap<ProductUpdateDto, Product>()
-                .ForMember(dest => dest.MovieProducts, opt => opt.MapFrom(src => new List<MovieProduct>()))
-            .ForMember(dest => dest.tvShowProducts, opt => opt.MapFrom(src => new List<TvShowProduct>()))
+                .ForMember(dest => dest.MovieProducts, opt => opt.Ignore())
+    .ForMember(dest => dest.tvShowProducts, opt => opt.Ignore())
             .ForMember(s => s.Image, opt => opt.MapFrom(src => src.File.SaveImage("uploads/Product")))
             .ForMember(dest => dest.Id, opt => opt.Ignore());
             CreateMap<Product, ProductDeleteDto>();
@@ -158,6 +159,17 @@ namespace FinalProject_Service.Profiles
             .ForMember(s => s.Image, opt => opt.MapFrom(src => src.File.SaveImage("uploads/Product")))
             .ForMember(dest => dest.Id, opt => opt.Ignore());
 
+
+            CreateMap<Product, BasketItemDto>()
+           .ForMember(dest => dest.Price, opt => opt.MapFrom(src => src.CostPrice))
+           .ForMember(dest => dest.Image, opt => opt.MapFrom(src => src.Image));
+
+            CreateMap<BasketItem, CheckoutItemDto>()
+                .ForMember(dest => dest.Name, opt => opt.MapFrom(src => src.Product.Name))
+                .ForMember(dest => dest.TotalItemPrice, opt => opt.MapFrom(src => src.Count * src.Product.CostPrice))
+                .ForMember(dest => dest.Count, opt => opt.MapFrom(src => src.Count));
+
+            CreateMap<OrderDto, Order>();
 
         }
     }

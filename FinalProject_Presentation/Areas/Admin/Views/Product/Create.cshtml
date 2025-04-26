@@ -28,22 +28,41 @@
                 <input type="checkbox" asp-for="InStock" class="btn-check form-control" autocomplete="off">
                 <label class="btn btn-outline-primary" asp-for="InStock"></label>
             </div>
+            <div class="form-group mt-3">
+                <label>Select Content Type</label><br />
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" id="moviechose" asp-for="MovieOrShow" type="radio" value="movie" checked />
+                    <label class="form-check-label" for="MovieOrShow">Movie</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" id="showchose" asp-for="MovieOrShow" type="radio" value="tvshow" />
+                    <label class="form-check-label" for="MovieOrShow">TV Show</label>
+                </div>
+                <span asp-validation-for="MovieOrShow" class="text-danger"></span>
+            </div>
 
             <div class="form-group">
-                <select class="form-select" asp-for="TVShowId">
-                    @foreach (var tvShow in ViewBag.TVShows)
-                    {
-                        <option value="@tvShow.Id">@tvShow.Name</option>
-                    }
-                </select>
-            </div>
-            <div class="form-group">
-                <select class="form-select" asp-for="MovieId">
+                <label>Select Movie (if selected)</label>
+                <select asp-for="MovieId" id="movie" class="form-select">
+                    <option value="">-- Select a movie --</option>
                     @foreach (var movie in ViewBag.Movies)
                     {
-                        <option value="@movie.Id">@movie.Name</option>
+                        <option value="@movie.Id">@movie.Title</option>
                     }
                 </select>
+                <span asp-validation-for="MovieId" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label>Select TV Show (if selected)</label>
+                <select asp-for="TVShowId" id="show" class="form-select">
+                    <option value="">-- Select a TV Show --</option>
+                    @foreach (var tvShow in ViewBag.TVShows)
+                    {
+                        <option value="@tvShow.Id">@tvShow.Title</option>
+                    }
+                </select>
+                <span asp-validation-for="TVShowId" class="text-danger"></span>
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>

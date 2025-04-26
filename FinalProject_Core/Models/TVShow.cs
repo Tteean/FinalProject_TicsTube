@@ -15,6 +15,7 @@ namespace FinalProject_Core.Models
         public List<TVShowActor> TVShowActors { get; set; }
         public List<TVShowGenre> TVShowGenres { get; set; }
         public List<TVShowLanguage> TVShowLanguages { get; set; }
+        public List<TvShowProduct> tvShowProducts { get; set; }
         public List<Season> Seasons { get; set; }
         public int DirectorId { get; set; }
         public Director? Directors { get; set; }

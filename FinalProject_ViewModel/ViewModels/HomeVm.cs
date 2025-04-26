@@ -11,6 +11,8 @@ namespace FinalProject_ViewModel.ViewModels
     {
         public List<Movie> Movies { get; set; }
         public List<Genre> Genres { get; set; }
+        public List<Product> Products { get; set; }
+        public List<TVShow> TVShows { get; set; }
 
 
         
