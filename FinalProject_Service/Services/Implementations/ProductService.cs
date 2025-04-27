@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using FinalProject_Core.Models;
 using FinalProject_DataAccess.Data;
+using FinalProject_Service.Dto.ActorDtos;
 using FinalProject_Service.Dto.MovieDtos;
 using FinalProject_Service.Dto.ProductDtos;
 using FinalProject_Service.Dto.TVShowDtos;
@@ -12,6 +13,7 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -21,11 +23,13 @@ namespace FinalProject_Service.Services.Implementations
     {
         private readonly TicsTubeDbContext _context;
         private readonly IMapper _mapper;
+        private readonly PhotoService _photoService;
 
-        public ProductService(TicsTubeDbContext context, IMapper mapper)
+        public ProductService(TicsTubeDbContext context, IMapper mapper, PhotoService photoService)
         {
             _context = context;
             _mapper = mapper;
+            _photoService = photoService;
         }
 
         public async Task<int> CreateAsync(ProductCreateDto productCreateDto)
@@ -53,7 +57,8 @@ namespace FinalProject_Service.Services.Implementations
             }
             if (productCreateDto.File != null)
             {
-                product.Image = productCreateDto.File.SaveImage("uploads/Product");
+                product.Image = await _photoService.UploadImageAsync(productCreateDto.File);
+
             }
             _context.Products.Add(product);
             return _context.SaveChanges();
@@ -74,12 +79,9 @@ namespace FinalProject_Service.Services.Implementations
 
             if (!string.IsNullOrEmpty(existProduct.Image))
             {
-                string oldFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "uploads", "Product", existProduct.Image);
-                if (File.Exists(oldFilePath))
-                {
-                    File.Delete(oldFilePath);
-                }
+                await _photoService.DeleteAsync(existProduct.Image);
             }
+
 
             if (existProduct.MovieProducts.Any())
             {
@@ -160,13 +162,9 @@ namespace FinalProject_Service.Services.Implementations
             {
                 if (!string.IsNullOrEmpty(existProduct.Image))
                 {
-                    string oldFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "uploads", "Product", existProduct.Image);
-                    if (File.Exists(oldFilePath))
-                    {
-                        File.Delete(oldFilePath);
-                    }
+                    await _photoService.DeleteAsync(existProduct.Image);
                 }
-                existProduct.Image = productUpdateDto.File.SaveImage("uploads/Product");
+                existProduct.Image = await _photoService.UploadImageAsync(productUpdateDto.File);
             }
 
             return await _context.SaveChangesAsync();

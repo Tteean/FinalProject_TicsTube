@@ -11640,8 +11640,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>j9bhsutaly</Fingerprint>
-      <Integrity>uYhGTJEFb5mXzMBLioPxv2Aqk16bFj9QHYOjGQJDeH8=</Integrity>
+      <Fingerprint>iln0y2zssg</Fingerprint>
+      <Integrity>iq5Ydf9Vv6KKs4/uEHc4ucXLxkxQjj1nAVpogVg4fNM=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\main.css'))</OriginalItemSpec>
@@ -16014,8 +16014,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>wwdks9u05r</Fingerprint>
-      <Integrity>cMPwPMoKv8Vb2Y1gqAScIfRPxT5WPJU1B/T49ItLYNc=</Integrity>
+      <Fingerprint>fypjnsjdjh</Fingerprint>
+      <Integrity>J+FDJF39SDhi52ehtBChBvdhtO89vtabwq+VIIJirPU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\templates\ResetPassword.html'))</OriginalItemSpec>

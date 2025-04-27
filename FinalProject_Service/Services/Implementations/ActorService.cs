@@ -3,6 +3,7 @@ using Azure;
 using FinalProject_Core.Models;
 using FinalProject_DataAccess.Data;
 using FinalProject_Service.Dto.ActorDtos;
+using FinalProject_Service.Dto.MovieDtos;
 using FinalProject_Service.Exceptions;
 using FinalProject_Service.Extentions;
 using FinalProject_Service.Services.Interfaces;
@@ -21,11 +22,13 @@ namespace FinalProject_Service.Services.Implementations
     {
         private readonly TicsTubeDbContext _context;
         private readonly IMapper _mapper;
+        private readonly PhotoService _photoService;
 
-        public ActorService(TicsTubeDbContext context, IMapper mapper)
+        public ActorService(TicsTubeDbContext context, IMapper mapper, PhotoService photoService)
         {
             _context = context;
             _mapper = mapper;
+            _photoService = photoService;
         }
 
         public async Task<int> CreateActorAsync(ActorCreateDto actorCreateDto)
@@ -37,7 +40,7 @@ namespace FinalProject_Service.Services.Implementations
             var actor = _mapper.Map<Actor>(actorCreateDto);
             if (actorCreateDto.File != null)
             {
-                actor.Image = actorCreateDto.File.SaveImage("uploads/actors");
+                actor.Image = await _photoService.UploadImageAsync(actorCreateDto.File);
             }
             await _context.Actors.AddAsync(actor);
             return await _context.SaveChangesAsync();
@@ -67,13 +70,13 @@ namespace FinalProject_Service.Services.Implementations
             _mapper.Map(actorUpdateDto, existActor);
             if (actorUpdateDto.File != null)
             {
-                string oldFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "uploads", "actors", existActor.Image);
-                if (File.Exists(oldFilePath))
+                if (!string.IsNullOrEmpty(existActor.Image))
                 {
-                    File.Delete(oldFilePath);
+                    await _photoService.DeleteAsync(existActor.Image);
                 }
-                existActor.Image = actorUpdateDto.File.SaveImage("uploads/actors");
+                existActor.Image = await _photoService.UploadImageAsync(actorUpdateDto.File);
             }
+
             return await _context.SaveChangesAsync();
         }
         public async Task<int> DeleteActorAsync(int id)
@@ -87,15 +90,12 @@ namespace FinalProject_Service.Services.Implementations
             }
             ActorDeleteDto actorDeleteDto = new ActorDeleteDto();
             _mapper.Map(actorDeleteDto, existActor);
-            if (actorDeleteDto.File != null)
+            if (!string.IsNullOrEmpty(existActor.Image))
             {
-                string oldFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "uploads", "actors", existActor.Image);
-                if (File.Exists(oldFilePath))
-                {
-                    File.Delete(oldFilePath);
-                }
+                await _photoService.DeleteAsync(existActor.Image);
             }
-                _context.Actors.Remove(existActor);
+
+            _context.Actors.Remove(existActor);
             return await _context.SaveChangesAsync();
         }
     }

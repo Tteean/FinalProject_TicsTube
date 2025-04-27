@@ -41,8 +41,9 @@ namespace FinalProject_Service.Extentions
 
         public static PaginatedList<T> Create(IQueryable<T> query, int take, int page)
         {
+            var count = query.Count();
             var data = query.Skip((page - 1) * take).Take(take).ToList();
-            var pageCount = (int)Math.Ceiling((decimal)query.Count() / take);
+            var pageCount = (int)Math.Ceiling((decimal)count / take);
             return new PaginatedList<T>(data, pageCount, page);
         }
     }

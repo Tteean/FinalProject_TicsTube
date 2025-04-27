@@ -1,11 +1,14 @@
-﻿using FinalProject_Core.Models;
+﻿using AutoMapper;
+using FinalProject_Core.Models;
 using FinalProject_DataAccess.Data;
 using FinalProject_Service.Services.Implementations;
+using FinalProject_ViewModel.ViewModels;
 using FinalProject_ViewModel.ViewModels.LoginVm;
 using Microsoft.AspNetCore.Authentication.Google;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Security.Claims;
 
 namespace FinalProject_Presentation.Controllers
@@ -144,7 +147,7 @@ namespace FinalProject_Presentation.Controllers
                 return View();
             }
             var user = await _userManager.FindByEmailAsync(forgotPasswordVm.Email);
-            if (user == null || !await _userManager.IsInRoleAsync(user, "member"))
+            if (user == null || !await _userManager.IsInRoleAsync(user, "user"))
             {
                 return NotFound();
             }
@@ -157,14 +160,14 @@ namespace FinalProject_Presentation.Controllers
             _emailService.SendEmail(user.Email, "Reset Password", body);
             TempData["Success"] = "Email sended to " + user.Email;
 
-            return View();
+            return View(forgotPasswordVm);
         }
         public async Task<IActionResult> VerifyPassword(string token, string email)
         {
             TempData["token"] = token;
             TempData["email"] = email;
             var user = await _userManager.FindByEmailAsync(email);
-            if (user == null || !await _userManager.IsInRoleAsync(user, "member"))
+            if (user == null || !await _userManager.IsInRoleAsync(user, "user"))
                 return NotFound();
             if (!await _userManager.VerifyUserTokenAsync(user, _userManager.Options.Tokens.PasswordResetTokenProvider, "ResetPassword", token))
                 return NotFound();
@@ -183,7 +186,7 @@ namespace FinalProject_Presentation.Controllers
             if (!ModelState.IsValid)
                 return View();
             var user = await _userManager.FindByEmailAsync(resetPasswordVm.Email);
-            if (user == null || !await _userManager.IsInRoleAsync(user, "member"))
+            if (user == null || !await _userManager.IsInRoleAsync(user, "user"))
                 return View();
             if (!await _userManager.VerifyUserTokenAsync(user, _userManager.Options.Tokens.PasswordResetTokenProvider, "ResetPassword", resetPasswordVm.Token))
                 return NotFound();
@@ -228,10 +231,80 @@ namespace FinalProject_Presentation.Controllers
                     FullName = fullName
                 };
                 await _userManager.CreateAsync(user);
-                await _userManager.AddToRoleAsync(user, "member");
+                await _userManager.AddToRoleAsync(user, "user");
                 await _signInManager.SignInAsync(user, true);
             }
             return RedirectToAction("index", "home");
+        }
+        [Authorize(Roles = "user")]
+
+        public async Task<IActionResult> Profile(string tab = "dashboard")
+        {
+            ViewBag.Tab = tab;
+            var user = await _userManager.GetUserAsync(User);
+            if (user == null)
+            {
+                return RedirectToAction("login");
+            }
+            ProfileVm userProfileVm = new();
+            userProfileVm.ProfileUpdateVm = new()
+            {
+                UserName = user.UserName,
+                FullName = user.FullName,
+                Email = user.Email
+            };
+            userProfileVm.Orders = _context.Orders
+                .Include(o => o.AppUser)
+                .Where(o => o.AppUserId == user.Id).ToList();
+
+            return View(userProfileVm);
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        [Authorize(Roles = "user")]
+        public async Task<IActionResult> Profile(ProfileUpdateVm profileUpdateVm, string tab = "profile")
+        {
+            ViewBag.Tab = tab;
+            ProfileVm userProfileVm = new();
+            userProfileVm.ProfileUpdateVm = profileUpdateVm;
+
+            if (!ModelState.IsValid) return View(userProfileVm);
+            var user = await _userManager.GetUserAsync(User);
+            if (user == null)
+                return RedirectToAction("login");
+            user.FullName = profileUpdateVm.FullName;
+            user.Email = profileUpdateVm.Email;
+            user.UserName = profileUpdateVm.UserName;
+
+
+            if (profileUpdateVm.NewPassword != null)
+            {
+                if (profileUpdateVm.CurrentPassword == null)
+                {
+                    ModelState.AddModelError("CurrentPassword", "Current password is required");
+                    return View(userProfileVm);
+
+                }
+                var response = await _userManager.ChangePasswordAsync(user, profileUpdateVm.CurrentPassword, profileUpdateVm.NewPassword);
+                if (!response.Succeeded)
+                {
+                    foreach (var error in response.Errors)
+                        ModelState.AddModelError("", error.Description);
+
+                    return View(userProfileVm);
+                }
+            }
+            var result = await _userManager.UpdateAsync(user);
+            if (!result.Succeeded)
+            {
+                foreach (var error in result.Errors)
+                    ModelState.AddModelError("", error.Description);
+
+                return View(userProfileVm);
+            }
+            await _signInManager.SignInAsync(user, true);
+            return RedirectToAction("index", "home");
+
         }
     } 
 }

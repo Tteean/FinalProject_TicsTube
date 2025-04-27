@@ -4,6 +4,7 @@ using FinalProject_DataAccess.Data;
 using FinalProject_Service.Dto.ActorDtos;
 using FinalProject_Service.Dto.DirectorDtos;
 using FinalProject_Service.Dto.LanguageDtos;
+using FinalProject_Service.Dto.MovieDtos;
 using FinalProject_Service.Exceptions;
 using FinalProject_Service.Extentions;
 using FinalProject_Service.Services.Interfaces;
@@ -20,12 +21,14 @@ namespace FinalProject_Service.Services.Implementations
     public class DirectorService : IDirectorService
     {
         private readonly TicsTubeDbContext _context;
-        private readonly IMapper _mapper;
+        private readonly IMapper _mapper; 
+        private readonly PhotoService _photoService;
 
-        public DirectorService(IMapper mapper, TicsTubeDbContext context)
+        public DirectorService(IMapper mapper, TicsTubeDbContext context, PhotoService photoService)
         {
             _mapper = mapper;
             _context = context;
+            _photoService = photoService;
         }
 
         public async Task<int> CreateAsync(DirectorCreateDto directorCreateDto)
@@ -37,7 +40,8 @@ namespace FinalProject_Service.Services.Implementations
             var director = _mapper.Map<Director>(directorCreateDto);
             if (directorCreateDto.File != null)
             {
-                director.Image = directorCreateDto.File.SaveImage("uploads/directors");
+                director.Image = await _photoService.UploadImageAsync(directorCreateDto.File);
+
             }
             await _context.Directors.AddAsync(director);
             return await _context.SaveChangesAsync();
@@ -54,14 +58,11 @@ namespace FinalProject_Service.Services.Implementations
             }
             DirectorDeleteDto directorDeleteDto = new DirectorDeleteDto();
             _mapper.Map(directorDeleteDto, existDirector);
-            if (directorDeleteDto.File != null)
+            if (!string.IsNullOrEmpty(existDirector.Image))
             {
-                string oldFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "uploads", "directors", existDirector.Image);
-                if (File.Exists(oldFilePath))
-                {
-                    File.Delete(oldFilePath);
-                }
+                await _photoService.DeleteAsync(existDirector.Image);
             }
+
             _context.Directors.Remove(existDirector);
             return await _context.SaveChangesAsync();
         }
@@ -86,13 +87,13 @@ namespace FinalProject_Service.Services.Implementations
             _mapper.Map(directorUpdateDto, existDirector);
             if (directorUpdateDto.File != null)
             {
-                string oldFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "uploads", "directors", existDirector.Image);
-                if (File.Exists(oldFilePath))
+                if (!string.IsNullOrEmpty(existDirector.Image))
                 {
-                    File.Delete(oldFilePath);
+                    await _photoService.DeleteAsync(existDirector.Image);
                 }
-                existDirector.Image = directorUpdateDto.File.SaveImage("uploads/directors");
+                existDirector.Image = await _photoService.UploadImageAsync(directorUpdateDto.File);
             }
+
             return await _context.SaveChangesAsync();
         }
     }

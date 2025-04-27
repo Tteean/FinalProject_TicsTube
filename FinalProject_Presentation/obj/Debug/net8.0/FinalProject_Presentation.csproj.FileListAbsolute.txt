@@ -284,3 +284,4 @@ C:\Users\naila\source\repos\FinalProject\FinalProject_Presentation\bin\Debug\net
 C:\Users\naila\source\repos\FinalProject\FinalProject_Presentation\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\Users\naila\source\repos\FinalProject\FinalProject_Presentation\bin\Debug\net8.0\PayPalCheckoutSdk.dll
 C:\Users\naila\source\repos\FinalProject\FinalProject_Presentation\bin\Debug\net8.0\PayPalHttp-Dotnet.dll
+C:\Users\naila\source\repos\FinalProject\FinalProject_Presentation\bin\Debug\net8.0\CloudinaryDotNet.dll

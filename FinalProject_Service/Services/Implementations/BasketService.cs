@@ -38,8 +38,25 @@ namespace FinalProject_Service.Services.Implementations
         }
         public async Task<List<BasketItemDto>> GetBasketAsync()
         {
+            if (IsUserAuthenticated())
+            {
+                var user = await GetCurrentUserAsync();
+                return user.BasketItems
+                    .Select(b => new BasketItemDto
+                    {
+                        Id = b.ProductId,
+                        Name = b.Product.Name,
+                        Price = b.Product.CostPrice,
+                        Image = b.Product.Image,
+                        Count = b.Count
+                    })
+                    .ToList();
+            }
+
             var basketJson = _httpContextAccessor.HttpContext.Request.Cookies["basket"];
-            var basketItems = basketJson != null ? JsonSerializer.Deserialize<List<BasketItemDto>>(basketJson) : new List<BasketItemDto>();
+            var basketItems = basketJson == null
+                ? new List<BasketItemDto>()
+                : JsonSerializer.Deserialize<List<BasketItemDto>>(basketJson);
             return basketItems;
         }
 
@@ -47,26 +64,6 @@ namespace FinalProject_Service.Services.Implementations
         {
             var product = await _context.Products.FirstOrDefaultAsync(p => p.Id == id);
             if (product == null) throw new CustomException(404, "Product", "Product not found");
-
-            var basketItems = await GetBasketAsync();
-            var existingItem = basketItems.FirstOrDefault(b => b.Id == id);
-
-            if (existingItem != null)
-            {
-                existingItem.Count++;
-            }
-            else
-            {
-                var basketItemDto = new BasketItemDto
-                {
-                    Id = product.Id,
-                    Name = product.Name,
-                    Price = product.CostPrice,
-                    Image = product.Image,
-                    Count = 1
-                };
-                basketItems.Add(basketItemDto);
-            }
 
             if (IsUserAuthenticated())
             {
@@ -80,11 +77,35 @@ namespace FinalProject_Service.Services.Implementations
                 {
                     user.BasketItems.Add(new BasketItem { ProductId = id, Count = 1 });
                 }
+
                 await _context.SaveChangesAsync();
             }
+            else
+            {
+                var basketItems = await GetBasketAsync();
+                var existingItem = basketItems.FirstOrDefault(b => b.Id == id);
 
-            UpdateBasketCookie(basketItems);
-            return basketItems;
+                if (existingItem != null)
+                {
+                    existingItem.Count++;
+                }
+                else
+                {
+                    var basketItemDto = new BasketItemDto
+                    {
+                        Id = product.Id,
+                        Name = product.Name,
+                        Price = product.CostPrice,
+                        Image = product.Image,
+                        Count = 1
+                    };
+                    basketItems.Add(basketItemDto);
+                }
+
+                UpdateBasketCookie(basketItems);
+            }
+
+            return await GetBasketAsync();
         }
 
         public async Task<List<BasketItemDto>> RemoveFromBasketAsync(int id)
@@ -205,11 +226,13 @@ namespace FinalProject_Service.Services.Implementations
 
         private bool IsUserAuthenticated() =>
             _httpContextAccessor.HttpContext.User.Identity.IsAuthenticated &&
-            _httpContextAccessor.HttpContext.User.IsInRole("member");
+            _httpContextAccessor.HttpContext.User.IsInRole("user");
 
         private async Task<AppUser> GetCurrentUserAsync() =>
-            await _userManager.Users.Include(u => u.BasketItems)
-                .FirstOrDefaultAsync(u => u.UserName == _httpContextAccessor.HttpContext.User.Identity.Name);
+    await _userManager.Users
+        .Include(u => u.BasketItems)
+        .ThenInclude(b => b.Product)
+        .FirstOrDefaultAsync(u => u.UserName == _httpContextAccessor.HttpContext.User.Identity.Name);
 
         private async Task<AppUser> GetCurrentUserWithBasketAsync() =>
             await _userManager.Users.Include(u => u.BasketItems).ThenInclude(b => b.Product)

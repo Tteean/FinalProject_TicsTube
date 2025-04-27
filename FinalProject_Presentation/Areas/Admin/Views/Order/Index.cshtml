@@ -1,0 +1,39 @@
+﻿@model List<Order>
+
+<h2>Orders</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>User</th>
+            <th>Status</th>
+            <th>Created At</th>
+            <th>Items</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var order in Model)
+        {
+            <tr>
+                <td>@order.Id</td>
+                <td>@order.AppUser.UserName</td>
+                <td>@order.OrderStatus</td>
+                <td>@order.CreationDate.ToString("g")</td>
+                <td>
+                    <ul>
+                        @foreach (var item in order.OrderItems)
+                        {
+                            <li>@item.Product.Name (x@item.Count)</li>
+                        }
+                    </ul>
+                </td>
+                <td>
+                    <a asp-action="ChangeStatus" asp-route-id="@order.Id" asp-route-status="Accepted" class="btn btn-success btn-sm">Accept</a>
+                    <a asp-action="ChangeStatus" asp-route-id="@order.Id" asp-route-status="Cancelled" class="btn btn-danger btn-sm">Cancel</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,91 @@
+﻿@using FinalProject_Core.Enum
+@model ProfileVm
+@{
+    int orderCount = 1;
+}
+
+<div class="breadcrumb-wrapper bg-cover" style="background-image: url('~/~/assets/img/breadcrumb-bg.jpg');">
+    <div class="container">
+        <div class="page-heading">
+            <div class="page-header-left">
+                <h1 class="wow fadeInUp" data-wow-delay=".3s">Profile</h1>
+                <ul class="breadcrumb-items wow fadeInUp" data-wow-delay=".5s">
+                    <li>
+                        <a asp-controller="home">
+                            <i class="fa-solid fa-house"></i>
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-slash-forward"></i>
+                    </li>
+                    <li>
+                        Profile
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="nav-tabs">
+        <a class="tab-link active" data-tab="orders">Orders</a>
+        <a class="tab-link" data-tab="settings">Settings</a>
+    </div>
+<div id="orders" class="tab-content active">
+    <h2>Your Orders</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Status</th>
+                <th>Total</th>
+                <th>Date</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var order in Model.Orders)
+            {
+                <tr>
+                    <td>@orderCount</td>
+                    <td>@order.AppUser.UserName</td>
+                    <td>@order.OrderStatus</td>
+                    <td>$@order.TotalPrice</td>
+                    <td>$@order.CreationDate.ToString("dd,MMMM,yyyy")</td>
+                    <td>
+                        @if (order.OrderStatus == OrderStatus.Pending)
+                        {
+                            <a asp-action="cancel" asp-controller="basket" asp-route-orderId="@order.Id" class="btn">Cancel</a>
+                        }
+                    </td>
+                </tr>
+
+                orderCount++;
+            }
+
+        </tbody>
+    </table>
+</div>
+
+<div id="settings" class="tab-content">
+    <h2>Account Settings</h2>
+    @await Html.PartialAsync("_ProfileUpdatePartial", Model.ProfileUpdateVm)
+</div>
+    </div>
+
+<script>
+    const tabs = document.querySelectorAll('.tab-link');
+    const contents = document.querySelectorAll('.tab-content');
+
+    tabs.forEach(tab => {
+        tab.addEventListener('click', () => {
+            tabs.forEach(t => t.classList.remove('active'));
+            contents.forEach(c => c.classList.remove('active'));
+
+            tab.classList.add('active');
+            document.getElementById(tab.dataset.tab).classList.add('active');
+        });
+    });
+</script>

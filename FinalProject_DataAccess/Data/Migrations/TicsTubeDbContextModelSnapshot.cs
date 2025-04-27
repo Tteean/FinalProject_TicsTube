@@ -637,9 +637,6 @@ namespace FinalProject_DataAccess.Migrations
                     b.Property<string>("Key")
                         .HasColumnType("nvarchar(450)");
 
-                    b.Property<int>("Id")
-                        .HasColumnType("int");
-
                     b.Property<string>("Value")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");

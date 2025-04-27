@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using FinalProject_Core.Models;
 using FinalProject_DataAccess.Data;
+using FinalProject_Service.Dto.ActorDtos;
 using FinalProject_Service.Dto.MovieDtos;
 using FinalProject_Service.Dto.TVShowDtos;
 using FinalProject_Service.Exceptions;
@@ -10,6 +11,7 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -19,11 +21,13 @@ namespace FinalProject_Service.Services.Implementations
     {
         private readonly TicsTubeDbContext _context;
         private readonly IMapper _mapper;
+        private readonly PhotoService _photoService;
 
-        public TVShowService(IMapper mapper, TicsTubeDbContext context)
+        public TVShowService(IMapper mapper, TicsTubeDbContext context, PhotoService photoService)
         {
             _mapper = mapper;
             _context = context;
+            _photoService = photoService;
         }
 
         public async Task<int> CreateAsync(TVShowCreateDto tVShowCreateDto)
@@ -70,7 +74,8 @@ namespace FinalProject_Service.Services.Implementations
             }
             if (tVShowCreateDto.File != null)
             {
-                tvShow.Image = tVShowCreateDto.File.SaveImage("uploads/TVShow");
+                tvShow.Image = await _photoService.UploadImageAsync(tVShowCreateDto.File);
+
             }
             _context.TVShows.Add(tvShow);
             return _context.SaveChanges();
@@ -90,13 +95,9 @@ namespace FinalProject_Service.Services.Implementations
             }
             TVShowDeleteDto tVShowDeleteDto = new TVShowDeleteDto();
             _mapper.Map(tVShowDeleteDto, existShow);
-            if (tVShowDeleteDto.File != null)
+            if (!string.IsNullOrEmpty(existShow.Image))
             {
-                string oldFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "uploads", "tvshow", existShow.Image);
-                if (File.Exists(oldFilePath))
-                {
-                    File.Delete(oldFilePath);
-                }
+                await _photoService.DeleteAsync(existShow.Image);
             }
             _context.TVShowActors.RemoveRange(existShow.TVShowActors);
             _context.TVShowGenres.RemoveRange(existShow.TVShowGenres);
@@ -172,14 +173,13 @@ namespace FinalProject_Service.Services.Implementations
             }
             if (tVShowUpdateDto.File != null)
             {
-                string oldFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "uploads", "movies", existShow.Image);
-                if (File.Exists(oldFilePath))
+                if (!string.IsNullOrEmpty(existShow.Image))
                 {
-                    File.Delete(oldFilePath);
+                    await _photoService.DeleteAsync(existShow.Image);
                 }
-                existShow.Image = tVShowUpdateDto.File.SaveImage("uploads/movies");
+                existShow.Image = await _photoService.UploadImageAsync(tVShowUpdateDto.File);
             }
-            
+
             return await _context.SaveChangesAsync();
         }
     }

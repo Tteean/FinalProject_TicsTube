@@ -27,16 +27,13 @@ namespace FinalProject_Presentation.Areas.Admin.Controllers
             _movieService = movieService;
             _context = context;
         }
-        public IActionResult Index(int page = 1, int take = 2)
+        public IActionResult Index()
         {
-            var query = _context.Movies
+            return View(_context.Movies
                 .Include(b => b.Directors)
-                .Include(b => b.MovieLanguages)
                 .Include(b => b.MovieActors).ThenInclude(ps => ps.Actor)
                 .Include(b => b.MovieLanguages).ThenInclude(pt => pt.Language)
-                .Include(b => b.MovieGenres).ThenInclude(pt => pt.Genre);
-
-            return View(PaginatedList<Movie>.Create(query, take, page));
+                .Include(b => b.MovieGenres).ThenInclude(pt => pt.Genre).ToList());
         }
         public IActionResult Create()
         {

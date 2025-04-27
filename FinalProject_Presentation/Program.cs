@@ -1,3 +1,4 @@
+using FinalProject_Core.Models;
 using FinalProject_DataAccess.Data;
 using FinalProject_Presentation;
 using FinalProject_Presentation.Middleware;
@@ -20,6 +21,7 @@ builder.Services.AddControllersWithViews()
         };
     });
 
+builder.Services.Configure<CloudinarySettings>(builder.Configuration.GetSection("CloudinarySettings"));
 var configuration = builder.Configuration;
 builder.Services.Register(configuration);
 var app = builder.Build();

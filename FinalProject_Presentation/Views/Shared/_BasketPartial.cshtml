@@ -25,12 +25,12 @@
                             <li class="minicart-item">
                                 <div class="minicart-thumb">
                                     <a href="product-details.html">
-                                        <img src="~/assets/img/product/@product.Image" alt="" />
+                                        <img src="~/uploads/Product/@product.Image" alt="" />
                                     </a>
                                 </div>
                                 <div class="minicart-content">
                                     <h3 class="product-name">
-                                        <a asp-controller="product" asp-action="detail" asp-route-id="@product.Id">@product.Name</a>
+                                        <a asp-controller="product" asp-action="detail" asp-route-id="@product.Id" style="color:white; width:100px; height:100px">@product.Name</a>
                                     </h3>
                                     <p>
                                         <span class="cart-quantity">@product.Count <strong>&times;</strong></span>
@@ -48,14 +48,14 @@
 
                 }
 
+<div class="minicart-button">
+    <a asp-controller="basket" asp-action="index" style="color:white"><i class="fa fa-shopping-cart"></i> view cart</a>
+    <a asp-controller="basket" asp-action="checkout" style="color:white"><i class="fa fa-share"></i> checkout</a>
+</div>
             </div>
         </div>
     </div>
 
-<div class="minicart-button">
-    <a asp-controller="basket" asp-action="index"><i class="fa fa-shopping-cart"></i> view cart</a>
-    <a asp-controller="basket" asp-action="checkout"><i class="fa fa-share"></i> checkout</a>
-</div>
 
 <script>
     document.querySelector(".BasketItemCount").innerHTML=@Model.Count

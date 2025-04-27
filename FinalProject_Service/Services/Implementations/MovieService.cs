@@ -21,11 +21,15 @@ namespace FinalProject_Service.Services.Implementations
     {
         private readonly TicsTubeDbContext _context;
         private readonly IMapper _mapper;
+        private readonly PhotoService _photoService;
+        private readonly VideoService _videoService;
 
-        public MovieService(IMapper mapper, TicsTubeDbContext context)
+        public MovieService(IMapper mapper, TicsTubeDbContext context, VideoService videoService, PhotoService photoService)
         {
             _mapper = mapper;
             _context = context;
+            _videoService = videoService;
+            _photoService = photoService;
         }
 
         public async Task<int> CreateAsync(MovieCreateDto movieCreateDto)
@@ -70,16 +74,23 @@ namespace FinalProject_Service.Services.Implementations
             {
                 movie.MovieActors.Add(new MovieActor { ActorId = actorId });
             }
-            if (movieCreateDto.Film != null)
-            {
-                movie.Video = movieCreateDto.Film.SaveImage("uploads/movies");
-            }
             if (movieCreateDto.File != null)
             {
-                movie.Image = movieCreateDto.File.SaveImage("uploads/movies");
+                movie.Image = await _photoService.UploadImageAsync(movieCreateDto.File);
+            }
+            if (movieCreateDto.Film != null)
+            {
+                movie.Video = await _videoService.UploadVideoAsync(movieCreateDto.Film);
             }
             _context.Movies.Add(movie);
-            return _context.SaveChanges();
+            try
+            {
+                return await _context.SaveChangesAsync();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.InnerException?.Message ?? ex.Message);
+            }
         }
 
         public async Task<int> DeleteAsync(int id)
@@ -97,21 +108,15 @@ namespace FinalProject_Service.Services.Implementations
             }
             MovieDeleteDto movieDeleteDto = new MovieDeleteDto();
             _mapper.Map(movieDeleteDto, existMovie);
-            if (movieDeleteDto.File != null)
+
+            if (!string.IsNullOrEmpty(existMovie.Image))
             {
-                string oldFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "uploads", "movies", existMovie.Image);
-                if (File.Exists(oldFilePath))
-                {
-                    File.Delete(oldFilePath);
-                }
+                await _photoService.DeleteAsync(existMovie.Image);
             }
-            if (movieDeleteDto.Film != null)
+
+            if (!string.IsNullOrEmpty(existMovie.Video))
             {
-                string oldFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "uploads", "movies", existMovie.Video);
-                if (File.Exists(oldFilePath))
-                {
-                    File.Delete(oldFilePath);
-                }
+                await _videoService.DeleteVideoAsync(existMovie.Video);
             }
             _context.MovieActors.RemoveRange(existMovie.MovieActors);
             _context.MovieGenres.RemoveRange(existMovie.MovieGenres);
@@ -187,21 +192,20 @@ namespace FinalProject_Service.Services.Implementations
             }
             if (movieUpdateDto.File != null)
             {
-                string oldFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "uploads", "movies", existMovie.Image);
-                if (File.Exists(oldFilePath))
+                if (!string.IsNullOrEmpty(existMovie.Image))
                 {
-                    File.Delete(oldFilePath);
+                    await _photoService.DeleteAsync(existMovie.Image);
                 }
-                existMovie.Image = movieUpdateDto.File.SaveImage("uploads/movies");
+                existMovie.Image = await _photoService.UploadImageAsync(movieUpdateDto.File);
             }
+
             if (movieUpdateDto.Film != null)
             {
-                string oldFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "uploads", "movies", existMovie.Video);
-                if (File.Exists(oldFilePath))
+                if (!string.IsNullOrEmpty(existMovie.Video))
                 {
-                    File.Delete(oldFilePath);
+                    await _videoService.DeleteVideoAsync(existMovie.Video);
                 }
-                existMovie.Video = movieUpdateDto.Film.SaveImage("uploads/movies");
+                existMovie.Video = await _videoService.UploadVideoAsync(movieUpdateDto.Film);
             }
             return await _context.SaveChangesAsync();
         }

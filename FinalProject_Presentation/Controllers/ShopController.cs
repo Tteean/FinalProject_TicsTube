@@ -22,16 +22,6 @@ namespace FinalProject_Presentation.Controllers
             ViewBag.TVShow = _context.TVShows.ToList();
             return View(vm);
         }
-        public IActionResult Detail(int? id)
-        {
-            if (id == null)
-                return NotFound();
-            var existProduct = _context.Products
-                .FirstOrDefault(x => x.Id == id);
-            if (existProduct == null)
-                return NotFound();
-            return View(existProduct);
-        }
 
     }
 }

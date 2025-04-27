@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1/gfkmRSv69ChggtM+p10FG/oYu4CkAyOgtQn9dhn7k=",
+  "Hash": "WuHDF4L16c5DidCuK/ftkDtRQyklzo1HgcJ86pNvRjg=",
   "Source": "FinalProject_Presentation",
   "BasePath": "_content/FinalProject_Presentation",
   "Mode": "Default",
@@ -13639,8 +13639,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "j9bhsutaly",
-      "Integrity": "uYhGTJEFb5mXzMBLioPxv2Aqk16bFj9QHYOjGQJDeH8=",
+      "Fingerprint": "iln0y2zssg",
+      "Integrity": "iq5Ydf9Vv6KKs4/uEHc4ucXLxkxQjj1nAVpogVg4fNM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\css\\main.css"
@@ -18742,8 +18742,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "wwdks9u05r",
-      "Integrity": "cMPwPMoKv8Vb2Y1gqAScIfRPxT5WPJU1B/T49ItLYNc=",
+      "Fingerprint": "fypjnsjdjh",
+      "Integrity": "J+FDJF39SDhi52ehtBChBvdhtO89vtabwq+VIIJirPU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\templates\\ResetPassword.html"
@@ -75387,7 +75387,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "160933"
+          "Value": "162321"
         },
         {
           "Name": "Content-Type",
@@ -75395,11 +75395,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"uYhGTJEFb5mXzMBLioPxv2Aqk16bFj9QHYOjGQJDeH8=\""
+          "Value": "\"iq5Ydf9Vv6KKs4/uEHc4ucXLxkxQjj1nAVpogVg4fNM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 26 Apr 2025 21:46:39 GMT"
+          "Value": "Sun, 27 Apr 2025 01:21:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -75409,7 +75409,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-uYhGTJEFb5mXzMBLioPxv2Aqk16bFj9QHYOjGQJDeH8="
+          "Value": "sha256-iq5Ydf9Vv6KKs4/uEHc4ucXLxkxQjj1nAVpogVg4fNM="
         }
       ]
     },
@@ -75496,7 +75496,7 @@
       ]
     },
     {
-      "Route": "assets/css/main.j9bhsutaly.css",
+      "Route": "assets/css/main.iln0y2zssg.css",
       "AssetFile": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\css\\main.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -75506,7 +75506,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "160933"
+          "Value": "162321"
         },
         {
           "Name": "Content-Type",
@@ -75514,11 +75514,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"uYhGTJEFb5mXzMBLioPxv2Aqk16bFj9QHYOjGQJDeH8=\""
+          "Value": "\"iq5Ydf9Vv6KKs4/uEHc4ucXLxkxQjj1nAVpogVg4fNM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 26 Apr 2025 21:46:39 GMT"
+          "Value": "Sun, 27 Apr 2025 01:21:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -75528,7 +75528,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "j9bhsutaly"
+          "Value": "iln0y2zssg"
         },
         {
           "Name": "label",
@@ -75536,7 +75536,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-uYhGTJEFb5mXzMBLioPxv2Aqk16bFj9QHYOjGQJDeH8="
+          "Value": "sha256-iq5Ydf9Vv6KKs4/uEHc4ucXLxkxQjj1nAVpogVg4fNM="
         }
       ]
     },
@@ -95303,6 +95303,51 @@
       ]
     },
     {
+      "Route": "assets/templates/ResetPassword.fypjnsjdjh.html",
+      "AssetFile": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\templates\\ResetPassword.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1882"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J+FDJF39SDhi52ehtBChBvdhtO89vtabwq+VIIJirPU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 27 Apr 2025 01:47:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fypjnsjdjh"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/templates/ResetPassword.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-J+FDJF39SDhi52ehtBChBvdhtO89vtabwq+VIIJirPU="
+        }
+      ]
+    },
+    {
       "Route": "assets/templates/ResetPassword.html",
       "AssetFile": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\templates\\ResetPassword.html",
       "Selectors": [],
@@ -95313,7 +95358,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2027"
+          "Value": "1882"
         },
         {
           "Name": "Content-Type",
@@ -95321,11 +95366,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"cMPwPMoKv8Vb2Y1gqAScIfRPxT5WPJU1B/T49ItLYNc=\""
+          "Value": "\"J+FDJF39SDhi52ehtBChBvdhtO89vtabwq+VIIJirPU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 02:01:53 GMT"
+          "Value": "Sun, 27 Apr 2025 01:47:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -95335,52 +95380,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-cMPwPMoKv8Vb2Y1gqAScIfRPxT5WPJU1B/T49ItLYNc="
-        }
-      ]
-    },
-    {
-      "Route": "assets/templates/ResetPassword.wwdks9u05r.html",
-      "AssetFile": "C:\\Users\\naila\\source\\repos\\FinalProject\\FinalProject_Presentation\\wwwroot\\assets\\templates\\ResetPassword.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2027"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"cMPwPMoKv8Vb2Y1gqAScIfRPxT5WPJU1B/T49ItLYNc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 02:01:53 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "wwdks9u05r"
-        },
-        {
-          "Name": "label",
-          "Value": "assets/templates/ResetPassword.html"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-cMPwPMoKv8Vb2Y1gqAScIfRPxT5WPJU1B/T49ItLYNc="
+          "Value": "sha256-J+FDJF39SDhi52ehtBChBvdhtO89vtabwq+VIIJirPU="
         }
       ]
     },

@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using FinalProject_Core.Models;
 using FinalProject_DataAccess.Data;
+using FinalProject_Service.Dto.ActorDtos;
 using FinalProject_Service.Dto.EpisodeDtos;
 using FinalProject_Service.Dto.MovieDtos;
 using FinalProject_Service.Dto.SeasonDtos;
@@ -11,6 +12,7 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -20,11 +22,15 @@ namespace FinalProject_Service.Services.Implementations
     {
         private readonly TicsTubeDbContext _context;
         private readonly IMapper _mapper;
+        private readonly PhotoService _photoService;
+        private readonly VideoService _videoService;
 
-        public EpisodeService(IMapper mapper, TicsTubeDbContext context)
+        public EpisodeService(IMapper mapper, TicsTubeDbContext context, VideoService videoService, PhotoService photoService)
         {
             _mapper = mapper;
             _context = context;
+            _videoService = videoService;
+            _photoService = photoService;
         }
         public async Task<int> CreateAsync(EpisodeCreateDto episodeCreateDto)
         {
@@ -35,7 +41,8 @@ namespace FinalProject_Service.Services.Implementations
             var episode = _mapper.Map<Episode>(episodeCreateDto);
             if (episodeCreateDto.File != null)
             {
-                episode.Image = episodeCreateDto.File.SaveImage("uploads/episodes");
+                episode.Image = await _photoService.UploadImageAsync(episodeCreateDto.File);
+
             }
             else
             {
@@ -44,7 +51,7 @@ namespace FinalProject_Service.Services.Implementations
 
             if (episodeCreateDto.Film != null)
             {
-                episode.Video = episodeCreateDto.Film.SaveImage("uploads/episodes");
+                episode.Video = await _videoService.UploadVideoAsync(episodeCreateDto.Film);
             }
             else
             {
@@ -65,21 +72,14 @@ namespace FinalProject_Service.Services.Implementations
             }
             EpisodeDeleteDto episodeDeleteDto = new EpisodeDeleteDto();
             _mapper.Map(episodeDeleteDto, existEpisode);
-            if (episodeDeleteDto.File != null)
+            if (!string.IsNullOrEmpty(existEpisode.Image))
             {
-                string oldFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "uploads", "episodes", existEpisode.Image);
-                if (File.Exists(oldFilePath))
-                {
-                    File.Delete(oldFilePath);
-                }
+                await _photoService.DeleteAsync(existEpisode.Image);
             }
-            if (episodeDeleteDto.Film != null)
+
+            if (!string.IsNullOrEmpty(existEpisode.Video))
             {
-                string oldFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "uploads", "episodes", existEpisode.Video);
-                if (File.Exists(oldFilePath))
-                {
-                    File.Delete(oldFilePath);
-                }
+                await _videoService.DeleteVideoAsync(existEpisode.Video);
             }
             _context.Episodes.Remove(existEpisode);
             return await _context.SaveChangesAsync();
@@ -105,21 +105,20 @@ namespace FinalProject_Service.Services.Implementations
             _mapper.Map(episodeUpdateDto, existEpisode);
             if (episodeUpdateDto.File != null)
             {
-                string oldFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "uploads", "episodes", existEpisode.Image);
-                if (File.Exists(oldFilePath))
+                if (!string.IsNullOrEmpty(existEpisode.Image))
                 {
-                    File.Delete(oldFilePath);
+                    await _photoService.DeleteAsync(existEpisode.Image);
                 }
-                existEpisode.Image = episodeUpdateDto.File.SaveImage("uploads/episodes");
+                existEpisode.Image = await _photoService.UploadImageAsync(episodeUpdateDto.File);
             }
+
             if (episodeUpdateDto.Film != null)
             {
-                string oldFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "uploads", "episodes", existEpisode.Video);
-                if (File.Exists(oldFilePath))
+                if (!string.IsNullOrEmpty(existEpisode.Video))
                 {
-                    File.Delete(oldFilePath);
+                    await _videoService.DeleteVideoAsync(existEpisode.Video);
                 }
-                existEpisode.Video = episodeUpdateDto.Film.SaveImage("uploads/episodes");
+                existEpisode.Video = await _videoService.UploadVideoAsync(episodeUpdateDto.Film);
             }
             return await _context.SaveChangesAsync();
         }

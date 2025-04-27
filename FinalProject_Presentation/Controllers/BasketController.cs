@@ -55,6 +55,8 @@ namespace FinalProject_Presentation.Controllers
                 TotalItemPrice = b.Product.CostPrice * b.Count,
                 Count = b.Count,
             }).ToList();
+            Console.WriteLine("User: " + user?.UserName);
+            Console.WriteLine("Items: " + user?.BasketItems?.Count);
             return View(checkoutDto);
         }
 

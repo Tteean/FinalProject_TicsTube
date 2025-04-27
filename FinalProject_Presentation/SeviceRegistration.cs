@@ -1,4 +1,5 @@
-﻿using FinalProject_Core.Models;
+﻿using CloudinaryDotNet;
+using FinalProject_Core.Models;
 using FinalProject_DataAccess.Data;
 using FinalProject_Service.Extentions;
 using FinalProject_Service.Profiles;
@@ -6,6 +7,7 @@ using FinalProject_Service.Services.Implementations;
 using FinalProject_Service.Services.Interfaces;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
 
 namespace FinalProject_Presentation
 {
@@ -38,6 +40,13 @@ namespace FinalProject_Presentation
                 opt.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(5);
                 opt.Lockout.AllowedForNewUsers = true;
             }).AddEntityFrameworkStores<TicsTubeDbContext>().AddDefaultTokenProviders();
+
+            services.AddScoped<Cloudinary>(sp =>
+            {
+                var config = sp.GetRequiredService<IOptions<CloudinarySettings>>().Value;
+                Account account = new Account(config.CloudName, config.ApiKey, config.ApiSecret);
+                return new Cloudinary(account);
+            });
             services.ConfigureApplicationCookie(opt =>
             {
                 opt.Events.OnRedirectToLogin = opt.Events.OnRedirectToAccessDenied = context =>
@@ -76,6 +85,8 @@ namespace FinalProject_Presentation
             services.AddScoped<IBasketService, BasketService>();
             services.AddScoped<LayoutService>();
             services.AddScoped<PayPalClient>();
+            services.AddScoped<PhotoService>();
+            services.AddScoped<VideoService>();
         }
     }
 }

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace FinalProject_Core.Models
 {
-    public class Setting:BaseEntity
+    public class Setting
     {
         [Key]
         public string Key { get; set; }
