@@ -33,7 +33,10 @@
                 <div class="col-lg-12">
                     <div class="movie-details-image">
                         <img src="@Model.Image " alt="img">
-                        <a data-fancybox data-src="@Model.Video" class="video-btn ripple video-popup" href="javascript:;">
+                        <a data-fancybox
+                           data-type="video"
+                           href="@Model.Video"
+                           class="video-btn ripple video-popup">
                             <i class="fa-solid fa-play"></i>
                         </a>
                     </div>

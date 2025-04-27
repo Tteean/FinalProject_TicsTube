@@ -41,7 +41,7 @@ namespace FinalProject_Presentation.Controllers
             return View(basketItemDtos);
         }
 
-        //[Authorize(Roles = "member")]
+        [Authorize(Roles = "user")]
         public async Task<IActionResult> Checkout()
         {
             var user = _userManager.Users
@@ -55,13 +55,11 @@ namespace FinalProject_Presentation.Controllers
                 TotalItemPrice = b.Product.CostPrice * b.Count,
                 Count = b.Count,
             }).ToList();
-            Console.WriteLine("User: " + user?.UserName);
-            Console.WriteLine("Items: " + user?.BasketItems?.Count);
             return View(checkoutDto);
         }
 
         [HttpPost]
-        //[Authorize(Roles = "member")]
+        [Authorize(Roles = "user")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Checkout(OrderDto orderDto)
         {
@@ -85,7 +83,7 @@ namespace FinalProject_Presentation.Controllers
             return PartialView("_BasketPartial", basketItems);
         }
 
-        [Authorize(Roles = "member")]
+        [Authorize(Roles = "user")]
         public async Task<IActionResult> GetOrderItems(int orderId)
         {
             var order = _context.Orders
@@ -96,7 +94,7 @@ namespace FinalProject_Presentation.Controllers
             return PartialView("_OrderItemsPartial", orderId);
         }
 
-        [Authorize(Roles = "member")]
+        [Authorize(Roles = "user")]
         public async Task<IActionResult> Cancel(int orderId)
         {
             var order = _context.Orders

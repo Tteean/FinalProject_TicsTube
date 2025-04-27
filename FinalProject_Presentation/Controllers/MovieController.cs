@@ -38,7 +38,7 @@ namespace FinalProject_Presentation.Controllers
             vm.Genres = _context.Genres.ToList();
             return View(vm);
         }
-        //[Authorize(Roles = "month_member,halfYear_member,year_member")]
+        [Authorize(Roles = "month_member,halfYear_member,year_member")]
         public async Task<IActionResult> Detail(int? id)
         {
             if (id == null)
@@ -60,7 +60,7 @@ namespace FinalProject_Presentation.Controllers
             return View(existMovie);
         }
         [HttpPost]
-        //[Authorize(Roles = "month_member,halfYear_member,year_member")]
+        [Authorize(Roles = "month_member,halfYear_member,year_member")]
         public async Task<IActionResult> AddComment([FromBody ]MovieComment movieComment)
         {
 

@@ -3,11 +3,14 @@
 <div class="swiper-slide">
     <div class="trending-box-items">
         <div class="trending-image">
-            <img src="~/uploads/movies/@Model.Image" alt="img">
+            <img src="@Model.Image" alt="img">
             <div class="icon">
                 <i class="fa-solid fa-crown"></i>
             </div>
-            <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
+            <a data-fancybox
+               data-type="video"
+               href="@Model.Video"
+               class="video-btn ripple video-popup">
                 <i class="fa-solid fa-play"></i>
             </a>
         </div>

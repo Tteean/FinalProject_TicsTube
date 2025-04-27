@@ -30,9 +30,6 @@
         <div class="tv-shows-details-wrapper web-series-details-wrapper">
             <div class="details-image-2">
                 <img src="@Model.Image" alt="img">
-                <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
-                    <i class="fa-solid fa-play"></i>
-                </a>
             </div>
             <div class="movie-details-wrapper tv-shows-details">
                 <div class="row">
@@ -61,6 +58,12 @@
                                                                 <div class="episodes-thumb">
                                                                     <img src="@episode.Image" alt="img">
                                                                 </div>
+                                                                <a data-fancybox
+                                                                   data-type="video"
+                                                                   href="@episode.Video"
+                                                                   class="video-btn ripple video-popup">
+                                                                    <i class="fa-solid fa-play"></i>
+                                                                </a>
                                                                 <div class="episodes-content">
                                                                     <div class="title-text">
                                                                         <h4>@episode.Title</h4>
