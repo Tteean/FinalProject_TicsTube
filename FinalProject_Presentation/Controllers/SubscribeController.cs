@@ -12,17 +12,17 @@ namespace FinalProject_Presentation.Controllers
 {
     public class SubscribeController : Controller
     {
-        private readonly PayPalClient _сlient;
+        private readonly PayPalClient _client;
         private readonly UserManager<AppUser> _userManager;
         private readonly RoleManager<IdentityRole> _roleManager;
         private readonly TicsTubeDbContext _context;
 
-        public SubscribeController(UserManager<AppUser> userManager, RoleManager<IdentityRole> roleManager, PayPalClient сlient, TicsTubeDbContext context)
+        public SubscribeController(UserManager<AppUser> userManager, RoleManager<IdentityRole> roleManager, TicsTubeDbContext context, PayPalClient client)
         {
             _userManager = userManager;
             _roleManager = roleManager;
-            _сlient = сlient;
             _context = context;
+            _client = client;
         }
         public IActionResult Index()
         {
@@ -55,7 +55,7 @@ namespace FinalProject_Presentation.Controllers
                 }
             });
 
-            var client = _сlient.Client;
+            var client = _client.Client;
             var response = await client.Execute(request);
             var result = response.Result<PayPalCheckoutSdk.Orders.Order>();
             var approvalLink = result.Links.First(x => x.Rel == "approve").Href;
@@ -66,7 +66,7 @@ namespace FinalProject_Presentation.Controllers
         {
             var captureRequest = new OrdersCaptureRequest(token);
             captureRequest.RequestBody(new OrderActionRequest());
-            var response = await _сlient.Client.Execute(captureRequest);
+            var response = await _client.Client.Execute(captureRequest);
 
             var user = await _userManager.GetUserAsync(User);
             if (!await _roleManager.RoleExistsAsync(plan))
