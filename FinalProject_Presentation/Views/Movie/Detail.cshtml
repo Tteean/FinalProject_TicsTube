@@ -32,8 +32,8 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="movie-details-image">
-                        <img src="~/uploads/movies/@Model.Image " alt="img">
-                        <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
+                        <img src="@Model.Image " alt="img">
+                        <a data-fancybox data-src="@Model.Video" class="video-btn ripple video-popup" href="javascript:;">
                             <i class="fa-solid fa-play"></i>
                         </a>
                     </div>
@@ -77,7 +77,7 @@
                                     {
                                         <div class="swiper-slide">
                                             <div class="cast-image">
-                                                <img src="~/uploads/actors/@actor.Actor.Image" alt="img">
+                                                <img src="@actor.Actor.Image" alt="img">
                                             </div>
                                         </div>
                                     }
@@ -358,7 +358,7 @@
                             </div>
                             <div class="post-box-items">
                                 <div class="post-img">
-                                    <img src="~/uploads/directors/@Model.Directors.Image" style="width:100px; height: 100px;" alt="img">
+                                    <img src="@Model.Directors.Image" style="width:100px; height: 100px;" alt="img">
                                 </div>
                                 <div class="post-content">
                                     <h5>@Model.Directors.FullName</h5>

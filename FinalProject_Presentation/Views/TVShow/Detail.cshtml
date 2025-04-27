@@ -29,7 +29,7 @@
     <div class="container-fluid">
         <div class="tv-shows-details-wrapper web-series-details-wrapper">
             <div class="details-image-2">
-                <img src="~/uploads/TVShow/@Model.Image" alt="img">
+                <img src="@Model.Image" alt="img">
                 <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup">
                     <i class="fa-solid fa-play"></i>
                 </a>
@@ -59,7 +59,7 @@
                                                             <div class="number">@episode.EpisodeNumber</div>
                                                             <div class="episodes-items">
                                                                 <div class="episodes-thumb">
-                                                                    <img src="~/uploads/episodes/@episode.Image" alt="img">
+                                                                    <img src="@episode.Image" alt="img">
                                                                 </div>
                                                                 <div class="episodes-content">
                                                                     <div class="title-text">
@@ -101,7 +101,7 @@
                                         {
                                             <div class="swiper-slide">
                                                 <div class="cast-image">
-                                                    <img src="~/uploads/actors/@actor.Actor.Image" alt="img">
+                                                    <img src="@actor.Actor.Image" alt="img">
                                                 </div>
                                             </div>
                                         }
@@ -176,7 +176,7 @@
                                 </div>
                                 <div class="post-box-items">
                                     <div class="post-img">
-                                        <img src="~/uploads/directors/@Model.Directors.Image" alt="img">
+                                        <img src="@Model.Directors.Image" alt="img">
                                     </div>
                                     <div class="post-content">
                                         <h5>@Model.Directors.FullName</h5>

@@ -41,7 +41,7 @@
 <body class="body-bg">
 
     <!-- Preloader Start -->
-   @*  <div id="preloader" class="preloader">
+    <div id="preloader" class="preloader">
         <div class="animation-preloader">
             <div class="spinner">
             </div>
@@ -89,7 +89,7 @@
                 </div>
             </div>
         </div>
-    </div> *@
+    </div> 
 
     <!--<< Mouse Cursor Start >>-->
     <div class="mouse-cursor cursor-outer"></div>
@@ -116,25 +116,6 @@
                             <a asp-controller="home" asp-action="index" class="header-logo">
                                 <img src="~/assets/img/logo/white-logo.svg" alt="logo-img">
                             </a>
-                        </div>
-                        <div class="category-oneadjust">
-                            <select name="cate" class="category">
-                                <option value="1">
-                                    all categories
-                                </option>
-                                <option value="1">
-                                    Movie
-                                </option>
-                                <option value="1">
-                                    Tv Shows
-                                </option>
-                                <option value="1">
-                                    Video
-                                </option>
-                                <option value="1">
-                                    Cartoon
-                                </option>
-                            </select>
                         </div>
                     </div>
                     <div class="mean__menu-wrapper">
@@ -170,6 +151,11 @@
                                             <li><a asp-controller="basket" asp-action="checkout" >Basket <i class="ion-bag"></i></a></li>
                                         </ul>
                                     </li>
+                                    <li class="has-dropdown">
+                                        <a asp-controller="subscribe" asp-action="index">
+                                            Subscribe
+                                        </a>
+                                    </li>
                                     <li>
                                         <a asp-controller="account" asp-action="login">
                                             Login
@@ -201,7 +187,6 @@
                             <a href="pricing.html" class="theme-btn">subscribe <img src="~/assets/img/diamond.png" alt="img"></a>
                             <a href="login.html" class="theme-btn style-2">sign in <img src="~/assets/img/user.png" alt="img"></a>
                         </div>
-                        <a href="login.html"><img src="~/assets/img/bell.png" alt="img"></a>
                         <div class="header__hamburger">
                             <div class="sidebar__toggle">
                                 <i class="fas fa-bars"></i>
@@ -298,6 +283,9 @@ top: 170px;
     <script src="~/assets/js/jquery.meanmenu.min.js"></script>
     <!--<< Magnific Popup Js >>-->
     <script src="~/assets/js/jquery.magnific-popup.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@@fancyapps/ui/dist/fancybox.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@@fancyapps/ui/dist/fancybox.umd.js"></script>
+
     <!--<< Wow Animation Js >>-->
     <script src="~/assets/js/wow.min.js"></script>
     <!--<< Main.js >>-->

@@ -6901,3 +6901,109 @@ button {
     button:hover {
         background-color: #cc0000;
     }
+
+
+.mymainsub {
+    background: #111;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.toggle-buttons {
+    margin-bottom: 30px;
+}
+
+    .toggle-buttons button {
+        background-color: #222;
+        color: #fff;
+        border: 2px solid #444;
+        padding: 10px 25px;
+        margin: 0 5px;
+        cursor: pointer;
+        border-radius: 10px;
+        font-weight: bold;
+        transition: all 0.3s ease;
+    }
+
+        .toggle-buttons button.active {
+            background-color: #e53935;
+            color: white;
+            border-color: #e53935;
+        }
+
+.plans {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.plan {
+    background-color: #1a1a1a;
+    padding: 25px;
+    border-radius: 12px;
+    width: 260px;
+    text-align: left;
+    transition: transform 0.3s ease;
+}
+
+    .plan:hover {
+        transform: translateY(-5px);
+    }
+
+    .plan h3 {
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+
+    .plan p {
+        font-size: 14px;
+        color: #ccc;
+        margin: 10px 0 20px;
+    }
+
+.price {
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn-dark {
+    background-color: #111;
+    color: white;
+}
+
+.btn-red {
+    background-color: #e53935;
+    color: white;
+}
+
+.tab-content {
+    display: none;
+}
+
+    .tab-content.active {
+        display: flex;
+    }

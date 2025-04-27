@@ -7,14 +7,7 @@
                 <span class="text-danger"></span>
             </div>
     <div class="form-group">
-        <select class="form-select" asp-for="SeasonId">
-            @foreach (var season in ViewBag.Season)
-            {
-                <option value="@season.Id">@season.SeasonNumber</option>
-            }
-        </select>
-    </div>
-    <div class="form-group">
+		<p>enter season number</p>
         <select class="form-select" asp-for="SeasonId">
             @foreach (var season in ViewBag.Season)
             {
@@ -24,17 +17,17 @@
     </div>
             <div class="form-group">
                 <label asp-for="Title"></label>
-                <input asp-for="Title" type="text" class="form-control" aria-describedby="emailHelp" placeholder="Enter Genre Name">
+                <input asp-for="Title" type="text" class="form-control" aria-describedby="emailHelp" placeholder="Enter Episode Name">
                 <span class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="Description"></label>
-                <input asp-for="Description" type="text" class="form-control" aria-describedby="emailHelp" placeholder="Enter Genre Name">
+                <input asp-for="Description" type="text" class="form-control" aria-describedby="emailHelp" placeholder="Enter Description">
                 <span class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="Duration"></label>
-                <input asp-for="Duration" type="text" class="form-control" aria-describedby="emailHelp" placeholder="Enter Genre Name">
+                <input asp-for="Duration" type="text" class="form-control" aria-describedby="emailHelp" placeholder="Enter Duration">
                 <span class="text-danger"></span>
             </div>
             <div class="form-group">

@@ -35,13 +35,12 @@ namespace FinalProject_Service.Services.Implementations
             var uploadResult = await _cloudinary.UploadAsync(uploadParams);
             return uploadResult.SecureUrl.ToString();
         }
-        public async Task DeleteAsync(string publicId)
+        public async Task<bool> DeleteAsync(string publicId)
         {
             var deleteParams = new DeletionParams(publicId);
             var deleteResult = await _cloudinary.DestroyAsync(deleteParams);
 
-            if (deleteResult.Result != "ok")
-                throw new Exception($"Failed to delete image: {deleteResult.Result}");
+            return deleteResult.Result == "ok" || deleteResult.Result == "not found";
         }
 
         public async Task<string> EditAsync(string publicId, IFormFile newFile)

@@ -5,16 +5,16 @@
         <form method="post" enctype="multipart/form-data">
             <div class="form-group">
                 <label asp-for="Title"></label>
-                <input asp-for="Title" type="text" class="form-control" aria-describedby="emailHelp" placeholder="Enter Actors FullName">
+                <input asp-for="Title" type="text" class="form-control" aria-describedby="emailHelp" placeholder="Enter Movie Title">
                 <span class="text-danger"></span>
                 <label asp-for="Description"></label>
-                <input asp-for="Description" type="text" class="form-control" aria-describedby="emailHelp" placeholder="Enter Actors FullName">
+                <input asp-for="Description" type="text" class="form-control" aria-describedby="emailHelp" placeholder="Enter Description">
                 <span class="text-danger"></span>
                 <label asp-for="Year"></label>
-                <input asp-for="Year" type="text" class="form-control" aria-describedby="emailHelp" placeholder="Enter Actors FullName">
+                <input asp-for="Year" type="text" class="form-control" aria-describedby="emailHelp" placeholder="Enter Year">
                 <span class="text-danger"></span>
                 <label asp-for="Duration"></label>
-                <input asp-for="Duration" type="text" class="form-control" aria-describedby="emailHelp" placeholder="Enter Actors FullName">
+                <input asp-for="Duration" type="text" class="form-control" aria-describedby="emailHelp" placeholder="Enter Duration">
                 <span class="text-danger"></span>
                 <div class="form-group">
                     <label asp-for="File"></label>
@@ -29,6 +29,7 @@
                     <span class="text-danger" asp-validation-for="Film"></span>
                 </div>
                 <div class="form-group">
+					<p>Director</p>
                     <select class="form-select" asp-for="DirectorId">
                         @foreach (var director in ViewBag.Directors)
                         {
@@ -37,6 +38,7 @@
                     </select>
                 </div>
                 <div class="form-group">
+					<p>Genre</p>
                     <select class="form-select" asp-for="GenreIds">
                         @foreach (var genre in ViewBag.Genres)
                         {
@@ -45,6 +47,7 @@
                     </select>
                 </div>
                 <div class="form-group">
+					<p>Actors</p>
                     <select class="form-select" asp-for="ActorId">
                         @foreach (var actor in ViewBag.Actors)
                         {
@@ -53,6 +56,7 @@
                     </select>
                 </div>
                 <div class="form-group">
+					<p>Language</p>
                     <select class="form-select" asp-for="LanguageId">
                         @foreach (var language in ViewBag.Languages)
                         {

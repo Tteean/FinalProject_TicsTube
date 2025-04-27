@@ -32,18 +32,14 @@ namespace FinalProject_Service.Services.Implementations
             var uploadResult = await _cloudinary.UploadAsync(uploadParams);
             return uploadResult?.SecureUrl?.AbsoluteUri;
         }
-        public async Task DeleteVideoAsync(string publicId)
+        public async Task<bool> DeleteVideoAsync(string publicId)
         {
-            var deleteParams = new DeletionParams(publicId)
-            {
-                ResourceType = ResourceType.Video
-            };
-
+            var deleteParams = new DeletionParams(publicId);
             var deleteResult = await _cloudinary.DestroyAsync(deleteParams);
 
-            if (deleteResult.Result != "ok")
-                throw new Exception($"Failed to delete video: {deleteResult.Result}");
+            return deleteResult.Result == "ok" || deleteResult.Result == "not found";
         }
+        
 
         public async Task<string> EditVideoAsync(string publicId, IFormFile newFile)
         {

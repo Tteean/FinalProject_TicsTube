@@ -1,4 +1,4 @@
-﻿<div class="breadcrumb-wrapper bg-cover" style="background-image: url('assets/img/breadcrumb-bg.jpg');">
+﻿<div class="breadcrumb-wrapper bg-cover" style="background-image: url('~/assets/img/breadcrumb-bg.jpg');">
     <div class="container">
         <div class="page-heading">
             <div class="page-header-left">
@@ -22,53 +22,171 @@
     </div>
 </div>
 
-<!-- Pricing Section Start -->
-<section class="pricing-section section-padding pb-0">
-    <div class="container-fluid">
-        <div class="section-title-area justify-content-center">
-            <ul class="nav" role="tablist">
-                <li class="nav-item">
-                    <a href="#monthly" data-bs-toggle="tab" class="nav-link active" aria-selected="true" role="tab">
-                        Monthly
-                    </a>
-                </li>
-            </ul>
-        </div>
-        <div class="tab-content">
-            <div id="monthly" class="tab-pane fade show active" role="tabpanel">
-                <div class="row">
-                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
-                        <div class="pricing-box-items">
-                            <h3>Basic Plan</h3>
-                            <p>Enjoy an extensive library of movies and shows, featuring a range of content, including recently released titles.</p>
-                            <h2>$9.99 <sub>/month</sub></h2>
-                            <div class="pricing-button">
-                                <a asp-controller="Subscribe" asp-action="CreateOrder" asp-route-plan="month_member" class="theme-btn">Choose Plan</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
-                        <div class="pricing-box-items">
-                            <h3>Standard Plan</h3>
-                            <p>Access to a wider selection of movies and shows, including most new releases and exclusive content</p>
-                            <h2>$12.99 <sub>/month</sub></h2>
-                            <div class="pricing-button">
-                                <a asp-controller="Subscribe" asp-action="CreateOrder" asp-route-plan="halfYear_member" class="theme-btn">Choose Plan</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
-                        <div class="pricing-box-items">
-                            <h3>Premium Plan</h3>
-                            <p>Access to a widest selection of movies and shows, including all new releases and Offline Viewing</p>
-                            <h2>$14.99 <sub>/month</sub></h2>
-                            <div class="pricing-button">
-                                <a asp-controller="Subscribe" asp-action="CreateOrder" asp-route-plan="year_member" class="theme-btn">Choose Plan</a>
-                            </div>
-                        </div>
-                    </div>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+    .mymainsub {
+            background: #111;
+            color: #fff;
+            margin: 0;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .toggle-buttons {
+            margin-bottom: 30px;
+        }
+
+            .toggle-buttons button {
+                background-color: #222;
+                color: #fff;
+                border: 2px solid #444;
+                padding: 10px 25px;
+                margin: 0 5px;
+                cursor: pointer;
+                border-radius: 10px;
+                font-weight: bold;
+                transition: all 0.3s ease;
+            }
+
+                .toggle-buttons button.active {
+                    background-color: red;
+                    color: white;
+                    border-color: red
+                }
+
+        .plans {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .plan {
+            background-color: black;
+            padding: 25px;
+            border-radius: 12px;
+            width: 260px;
+            text-align: left;
+            transition: transform 0.3s ease;
+        }
+
+            .plan:hover {
+                transform: translateY(-5px);
+            }
+
+            .plan h3 {
+                margin-top: 0;
+                margin-bottom: 10px;
+            }
+
+            .plan p {
+                font-size: 14px;
+                color: #ccc;
+                margin: 10px 0 20px;
+            }
+
+        .price {
+            font-size: 28px;
+            font-weight: 800;
+        }
+
+        .buttons {
+            margin-top: 20px;
+        }
+
+        .btn {
+            display: block;
+            width: 100%;
+            padding: 12px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 8px;
+            font-weight: bold;
+            font-size: 15px;
+            cursor: pointer;
+        }
+
+        .btn-dark {
+            background-color: black;
+            color: white;
+        }
+
+        .btn-red {
+            background-color: red;
+            color: white;
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+            .tab-content.active {
+                display: flex;
+            }
+    </style>
+<div class="mymainsub">
+
+    <div class="toggle-buttons">
+        <button id="monthlyBtn" class="active">Monthly</button>
+        <button id="yearlyBtn">Yearly</button>
+    </div>
+
+    <!-- Monthly Plans -->
+    <div id="monthly" class="tab-content active plans">
+        <div class="plan">
+            <h3>Basic Plan</h3>
+            <p>Enjoy an extensive library of movies and shows, featuring a range of content, including recently released titles.</p>
+            <div class="price">$9.99 <span style="font-size:14px; font-weight:400;">/Month</span></div>
+            
+                <div class="pricing-button">
+                    <a asp-controller="Subscribe" asp-action="CreateOrder" asp-route-plan="month_member" class="theme-btn">Choose Plan</a>
                 </div>
+            
+        </div>
+
+        <div class="plan">
+            <h3>Standard Plan</h3>
+            <p>Access to a wider selection of movies and shows, including most new releases and exclusive content.</p>
+            <div class="price">$12.99 <span style="font-size:14px; font-weight:400;">/Month</span></div>
+            <div class="pricing-button">
+                <a asp-controller="Subscribe" asp-action="CreateOrder" asp-route-plan="halfYear_member" class="theme-btn">Choose Plan</a>
+            </div>
+        </div>
+
+        <div class="plan">
+            <h3>Premium Plan</h3>
+            <p>Access to a widest selection of movies and shows, including all new releases and Offline Viewing.</p>
+            <div class="price">$14.99 <span style="font-size:14px; font-weight:400;">/Month</span></div>
+            <div class="pricing-button">
+                <a asp-controller="Subscribe" asp-action="CreateOrder" asp-route-plan="year_member" class="theme-btn">Choose Plan</a>
             </div>
         </div>
     </div>
-</section>
+
+
+    <script>
+        const monthlyBtn = document.getElementById('monthlyBtn');
+        const yearlyBtn = document.getElementById('yearlyBtn');
+        const monthlyTab = document.getElementById('monthly');
+        const yearlyTab = document.getElementById('yearly');
+
+        monthlyBtn.addEventListener('click', () => {
+          monthlyBtn.classList.add('active');
+          yearlyBtn.classList.remove('active');
+          monthlyTab.classList.add('active');
+          yearlyTab.classList.remove('active');
+        });
+
+        yearlyBtn.addEventListener('click', () => {
+          yearlyBtn.classList.add('active');
+          monthlyBtn.classList.remove('active');
+          yearlyTab.classList.add('active');
+          monthlyTab.classList.remove('active');
+        });
+    </script>
+</div>

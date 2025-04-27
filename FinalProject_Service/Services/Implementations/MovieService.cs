@@ -108,7 +108,7 @@ namespace FinalProject_Service.Services.Implementations
             }
             MovieDeleteDto movieDeleteDto = new MovieDeleteDto();
             _mapper.Map(movieDeleteDto, existMovie);
-
+            
             if (!string.IsNullOrEmpty(existMovie.Image))
             {
                 await _photoService.DeleteAsync(existMovie.Image);
@@ -116,8 +116,10 @@ namespace FinalProject_Service.Services.Implementations
 
             if (!string.IsNullOrEmpty(existMovie.Video))
             {
+                
                 await _videoService.DeleteVideoAsync(existMovie.Video);
             }
+
             _context.MovieActors.RemoveRange(existMovie.MovieActors);
             _context.MovieGenres.RemoveRange(existMovie.MovieGenres);
             _context.MovieLanguages.RemoveRange(existMovie.MovieLanguages);
