@@ -39,6 +39,18 @@ namespace FinalProject_DataAccess.Data
         }
         public override int SaveChanges()
         {
+            UpdateAuditFields();
+            return base.SaveChanges();
+        }
+
+        public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
+        {
+            UpdateAuditFields();
+            return await base.SaveChangesAsync(cancellationToken);
+        }
+
+        private void UpdateAuditFields()
+        {
             var entries = ChangeTracker.Entries<Audit>();
             foreach (var entry in entries)
             {
@@ -61,13 +73,12 @@ namespace FinalProject_DataAccess.Data
                     entry.State = EntityState.Modified;
                 }
             }
-            return base.SaveChanges();
         }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
             modelBuilder.Entity<Actor>().HasQueryFilter(x => !x.IsDeleted);
-
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(TicsTubeDbContext).Assembly);
         }
     }
