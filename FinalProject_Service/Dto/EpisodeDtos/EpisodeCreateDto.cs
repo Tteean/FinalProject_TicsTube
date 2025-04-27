@@ -18,4 +18,5 @@ namespace FinalProject_Service.Dto.EpisodeDtos
         public IFormFile? File { get; set; }
         public IFormFile? Film { get; set; }
     }
+
 }

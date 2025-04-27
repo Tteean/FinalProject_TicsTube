@@ -14,4 +14,5 @@ namespace FinalProject_Service.Dto.SeasonDtos
         public int SeasonNumber { get; set; }
         public List<EpisodeCreateDto>? Episodes { get; set; }
     }
+
 }

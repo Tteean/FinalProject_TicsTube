@@ -12,4 +12,5 @@ namespace FinalProject_Service.Dto.BasketDtos
         public OrderDto OrderDto { get; set; }
         public List<CheckoutItemDto> CheckoutItemDtos{ get; set; }
     }
+
 }

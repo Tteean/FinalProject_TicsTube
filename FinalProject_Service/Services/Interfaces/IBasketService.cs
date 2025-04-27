@@ -18,6 +18,6 @@ namespace FinalProject_Service.Services.Interfaces
         Task<List<BasketItemDto>> AddToBasketAsync(int id);
         Task<List<BasketItemDto>> RemoveFromBasketAsync(int id);
         Task<IActionResult> GetCheckoutAsync(OrderDto orderDto, string username);
-        Task<int> SubmitOrderAsync(OrderCreateDto orderDto);
+        Task<int> SubmitOrderAsync(OrderDto orderDto);
     }
 }

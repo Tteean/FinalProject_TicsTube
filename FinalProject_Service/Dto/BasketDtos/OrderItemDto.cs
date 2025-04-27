@@ -12,4 +12,5 @@ namespace FinalProject_Service.Dto.BasketDtos
         public int Count { get; set; }
         public decimal PricePerItem { get; set; }
     }
+
 }

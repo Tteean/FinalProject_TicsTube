@@ -199,7 +199,7 @@ namespace FinalProject_Service.Services.Implementations
         }
 
 
-        public async Task<int> SubmitOrderAsync(OrderCreateDto orderDto)
+        public async Task<int> SubmitOrderAsync(OrderDto orderDto)
         {
             var user = await GetCurrentUserWithBasketAsync();
             if (!user.BasketItems.Any()) throw new CustomException(400, "Basket", "Basket is empty");

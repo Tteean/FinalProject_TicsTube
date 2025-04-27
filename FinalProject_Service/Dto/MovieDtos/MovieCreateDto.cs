@@ -23,4 +23,5 @@ namespace FinalProject_Service.Dto.MovieDtos
         public List<int> ActorId { get; set; }
         public List<int> LanguageId { get; set; }
     }
+
 }

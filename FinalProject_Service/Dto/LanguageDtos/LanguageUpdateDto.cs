@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FinalProject_Service.Dto.GenreDtos;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using FluentValidation;
+using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,4 +13,5 @@ namespace FinalProject_Service.Dto.ActorDtos
         public string Fullname { get; set; }
         public IFormFile? File { get; set; }
     }
+  
 }

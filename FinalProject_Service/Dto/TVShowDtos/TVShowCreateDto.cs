@@ -22,4 +22,5 @@ namespace FinalProject_Service.Dto.TVShowDtos
         public List<int> LanguageId { get; set; }
         public List<SeasonCreateDto>? Seasons { get; set; }
     }
+
 }
